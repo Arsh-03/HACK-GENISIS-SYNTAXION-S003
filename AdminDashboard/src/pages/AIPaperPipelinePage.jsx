@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import { useAIPipeline } from '../hooks/useAIPipeline';
 import { Card } from '../shared/components/ui/Card';
 import { StatCard } from '../shared/components/ui/StatCard';
@@ -70,6 +71,7 @@ export function AIPaperPipelinePage() {
     liveLogs,
     updateDifficulty,
     triggerGeneration,
+    triggerPythonPreview,
 
     // Modals & Drawers
     isGenerateModalOpen,
@@ -85,6 +87,14 @@ export function AIPaperPipelinePage() {
     selectedPaper,
     setSelectedPaper
   } = useAIPipeline();
+
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+  // Determine active view module based on URL
+  const isGenerationView = currentPath.includes('/generation') || currentPath.endsWith('/ai-pipeline');
+  const isPipelineView = currentPath.includes('/pipeline');
+  const isAuditView = currentPath.includes('/audit');
 
   // Helper map for KPI icons
   const getKpiIcon = (iconName) => {
@@ -129,6 +139,8 @@ export function AIPaperPipelinePage() {
 
   const activeStage = config.stages.find(s => s.id === activeStageId) || config.stages[6];
 
+  const hasPaper = history && history.length > 0;
+
   return (
     <div className="space-y-8 pb-12">
 
@@ -139,7 +151,7 @@ export function AIPaperPipelinePage() {
         {/* Subtle grid background overlay */}
         <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none" />
 
-        <div className="relative z-10 flex flex-col xl:flex-row xl:items-center justify-between gap-6">
+        <div className="relative z-10 flex flex-col 2xl:flex-row 2xl:items-center justify-between gap-6">
           <div className="space-y-2">
             <div className="flex items-center gap-3">
               <div className="p-2.5 bg-white/10 backdrop-blur-md rounded-xl border border-white/20 shadow-inner">
@@ -173,57 +185,33 @@ export function AIPaperPipelinePage() {
               Generate New Paper
             </Button>
             <Button
-              variant="secondary"
+              variant="primary"
               size="md"
-              icon={Eye}
-              onClick={() => handleOpenPreview(selectedPaper || history[0])}
-              className="bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur-xs font-semibold"
+              icon={isGenerating ? Loader2 : Play}
+              disabled={isGenerating}
+              onClick={triggerPythonPreview}
+              className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold shadow-md border border-indigo-400/40"
             >
-              Preview Paper
-            </Button>
-            <Button
-              variant="secondary"
-              size="md"
-              icon={Download}
-              onClick={() => handleOpenDownload(selectedPaper || history[0])}
-              className="bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur-xs font-semibold"
-            >
-              Download Paper
-            </Button>
-            <Button
-              variant="secondary"
-              size="md"
-              icon={Shield}
-              onClick={() => handleOpenAudit(selectedPaper || history[0])}
-              className="bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur-xs font-semibold"
-            >
-              Audit Report
-            </Button>
-            <Button
-              variant="secondary"
-              size="md"
-              icon={Terminal}
-              onClick={() => setIsLogsOpen(true)}
-              className="bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur-xs font-semibold"
-            >
-              Generation Logs
+              Generate Test Preview (Python)
             </Button>
           </div>
         </div>
       </div>
 
       {/* ==================================================== */}
-      {/* 1. AI OPERATIONS DASHBOARD (KPI CARDS) */}
+      {/* 1. AI OPERATIONS DASHBOARD (KPI CARDS) - ONLY ON GENERATION VIEW */}
       {/* ==================================================== */}
+      {isGenerationView && (
+      <>
       <section className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-bold uppercase tracking-wider text-on-surface-variant flex items-center gap-2">
             <Gauge className="w-4 h-4 text-primary" />
-            Core AI Telemetry Metrics
+            Exam Administration Metrics
           </h2>
           <span className="text-[11px] font-mono text-on-surface-variant font-medium">Real-time sync: 1s interval</span>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {kpis.map((kpi) => {
             const IconComp = getKpiIcon(kpi.icon);
             return (
@@ -400,10 +388,13 @@ export function AIPaperPipelinePage() {
           })}
         </div>
       </section>
+      </>
+      )}
 
       {/* ==================================================== */}
-      {/* 4. AI AUDIT PANEL & VISUAL ANALYTICS GRID */}
+      {/* 4. AI AUDIT PANEL & VISUAL ANALYTICS GRID - ONLY ON AUDIT VIEW */}
       {/* ==================================================== */}
+      {isAuditView && (
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
         {/* AI AUDIT PANEL */}
@@ -580,10 +571,13 @@ export function AIPaperPipelinePage() {
           </div>
         </Card>
       </div>
+      )}
 
       {/* ==================================================== */}
-      {/* 5. AI PROVIDERS & INFRASTRUCTURE STATUS */}
+      {/* 5. AI PROVIDERS & INFRASTRUCTURE STATUS - ONLY ON PIPELINE VIEW */}
       {/* ==================================================== */}
+      {isPipelineView && (
+      <>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
         {/* AI PROVIDERS */}
@@ -759,6 +753,58 @@ export function AIPaperPipelinePage() {
       </Card>
 
       {/* ==================================================== */}
+      {/* 7. GENERATED PAPER ACTIONS (MIGRATED FROM HEADER) */}
+      {/* ==================================================== */}
+      {hasPaper && (
+        <Card
+          title="Generated Paper Management"
+          subtitle="Preview, download, and audit actions for the active generated assessment package"
+          className="bg-surface-container-lowest border border-outline-variant shadow-sm mt-6"
+        >
+          <div className="flex flex-wrap items-center gap-3">
+            <Button
+              variant="secondary"
+              size="md"
+              icon={Eye}
+              onClick={() => handleOpenPreview(selectedPaper || history[0])}
+              className="bg-primary/10 hover:bg-primary/20 text-primary font-semibold border border-primary/20"
+            >
+              Preview Paper
+            </Button>
+            <Button
+              variant="secondary"
+              size="md"
+              icon={Download}
+              onClick={() => handleOpenDownload(selectedPaper || history[0])}
+              className="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 font-semibold border border-emerald-200"
+            >
+              Download Paper
+            </Button>
+            <Button
+              variant="secondary"
+              size="md"
+              icon={Shield}
+              onClick={() => handleOpenAudit(selectedPaper || history[0])}
+              className="bg-purple-50 hover:bg-purple-100 text-purple-700 font-semibold border border-purple-200"
+            >
+              Audit Report
+            </Button>
+            <Button
+              variant="secondary"
+              size="md"
+              icon={Terminal}
+              onClick={() => setIsLogsOpen(true)}
+              className="bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold border border-slate-300"
+            >
+              Generation Logs
+            </Button>
+          </div>
+        </Card>
+      )}
+      </>
+      )}
+
+      {/* ==================================================== */}
       {/* INTERACTIVE MODALS & DRAWERS */}
       {/* ==================================================== */}
 
@@ -882,33 +928,41 @@ export function AIPaperPipelinePage() {
         }
       >
         <div className="space-y-4">
-          <div className="p-4 bg-surface-bright rounded-xl border border-outline-variant flex flex-wrap items-center justify-between gap-4 text-xs">
-            <div>
-              <div className="font-bold text-on-surface text-sm">{selectedPaper?.title}</div>
-              <div className="text-on-surface-variant mt-0.5">{selectedPaper?.subject} • Generated by {selectedPaper?.generatedBy}</div>
+          {selectedPaper?.markdown ? (
+            <div className="p-5 bg-slate-900 text-slate-100 rounded-xl border border-slate-700 font-mono text-xs overflow-y-auto max-h-[500px] whitespace-pre-wrap leading-relaxed shadow-inner">
+              {selectedPaper.markdown}
             </div>
-            <div className="flex items-center gap-2">
-              <Badge variant="success" size="sm">{selectedPaper?.aiConfidence} AI Confidence</Badge>
-              <Badge variant="info" size="sm">{selectedPaper?.questionsCount || 50} Items</Badge>
-            </div>
-          </div>
+          ) : (
+            <>
+              <div className="p-4 bg-surface-bright rounded-xl border border-outline-variant flex flex-wrap items-center justify-between gap-4 text-xs">
+                <div>
+                  <div className="font-bold text-on-surface text-sm">{selectedPaper?.title}</div>
+                  <div className="text-on-surface-variant mt-0.5">{selectedPaper?.subject} • Generated by {selectedPaper?.generatedBy}</div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Badge variant="success" size="sm">{selectedPaper?.aiConfidence} AI Confidence</Badge>
+                  <Badge variant="info" size="sm">{selectedPaper?.questionsCount || 50} Items</Badge>
+                </div>
+              </div>
 
-          <Table headers={["Code", "Topic", "Difficulty", "Bloom Level", "Quality Score", "Question Stem Preview"]}>
-            {questions.map((q) => (
-              <tr key={q.id} className="hover:bg-surface-bright transition-colors text-xs">
-                <td className="px-4 py-3 font-mono font-bold text-primary">{q.code}</td>
-                <td className="px-4 py-3 font-semibold text-on-surface">{q.topic}</td>
-                <td className="px-4 py-3">
-                  <Badge variant={q.difficulty === 'Hard' ? 'danger' : q.difficulty === 'Medium' ? 'warning' : 'success'} size="sm">
-                    {q.difficulty}
-                  </Badge>
-                </td>
-                <td className="px-4 py-3 text-on-surface-variant">{q.bloom}</td>
-                <td className="px-4 py-3 font-mono font-bold text-emerald-600">{q.qualityScore}</td>
-                <td className="px-4 py-3 text-on-surface-variant max-w-[280px] truncate">{q.stem}</td>
-              </tr>
-            ))}
-          </Table>
+              <Table headers={["Code", "Topic", "Difficulty", "Bloom Level", "Quality Score", "Question Stem Preview"]}>
+                {questions.map((q) => (
+                  <tr key={q.id} className="hover:bg-surface-bright transition-colors text-xs">
+                    <td className="px-4 py-3 font-mono font-bold text-primary">{q.code}</td>
+                    <td className="px-4 py-3 font-semibold text-on-surface">{q.topic}</td>
+                    <td className="px-4 py-3">
+                      <Badge variant={q.difficulty === 'Hard' ? 'danger' : q.difficulty === 'Medium' ? 'warning' : 'success'} size="sm">
+                        {q.difficulty}
+                      </Badge>
+                    </td>
+                    <td className="px-4 py-3 text-on-surface-variant">{q.bloom}</td>
+                    <td className="px-4 py-3 font-mono font-bold text-emerald-600">{q.qualityScore}</td>
+                    <td className="px-4 py-3 text-on-surface-variant max-w-[280px] truncate">{q.stem}</td>
+                  </tr>
+                ))}
+              </Table>
+            </>
+          )}
         </div>
       </Modal>
 

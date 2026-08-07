@@ -18,59 +18,49 @@ import {
 } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
+import { useCandidates } from '../hooks/useCandidates';
+
 export function AdminDashboardPage() {
+  const { candidates } = useCandidates();
+  
   return (
     <div className="space-y-6">
       {/* Top Banner */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-surface-container-lowest p-6 rounded-xl border border-outline-variant shadow-sm">
         <div>
-          <h2 className="text-2xl font-black text-on-surface">Enterprise CBT Operations Center</h2>
+          <h2 className="text-2xl font-black text-on-surface">NEET UG Operations Center</h2>
           <p className="text-xs text-on-surface-variant mt-1">
             Real-time telemetry, session monitoring, and high-concurrency exam administration.
           </p>
         </div>
 
         <div className="flex items-center gap-3">
-          <NavLink to="/ai-pipeline">
-            <Button variant="primary" icon={Plus}>
-              Create New Exam
-            </Button>
-          </NavLink>
+          <Button variant="primary" icon={Plus} onClick={() => {
+            fetch('http://localhost:5001/api/v1/demo/toggle', { method: 'POST' })
+              .then(() => alert('⚡ DEMO MODE ACTIVATED: Live pitch configuration enabled.'));
+          }}>
+            ⚡ Pitch Demo Mode
+          </Button>
         </div>
       </div>
 
       {/* Metrics Row */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
         <StatCard
           title="Active Exam Sessions"
           value={mockAdminStats.activeExams}
-          change="+2 from last hour"
+          change="+1 scheduled for today"
           changeType="increase"
           icon={FileText}
           iconBg="bg-indigo-50 text-indigo-600"
         />
         <StatCard
-          title="Total Candidates Enrolled"
-          value={mockAdminStats.totalCandidates.toLocaleString()}
-          change="+12.4% this week"
+          title="Total Registered Candidates"
+          value={candidates?.length || 0}
+          change="Synced from live backend"
           changeType="increase"
           icon={Users}
           iconBg="bg-emerald-50 text-emerald-600"
-        />
-        <StatCard
-          title="Live Proctored Feeds"
-          value={mockAdminStats.liveProctored.toLocaleString()}
-          description="High-definition video streams"
-          icon={Activity}
-          iconBg="bg-blue-50 text-blue-600"
-        />
-        <StatCard
-          title="Flagged AI Incidents"
-          value={mockAdminStats.flaggedIncidents}
-          change="Needs Proctor Review"
-          changeType="decrease"
-          icon={ShieldAlert}
-          iconBg="bg-red-50 text-red-600"
         />
       </div>
 

@@ -16,7 +16,7 @@ export function StudentFormModal({
     name: '',
     email: '',
     phone: '',
-    department: 'Computer Science & AI',
+    department: 'Medical Entrance',
     batchYear: '2026',
     enrollmentNo: '',
     session: 'Unassigned',
@@ -31,7 +31,7 @@ export function StudentFormModal({
         name: studentToEdit.name || '',
         email: studentToEdit.email || '',
         phone: studentToEdit.phone || '',
-        department: studentToEdit.department || 'Computer Science & AI',
+        department: studentToEdit.department || 'Medical Entrance',
         batchYear: studentToEdit.batchYear || '2026',
         enrollmentNo: studentToEdit.enrollmentNo || '',
         session: studentToEdit.session || 'Unassigned',
@@ -44,7 +44,7 @@ export function StudentFormModal({
         name: '',
         email: '',
         phone: '',
-        department: 'Computer Science & AI',
+        department: 'Medical Entrance',
         batchYear: '2026',
         enrollmentNo: `CS2026-${Math.floor(100 + Math.random() * 900)}`,
         session: 'Unassigned',
@@ -126,12 +126,12 @@ export function StudentFormModal({
           <Select
             label="Department / Program"
             options={[
-              'Computer Science & AI',
+              'Medical Entrance',
               'Software Engineering',
               'Electrical Engineering',
               'Data Science & AI',
               'Information Technology',
-              'Artificial Intelligence'
+              'Chemistry'
             ]}
             value={formData.department}
             onChange={(e) => setFormData({ ...formData, department: e.target.value })}

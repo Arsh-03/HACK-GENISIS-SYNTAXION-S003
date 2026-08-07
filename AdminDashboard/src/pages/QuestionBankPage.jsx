@@ -42,7 +42,15 @@ import {
 
 export function QuestionBankPage() {
   // Main Data State
-  const [questions, setQuestions] = useState(INITIAL_QUESTIONS);
+  const [questions, setQuestions] = useState([]);
+  const [stats, setStats] = useState({
+    totalQuestions: 2450,
+    activeQuestions: 1980,
+    draftQuestions: 270,
+    recentQuestions: 120,
+    aiQuestions: 380
+  });
+  const [isLoading, setIsLoading] = useState(true);
 
   // Search & Filters
   const [searchTerm, setSearchTerm] = useState('');
@@ -57,7 +65,7 @@ export function QuestionBankPage() {
 
   // Pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 5;
+  const itemsPerPage = 8;
 
   // Drawer & Modals State
   const [selectedQuestionForDrawer, setSelectedQuestionForDrawer] = useState(null);
@@ -68,31 +76,42 @@ export function QuestionBankPage() {
 
   const [isImportWizardOpen, setIsImportWizardOpen] = useState(false);
 
-  // Filtered Questions
-  const filteredQuestions = useMemo(() => {
-    return questions.filter(q => {
-      const matchesSearch =
-        q.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        q.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        q.prompt.toLowerCase().includes(searchTerm.toLowerCase());
+  // Fetch Stats once on mount
+  React.useEffect(() => {
+    fetch('http://localhost:5001/api/questions/stats')
+      .then(res => res.json())
+      .then(data => {
+        if (data && !data.error) {
+          setStats(data);
+        }
+      })
+      .catch(err => console.error('Failed to fetch question stats:', err));
+  }, []);
 
-      const matchesSubject = subjectFilter === 'All' || q.subject === subjectFilter;
-      const matchesDifficulty = difficultyFilter === 'All' || q.difficulty === difficultyFilter;
-      const matchesType = typeFilter === 'All' || q.type === typeFilter;
-      const matchesSource = sourceFilter === 'All' || q.source === sourceFilter;
-      const matchesStatus = statusFilter === 'All' || q.status === statusFilter;
+  // Fetch questions from DB based on search term
+  React.useEffect(() => {
+    setIsLoading(true);
+    fetch(`http://localhost:5001/api/questions?limit=8&search=${searchTerm}`)
+      .then(res => res.json())
+      .then(data => {
+        if (data && !data.error) {
+          setQuestions(data);
+        }
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.error('Failed to fetch questions:', err);
+        setIsLoading(false);
+      });
+  }, [searchTerm]);
 
-      return matchesSearch && matchesSubject && matchesDifficulty && matchesType && matchesSource && matchesStatus;
-    });
-  }, [questions, searchTerm, subjectFilter, difficultyFilter, typeFilter, sourceFilter, statusFilter]);
+  // Filtered Questions - directly mapped to fetched DB questions
+  const filteredQuestions = questions;
 
-  // Paginated Questions
-  const paginatedQuestions = useMemo(() => {
-    const start = (currentPage - 1) * itemsPerPage;
-    return filteredQuestions.slice(start, start + itemsPerPage);
-  }, [filteredQuestions, currentPage]);
+  // Paginated Questions - directly mapped since backend limits it
+  const paginatedQuestions = questions;
 
-  const totalPages = Math.ceil(filteredQuestions.length / itemsPerPage) || 1;
+  const totalPages = 1;
 
   // Checkbox Selection
   const handleSelectAll = (e) => {
@@ -235,15 +254,15 @@ export function QuestionBankPage() {
           <div className="text-[11px] font-bold uppercase tracking-wider text-on-surface-variant">
             Total Questions
           </div>
-          <div className="text-2xl font-black text-on-surface font-mono">2,450</div>
-          <div className="text-[10px] text-on-surface-variant">Across 5 subjects</div>
+          <div className="text-2xl font-black text-on-surface font-mono">{stats.totalQuestions.toLocaleString()}</div>
+          <div className="text-[10px] text-on-surface-variant">Across NEET subjects</div>
         </div>
 
         <div className="p-4 rounded-xl bg-surface-container-lowest border border-outline-variant shadow-sm space-y-1">
           <div className="text-[11px] font-bold uppercase tracking-wider text-emerald-700">
             Active Verified
           </div>
-          <div className="text-2xl font-black text-emerald-600 font-mono">1,980</div>
+          <div className="text-2xl font-black text-emerald-600 font-mono">{stats.activeQuestions.toLocaleString()}</div>
           <div className="text-[10px] text-emerald-600 font-semibold">Ready for exam assembly</div>
         </div>
 
@@ -251,7 +270,7 @@ export function QuestionBankPage() {
           <div className="text-[11px] font-bold uppercase tracking-wider text-amber-700">
             Draft Items
           </div>
-          <div className="text-2xl font-black text-amber-600 font-mono">270</div>
+          <div className="text-2xl font-black text-amber-600 font-mono">{stats.draftQuestions.toLocaleString()}</div>
           <div className="text-[10px] text-on-surface-variant">Pending faculty review</div>
         </div>
 
@@ -259,7 +278,7 @@ export function QuestionBankPage() {
           <div className="text-[11px] font-bold uppercase tracking-wider text-blue-700">
             Recently Imported
           </div>
-          <div className="text-2xl font-black text-primary font-mono">120</div>
+          <div className="text-2xl font-black text-primary font-mono">{stats.recentQuestions.toLocaleString()}</div>
           <div className="text-[10px] text-on-surface-variant">Last 7 days</div>
         </div>
 
@@ -267,7 +286,7 @@ export function QuestionBankPage() {
           <div className="text-[11px] font-bold uppercase tracking-wider text-indigo-700">
             AI Generated
           </div>
-          <div className="text-2xl font-black text-indigo-600 font-mono">380</div>
+          <div className="text-2xl font-black text-indigo-600 font-mono">{stats.aiQuestions.toLocaleString()}</div>
           <div className="text-[10px] text-indigo-600 font-semibold">Gemini LLM authored</div>
         </div>
       </div>

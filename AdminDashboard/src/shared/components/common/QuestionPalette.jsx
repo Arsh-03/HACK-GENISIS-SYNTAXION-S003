@@ -2,7 +2,7 @@ import React from 'react';
 import { Video, Mic } from 'lucide-react';
 
 export function QuestionPalette({
-  subject = "Computer Science 101",
+  subject = "Physics",
   sectionTitle = "Section 1: Core Concepts",
   currentQuestionNumber = 16,
   onSelectQuestion,

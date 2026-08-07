@@ -200,7 +200,7 @@ export function QuestionFormModal({
           />
           <Input
             label="Topic / Chapter"
-            placeholder="e.g. Data Structures & Algorithms"
+            placeholder="e.g. Chemistry & Algorithms"
             value={formData.topic}
             onChange={(e) => setFormData({ ...formData, topic: e.target.value })}
             required

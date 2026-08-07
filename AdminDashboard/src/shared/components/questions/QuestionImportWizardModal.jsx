@@ -12,9 +12,9 @@ export function QuestionImportWizardModal({ isOpen, onClose, onImportSuccess }) 
 
   // Mock parsed questions from CSV file
   const mockImportItems = [
-    { id: 'Q-IMP-01', title: 'Binary Tree Inorder Traversal', subject: 'Computer Science', type: 'Multiple Choice', difficulty: 'Easy', status: 'Valid' },
-    { id: 'Q-IMP-02', title: 'Gradient Descent Optimization', subject: 'Artificial Intelligence', type: 'Multiple Correct', difficulty: 'Hard', status: 'Valid' },
-    { id: 'Q-2026-0101', title: 'Time Complexity of Binary Search', subject: 'Computer Science', type: 'Multiple Choice', difficulty: 'Medium', status: 'Duplicate Prompt' },
+    { id: 'Q-IMP-01', title: 'Binary Tree Inorder Traversal', subject: 'Medical Entrance', type: 'Multiple Choice', difficulty: 'Easy', status: 'Valid' },
+    { id: 'Q-IMP-02', title: 'Gradient Descent Optimization', subject: 'Chemistry', type: 'Multiple Correct', difficulty: 'Hard', status: 'Valid' },
+    { id: 'Q-2026-0101', title: 'Time Complexity of Binary Search', subject: 'Medical Entrance', type: 'Multiple Choice', difficulty: 'Medium', status: 'Duplicate Prompt' },
     { id: 'Q-IMP-03', title: 'Fourier Transform Equation', subject: 'Mathematics', type: 'Numerical', difficulty: 'Hard', status: 'Valid' },
     { id: 'Q-IMP-04', title: 'Maxwell Equations Induction', subject: 'Physics', type: 'Descriptive', difficulty: 'Expert', status: 'Valid' }
   ];
@@ -43,7 +43,7 @@ export function QuestionImportWizardModal({ isOpen, onClose, onImportSuccess }) 
           ],
           correctAnswerText: 'Left, Root, Right',
           explanation: 'In-order traversal visits left subtree, root, then right subtree, yielding sorted order for BSTs.',
-          subject: 'Computer Science',
+          subject: 'Medical Entrance',
           topic: 'Trees & Search Graphs',
           chapter: 'Tree Traversals',
           difficulty: 'Easy',
@@ -67,7 +67,7 @@ export function QuestionImportWizardModal({ isOpen, onClose, onImportSuccess }) 
           ],
           correctAnswerText: 'Options A and B',
           explanation: 'Large learning rates overshoot minima while small rates take excessive iterations.',
-          subject: 'Artificial Intelligence',
+          subject: 'Chemistry',
           topic: 'Deep Learning',
           chapter: 'Optimization',
           difficulty: 'Hard',

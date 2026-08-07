@@ -46,28 +46,32 @@ export const MOCK_USERS = [
 export const mockAuthService = {
   // Login method
   async login(identifier, password) {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        const cleanId = identifier.trim().toLowerCase();
-        const user = MOCK_USERS.find(
-          u => (u.email.toLowerCase() === cleanId || u.username.toLowerCase() === cleanId)
-        );
-
-        if (!user) {
-          reject(new Error('Invalid email/username or password. Please check your credentials.'));
-          return;
-        }
-
-        if (user.password !== password) {
-          reject(new Error('Invalid password. Please check your credentials and try again.'));
-          return;
-        }
-
-        // Return user data (without sensitive info)
-        const { password: _, ...userData } = user;
-        resolve(userData);
-      }, 700);
-    });
+    try {
+      const res = await fetch('http://localhost:5001/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: identifier, password })
+      });
+      if (!res.ok) {
+        const errorData = await res.json();
+        throw new Error(errorData.message || 'Login failed');
+      }
+      const data = await res.json();
+      
+      // Keep legacy structure for the frontend UI components
+      return {
+        id: data._id,
+        name: data.name,
+        email: data.email,
+        username: data.email,
+        role: data.role === 'ADMIN' ? 'Administrator' : (data.role === 'INVIGILATOR' ? 'Invigilator' : 'Candidate'),
+        avatar: data.name.substring(0, 2).toUpperCase(),
+        isFirstLogin: false,
+        token: data.token
+      };
+    } catch (e) {
+      throw e;
+    }
   },
 
   // Send OTP

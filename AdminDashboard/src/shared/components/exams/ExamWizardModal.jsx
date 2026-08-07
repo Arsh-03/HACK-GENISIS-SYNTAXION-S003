@@ -34,16 +34,16 @@ export function ExamWizardModal({
 
   const [formData, setFormData] = useState({
     code: 'EXM-2026-CS101',
-    name: 'Computer Science Comprehensive Midterm',
+    name: 'NEET UG 2026 Finals',
     category: MOCK_CATEGORIES[0],
     description: 'Comprehensive assessment paper for mid-semester evaluation.',
     durationMinutes: 180,
     totalMarks: 100,
     totalQuestions: 50,
-    selectedSubjects: ['Computer Science', 'Artificial Intelligence'],
+    selectedSubjects: ['Medical Entrance', 'Chemistry'],
     subjectWeightages: [
-      { subject: 'Computer Science', weightage: 60, questions: 30 },
-      { subject: 'Artificial Intelligence', weightage: 40, questions: 20 }
+      { subject: 'Medical Entrance', weightage: 60, questions: 30 },
+      { subject: 'Chemistry', weightage: 40, questions: 20 }
     ],
     difficultyRatio: { easy: 40, medium: 40, hard: 20 },
     rules: {
@@ -68,9 +68,9 @@ export function ExamWizardModal({
         durationMinutes: examToEdit.durationMinutes || 180,
         totalMarks: examToEdit.totalMarks || 100,
         totalQuestions: examToEdit.totalQuestions || 50,
-        selectedSubjects: examToEdit.subjects || ['Computer Science'],
+        selectedSubjects: examToEdit.subjects || ['Medical Entrance'],
         subjectWeightages: examToEdit.blueprint?.subjectWeightage || [
-          { subject: 'Computer Science', weightage: 100, questions: 50 }
+          { subject: 'Medical Entrance', weightage: 100, questions: 50 }
         ],
         difficultyRatio: examToEdit.blueprint?.difficultyRatio || { easy: 40, medium: 40, hard: 20 },
         rules: examToEdit.rules || {
@@ -93,10 +93,10 @@ export function ExamWizardModal({
         durationMinutes: 180,
         totalMarks: 100,
         totalQuestions: 50,
-        selectedSubjects: ['Computer Science', 'Artificial Intelligence'],
+        selectedSubjects: ['Medical Entrance', 'Chemistry'],
         subjectWeightages: [
-          { subject: 'Computer Science', weightage: 60, questions: 30 },
-          { subject: 'Artificial Intelligence', weightage: 40, questions: 20 }
+          { subject: 'Medical Entrance', weightage: 60, questions: 30 },
+          { subject: 'Chemistry', weightage: 40, questions: 20 }
         ],
         difficultyRatio: { easy: 40, medium: 40, hard: 20 },
         rules: {
@@ -279,7 +279,7 @@ export function ExamWizardModal({
 
             <Input
               label="Exam Title"
-              placeholder="e.g. Computer Science Comprehensive Midterm"
+              placeholder="e.g. NEET UG 2026 Finals"
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               required

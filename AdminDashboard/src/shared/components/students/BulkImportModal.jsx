@@ -12,11 +12,11 @@ export function BulkImportModal({ isOpen, onClose, onImportSuccess }) {
 
   // Mock parsed CSV preview data
   const mockCsvRecords = [
-    { id: 'STU-2026-0901', name: 'Jordan Rivera', email: 'jordan.r@university.edu', department: 'Computer Science', status: 'Valid' },
+    { id: 'STU-2026-0901', name: 'Jordan Rivera', email: 'jordan.r@university.edu', department: 'Medical Entrance', status: 'Valid' },
     { id: 'STU-2026-0902', name: 'Samantha Reed', email: 'samantha.r@university.edu', department: 'Data Science', status: 'Valid' },
-    { id: 'STU-2026-0891', name: 'Alex Chen', email: 'alex.chen@university.edu', department: 'Computer Science', status: 'Duplicate ID' },
+    { id: 'STU-2026-0891', name: 'Alex Chen', email: 'alex.chen@university.edu', department: 'Medical Entrance', status: 'Duplicate ID' },
     { id: 'STU-2026-0903', name: 'Benjamin Hayes', email: 'benjamin.h@university.edu', department: 'Cybersecurity', status: 'Valid' },
-    { id: 'STU-2026-0904', name: 'Maya Lin', email: 'maya.lin@university.edu', department: 'Artificial Intelligence', status: 'Valid' }
+    { id: 'STU-2026-0904', name: 'Maya Lin', email: 'maya.lin@university.edu', department: 'Chemistry', status: 'Valid' }
   ];
 
   const handleSimulateUpload = (e) => {
@@ -32,7 +32,7 @@ export function BulkImportModal({ isOpen, onClose, onImportSuccess }) {
     setTimeout(() => {
       setImporting(false);
       onImportSuccess([
-        { id: 'STU-2026-0901', name: 'Jordan Rivera', email: 'jordan.r@university.edu', phone: '+1 (555) 111-2222', session: 'Unassigned', verificationStatus: 'Pending', faceMatchScore: 88.0, registrationStatus: 'Active', avatar: 'JR', department: 'Computer Science', batchYear: '2026', enrollmentNo: 'CS2026-0901', gpa: '3.70' },
+        { id: 'STU-2026-0901', name: 'Jordan Rivera', email: 'jordan.r@university.edu', phone: '+1 (555) 111-2222', session: 'Unassigned', verificationStatus: 'Pending', faceMatchScore: 88.0, registrationStatus: 'Active', avatar: 'JR', department: 'Medical Entrance', batchYear: '2026', enrollmentNo: 'CS2026-0901', gpa: '3.70' },
         { id: 'STU-2026-0902', name: 'Samantha Reed', email: 'samantha.r@university.edu', phone: '+1 (555) 222-3333', session: 'Unassigned', verificationStatus: 'Pending', faceMatchScore: 92.5, registrationStatus: 'Active', avatar: 'SR', department: 'Data Science', batchYear: '2026', enrollmentNo: 'DS2026-0902', gpa: '3.82' },
         { id: 'STU-2026-0903', name: 'Benjamin Hayes', email: 'benjamin.h@university.edu', phone: '+1 (555) 333-4444', session: 'Unassigned', verificationStatus: 'Pending', faceMatchScore: 84.1, registrationStatus: 'Active', avatar: 'BH', department: 'Cybersecurity', batchYear: '2026', enrollmentNo: 'CY2026-0903', gpa: '3.65' }
       ]);

@@ -58,7 +58,44 @@ export function ReportsAnalyticsPage({ initialTab = 'executive' }) {
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
   const [shareEmail, setShareEmail] = useState('');
 
-  const kpis = mockExecutiveReportKPIs;
+  const [kpis, setKpis] = useState(mockExecutiveReportKPIs);
+  const [scoreDistribution, setScoreDistribution] = useState([
+    { label: '0-20%', height: '15%', count: 12 },
+    { label: '20-40%', height: '30%', count: 34 },
+    { label: '40-60%', height: '65%', count: 85 },
+    { label: '60-80%', height: '95%', count: 142 },
+    { label: '80-100%', height: '70%', count: 98 }
+  ]);
+  const [departmentBreakdown, setDepartmentBreakdown] = useState([
+    { department: "Medical Entrance (NEET UG)", registered: 2840, present: 2780, turnout: "97.8%" },
+    { department: "Computer Science (Vite/Node CBT)", registered: 120, present: 110, turnout: "91.6%" }
+  ]);
+
+  React.useEffect(() => {
+    fetch('http://localhost:5001/api/reports/dashboard')
+      .then(res => res.json())
+      .then(data => {
+        if (data) {
+          setKpis({
+            totalRegisteredCandidates: String(data.totalRegisteredCandidates),
+            activeSessions: data.activeSessions,
+            completedExaminations: data.completedExaminations,
+            aiGeneratedPapers: data.aiGeneratedPapers,
+            totalInvigilators: data.totalInvigilators,
+            overallAttendance: data.overallAttendance,
+            overallPassPercentage: data.overallPassPercentage,
+            securityIncidents: data.securityIncidents
+          });
+          if (data.scoreDistribution) {
+            setScoreDistribution(data.scoreDistribution);
+          }
+          if (data.departmentBreakdown) {
+            setDepartmentBreakdown(data.departmentBreakdown);
+          }
+        }
+      })
+      .catch(err => console.error('Error fetching dashboard reports', err));
+  }, []);
 
   const handleExport = (type) => {
     alert(`Exporting ${activeTab.toUpperCase()} report as ${type.toUpperCase()}... File generation started.`);
@@ -170,7 +207,7 @@ export function ReportsAnalyticsPage({ initialTab = 'executive' }) {
           className="text-xs"
         >
           <option value="ALL">All Subjects</option>
-          <option value="cs">Computer Science & Systems</option>
+          <option value="cs">Physics & Chemistry</option>
           <option value="med">Medical Sciences</option>
           <option value="civil">Civil Engineering</option>
         </Select>
@@ -194,14 +231,7 @@ export function ReportsAnalyticsPage({ initialTab = 'executive' }) {
       {/* Module Report Category Tabs */}
       <div className="flex items-center gap-2 overflow-x-auto no-scrollbar border-b border-outline-variant pb-1">
         {[
-          { id: 'executive', label: 'Executive Dashboard', icon: BarChart3 },
-          { id: 'candidate', label: 'Candidate Performance', icon: Users },
-          { id: 'session', label: 'Session Analytics', icon: Calendar },
-          { id: 'attendance', label: 'Attendance Reports', icon: Clock },
-          { id: 'invigilator', label: 'Invigilator Audit', icon: UserCheck },
-          { id: 'ai', label: 'AI Generation Telemetry', icon: Cpu },
-          { id: 'incident', label: 'Security & Violations', icon: AlertTriangle },
-          { id: 'audit', label: 'System Log Audit', icon: Shield }
+          { id: 'executive', label: 'Executive Dashboard', icon: BarChart3 }
         ].map((tab) => {
           const IconComp = tab.icon;
           const isActive = activeTab === tab.id;
@@ -296,13 +326,7 @@ export function ReportsAnalyticsPage({ initialTab = 'executive' }) {
                   <span className="text-emerald-600 font-bold">75%+ (Distinction): 31.2%</span>
                 </div>
                 <div className="h-40 bg-surface-bright rounded-xl p-4 flex items-end justify-between gap-2 border border-outline-variant">
-                  {[
-                    { label: '0-20%', height: '15%', count: 120 },
-                    { label: '20-40%', height: '30%', count: 340 },
-                    { label: '40-60%', height: '65%', count: 850 },
-                    { label: '60-80%', height: '95%', count: 1420 },
-                    { label: '80-100%', height: '70%', count: 980 }
-                  ].map((bar, idx) => (
+                  {scoreDistribution.map((bar, idx) => (
                     <div key={idx} className="flex-1 flex flex-col items-center gap-2 h-full justify-end">
                       <div className="text-[10px] font-mono font-bold text-on-surface-variant">{bar.count}</div>
                       <div
@@ -317,10 +341,9 @@ export function ReportsAnalyticsPage({ initialTab = 'executive' }) {
               </div>
             </Card>
 
-            {/* Attendance & Turnout Telemetry */}
             <Card title="Attendance & Department Turnout Breakdown" subtitle="Real-time check-in ratio across faculties">
               <div className="space-y-3 pt-2">
-                {mockAttendanceReportsData.departmentBreakdown.map((dept, idx) => (
+                {departmentBreakdown.map((dept, idx) => (
                   <div key={idx} className="space-y-1 text-xs">
                     <div className="flex justify-between font-semibold">
                       <span className="text-on-surface">{dept.department}</span>

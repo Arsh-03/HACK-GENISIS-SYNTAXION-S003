@@ -36,7 +36,7 @@ export function UserManagementPage() {
   const [newUserName, setNewUserName] = useState('');
   const [newUserEmail, setNewUserEmail] = useState('');
   const [newUserRole, setNewUserRole] = useState('Invigilator');
-  const [newUserDept, setNewUserDept] = useState('Computer Science');
+  const [newUserDept, setNewUserDept] = useState('Medical Entrance');
 
   const filteredUsers = users.filter(u => {
     const matchesCategory = selectedCategory === 'ALL' || u.category === selectedCategory || u.role === selectedCategory;

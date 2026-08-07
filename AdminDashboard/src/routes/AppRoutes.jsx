@@ -13,7 +13,9 @@ import { FirstLoginPasswordChangePage } from '../pages/auth/FirstLoginPasswordCh
 import { AdminDashboardPage } from '../pages/AdminDashboardPage';
 import { AIPaperPipelinePage } from '../pages/AIPaperPipelinePage';
 import { DesignSystemPage } from '../pages/DesignSystemPage';
-import { StudentManagementPage } from '../pages/StudentManagementPage';
+import { StudentsListPage } from '../pages/StudentsListPage';
+import { IdentityVerificationPage } from '../pages/IdentityVerificationPage';
+import { BulkImportPage } from '../pages/BulkImportPage';
 import { SessionManagementPage } from '../pages/SessionManagementPage';
 import { QuestionBankPage } from '../pages/QuestionBankPage';
 import { ExamBuilderPage } from '../pages/ExamBuilderPage';
@@ -58,9 +60,9 @@ export function AppRoutes() {
         <Route path="dashboard" element={<AdminDashboardPage />} />
 
         {/* Candidate Management */}
-        <Route path="candidates/students" element={<StudentManagementPage />} />
-        <Route path="candidates/verification" element={<StudentManagementPage />} />
-        <Route path="candidates/import" element={<StudentManagementPage />} />
+        <Route path="candidates/students" element={<StudentsListPage />} />
+        <Route path="candidates/verification" element={<IdentityVerificationPage />} />
+        <Route path="candidates/import" element={<BulkImportPage />} />
 
         {/* Examination */}
         <Route path="examination/sessions" element={<SessionManagementPage />} />

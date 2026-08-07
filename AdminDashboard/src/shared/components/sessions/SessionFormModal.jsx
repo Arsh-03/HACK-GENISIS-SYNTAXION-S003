@@ -99,7 +99,7 @@ export function SessionFormModal({
 
         <Input
           label="Examination Title"
-          placeholder="e.g. CS-101 Midterm Examination"
+          placeholder="e.g. NEET UG Physics Mock - Slot 01"
           value={formData.examName}
           onChange={(e) => setFormData({ ...formData, examName: e.target.value })}
           required

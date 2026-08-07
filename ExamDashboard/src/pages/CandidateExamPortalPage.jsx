@@ -10,6 +10,7 @@ import { ProgressBar } from '../shared/components/ui/ProgressBar';
 import { Badge } from '../shared/components/ui/Badge';
 import { Table } from '../shared/components/ui/Table';
 import { LiveFeedFrame } from '../shared/components/common/LiveFeedFrame';
+import { SecurityHUD } from '../shared/components/proctoring/SecurityHUD';
 import { useCandidateCameraFeed } from '../hooks/useCandidateCameraFeed';
 import {
   Clock,
@@ -122,6 +123,22 @@ export function CandidateExamPortalPage() {
       socket.disconnect();
     };
   }, [profile.candidateId, profile.name]);
+
+  // JIT Time-Warp Override Shortcut (Ctrl+Shift+D)
+  const [jitStatus, setJitStatus] = useState('INACTIVE');
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.ctrlKey && e.shiftKey && e.key === 'D') {
+        e.preventDefault();
+        setJitStatus('ACTIVE');
+        if (currentView === 'PRE_EXAM' && preExamStep === 4) {
+          setWaitingCountdown(5);
+        }
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentView, preExamStep]);
 
   useEffect(() => {
     if (setIsRunning) {
@@ -272,6 +289,9 @@ export function CandidateExamPortalPage() {
           )}
         </div>
       </header>
+
+      {/* SECURE TERMINAL HUD (Pitch Badges) */}
+      <SecurityHUD hashStatus="VALID" isEncrypted={true} JITStatus={jitStatus} />
 
       {/* ==================================================== */}
       {/* VIEW 1: CANDIDATE DASHBOARD */}

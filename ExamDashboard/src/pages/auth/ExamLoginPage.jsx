@@ -8,7 +8,7 @@ import { useAuth } from '../../context/AuthContext';
 import { Eye, EyeOff, AlertCircle, ArrowRight, BookOpen, CheckCircle2, ArrowLeft, UserCheck, User } from 'lucide-react';
 
 export function ExamLoginPage() {
-  const [identifier, setIdentifier] = useState('candidate');
+  const [identifier, setIdentifier] = useState('aarav.sharma@university.edu');
   const [password, setPassword] = useState('password123');
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
@@ -51,8 +51,8 @@ export function ExamLoginPage() {
     }
   };
 
-  const setDemoUser = (username) => {
-    setIdentifier(username);
+  const setDemoUser = (role) => {
+    setIdentifier(role === 'candidate' ? 'aarav.sharma@university.edu' : 'invigilator@example.com');
     setPassword('password123');
   };
 

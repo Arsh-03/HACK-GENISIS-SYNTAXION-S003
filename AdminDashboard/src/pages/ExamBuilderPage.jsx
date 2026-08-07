@@ -240,8 +240,8 @@ export function ExamBuilderPage() {
       <ExamBlueprintVisualizer
         blueprint={{
           subjectWeightage: [
-            { subject: 'Computer Science', weightage: 50, questions: 25 },
-            { subject: 'Artificial Intelligence', weightage: 30, questions: 15 },
+            { subject: 'Medical Entrance', weightage: 50, questions: 25 },
+            { subject: 'Chemistry', weightage: 30, questions: 15 },
             { subject: 'Mathematics', weightage: 20, questions: 10 }
           ],
           difficultyRatio: { easy: 40, medium: 40, hard: 20 }

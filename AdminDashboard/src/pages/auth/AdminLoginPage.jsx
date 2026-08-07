@@ -8,7 +8,7 @@ import { useAuth } from '../../context/AuthContext';
 import { Eye, EyeOff, AlertCircle, ArrowRight, ShieldCheck, CheckCircle2, ArrowLeft, SlidersHorizontal } from 'lucide-react';
 
 export function AdminLoginPage() {
-  const [identifier, setIdentifier] = useState('admin');
+  const [identifier, setIdentifier] = useState('admin@example.com');
   const [password, setPassword] = useState('password123');
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
@@ -49,7 +49,7 @@ export function AdminLoginPage() {
   };
 
   const setDemoCredentials = () => {
-    setIdentifier('admin');
+    setIdentifier('admin@example.com');
     setPassword('password123');
   };
 
@@ -78,7 +78,7 @@ export function AdminLoginPage() {
       <div className="mb-5 p-2.5 rounded-lg bg-primary/5 border border-primary/20 flex items-center justify-between text-xs">
         <div>
           <span className="font-semibold text-on-surface">Demo Admin User:</span>
-          <span className="font-mono text-primary ml-1">admin / password123</span>
+          <span className="font-mono text-primary ml-1">admin@example.com / password123</span>
         </div>
         <button
           type="button"

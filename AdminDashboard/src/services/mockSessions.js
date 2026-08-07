@@ -11,7 +11,7 @@ export const MOCK_INVIGILATORS = [
 export const INITIAL_SESSIONS = [
   {
     code: 'SES-2026-01',
-    examName: 'CS-101 Midterm Examination',
+    examName: 'NEET UG Physics Mock - Slot 01',
     center: 'Main Campus Assessment Center',
     room: 'Hall A',
     date: '2026-08-15',
@@ -42,7 +42,7 @@ export const INITIAL_SESSIONS = [
   },
   {
     code: 'SES-2026-02',
-    examName: 'ENG-204 Final Assessment',
+    examName: 'NEET UG Chemistry Prep - Slot 02',
     center: 'North Wing Testing Facility',
     room: 'Room 302',
     date: '2026-08-15',
@@ -65,7 +65,7 @@ export const INITIAL_SESSIONS = [
   },
   {
     code: 'SES-2026-03',
-    examName: 'AI-301 Neural Networks Lab',
+    examName: 'NEET UG Botany Diagnostic - Slot 01',
     center: 'AI Innovation Hub',
     room: 'Lab 4',
     date: '2026-08-16',
@@ -87,7 +87,7 @@ export const INITIAL_SESSIONS = [
   },
   {
     code: 'SES-2026-04',
-    examName: 'MATH-201 Differential Calculus',
+    examName: 'NEET UG Physics Practice - Slot 03',
     center: 'Main Campus Assessment Center',
     room: 'Auditorium 1',
     date: '2026-08-18',
@@ -104,7 +104,7 @@ export const INITIAL_SESSIONS = [
   },
   {
     code: 'SES-2026-05',
-    examName: 'PHY-102 General Physics Lab',
+    examName: 'NEET UG Zoology Mock - Slot 02',
     center: 'Science Complex',
     room: 'Room 105',
     date: '2026-08-10',

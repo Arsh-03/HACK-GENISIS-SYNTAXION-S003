@@ -6,8 +6,8 @@ export function ExamBlueprintVisualizer({ blueprint, totalQuestions = 50, totalM
   if (!blueprint) return null;
 
   const subjectWeightages = blueprint.subjectWeightage || [
-    { subject: 'Computer Science', weightage: 60, questions: 30 },
-    { subject: 'Artificial Intelligence', weightage: 40, questions: 20 }
+    { subject: 'Medical Entrance', weightage: 60, questions: 30 },
+    { subject: 'Chemistry', weightage: 40, questions: 20 }
   ];
 
   const difficultyRatio = blueprint.difficultyRatio || { easy: 40, medium: 40, hard: 20 };

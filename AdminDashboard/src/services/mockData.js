@@ -3,7 +3,7 @@ export const mockExamSections = [
     id: "sec-1",
     title: "Section 1: Core Concepts",
     shortName: "Core Concepts",
-    subject: "Computer Science 101",
+    subject: "Physics",
     questions: [
       {
         id: "q-1",
@@ -64,9 +64,9 @@ export const mockExamSections = [
   },
   {
     id: "sec-2",
-    title: "Section 2: Data Structures",
-    shortName: "Data Structures",
-    subject: "Computer Science 101",
+    title: "Section 2: Chemistry",
+    shortName: "Chemistry",
+    subject: "Physics",
     questions: [
       {
         id: "q-21",
@@ -90,7 +90,7 @@ export const mockExamSections = [
     id: "sec-3",
     title: "Section 3: Algorithms",
     shortName: "Algorithms",
-    subject: "Computer Science 101",
+    subject: "Physics",
     questions: [
       {
         id: "q-35",
@@ -133,7 +133,7 @@ export const mockCandidates = [
     answeredCount: 34,
     totalQuestions: 50,
     email: "aarav.sharma@university.edu",
-    department: "Computer Science & Engineering",
+    department: "Medical Entrance",
     batch: "2022-2026",
     avatarBg: "bg-red-500",
     snapshotUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
@@ -455,17 +455,15 @@ export const mockAIPipelineConfig = {
 };
 
 export const mockAIOpsKPIs = [
-  { id: "kpi-1", title: "AI Requests Today", value: "14,892", change: "+12.4%", changeType: "increase", description: "vs yesterday", icon: "Bot", iconBg: "bg-indigo-100 text-indigo-700" },
-  { id: "kpi-2", title: "Papers Generated", value: "1,248", change: "+8.1%", changeType: "increase", description: "vs last week", icon: "FileText", iconBg: "bg-emerald-100 text-emerald-700" },
-  { id: "kpi-3", title: "Papers Pending Review", value: "14", change: "-3", changeType: "decrease", description: "in HITL queue", icon: "Clock", iconBg: "bg-amber-100 text-amber-700" },
-  { id: "kpi-4", title: "AI Accuracy", value: "99.4%", change: "+0.2%", changeType: "increase", description: "hallucination free", icon: "CheckCircle", iconBg: "bg-blue-100 text-blue-700" },
-  { id: "kpi-5", title: "Average Generation Time", value: "4.2s", change: "-0.6s", changeType: "increase", description: "latency optimized", icon: "Zap", iconBg: "bg-purple-100 text-purple-700" },
-  { id: "kpi-6", title: "Validation Success Rate", value: "98.7%", change: "+1.1%", changeType: "increase", description: "zero-defect rate", icon: "Shield", iconBg: "bg-teal-100 text-teal-700" }
+  { id: "kpi-1", title: "Active Assigned Sessions", value: "2", change: "Live", changeType: "increase", description: "Currently running", icon: "Activity", iconBg: "bg-indigo-100 text-indigo-700" },
+  { id: "kpi-2", title: "Students Registered", value: "2,840", change: "+120", changeType: "increase", description: "vs last year", icon: "Users", iconBg: "bg-emerald-100 text-emerald-700" },
+  { id: "kpi-3", title: "Active Invigilators", value: "14", change: "Online", changeType: "increase", description: "Monitoring feeds", icon: "Shield", iconBg: "bg-amber-100 text-amber-700" },
+  { id: "kpi-4", title: "Next Exam Schedule", value: "May 5, 2026", change: "NEET UG", changeType: "increase", description: "Slot 01", icon: "Calendar", iconBg: "bg-blue-100 text-blue-700" }
 ];
 
 export const mockAIAuditPanel = {
   duplicateQuestionsFound: "0 Exact / 1 Near-Match (94.2% Similarity Flagged)",
-  ambiguousQuestions: "1 Stem Flagged (Item CS-DB-032 requires HITL review)",
+  ambiguousQuestions: "1 Stem Flagged (Item PHY-032 requires HITL review)",
   missingTopics: "None (100% Curriculum Syllabus Covered)",
   difficultyBalance: "20% Easy | 50% Medium | 30% Hard (Calibrated)",
   subjectCoverage: "100% (5/5 Sub-domains Satisfied)",
@@ -529,8 +527,8 @@ export const mockAISystemStatus = [
 export const mockAIGenerationHistory = [
   {
     paperId: "PPR-2026-8941",
-    title: "Advanced Distributed Systems Final 2026",
-    subject: "Computer Science",
+    title: "Advanced Physics Final 2026",
+    subject: "Medical Entrance",
     generatedBy: "Gemini 1.5 Pro AI",
     userRole: "System Automated",
     date: "2026-08-06 14:22:10",
@@ -571,8 +569,8 @@ export const mockAIGenerationHistory = [
   },
   {
     paperId: "PPR-2026-8938",
-    title: "Data Structures & Algorithms Midterm",
-    subject: "Computer Science",
+    title: "Chemistry & Algorithms Midterm",
+    subject: "Medical Entrance",
     generatedBy: "Prof. S. Mehta",
     userRole: "Faculty Chair",
     date: "2026-08-06 09:30:12",
@@ -620,11 +618,11 @@ export const mockAIVisualAnalytics = {
     { label: "Hard", percentage: 30, count: 15, color: "bg-red-500", text: "text-red-600" }
   ],
   subjectDistribution: [
-    { subject: "Distributed Systems", count: 15, percentage: 30, color: "bg-indigo-600" },
-    { subject: "Data Structures", count: 12, percentage: 24, color: "bg-blue-600" },
-    { subject: "Database Indexing", count: 10, percentage: 20, color: "bg-teal-600" },
-    { subject: "Network Security", count: 8, percentage: 16, color: "bg-purple-600" },
-    { subject: "Machine Learning", count: 5, percentage: 10, color: "bg-pink-600" }
+    { subject: "Physics", count: 15, percentage: 30, color: "bg-indigo-600" },
+    { subject: "Chemistry", count: 12, percentage: 24, color: "bg-blue-600" },
+    { subject: "Botany", count: 10, percentage: 20, color: "bg-teal-600" },
+    { subject: "Zoology", count: 8, percentage: 16, color: "bg-purple-600" },
+    { subject: "Human Physiology", count: 5, percentage: 10, color: "bg-pink-600" }
   ],
   generationPerformance: [
     { time: "08:00", latency: 4.8, requests: 840 },
@@ -645,7 +643,7 @@ export const mockAILiveLogs = [
   { id: "l-3", time: "14:22:11.200", level: "INFO", source: "SELECTION", msg: "[Stage 3] Calibrating item discrimination coefficients. Selected 50 items." },
   { id: "l-4", time: "14:22:11.640", level: "SUCCESS", source: "BALANCING", msg: "[Stage 4] Difficulty balancing complete: 10 Easy, 25 Medium, 15 Hard items." },
   { id: "l-5", time: "14:22:12.240", level: "INFO", source: "DISTRIBUTION", msg: "[Stage 5] Subject area allocation verified across 5 core topics." },
-  { id: "l-6", time: "14:22:13.350", level: "WARN", source: "DUPLICATE_GUARD", msg: "[Stage 6] Stem similarity scan: Item CS-DB-032 has 94.2% match with PPR-2025-012." },
+  { id: "l-6", time: "14:22:13.350", level: "WARN", source: "DUPLICATE_GUARD", msg: "[Stage 6] Stem similarity scan: Item PHY-032 has 94.2% match with PPR-2025-012." },
   { id: "l-7", time: "14:22:14.750", level: "RUNNING", source: "AI_VALIDATOR", msg: "[Stage 7] Running Vertex AI Gemini 1.5 Pro hallucination & distractor check (78% complete)..." }
 ];
 
@@ -666,7 +664,7 @@ export const mockAdminStats = {
   serverCpuLoad: "32%",
   recentExams: [
     { id: "ex-101", title: "National Medical Entrance Board 2026", candidates: 1200, status: "IN_PROGRESS", duration: "180 Mins", startTime: "09:00 AM" },
-    { id: "ex-102", title: "Computer Science Engineering Finals", candidates: 450, status: "IN_PROGRESS", duration: "120 Mins", startTime: "10:00 AM" },
+    { id: "ex-102", title: "NEET UG 2026 Finals", candidates: 450, status: "IN_PROGRESS", duration: "120 Mins", startTime: "10:00 AM" },
     { id: "ex-103", title: "Corporate Compliance Certification", candidates: 320, status: "COMPLETED", duration: "60 Mins", startTime: "08:00 AM" },
     { id: "ex-104", title: "Financial Risk & Derivatives Exam", candidates: 870, status: "SCHEDULED", duration: "150 Mins", startTime: "02:00 PM" }
   ]
@@ -676,7 +674,7 @@ export const mockCandidateProfile = {
   name: "Aarav Sharma",
   candidateId: "CBT-2026-0891",
   email: "aarav.sharma@university.edu",
-  department: "Computer Science & Engineering",
+  department: "Medical Entrance",
   batch: "2022-2026",
   seatNumber: "Lab 04 - Station 12",
   terminalId: "TRM-04-12",
@@ -689,8 +687,8 @@ export const mockCandidateProfile = {
 export const mockTodayExam = {
   id: "ex-today-2026",
   code: "CS-FINAL-2026",
-  title: "National Computer Science Engineering Entrance Finals 2026",
-  subject: "Computer Science & Distributed Systems",
+  title: "NEET UG 2026 National Finals 2026",
+  subject: "Physics & Chemistry",
   durationMinutes: 120,
   totalQuestions: 50,
   totalMarks: 100,
@@ -708,7 +706,7 @@ export const mockUpcomingExams = [
 
 export const mockPreviousExamAttempts = [
   { id: "att-1", title: "Database Systems & SQL Optimization", date: "2026-07-15", score: "88 / 100", percentage: "88.0%", rank: "Rank 42", status: "PASSED" },
-  { id: "att-2", title: "Data Structures & Algorithms Midterm", date: "2026-06-20", score: "94 / 100", percentage: "94.0%", rank: "Rank 08", status: "PASSED WITH DISTINCTION" }
+  { id: "att-2", title: "Chemistry & Algorithms Midterm", date: "2026-06-20", score: "94 / 100", percentage: "94.0%", rank: "Rank 08", status: "PASSED WITH DISTINCTION" }
 ];
 
 export const mockExamNotifications = [
@@ -738,8 +736,8 @@ export const mockExamResultData = {
   incorrectCount: 3,
   unattemptedCount: 1,
   subjectBreakdown: [
-    { subject: "Distributed Systems & Raft Consensus", score: "28 / 30", percentage: 93 },
-    { subject: "Data Structures & Indexing", score: "24 / 25", percentage: 96 },
+    { subject: "Physics & Raft Consensus", score: "28 / 30", percentage: 93 },
+    { subject: "Chemistry & Indexing", score: "24 / 25", percentage: 96 },
     { subject: "Database Isolation & CAP Theorem", score: "20 / 20", percentage: 100 },
     { subject: "Cybersecurity Protocols", score: "20 / 25", percentage: 80 }
   ]
@@ -757,7 +755,7 @@ export const mockExecutiveReportKPIs = {
 };
 
 export const mockCandidatePerformanceReports = [
-  { id: "cpr-1", name: "Aarav Sharma", regNo: "CBT-2026-0891", session: "Medical Entrance Slot 02", score: 92, maxScore: 100, percentage: "92.0%", rank: "Rank 14 / 2840", timeTaken: "1h 44m", status: "PASSED", resultBadge: "DISTINCTION", department: "Computer Science", subject: "Distributed Systems" },
+  { id: "cpr-1", name: "Aarav Sharma", regNo: "CBT-2026-0891", session: "Medical Entrance Slot 02", score: 92, maxScore: 100, percentage: "92.0%", rank: "Rank 14 / 2840", timeTaken: "1h 44m", status: "PASSED", resultBadge: "DISTINCTION", department: "Medical Entrance", subject: "Physics" },
   { id: "cpr-2", name: "Elena Rostova", regNo: "CBT-2026-0412", session: "Engineering Finals Slot 01", score: 96, maxScore: 100, percentage: "96.0%", rank: "Rank 03 / 2840", timeTaken: "1h 38m", status: "PASSED", resultBadge: "DISTINCTION", department: "Software Engineering", subject: "Algorithms" },
   { id: "cpr-3", name: "Devon Taylor", regNo: "CBT-2026-0158", session: "Civil Engineering Slot 03", score: 74, maxScore: 100, percentage: "74.0%", rank: "Rank 412 / 2840", timeTaken: "1h 55m", status: "PASSED", resultBadge: "FIRST CLASS", department: "Civil Engineering", subject: "Structural Analysis" },
   { id: "cpr-4", name: "Priya Patel", regNo: "CBT-2026-0920", session: "Biomedical Slot 02", score: 88, maxScore: 100, percentage: "88.0%", rank: "Rank 88 / 2840", timeTaken: "1h 48m", status: "PASSED", resultBadge: "DISTINCTION", department: "Biomedical Engineering", subject: "Biomedical Systems" },
@@ -766,7 +764,7 @@ export const mockCandidatePerformanceReports = [
 
 export const mockSessionAnalyticsReports = [
   { id: "ses-1", title: "National Medical Board Entrance 2026 - Slot 02", capacity: 1500, assigned: 1450, appeared: 1420, avgTime: "1h 42m", successRate: "91.2%", status: "COMPLETED", date: "2026-08-06", invigilator: "Dr. H. Vance" },
-  { id: "ses-2", title: "Computer Science Engineering Finals - Slot 01", capacity: 500, assigned: 450, appeared: 442, avgTime: "1h 35m", successRate: "94.6%", status: "IN_PROGRESS", date: "2026-08-06", invigilator: "Prof. S. Gupta" },
+  { id: "ses-2", title: "NEET UG 2026 Finals - Slot 01", capacity: 500, assigned: 450, appeared: 442, avgTime: "1h 35m", successRate: "94.6%", status: "IN_PROGRESS", date: "2026-08-06", invigilator: "Prof. S. Gupta" },
   { id: "ses-3", title: "Corporate Compliance Certification - Slot 03", capacity: 400, assigned: 320, appeared: 318, avgTime: "48m", successRate: "98.1%", status: "COMPLETED", date: "2026-08-05", invigilator: "Ms. M. Jenkins" }
 ];
 
@@ -777,7 +775,7 @@ export const mockAttendanceReportsData = {
   lateEntry: 42,
   attendancePercentage: "97.8%",
   departmentBreakdown: [
-    { department: "Computer Science & Eng", registered: 4500, present: 4440, absent: 60, turnout: "98.6%" },
+    { department: "Medical Entrance", registered: 4500, present: 4440, absent: 60, turnout: "98.6%" },
     { department: "Biomedical & Life Sciences", registered: 3200, present: 3140, absent: 60, turnout: "98.1%" },
     { department: "Software Engineering", registered: 3800, present: 3690, absent: 110, turnout: "97.1%" },
     { department: "Civil & Structural Eng", registered: 2750, present: 2666, absent: 84, turnout: "96.9%" }
@@ -816,7 +814,7 @@ export const mockAuditReportsData = [
 
 export const mockUsersList = [
   { id: "u-1", name: "Dr. Harold Vance", email: "harold.vance@nexiscbt.org", role: "Administrator", category: "Administrators", status: "ACTIVE", lastLogin: "2 mins ago", phone: "+1 (555) 234-5678", department: "Exam Operations" },
-  { id: "u-2", name: "Prof. S. Gupta", email: "s.gupta@university.edu", role: "Invigilator", category: "Invigilators", status: "ACTIVE", lastLogin: "14 mins ago", phone: "+1 (555) 345-6789", department: "Computer Science" },
+  { id: "u-2", name: "Prof. S. Gupta", email: "s.gupta@university.edu", role: "Invigilator", category: "Invigilators", status: "ACTIVE", lastLogin: "14 mins ago", phone: "+1 (555) 345-6789", department: "Medical Entrance" },
   { id: "u-3", name: "Ms. Maya Jenkins", email: "m.jenkins@nexiscbt.org", role: "Invigilator", category: "Invigilators", status: "ACTIVE", lastLogin: "1 hour ago", phone: "+1 (555) 456-7890", department: "Biomedical Eng" },
   { id: "u-4", name: "Alex Mercer", email: "alex.mercer@nexiscbt.org", role: "Operator", category: "Operators", status: "ACTIVE", lastLogin: "3 hours ago", phone: "+1 (555) 567-8901", department: "IT Support" },
   { id: "u-5", name: "Sarah Connor", email: "sarah.c@nexiscbt.org", role: "Support Staff", category: "Support Staff", status: "INACTIVE", lastLogin: "2 days ago", phone: "+1 (555) 678-9012", department: "Candidate Helpdesk" }
@@ -895,7 +893,7 @@ export const mockInfrastructureStatusData = [
 export const mockNotificationsList = [
   { id: "n-101", title: "AI Paper Validation Complete", type: "AI", text: "Blueprint #BP-2026-CS generated 50 items with 98.4% quality index.", timestamp: "10 mins ago", isRead: false },
   { id: "n-102", title: "Proctor Security Alert", type: "SECURITY", text: "Candidate CBT-2026-0158 tab-switch violation acknowledged by invigilator.", timestamp: "25 mins ago", isRead: false },
-  { id: "n-103", title: "System Scheduled Maintenance", type: "SYSTEM", text: "Database indexing scheduled tonight at 02:00 AM IST. No downtime expected.", timestamp: "2 hours ago", isRead: true },
+  { id: "n-103", title: "System Scheduled Maintenance", type: "SYSTEM", text: "Botany scheduled tonight at 02:00 AM IST. No downtime expected.", timestamp: "2 hours ago", isRead: true },
   { id: "n-104", title: "Session Slot #02 Started", type: "EXAM", text: "Medical Board Entrance Slot 02 initialized with 1,420 active candidates.", timestamp: "3 hours ago", isRead: true }
 ];
 

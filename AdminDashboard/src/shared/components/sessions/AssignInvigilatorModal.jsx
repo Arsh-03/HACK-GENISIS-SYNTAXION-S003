@@ -21,7 +21,7 @@ export function AssignInvigilatorModal({
   // Elena Rostova has conflict for testing demo! Or if selected invigilator matches Elena Rostova
   const isConflict = selectedInvigilatorName === 'Elena Rostova';
   const conflictReason = isConflict
-    ? 'Elena Rostova is already supervising ENG-204 Final in North Wing (01:30 PM - 04:30 PM) on 2026-08-15.'
+    ? 'Elena Rostova is already supervising NEET-CHE Final in North Wing (01:30 PM - 04:30 PM) on 2026-08-15.'
     : null;
 
   // Suggested alternatives (invigilators with zero or available status)

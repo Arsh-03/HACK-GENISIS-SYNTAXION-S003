@@ -4,12 +4,12 @@ import { Button } from '../ui/Button';
 import { useAuth } from '../../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
-export function TopHeader({ title = "Nexis Enterprise CBT Platform" }) {
+export function TopHeader({ title = "Nexis Enterprise CBT Platform", isCollapsed }) {
   const { user, selectedRole, logout } = useAuth();
   const navigate = useNavigate();
 
   return (
-    <header className="fixed top-0 right-0 left-[280px] h-16 z-30 flex justify-between items-center px-6 bg-surface-bright border-b border-outline-variant">
+    <header className={`fixed top-0 right-0 transition-all duration-300 ${isCollapsed ? 'left-[70px]' : 'left-[280px]'} h-16 z-30 flex justify-between items-center px-6 bg-surface-bright border-b border-outline-variant`}>
       <div className="flex items-center gap-3">
         <h1 className="text-base font-bold text-on-surface">{title}</h1>
         {selectedRole && (

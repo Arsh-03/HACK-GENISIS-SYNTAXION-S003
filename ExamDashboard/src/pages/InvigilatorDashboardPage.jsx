@@ -10,6 +10,7 @@ import { ProgressBar } from '../shared/components/ui/ProgressBar';
 import { Input } from '../shared/components/ui/Input';
 import { Select } from '../shared/components/ui/Select';
 import { LiveFeedFrame } from '../shared/components/common/LiveFeedFrame';
+import { DemoSimulationControl } from '../shared/components/proctoring/DemoSimulationControl';
 import { useLiveFeedRegistry } from '../hooks/useLiveFeedRegistry';
 import {
   ShieldAlert,
@@ -257,6 +258,9 @@ export function InvigilatorDashboardPage() {
           })}
         </div>
       </section>
+
+      {/* DEMO SIMULATION CONTROL */}
+      <DemoSimulationControl socket={null} activeStudentId={selectedCandidate?.candidateId} />
 
       {/* ==================================================== */}
       {/* 3. CONTROL ROOM VIEW SWITCHER TABS */}

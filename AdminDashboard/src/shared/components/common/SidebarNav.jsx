@@ -29,10 +29,11 @@ import {
   Clock,
   UserCog,
   Settings,
-  FileText
+  FileText,
+  Menu
 } from 'lucide-react';
 
-export function SidebarNav() {
+export function SidebarNav({ isCollapsed, setIsCollapsed }) {
   const location = useLocation();
 
   // Navigation sections taxonomy
@@ -89,10 +90,7 @@ export function SidebarNav() {
       label: 'Reports & Analytics',
       icon: BarChart3,
       items: [
-        { label: 'Dashboard', path: '/admin/reports/dashboard', icon: BarChart3 },
-        { label: 'Attendance', path: '/admin/reports/attendance', icon: Clock },
-        { label: 'Performance', path: '/admin/reports/performance', icon: Award },
-        { label: 'Violations', path: '/admin/reports/violations', icon: AlertTriangle }
+        { label: 'Dashboard', path: '/admin/reports/dashboard', icon: BarChart3 }
       ]
     },
     {
@@ -146,25 +144,37 @@ export function SidebarNav() {
   };
 
   return (
-    <aside className="fixed left-0 top-0 h-screen z-40 flex flex-col bg-surface border-r border-outline-variant w-[280px] py-5 select-none">
+    <aside className={`fixed left-0 top-0 h-screen z-40 flex flex-col bg-surface border-r border-outline-variant transition-all duration-300 ${isCollapsed ? 'w-[70px] px-2' : 'w-[280px] px-6'} py-5 select-none`}>
       {/* Brand Header */}
-      <div className="px-6 pb-4 border-b border-outline-variant shrink-0">
-        <NavLink to="/admin/dashboard" className="text-xl font-black text-primary flex items-center gap-2">
-          <Activity className="w-7 h-7 text-primary" />
-          <span className="tracking-tight text-on-surface">CBT Platform</span>
-        </NavLink>
-        <div className="text-on-surface-variant text-[11px] mt-0.5 font-medium">Administrator Operations Suite</div>
+      <div className={`flex items-center justify-between pb-4 border-b border-outline-variant shrink-0 ${isCollapsed ? 'flex-col gap-3' : ''}`}>
+        {!isCollapsed ? (
+          <NavLink to="/admin/dashboard" className="text-xl font-black text-primary flex items-center gap-2">
+            <Activity className="w-7 h-7 text-primary" />
+            <span className="tracking-tight text-on-surface">CBT Platform</span>
+          </NavLink>
+        ) : (
+          <Activity className="w-7 h-7 text-primary animate-pulse" />
+        )}
+        <button 
+          onClick={() => setIsCollapsed(!isCollapsed)}
+          className="text-on-surface-variant hover:text-on-surface p-1 rounded hover:bg-surface-container-high transition-colors"
+        >
+          <Menu className="w-5 h-5" />
+        </button>
       </div>
 
       {/* Action CTA */}
-      <div className="px-4 my-3 shrink-0">
-        <NavLink
-          to="/admin/ai/pipeline"
+      <div className="px-1 my-3 shrink-0">
+        <button
+          onClick={() => {
+            fetch('http://localhost:5001/api/v1/demo/toggle', { method: 'POST' })
+              .then(() => alert('⚡ DEMO MODE ACTIVATED: Live pitch configuration enabled.'));
+          }}
           className="w-full bg-primary text-on-primary py-2 px-3 rounded-md flex items-center justify-center gap-2 hover:bg-opacity-90 transition-colors font-medium text-xs shadow-sm"
         >
-          <Plus className="w-4 h-4" />
-          <span>New Assessment</span>
-        </NavLink>
+          <span>⚡</span>
+          {!isCollapsed && <span>Pitch Demo Mode</span>}
+        </button>
       </div>
 
       {/* Nav Menu Scroll Area */}
@@ -182,18 +192,18 @@ export function SidebarNav() {
                   `flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold transition-colors ${isActive
                     ? 'bg-primary-container text-on-primary-container shadow-xs'
                     : 'text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface'
-                  }`
+                  } ${isCollapsed ? 'justify-center' : ''}`
                 }
               >
                 <div className="flex items-center gap-2.5">
                   <SecIcon className="w-4 h-4" />
-                  <span>{sec.label}</span>
+                  {!isCollapsed && <span>{sec.label}</span>}
                 </div>
               </NavLink>
             );
           }
 
-          const isOpen = !!openSections[sec.id];
+          const isOpen = !isCollapsed && !!openSections[sec.id];
           const hasActiveChild = sec.items.some(item => location.pathname === item.path);
 
           return (
@@ -201,22 +211,27 @@ export function SidebarNav() {
               {/* Section Accordion Header */}
               <button
                 type="button"
-                onClick={() => toggleSection(sec.id)}
+                onClick={() => {
+                  if (isCollapsed) {
+                    setIsCollapsed(false);
+                  }
+                  toggleSection(sec.id);
+                }}
                 className={`w-full flex items-center justify-between px-3 py-2 rounded-lg text-xs font-bold transition-colors ${
                   hasActiveChild
                     ? 'text-primary bg-primary/10'
                     : 'text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface'
-                }`}
+                } ${isCollapsed ? 'justify-center' : ''}`}
               >
                 <div className="flex items-center gap-2.5">
                   <SecIcon className="w-4 h-4 text-on-surface-variant shrink-0" />
-                  <span>{sec.label}</span>
+                  {!isCollapsed && <span>{sec.label}</span>}
                 </div>
-                {isOpen ? (
+                {!isCollapsed && (isOpen ? (
                   <ChevronDown className="w-3.5 h-3.5 text-on-surface-variant shrink-0" />
                 ) : (
                   <ChevronRight className="w-3.5 h-3.5 text-on-surface-variant shrink-0" />
-                )}
+                ))}
               </button>
 
               {/* Sub-Items */}
@@ -260,9 +275,11 @@ export function SidebarNav() {
 
         {/* Secondary Links */}
         <div className="space-y-1 pb-4">
-          <div className="px-3 text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">
-            Portals & Tools
-          </div>
+          {!isCollapsed && (
+            <div className="px-3 text-[10px] font-bold text-on-surface-variant uppercase tracking-wider">
+              Portals & Tools
+            </div>
+          )}
           {secondaryLinks.map((link) => {
             const LinkIcon = link.icon;
             return (
@@ -273,12 +290,12 @@ export function SidebarNav() {
                   `flex items-center justify-between px-3 py-1.5 rounded-md text-xs font-semibold transition-colors ${isActive
                     ? 'bg-primary-container text-on-primary-container'
                     : 'text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface'
-                  }`
+                  } ${isCollapsed ? 'justify-center' : ''}`
                 }
               >
                 <div className="flex items-center gap-2.5">
                   <LinkIcon className="w-3.5 h-3.5" />
-                  <span>{link.label}</span>
+                  {!isCollapsed && <span>{link.label}</span>}
                 </div>
               </NavLink>
             );
@@ -287,10 +304,12 @@ export function SidebarNav() {
       </nav>
 
       {/* Footer Info */}
-      <div className="px-6 pt-3 border-t border-outline-variant text-[11px] text-on-surface-variant flex items-center justify-between shrink-0">
-        <span>v2.4.0 Enterprise</span>
-        <span className="w-2 h-2 rounded-full bg-emerald-500" title="System Operational"></span>
-      </div>
+      {!isCollapsed && (
+        <div className="px-6 pt-3 border-t border-outline-variant text-[11px] text-on-surface-variant flex items-center justify-between shrink-0">
+          <span>v2.4.0 Enterprise</span>
+          <span className="w-2 h-2 rounded-full bg-emerald-500" title="System Operational"></span>
+        </div>
+      )}
     </aside>
   );
 }
