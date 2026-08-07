@@ -37,7 +37,8 @@ import {
   AlertCircle,
   Sparkles,
   Check,
-  RefreshCw
+  RefreshCw,
+  Play
 } from 'lucide-react';
 import {
   mockCandidateProfile,
@@ -79,10 +80,15 @@ export function CandidateExamPortalPage() {
   // Waiting room countdown effect
   useEffect(() => {
     let timer;
-    if (currentView === 'PRE_EXAM' && preExamStep === 4 && waitingCountdown > 0) {
-      timer = setInterval(() => {
-        setWaitingCountdown(prev => prev - 1);
-      }, 1000);
+    if (currentView === 'PRE_EXAM' && preExamStep === 4) {
+      if (waitingCountdown > 0) {
+        timer = setInterval(() => {
+          setWaitingCountdown(prev => prev - 1);
+        }, 1000);
+      } else {
+        // Automatically enter exam when countdown reaches 0
+        setCurrentView('ACTIVE_EXAM');
+      }
     }
     return () => clearInterval(timer);
   }, [currentView, preExamStep, waitingCountdown]);
@@ -173,54 +179,12 @@ export function CandidateExamPortalPage() {
       {/* VIEW 1: CANDIDATE DASHBOARD */}
       {/* ==================================================== */}
       {currentView === 'DASHBOARD' && (
-        <div className="flex-1 overflow-y-auto p-6 md:p-8 space-y-6 max-w-7xl mx-auto w-full">
-
-          {/* Profile Header & Verification Status Banner */}
-          <div className="bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6">
-            <div className="flex items-center gap-4">
-              <img
-                src={profile.photoUrl}
-                alt={profile.name}
-                className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow-sm shrink-0"
-              />
-              <div>
-                <div className="flex items-center gap-2">
-                  <h2 className="text-xl font-bold text-on-surface">{profile.name}</h2>
-                  <Badge variant="success" size="sm" className="flex items-center gap-1">
-                    <UserCheck className="w-3 h-3 text-emerald-600" />
-                    {profile.verificationStatus}
-                  </Badge>
-                </div>
-                <div className="text-xs text-on-surface-variant mt-1">
-                  ID: <span className="font-mono font-bold text-on-surface">{profile.candidateId}</span> • {profile.department}
-                </div>
-                <div className="text-xs text-on-surface-variant font-mono mt-0.5">
-                  Assigned Terminal: {profile.terminalId} ({profile.seatNumber})
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full md:w-64 space-y-2 bg-surface-bright p-3 rounded-xl border border-outline-variant">
-              <div className="flex justify-between text-xs font-semibold">
-                <span className="text-on-surface-variant">Profile Completion</span>
-                <span className="text-emerald-600 font-mono font-bold">{profile.profileCompletion}%</span>
-              </div>
-              <ProgressBar progress={profile.profileCompletion} height="h-2" color="bg-emerald-600" />
-            </div>
-          </div>
-
-          {/* Today's Exam Highlight Banner */}
-          <div className="bg-gradient-to-r from-primary via-indigo-700 to-indigo-900 text-on-primary p-6 md:p-8 rounded-2xl shadow-lg border border-primary/30 flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative overflow-hidden">
-            <div className="space-y-2 z-10">
-              <span className="px-3 py-1 text-[10px] font-mono font-bold uppercase tracking-wider rounded-full bg-emerald-400/20 text-emerald-300 border border-emerald-400/40">
-                TODAY'S SCHEDULED EXAMINATION
-              </span>
-              <h1 className="text-2xl font-black text-white">{todayExam.title}</h1>
-              <p className="text-xs text-indigo-200">
-                {todayExam.subject} • {todayExam.durationMinutes} Minutes • {todayExam.totalQuestions} Questions • {todayExam.totalMarks} Marks
-              </p>
-            </div>
-
+        <div className="flex-1 overflow-y-auto p-6 md:p-8 flex items-center justify-center w-full">
+          <div className="text-center space-y-6 max-w-lg bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant shadow-sm">
+            <h2 className="text-2xl font-bold text-on-surface">Welcome to the Examination Portal</h2>
+            <p className="text-on-surface-variant text-sm leading-relaxed">
+              You are about to begin your examination session. Please ensure you are in a quiet environment and have your ID ready for verification.
+            </p>
             <Button
               variant="primary"
               size="lg"
@@ -230,68 +194,11 @@ export function CandidateExamPortalPage() {
                 setPreExamStep(1);
                 setCurrentView('PRE_EXAM');
               }}
-              className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm shadow-md border border-emerald-400/40 shrink-0 z-10"
+              className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm shadow-md border border-emerald-400/40 w-full"
             >
               Enter Exam Hall & Pre-Check
             </Button>
           </div>
-
-          {/* Dashboard Grid: Upcoming & Previous Attempts */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-
-            {/* Upcoming Exams */}
-            <Card title="Upcoming Examinations" subtitle="Scheduled computer-based tests for your cohort" headerAction={<Calendar className="w-5 h-5 text-primary" />}>
-              <div className="space-y-3">
-                {mockUpcomingExams.map((ex) => (
-                  <div key={ex.id} className="p-4 bg-surface-bright rounded-xl border border-outline-variant flex items-center justify-between gap-4">
-                    <div>
-                      <div className="font-bold text-sm text-on-surface">{ex.title}</div>
-                      <div className="text-xs text-on-surface-variant font-mono mt-0.5">{ex.code} • Date: {ex.date}</div>
-                    </div>
-                    <div className="text-right shrink-0">
-                      <div className="text-xs font-bold font-mono text-primary">{ex.duration}</div>
-                      <div className="text-[10px] text-on-surface-variant">{ex.marks} Marks</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </Card>
-
-            {/* Previous Attempts History */}
-            <Card title="Previous Exam Scorecards" subtitle="Completed test scores and rank certificate ledger" headerAction={<Award className="w-5 h-5 text-emerald-600" />}>
-              <div className="space-y-3">
-                {mockPreviousExamAttempts.map((att) => (
-                  <div key={att.id} className="p-4 bg-surface-bright rounded-xl border border-outline-variant flex items-center justify-between gap-4">
-                    <div>
-                      <div className="font-bold text-sm text-on-surface">{att.title}</div>
-                      <div className="text-xs text-on-surface-variant font-mono mt-0.5">{att.date} • {att.rank}</div>
-                    </div>
-                    <div className="text-right shrink-0">
-                      <div className="text-xs font-bold font-mono text-emerald-600">{att.score}</div>
-                      <Badge variant="success" size="sm">{att.status}</Badge>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </Card>
-
-          </div>
-
-          {/* Exam Notifications & Announcements */}
-          <Card title="Important Candidate Bulletins & Notifications" subtitle="Compliance rules, proctoring guidelines, and announcements" headerAction={<Bell className="w-5 h-5 text-amber-500" />}>
-            <div className="space-y-3">
-              {mockExamNotifications.map((notif) => (
-                <div key={notif.id} className="p-3.5 bg-amber-50/60 border border-amber-200 rounded-xl flex items-start gap-3">
-                  <AlertCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-                  <div>
-                    <div className="text-xs font-bold text-amber-900">{notif.title} <span className="font-mono text-[10px] font-normal text-amber-700">[{notif.date}]</span></div>
-                    <div className="text-xs text-amber-800 mt-0.5">{notif.text}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </Card>
-
         </div>
       )}
 
@@ -580,28 +487,15 @@ export function CandidateExamPortalPage() {
               currentQuestionNumber={currentQuestionIndex}
               onSelectQuestion={(num) => setCurrentQuestionIndex(num)}
               questionStates={questionStates}
+              sections={mockExamSections}
+              activeSectionId={activeSectionId}
+              onSelectSection={setActiveSectionId}
             />
 
             {/* Center Question Canvas */}
             <main className="flex-1 flex flex-col h-full relative overflow-hidden bg-surface">
               {/* Header Bar */}
-              <header className="h-16 bg-surface-container-lowest border-b border-outline-variant flex items-center justify-between px-6 shrink-0 z-10">
-                <div className="flex items-center gap-2 overflow-x-auto no-scrollbar">
-                  {mockExamSections.map((sec) => (
-                    <button
-                      key={sec.id}
-                      onClick={() => setActiveSectionId(sec.id)}
-                      className={`px-4 py-2 text-xs font-semibold rounded-t-sm whitespace-nowrap transition-colors ${
-                        activeSectionId === sec.id
-                          ? 'border-b-2 border-primary text-primary bg-surface-container-low font-bold'
-                          : 'text-on-surface-variant hover:bg-surface-variant'
-                      }`}
-                    >
-                      {sec.shortName}
-                    </button>
-                  ))}
-                </div>
-
+              <header className="h-16 bg-surface-container-lowest border-b border-outline-variant flex items-center justify-end px-6 shrink-0 z-10">
                 {/* Timer HUD */}
                 <div className="flex items-center gap-3">
                   <Button
@@ -816,63 +710,27 @@ export function CandidateExamPortalPage() {
       {/* VIEW 5: RESULT SCORECARD PAGE */}
       {/* ==================================================== */}
       {currentView === 'RESULT' && (
-        <div className="flex-1 overflow-y-auto p-6 md:p-8 space-y-6 max-w-4xl mx-auto w-full">
-          <div className="bg-surface-container-lowest p-6 md:p-8 rounded-2xl border border-outline-variant shadow-lg space-y-6">
-
-            {/* Score Banner */}
-            <div className="p-6 bg-gradient-to-r from-emerald-600 to-teal-700 text-white rounded-xl text-center space-y-2">
-              <Badge variant="mono" className="bg-white/20 text-white border-white/30">OFFICIAL CBT SCORECARD</Badge>
-              <h1 className="text-3xl font-black">{mockExamResultData.status}</h1>
-              <div className="text-5xl font-black font-mono tracking-tight mt-2">{mockExamResultData.score} / {mockExamResultData.totalMarks}</div>
-              <div className="text-sm font-semibold text-emerald-100">{mockExamResultData.percentage} • {mockExamResultData.rank} • {mockExamResultData.percentile}</div>
+        <div className="flex-1 overflow-y-auto p-6 md:p-8 flex items-center justify-center w-full">
+          <div className="text-center space-y-6 max-w-md bg-surface-container-lowest p-10 rounded-2xl border border-outline-variant shadow-lg flex flex-col items-center">
+            <div className="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mb-2">
+              <CheckCircle2 className="w-10 h-10" />
             </div>
-
-            {/* Stat Cards */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center text-xs">
-              <div className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant">
-                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Correct Answers</div>
-                <div className="text-lg font-bold font-mono text-emerald-600 mt-1">{mockExamResultData.correctCount}</div>
-              </div>
-              <div className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant">
-                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Incorrect Answers</div>
-                <div className="text-lg font-bold font-mono text-red-600 mt-1">{mockExamResultData.incorrectCount}</div>
-              </div>
-              <div className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant">
-                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Unattempted</div>
-                <div className="text-lg font-bold font-mono text-slate-600 mt-1">{mockExamResultData.unattemptedCount}</div>
-              </div>
-              <div className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant">
-                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Time Taken</div>
-                <div className="text-sm font-bold font-mono text-primary mt-1">{mockExamResultData.timeTaken}</div>
-              </div>
-            </div>
-
-            {/* Subject-Wise Performance Breakdown */}
-            <div className="space-y-3">
-              <div className="font-bold text-on-surface text-sm uppercase tracking-wider">Subject-Wise Performance Breakdown</div>
-              <div className="space-y-3 bg-surface-bright p-4 rounded-xl border border-outline-variant text-xs">
-                {mockExamResultData.subjectBreakdown.map((sub, idx) => (
-                  <div key={idx} className="space-y-1">
-                    <div className="flex justify-between font-semibold">
-                      <span>{sub.subject}</span>
-                      <span className="font-mono text-emerald-600 font-bold">{sub.score} ({sub.percentage}%)</span>
-                    </div>
-                    <ProgressBar progress={sub.percentage} height="h-2" color="bg-emerald-600" />
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Bottom Actions */}
-            <div className="flex flex-col sm:flex-row justify-between gap-3 pt-4 border-t border-outline-variant">
-              <Button variant="outline" icon={LayoutDashboard} onClick={() => setCurrentView('DASHBOARD')}>
-                Return to Candidate Dashboard
-              </Button>
-              <Button variant="primary" icon={Download} onClick={() => alert("Downloading official certified scorecard PDF...")}>
-                Download Certified Scorecard PDF
-              </Button>
-            </div>
-
+            <h1 className="text-3xl font-black text-on-surface">Thank You!</h1>
+            <p className="text-base text-on-surface-variant leading-relaxed">
+              Thank you for giving the exam. Your responses have been successfully recorded and submitted.
+            </p>
+            <Button
+              variant="outline"
+              size="lg"
+              icon={LayoutDashboard}
+              onClick={() => {
+                setPreExamStep(1);
+                setCurrentView('DASHBOARD');
+              }}
+              className="mt-4 w-full"
+            >
+              Return to Dashboard
+            </Button>
           </div>
         </div>
       )}

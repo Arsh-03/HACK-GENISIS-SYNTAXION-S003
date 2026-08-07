@@ -7,6 +7,9 @@ export function QuestionPalette({
   currentQuestionNumber = 16,
   onSelectQuestion,
   questionStates = {},
+  sections = [],
+  activeSectionId = null,
+  onSelectSection = null,
   totalQuestions = 50,
   answeredCount = 44,
   markedCount = 3,
@@ -14,7 +17,7 @@ export function QuestionPalette({
   notVisitedCount = 1
 }) {
   return (
-    <aside className="w-72 bg-surface-container-lowest border-r border-outline-variant flex flex-col h-full shrink-0 shadow-sm z-10 hidden lg:flex select-none">
+    <aside className="w-80 bg-surface-container-lowest border-r border-outline-variant flex flex-col h-full shrink-0 shadow-sm z-10 hidden lg:flex select-none">
       {/* Header Info */}
       <div className="p-4 border-b border-outline-variant bg-surface-bright flex items-center justify-between">
         <div>
@@ -51,6 +54,30 @@ export function QuestionPalette({
 
       {/* Question Number Palette Grid */}
       <div className="flex-1 overflow-y-auto p-4">
+        {/* Sections Toggle */}
+        {sections && sections.length > 0 && (
+          <div className="mb-6">
+            <h3 className="text-xs font-semibold text-on-surface-variant mb-3 uppercase tracking-wider">
+              Sections
+            </h3>
+            <div className="flex flex-col gap-2">
+              {sections.map((sec) => (
+                <button
+                  key={sec.id}
+                  onClick={() => onSelectSection && onSelectSection(sec.id)}
+                  className={`px-3 py-2 text-xs font-semibold rounded-md text-left transition-colors ${
+                    activeSectionId === sec.id
+                      ? 'bg-primary text-white shadow-sm'
+                      : 'bg-surface-bright text-on-surface hover:bg-surface-container-high border border-outline-variant'
+                  }`}
+                >
+                  {sec.shortName}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div className="mb-4">
           <h3 className="text-xs font-semibold text-on-surface-variant mb-3 uppercase tracking-wider">
             Question Palette ({totalQuestions} Items)

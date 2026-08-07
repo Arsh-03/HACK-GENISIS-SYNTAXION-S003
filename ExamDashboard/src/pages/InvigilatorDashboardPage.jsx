@@ -118,7 +118,7 @@ export function InvigilatorDashboardPage() {
   };
 
   return (
-    <div className="space-y-8 pb-12">
+    <div className="flex-1 overflow-y-auto h-full p-6 md:p-8 space-y-8 pb-12 w-full">
 
       {/* ==================================================== */}
       {/* 1. CONTROL ROOM HEADER & SESSION CONTROL TOOLBAR */}
