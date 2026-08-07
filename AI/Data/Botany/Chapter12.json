@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Microsporogenesis and Pollen Grain",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The hard outer layer of a pollen grain called exine is made up of one of the most resistant organic materials known as:",
+      "options": [
+        "Sporopollenin",
+        "Cellulose and pectin",
+        "Chitin",
+        "Suberin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Anther Structure and Tapetum",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which innermost wall layer of the microsporangium nourishes the developing pollen grains and possesses dense cytoplasm with more than one nucleus?",
+      "options": [
+        "Tapetum",
+        "Endothecium",
+        "Middle layers",
+        "Epidermis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Megasporogenesis and Embryo Sac",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A typical functional angiosperm embryo sac at maturity is:",
+      "options": [
+        "8-nucleate and 7-celled",
+        "7-nucleate and 8-celled",
+        "8-nucleate and 8-celled",
+        "4-nucleate and 4-celled"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Pollination",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Transfer of pollen grains from the anther to the stigma of another flower of the same plant is called:",
+      "options": [
+        "Geitonogamy",
+        "Autogamy",
+        "Xenogamy",
+        "Cleistogamy"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Pollination Mechanisms",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Plants like Viola (common pansy), Oxalis, and Commelina produce two types of flowers: chasmogamous and cleistogamous. Cleistogamous flowers are characterized by:",
+      "options": [
+        "Remaining closed, ensuring self-pollination without dependence on pollinators",
+        "Having brightly colored petals that attract insects",
+        "Exposing anthers and stigma to cross-pollination",
+        "Producing nectar exclusively at night"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Double Fertilization",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Double fertilization in angiosperms involves two fusion events: Syngamy and Triple Fusion. Triple Fusion results in the formation of:",
+      "options": [
+        "Primary Endosperm Nucleus (PEN) which is triploid (3n)",
+        "Zygote which is diploid (2n)",
+        "Synergids which are haploid (n)",
+        "Perisperm which is diploid (2n)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Pollen-Pistil Interaction",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Special cellular thickenings present at the micropylar tip of synergids that guide the entry of pollen tube into the synergid are called:",
+      "options": [
+        "Filiform apparatus",
+        "Obturator",
+        "Caruncle",
+        "Aril"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Apomixis and Polyembryony",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Production of seeds without fertilization, mimicking sexual reproduction as seen in Asteraceae and grasses, is called:",
+      "options": [
+        "Apomixis",
+        "Parthenocarpy",
+        "Polyembryony",
+        "Amphimixis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Ovule / Megasporangium",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The point of attachment of the body of the ovule to the stalk (funicle) is called:",
+      "options": [
+        "Hilum",
+        "Micropyle",
+        "Chalaza",
+        "Integument"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Outbreeding Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Self-incompatibility is a genetic mechanism to prevent self-pollen from fertilizing ovules by inhibiting:",
+      "options": [
+        "Pollen germination or pollen tube growth in the pistil",
+        "Microspore mother cell division",
+        "Petal development",
+        "Nectar secretion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Microsporogenesis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In over 60 percent of angiosperms, pollen grains are shed at which developmental stage?",
+      "options": [
+        "2-celled stage (vegetative cell and generative cell)",
+        "3-celled stage",
+        "1-celled microspore stage",
+        "4-celled stage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Seed Structure",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Residual, persistent nucellus present in seeds of plants like Black pepper and Beet is called:",
+      "options": [
+        "Perisperm",
+        "Pericarp",
+        "Endosperm",
+        "Scutellum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "False Fruits",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In fruits like Apple, Strawberry, and Cashew, the thalamus contributes to fruit formation. Such fruits are known as:",
+      "options": [
+        "False fruits",
+        "True fruits",
+        "Parthenocarpic fruits",
+        "Aggregate fruits"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Pollen Grain Viability",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pollen grains can be stored for years in liquid nitrogen at a temperature of:",
+      "options": [
+        "-196 \u00b0C",
+        "-100 \u00b0C",
+        "-80 \u00b0C",
+        "0 \u00b0C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Outbreeding Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding outbreeding mechanisms:\nStatement I: Unisexual flowers prevent both autogamy and geitonogamy in dioecious plants (e.g., Papaya).\nStatement II: In monoecious plants (e.g., Castor, Maize), autogamy is prevented but geitonogamy can occur.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Anther Layers",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match Column-I (Anther Wall Layer) with Column-II (Function):\nColumn-I:\n(A) Epidermis and Endothecium\n(B) Middle layers\n(C) Tapetum\nColumn-II:\n(i) Nourishment of developing microspores\n(ii) Protection and dehisce of anther to release pollen\n(iii) Protection in young stages",
+      "options": [
+        "A-(ii), B-(iii), C-(i)",
+        "A-(i), B-(ii), C-(iii)",
+        "A-(iii), B-(i), C-(ii)",
+        "A-(ii), B-(i), C-(iii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Pollination",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Wind pollinated flowers usually possess a single ovule in each ovary and numerous flowers packed into an inflorescence.\nReason (R): Feathery stigmas and light, non-sticky pollen grains facilitate trapping of air-borne pollen.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Pollen Grain Morphology",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Apertures on pollen grain exine where sporopollenin is absent are called:",
+      "options": [
+        "Germ pores",
+        "Stomium",
+        "Micropyle",
+        "Chalaza"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Artificial Hybridization",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Emasculation is the removal of anthers from female parent flower bud before dehiscence. Emasculation is NOT necessary if the female parent produces:",
+      "options": [
+        "Unisexual female flowers",
+        "Bisexual flowers",
+        "Cleistogamous flowers",
+        "Chasmogamous bisexual flowers"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Hydrophily",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Vallisneria (ribbon weed), pollination occurs by water (hydrophily) when female flowers reach the surface of water by long stalks. However, in Zostera (marine seagrass):",
+      "options": [
+        "Female flowers remain submerged and ribbon-like pollen grains are released inside water",
+        "Pollination occurs by insects at water surface",
+        "Wind carries pollen grains",
+        "Pollen grains sink to bottom and decompose"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Endosperm Development",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In coconut, the liquid endosperm consists of thousands of free nuclei, whereas the surrounding white kernel represents the:",
+      "options": [
+        "Cellular endosperm",
+        "Nuclear endosperm",
+        "Fleshy pericarp",
+        "Cotyledon"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Embryo Structure",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In monocotyledonous grass embryos, the radical and root cap are enclosed in an undifferentiated sheath called:",
+      "options": [
+        "Coleorhiza",
+        "Coleoptile",
+        "Scutellum",
+        "Epiblast"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Megasporogenesis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding female gametophyte development in angiosperms:\n1. Functional megaspore undergoes three sequential mitotic nuclear divisions to form 8 nuclei.\n2. Six of eight nuclei are surrounded by cell walls and organized into cells.\n3. Egg apparatus consists of two synergids and one egg cell at the micropylar end.\n4. Three antipodals are situated at the chalazal end.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 3 only",
+        "2, 3, and 4 only",
+        "1, 2, and 4 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Parthenocarpy",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Parthenocarpic fruits develop without fertilization and are seedless. An example of a naturally parthenocarpic fruit is:",
+      "options": [
+        "Banana",
+        "Apple",
+        "Mango",
+        "Pomegranate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Microsporogenesis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Inner wall layer of pollen grain is thin, continuous, and composed of cellulose and pectin. It is called:",
+      "options": [
+        "Intine",
+        "Exine",
+        "Sporopollenin",
+        "Tapetum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Polyembryony",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Occurrence of more than one embryo in a seed, as frequently seen in Citrus and Mango species due to nucellar polyembryony, is known as:",
+      "options": [
+        "Polyembryony",
+        "Apomixis",
+        "Parthenogenesis",
+        "Apospory"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Biotic Pollination",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The tall floral inflorescence of Amorphophallus (6 feet tall) and Yucca plant provide floral rewards to insect pollinators in the form of:",
+      "options": [
+        "Safe places to lay eggs",
+        "Resins and gums only",
+        "Thick edible sepals",
+        "Pure water droplets"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Double Fertilization",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Syngamy involves fusion of one male gamete with egg cell nucleus producing diploid zygote.\nStatement II: Triple fusion involves fusion of second male gamete with two polar nuclei producing triploid PEN.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Seed Dormancy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "As the seed matures, its water content is reduced and seeds become dry, entering a state of metabolic inactivity called:",
+      "options": [
+        "Dormancy",
+        "Senescence",
+        "Germination",
+        "Parthenocarpy"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Sexual Reproduction in Flowering Plants",
+    "chapter_number": 12,
+    "topic": "Microsporangium",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A typical angiosperm anther is bilobed with each lobe having two theca (bithecous). In cross-section, the anther is:",
+      "options": [
+        "Tetragonal (four-sided) containing four microsporangia",
+        "Triangular with three microsporangia",
+        "Circular with two microsporangia",
+        "Flat with one microsporangium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:46:00.000Z"
+  }
+]

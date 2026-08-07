@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Hypothalamic Hormones",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hypothalamus produces releasing and inhibiting hormones. Somatostatin from hypothalamus functions to:",
+      "options": [
+        "Inhibit release of Growth Hormone from pituitary",
+        "Stimulate release of Growth Hormone",
+        "Stimulate thyroid gland",
+        "Promote milk secretion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Pituitary Gland Hormones",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pars distalis region of anterior pituitary produces Growth Hormone (GH), Prolactin (PRL), TSH, ACTH, LH, and FSH. Hypersecretion of GH in adults causes severe disfigurement called:",
+      "options": [
+        "Acromegaly",
+        "Gigantism",
+        "Dwarfism",
+        "Cretinism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Posterior Pituitary Hormones",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oxytocin and Vasopressin (ADH) are synthesized by hypothalamus and stored/released by:",
+      "options": [
+        "Neurohypophysis (Pars nervosa / Posterior pituitary)",
+        "Adenohypophysis",
+        "Pars intermedia",
+        "Pineal gland"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Pineal Gland - Melatonin",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Melatonin secreted by pineal gland plays a central role in regulating 24-hour (diurnal) rhythm of our body, such as sleep-wake cycle and body temperature, and also influences:",
+      "options": [
+        "Metabolism, pigmentation, menstrual cycle, and defense capability",
+        "Blood pressure exclusively",
+        "Bone growth directly",
+        "Gastric secretions"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Thyroid Gland & Disorders",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Deficiency of iodine in diet causes Hypothyroidism and enlargement of thyroid gland called Goiter. Hypothyroidism during pregnancy causes stunted growth, mental retardation, and low IQ in infant termed:",
+      "options": [
+        "Cretinism",
+        "Grave's disease",
+        "Acromegaly",
+        "Addison's disease"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Parathyroid & Calcium Regulation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Parathyroid Hormone (PTH) increases blood Ca2+ levels (hypercalcemic hormone) by stimulating bone resorption and Ca2+ reabsorption by renal tubules. Which hormone acts as its antagonist by lowering blood Ca2+?",
+      "options": [
+        "Thyrocalcitonin (TCT)",
+        "Thyroxine (T4)",
+        "Aldosterone",
+        "Cortisol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Hormones Matching",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Endocrine Gland in Column-I with its major hormone in Column-II:\nColumn-I:\n(A) Adrenal cortex\n(B) Adrenal medulla\n(C) Pancreas (Beta cells)\n(D) Thymus\nColumn-II:\n(i) Thymosins (T-lymphocyte differentiation)\n(ii) Insulin\n(iii) Adrenaline / Noradrenaline (Catecholamines)\n(iv) Aldosterone / Cortisol",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Adrenal Cortex - Glucocorticoids & Mineralocorticoids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Primary glucocorticoid in humans that regulates carbohydrate metabolism, suppresses immune response, and acts as anti-inflammatory agent is Cortisol. Primary mineralocorticoid regulating water and electrolyte balance is:",
+      "options": [
+        "Aldosterone",
+        "Androstenedione",
+        "Melatonin",
+        "Oxytocin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Disorders - Addison's & Grave's Disease",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Underproduction of hormones by adrenal cortex alters carbohydrate metabolism causing acute weakness and fatigue, a condition called Addison's disease. Exophthalmic goiter (Grave's disease) is a form of:",
+      "options": [
+        "Hyperthyroidism with protruded eyeballs",
+        "Hypothyroidism",
+        "Hypoparathyroidism",
+        "Hyperpituitarism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Pancreas - Insulin & Glucagon",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Alpha cells of Islets of Langerhans secrete Glucagon which raises blood sugar (hyperglycemic), whereas Beta cells secrete Insulin which lowers blood glucose by promoting:",
+      "options": [
+        "Glucose uptake into cells and glycogenesis",
+        "Glycogenolysis in liver",
+        "Gluconeogenesis",
+        "Breakdown of proteins"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Mechanism of Hormone Action",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Water-soluble peptide hormones (e.g., Insulin, TSH, FSH) bind to membrane-bound receptors and generate secondary messengers inside cell such as:",
+      "options": [
+        "Cyclic AMP (cAMP), $IP_3$, or $Ca^{2+}$",
+        "Steroids directly",
+        "DNA-receptor complexes",
+        "Thyroxine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Steroid Hormones Mechanism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lipid-soluble steroid hormones (e.g., Estrogen, Progesterone, Testosterone, Cortisol) interact with:",
+      "options": [
+        "Intracellular receptors inside cell nucleus to regulate gene expression",
+        "Membrane-bound receptors exclusively",
+        "Secondary messengers cAMP",
+        "Extracellular matrix"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Hormones of Heart, Kidney & GI Tract",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "JGA cells of kidney produce peptide hormone Erythropoietin which stimulates erythropoiesis (RBC formation). Atrial wall of heart secretes ANF. Gastro-intestinal mucosa secretes Gastrin, Secretin, CCK, and GIP. CCK acts on:",
+      "options": [
+        "Pancreas and Gall bladder stimulating release of pancreatic enzymes and bile juice",
+        "Stomach stimulating gastric acid",
+        "Liver stimulating glycogenolysis",
+        "Kidney tubules"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Gonadal Hormones",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Testis Leydig cells produce Androgens (Testosterone). Ovarian corpus luteum formed after ovulation secretes chiefly:",
+      "options": [
+        "Progesterone",
+        "Estrogen exclusively",
+        "LH",
+        "FSH"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Pituitary Structure",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Pituitary Gland:\nStatement I: Pituitary gland is located in a bony cavity of skull called sella turcica and attached to hypothalamus by a stalk.\nStatement II: Pars intermedia produces only one hormone called Melanocyte Stimulating Hormone (MSH).\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Thymus Gland & Immunity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Thymus gland plays a major role in development of immune system by secreting Thymosins. Thymus degenerates in old individuals resulting in:",
+      "options": [
+        "Decreased production of thymosins and weakened immune response",
+        "Increased risk of diabetes",
+        "High calcium levels in blood",
+        "Hyperthyroidism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Thyroid Hormones Function",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Thyroid hormones ($T_3$ and $T_4$) play an essential role in basal metabolic rate (BMR), RBC formation, and carbohydrate/protein/fat metabolism.\nReason (R): Thyroid gland is composed of follicles and stromal tissues, with follicular cells synthesizing tetraiodothyronine ($T_4$) and triiodothyronine ($T_3$).",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "LH & FSH Actions",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In males, LH stimulates synthesis and secretion of androgens from Leydig cells. In females, LH induces:",
+      "options": [
+        "Ovulation of fully mature Graafian follicle and maintenance of corpus luteum",
+        "Spermatogenesis",
+        "Development of mammary glands directly",
+        "Growth of ovarian follicles exclusively"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Adrenal Medulla - Catecholamines",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Adrenaline and Noradrenaline are called emergency hormones or hormones of 'Fight or Flight' because they cause:",
+      "options": [
+        "Increased alertness, pupillary dilation, piloerection (raising of hair), sweating, and increased heart rate",
+        "Decreased blood pressure and heart rate",
+        "Stomatal closure in skin",
+        "Inhibition of glycogen breakdown"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Diabetes Mellitus",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Prolonged hyperglycemia leads to a complex disorder called Diabetes Mellitus, associated with loss of glucose through urine (glycosuria) and formation of harmful breakdown products called:",
+      "options": [
+        "Ketone bodies",
+        "Uric acid crystals",
+        "Oxalates",
+        "Guanine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "GIP & Secretin",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "GI tract hormone GIP stands for Gastric Inhibitory Peptide, which functions to:",
+      "options": [
+        "Inhibit gastric secretion and motility",
+        "Stimulate HCl secretion in stomach",
+        "Promote bile release",
+        "Increase heart rate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Prolactin & Oxytocin",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Prolactin regulates growth of mammary glands and milk production. Oxytocin acts on smooth muscles of body and stimulates:",
+      "options": [
+        "Vigorous contraction of uterus during childbirth and milk ejection from mammary glands",
+        "Spermatogenesis in testes",
+        "Water reabsorption in kidney DCT",
+        "Growth of long bones"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Types of Hormones Chemistry",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Chemical nature of Hormones:\n1. Peptide/Protein hormones: Insulin, Glucagon, Pituitary hormones, Hypothalamic hormones.\n2. Steroids: Cortisol, Testosterone, Estradiol, Progesterone.\n3. Iodothyronines: Thyroid hormones ($T_3$, $T_4$).\n4. Amino-acid derivatives: Adrenaline, Noradrenaline, Melatonin.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Vasopressin / ADH",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Vasopressin is also called Anti-Diuretic Hormone (ADH) because it acts on kidney DCT/CD to stimulate reabsorption of water, thereby preventing:",
+      "options": [
+        "Diuresis (loss of water in urine)",
+        "Polyphagia",
+        "Glycosuria",
+        "Acromegaly"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Adrenal Cortex Layers",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Adrenal cortex consists of three layers. From outer to inner, the correct sequence is:",
+      "options": [
+        "Zona glomerulosa \u2192 Zona fasciculata \u2192 Zona reticularis",
+        "Zona reticularis \u2192 Zona fasciculata \u2192 Zona glomerulosa",
+        "Zona fasciculata \u2192 Zona glomerulosa \u2192 Zona reticularis",
+        "Zona glomerulosa \u2192 Zona reticularis \u2192 Zona fasciculata"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Atrial Natriuretic Factor (ANF)",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When blood pressure increases, ANF is secreted from atrial wall of heart. ANF causes dilation of blood vessels, which:",
+      "options": [
+        "Decreases blood pressure",
+        "Increases blood pressure",
+        "Increases aldosterone secretion",
+        "Stimulates renin release"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "MSH Function",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Melanocyte Stimulating Hormone (MSH) acts on melanocytes (melanin containing cells) and regulates:",
+      "options": [
+        "Pigmentation of skin",
+        "Sleep-wake cycle",
+        "Basal metabolic rate",
+        "Blood Ca2+ level"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Portal Circulation in Pituitary",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Hypothalamic hormones reach anterior pituitary through a hypophyseal portal circulatory system.\nStatement II: Posterior pituitary is under direct neural regulation of hypothalamus.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Estrogen Functions",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Estrogen is synthesized and secreted mainly by growing ovarian follicles. Functions of estrogen include:",
+      "options": [
+        "Development of female secondary sex organs, high pitch voice, and female sexual behavior",
+        "Maintenance of pregnancy exclusively",
+        "Stimulation of erythropoiesis in bone marrow",
+        "Increasing blood Ca2+ levels"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Chemical Coordination and Integration",
+    "chapter_number": 8,
+    "topic": "Endocrine Glands Definition",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hormones are non-nutrient chemicals that act as intercellular messengers and are produced in:",
+      "options": [
+        "Trace amounts",
+        "Large quantities",
+        "Milligram amounts per minute",
+        "Continuous stream"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:03:00.000Z"
+  }
+]

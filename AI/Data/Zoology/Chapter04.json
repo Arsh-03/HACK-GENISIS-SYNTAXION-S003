@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Blood Composition - Plasma",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Plasma constitutes about 55 percent of blood. Major plasma proteins include Fibrinogen, Globulins, and Albumins. Albumin primarily functions in:",
+      "options": [
+        "Osmotic balance / Osmoregulation",
+        "Blood clotting",
+        "Defense mechanisms (antibodies)",
+        "Oxygen transport"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Formed Elements - WBCs",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which Leukocytes (WBCs) are most abundant (60-65% of total WBCs) and act as phagocytic cells destroying foreign organisms?",
+      "options": [
+        "Neutrophils",
+        "Basophils",
+        "Eosinophils",
+        "Monocytes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Formed Elements - Basophils & Eosinophils",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Basophils secrete histamine, serotonin, and heparin and are involved in inflammatory reactions. Eosinophils (2-3%) function in:",
+      "options": [
+        "Resisting infections and associated with allergic reactions",
+        "Phagocytosis exclusively",
+        "Antibody production",
+        "Blood clotting"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Blood Groups - Rh Incompatibility",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Erythroblastosis fetalis occurs due to Rh incompatibility when an Rh-negative mother carries an Rh-positive fetus. This condition can be prevented by administering to the mother immediately after delivery:",
+      "options": [
+        "Anti-Rh antibodies (RhIG / RhoGAM)",
+        "Rh antigens",
+        "Histamine",
+        "Fibrinogen"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Coagulation of Blood",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Enzyme complex thrombokinase converts inactive prothrombin into active thrombin in presence of calcium ions ($Ca^{2+}$). Thrombin then converts inactive soluble fibrinogen into insoluble threads of:",
+      "options": [
+        "Fibrin",
+        "Prothrombin",
+        "Thromboplastin",
+        "Globulin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Cardiac Cycle",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During a cardiac cycle lasting 0.8 seconds, each ventricle pumps out approximately 70 mL of blood called Stroke Volume. Cardiac Output equals Stroke Volume x Heart Rate, which is approximately:",
+      "options": [
+        "5000 mL (5 Liters) per minute",
+        "1000 mL per minute",
+        "2500 mL per minute",
+        "7000 mL per minute"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Heart Sounds & ECG",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the ECG Wave / Heart Sound in Column-I with its cause in Column-II:\nColumn-I:\n(A) First heart sound (Lubb)\n(B) Second heart sound (Dubb)\n(C) P-wave on ECG\n(D) QRS-complex on ECG\nColumn-II:\n(i) Depolarization of ventricles (Ventricular contraction)\n(ii) Depolarization of atria (Atrial contraction)\n(iii) Closure of semilunar valves\n(iv) Closure of tricuspid and bicuspid (mitral) valves",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Nodal Tissue",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sino-atrial node (SAN) generates maximum action potentials (70-75/min) and initiates cardiac contraction. Hence SAN is called the:",
+      "options": [
+        "Pacemaker of heart",
+        "Pace setter",
+        "Bundle of His",
+        "AV node"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Double Circulation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hepatic portal system carries blood from digestive tract to liver before delivering it to systemic circulation. Pulmonary circulation route carries blood from:",
+      "options": [
+        "Right ventricle \u2192 Pulmonary artery \u2192 Lungs \u2192 Pulmonary veins \u2192 Left atrium",
+        "Left ventricle \u2192 Aorta \u2192 Tissues \u2192 Vena cava \u2192 Right atrium",
+        "Right atrium \u2192 Lungs \u2192 Left ventricle",
+        "Left atrium \u2192 Pulmonary artery \u2192 Lungs"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Disorders of Circulatory System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Aterosclerosis (Coronary Artery Disease - CAD) is caused by deposits of calcium, fat, cholesterol, and fibrous tissues in arteries supplying heart muscle, making the lumen:",
+      "options": [
+        "Narrower",
+        "Wider",
+        "Ruptured",
+        "Elastic"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Disorders - Angina Pectoris",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Angina (Angina Pectoris) presents as acute chest pain when:",
+      "options": [
+        "No enough oxygen reaches heart muscle",
+        "Heart stops beating suddenly",
+        "Blood pressure drops below 60/40",
+        "Lungs collapse"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Formed Elements - Platelets",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Platelets (Thrombocytes) are cell fragments produced from special giant cells in bone marrow called:",
+      "options": [
+        "Megakaryocytes",
+        "Erythroblasts",
+        "Monocytes",
+        "Lymphoblasts"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Regulation of Cardiac Activity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sympathetic neural signals (ANS) increase heart rate and strength of ventricular contraction via neurotransmitter Noradrenaline. Parasympathetic neural signals (vagus nerve):",
+      "options": [
+        "Decrease heart rate and speed of conduction of action potential",
+        "Increase heart rate and cardiac output",
+        "Have no effect on SAN",
+        "Increase blood pressure"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Lymph / Tissue Fluid",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Interstatial fluid or Tissue fluid has same mineral distribution as plasma. When it enters lymphatic vessels, it is called Lymph, which is a colorless fluid containing specialized:",
+      "options": [
+        "Lymphocytes responsible for immune responses",
+        "RBCs exclusively",
+        "Platelets and fibrinogen",
+        "Hemoglobin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "ECG Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Electrocardiogram (ECG):\nStatement I: T-wave represents return of ventricles from excited to normal state (repolarization).\nStatement II: End of T-wave marks the end of systole.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Structure of Blood Vessels",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Wall of an artery and vein consists of three layers: Tunica intima, Tunica media, and Tunica externa. Tunica media is comparatively much thinner in:",
+      "options": [
+        "Veins",
+        "Arteries",
+        "Aorta",
+        "Arterioles"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Hypertension",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): High blood pressure (Hypertension) refers to blood pressure higher than normal 120/80 mm Hg, i.e., 140/90 mm Hg or higher.\nReason (R): Sustained hypertension leads to heart diseases and affects vital organs like brain and kidney.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Heart Valves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bicuspid (Mitral) valve guards the opening between left atrium and left ventricle. Tricuspid valve guards opening between:",
+      "options": [
+        "Right atrium and Right ventricle",
+        "Left atrium and Right ventricle",
+        "Right ventricle and Pulmonary artery",
+        "Left ventricle and Aorta"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Regulation of Cardiac Function",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hormones from adrenal medulla that increase cardiac output and heart rate during emergency situations are:",
+      "options": [
+        "Adrenaline (Epinephrine) and Noradrenaline (Norepinephrine)",
+        "Thyroxine and Calcitonin",
+        "Aldosterone and Cortisol",
+        "Insulin and Glucagon"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Formed Elements - RBCs",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "RBC count in healthy adult male is 5 to 5.5 million/mm3. RBCs are biconcave and lack nucleus at maturity in most mammals. Average lifespan of RBCs is:",
+      "options": [
+        "120 days",
+        "30 days",
+        "7 days",
+        "365 days"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "ABO Blood Grouping",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Universal donor and universal recipient blood groups in ABO system are respectively:",
+      "options": [
+        "O negative and AB positive",
+        "AB positive and O negative",
+        "A positive and B negative",
+        "O positive and AB negative"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Circulatory Pathways",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Closed circulatory system where blood flows within a closed network of blood vessels is present in:",
+      "options": [
+        "Annelids and Chordates",
+        "Arthropods and Molluscs",
+        "Hemichordates and Echinoderms",
+        "Porifera and Coelenterata"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Cardiac Cycle Stages",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Cardiac Cycle:\n1. SAN generates action potential inducing Atrial Systole (increases blood flow into ventricles by 30%).\n2. AVN and Bundle of His transmit impulse to ventricular myocardium inducing Ventricular Systole.\n3. Ventricular systole increases ventricular pressure causing closure of tricuspid and bicuspid valves.\n4. Ventricular relaxation causes closure of semilunar valves preventing backflow of blood into ventricles.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Disorders - Heart Failure",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Heart failure is state of heart when it is not pumping blood effectively enough to meet needs of body. It is often called congestive heart failure because a key symptom is:",
+      "options": [
+        "Congestion of the lungs",
+        "Acute pain in arm",
+        "High blood sugar",
+        "Rupture of spleen"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Cardiomegaly / Cardiac Arrest",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cardiac Arrest differs from Heart Attack because Cardiac Arrest means:",
+      "options": [
+        "Heart stops beating completely",
+        "Heart muscle is suddenly damaged by inadequate blood supply",
+        "Blood pressure drops",
+        "Heart pumps extra blood"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Rh Factor Discovery",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Rh antigen similar to one present in Rhesus monkeys is present on surface of RBCs of approximately what percentage of humans (Rh positive)?",
+      "options": [
+        "80 percent",
+        "50 percent",
+        "20 percent",
+        "99 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "WBCs Lifespan and Count",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Total Leukocyte Count (TLC) in a healthy human ranges between:",
+      "options": [
+        "6000 - 8000 per mm3 of blood",
+        "5 million per mm3",
+        "1.5 - 3.5 lakh per mm3",
+        "1000 per mm3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Neural Control of Circulation",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Neural center that regulates cardiac function is located in medulla oblongata of brain.\nStatement II: Vascular smooth muscle constriction increases peripheral resistance and raises blood pressure.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Lymph Absorption",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fats absorbed from intestine during digestion are transported into lymph vessels called:",
+      "options": [
+        "Lacteals in intestinal villi",
+        "Haversian canals",
+        "Hepatic portal vein",
+        "Vena cava"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Body Fluids and Circulation",
+    "chapter_number": 4,
+    "topic": "Single vs Double Circulation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fishes possess a 2-chambered heart (one atrium and one ventricle) where heart pumps deoxygenated blood to gills for oxygenation. This type of circulation is termed:",
+      "options": [
+        "Single circulation",
+        "Incomplete double circulation",
+        "Double circulation",
+        "Open circulation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:59:00.000Z"
+  }
+]

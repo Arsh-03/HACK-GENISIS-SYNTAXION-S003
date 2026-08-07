@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Growth Rates",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Arithmetic growth is expressed mathematically as Lt = L0 + rt. When length is plotted against time, the shape of the graph obtained is:",
+      "options": [
+        "Linear / Straight line",
+        "Sigmoid / S-curve",
+        "Hyperbolic",
+        "Parabolic"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Growth Rates",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Geometric growth is represented mathematically as W1 = W0 * e^(rt). In this exponential equation, 'e' represents:",
+      "options": [
+        "Base of natural logarithms",
+        "Efficiency index",
+        "Final size",
+        "Relative growth rate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Auxins",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which plant hormone was first isolated from human urine and is synthetic derivative 2,4-D widely used as a selective herbicide to kill dicotyledonous weeds?",
+      "options": [
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin",
+        "Abscisic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Gibberellins",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "'Foolish seedling' (bakanae) disease of rice seedlings was discovered to be caused by a fungal pathogen Gibberella fujikuroi by:",
+      "options": [
+        "E. Kurosawa",
+        "F.W. Went",
+        "Skoog and Miller",
+        "Cousins"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Cytokinins",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Kinetin, a modified form of adenine (purine derivative), was discovered from autoclaved herring sperm DNA by:",
+      "options": [
+        "Miller, Skoog and co-workers",
+        "Charles Darwin",
+        "H.H. Cousins",
+        "F. Addicott"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Ethylene",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which plant growth regulator is gaseous in nature and promotes horizontal growth of seedlings, swelling of the axis, and apical hook formation in dicot seedlings?",
+      "options": [
+        "Ethylene",
+        "Abscisic acid",
+        "Gibberellic acid",
+        "Indole-3-acetic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - ABA",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Abscisic acid (ABA) is widely known as the stress hormone because it:",
+      "options": [
+        "Stimulates closure of stomata in epidermis during water stress",
+        "Promotes cell division in vascular cambium",
+        "Induces bolting in rosette plants",
+        "Breaks seed dormancy and promotes sprouting"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plasticity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Plants follow different pathways in response to environment or phases of life to form different kinds of structures. This ability is termed Plasticity. Heterophylly due to environment is seen in:",
+      "options": [
+        "Buttercup (Ranunculus)",
+        "Cotton",
+        "Coriander",
+        "Larkspur"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Phases of Growth",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The period of growth is generally divided into three phases. From root/shoot apex moving backwards, the correct sequence of phases is:",
+      "options": [
+        "Meristematic phase \u2192 Elongation phase \u2192 Maturation phase",
+        "Maturation phase \u2192 Elongation phase \u2192 Meristematic phase",
+        "Elongation phase \u2192 Meristematic phase \u2192 Maturation phase",
+        "Meristematic phase \u2192 Maturation phase \u2192 Elongation phase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Gibberellins",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bolting, the internodal elongation just prior to flowering in rosette plants like beet and cabbage, is induced by treatment with:",
+      "options": [
+        "Gibberellins",
+        "Auxins",
+        "Cytokinins",
+        "Ethylene"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Ethylene",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The most widely used compound as a source of ethylene in agricultural practice to hasten fruit ripening in tomatoes and apples is:",
+      "options": [
+        "Ethephon",
+        "Zeatin",
+        "Kinetin",
+        "NAA"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Differentiation, Dedifferentiation, Redifferentiation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The loss of capacity to divide in fully differentiated parenchyma cells that regain the capacity to divide under certain conditions (e.g., formation of interfascicular cambium) is called:",
+      "options": [
+        "Dedifferentiation",
+        "Differentiation",
+        "Redifferentiation",
+        "Senescence"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Vernalization",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Vernalization refers specifically to the promotion of flowering by a period of:",
+      "options": [
+        "Low temperature treatment",
+        "High temperature treatment",
+        "Long photoperiod exposure",
+        "Short dark period exposure"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Auxins",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Apical dominance, the phenomenon where growing apical bud inhibits growth of lateral (axillary) buds, is caused by:",
+      "options": [
+        "Auxins",
+        "Gibberellins",
+        "Cytokinins",
+        "Abscisic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Auxins & Cytokinins",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding PGR interactions in tissue culture:\nStatement I: High Auxin to Cytokinin ratio induces root differentiation from callus.\nStatement II: High Cytokinin to Auxin ratio induces shoot differentiation from callus.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the PGR in Column-I with its chemical derivative nature in Column-II:\nColumn-I:\n(A) IAA / IBA\n(B) GA3\n(C) Kinetin / Zeatin\n(D) ABA\nColumn-II:\n(i) Carotenoid derivative\n(ii) Adenine (Purine) derivative\n(iii) Terpenes\n(iv) Indole compounds",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(ii), C-(iii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - ABA",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Abscisic acid (ABA) acts as a general plant growth inhibitor and antagonist to Gibberellins (GAs).\nReason (R): ABA inhibits seed germination, promotes seed dormancy, and causes stomatal closure during water deficit.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Photoperiodism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The site of perception of light/dark duration for photoperiodism in plants is the:",
+      "options": [
+        "Leaves",
+        "Shoot apex",
+        "Floral buds",
+        "Root tips"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Cytokinins",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cytokinins delay leaf senescence by promoting nutrient mobilization, a phenomenon known as:",
+      "options": [
+        "Richmond-Lang effect",
+        "Bakanae effect",
+        "Emerson enhancement effect",
+        "Pasteur effect"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Seed Dormancy",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which chemical treatments or natural substances can overcome seed dormancy caused by impermeable seed coats or chemical inhibitors?",
+      "options": [
+        "Gibberellic acid and Nitrates",
+        "Abscisic acid and Paraffin",
+        "Ethylene and Malonate",
+        "Colchicine and IAA"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Ethylene",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ethylene is highly effective in promoting female flowers in cucumbers, thereby increasing crop yield. It also breaks seed and bud dormancy in:",
+      "options": [
+        "Peanut seeds and Potato tubers",
+        "Wheat grains and Maize seeds",
+        "Sugarcane setts",
+        "Tea plantations"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Gibberellins",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Spraying sugarcane crops with gibberellins increases the length of the stem, increasing yield by up to:",
+      "options": [
+        "20 tonnes per acre",
+        "50 tonnes per acre",
+        "5 tonnes per acre",
+        "100 tonnes per acre"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Photoperiodism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Photoperiodism:\n1. Long day plants require exposure to light for a period exceeding critical photoperiod to flower.\n2. Short day plants require exposure to light for a period less than critical photoperiod.\n3. Day-neutral plants show no correlation between exposure to light duration and induction of flowering response.\n4. Flowering hormone 'Florigen' migrates from leaves to shoot apices for inducing flowering.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Growth Measurement",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Measurement of growth in plants can be expressed as increase in fresh/dry weight, volume, or surface area. Increase in surface area is particularly used to measure growth in:",
+      "options": [
+        "Dorsiventral leaves",
+        "Pollen tubes",
+        "Root apical meristems",
+        "Watermelon cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Auxins",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which natural auxin is synthesized in plants from the amino acid tryptophan?",
+      "options": [
+        "Indole-3-acetic acid (IAA)",
+        "Naphthalene acetic acid (NAA)",
+        "2,4-dichlorophenoxyacetic acid (2,4-D)",
+        "Indole butyric acid (IBA)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Vernalization",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Biennial plants like sugarbeet, cabbages, and carrots undergo vegetative growth in first season and flower in second season. Subjecting biennial plants to cold treatment induces:",
+      "options": [
+        "Early flowering in the same season",
+        "Abscission of leaves",
+        "Seed dormancy",
+        "Stomatal closure"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Growth Rates",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A sigmoid growth curve is characteristic of living organisms growing in a natural environment. The three phases of sigmoid curve in order are:",
+      "options": [
+        "Lag phase \u2192 Log (exponential) phase \u2192 Stationary phase",
+        "Log phase \u2192 Lag phase \u2192 Stationary phase",
+        "Stationary phase \u2192 Log phase \u2192 Lag phase",
+        "Lag phase \u2192 Stationary phase \u2192 Log phase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Development",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Development is considered as the sum of growth and differentiation.\nStatement II: Intrinsic factors controlling plant growth and development include genetic factors and PGRs.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plant Growth Regulators - Auxins",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Removal of shoot tips (decapitation) is widely practiced in tea plantations and hedge-making because it:",
+      "options": [
+        "Overcomes apical dominance allowing lateral buds to grow into dense branches",
+        "Prevents leaf fall and fruit drop",
+        "Accelerates abscission of mature leaves",
+        "Induces parthenocarpy in fruits"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Plant Growth and Development",
+    "chapter_number": 11,
+    "topic": "Plasticity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Heterophylly in cotton, coriander, and larkspur represents structural differences in leaves during different:",
+      "options": [
+        "Phases of life (juvenile vs mature phase)",
+        "Altitudes",
+        "Photoperiod exposures",
+        "Soil pH conditions"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:45:00.000Z"
+  }
+]

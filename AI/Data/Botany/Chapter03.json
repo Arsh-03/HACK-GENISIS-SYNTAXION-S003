@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Algae",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An example of colonial alga is:",
+      "options": [
+        "Volvox",
+        "Ulothrix",
+        "Spirogyra",
+        "Chlamydomonas"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Algae",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Floridean starch has a structure similar to:",
+      "options": [
+        "Amylopectin and glycogen",
+        "Mannitol and algin",
+        "Laminarin and cellulose",
+        "Starch and cellulose"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Bryophytes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bryophytes are called amphibians of the plant kingdom because:",
+      "options": [
+        "They live in water exclusively",
+        "They live in soil but depend on water for sexual reproduction",
+        "They lack vascular tissues",
+        "They are found only in aquatic environments during summer"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Pteridophytes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Genera like Selaginella and Salvinia produce two kinds of spores. Such plants are known as:",
+      "options": [
+        "Homosporous",
+        "Heterosporous",
+        "Isogamous",
+        "Anisogamous"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Gymnosperms",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Coralloid roots of Cycas are associated with nitrogen-fixing:",
+      "options": [
+        "Cyanobacteria",
+        "Arbuscular mycorrhizae",
+        "Rhizobium",
+        "Methanogens"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Bryophytes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Peat obtained from Sphagnum is used as fuel and packing material for trans-shipment of living material because of its:",
+      "options": [
+        "High water holding capacity",
+        "Presence of vascular bundles",
+        "Parasitic nature",
+        "High concentration of lipid content"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Algae",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match Column-I (Algae class) with Column-II (Major photosynthetic pigments):\nColumn-I:\n(A) Chlorophyceae\n(B) Phaeophyceae\n(C) Rhodophyceae\nColumn-II:\n(i) Chl a, d and r-phycoerythrin\n(ii) Chl a, b\n(iii) Chl a, c and Fucoxanthin",
+      "options": [
+        "A-(ii), B-(iii), C-(i)",
+        "A-(iii), B-(ii), C-(i)",
+        "A-(i), B-(iii), C-(ii)",
+        "A-(ii), B-(i), C-(iii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Gymnosperms",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In gymnosperms, the ovules are not enclosed by any ovary wall and remain exposed both before and after fertilization. Therefore, seeds produced are:",
+      "options": [
+        "Enclosed in fruits",
+        "Naked",
+        "Wrapped in perisperm",
+        "Contained inside a capsule"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Pteridophytes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The gametophyte of pteridophytes is a free-living, inconspicuous, multicellular, thalloid structure known as:",
+      "options": [
+        "Prothallus",
+        "Protonema",
+        "Sorus",
+        "Archegonium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Algae",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Agar-agar, one of the commercial products used to grow microbes and in ice-creams, is obtained from:",
+      "options": [
+        "Gelidium and Gracilaria",
+        "Chlorella and Spirulina",
+        "Laminaria and Sargassum",
+        "Porphyra and Ectocarpus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Bryophytes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In mosses, the predominant stage of the gametophyte is the leafy stage which develops from the primary protonema as a:",
+      "options": [
+        "Lateral bud",
+        "Apical spore",
+        "Rhizoid",
+        "Sporophyll"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Gymnosperms",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pinus roots have a fungal association forming a mycorrhiza. Pinus seeds cannot germinate and establish without the presence of mycorrhizae because it is an:",
+      "options": [
+        "Obligate association",
+        "Facultative association",
+        "Aposporic association",
+        "Epiphytic association"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Pteridophytes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The event precursor to seed habit considered an important step in evolution was first seen in:",
+      "options": [
+        "Bryophytes",
+        "Pteridophytes",
+        "Gymnosperms",
+        "Monocotyledons"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Classification Systems",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Natural classification systems for flowering plants were given by:",
+      "options": [
+        "Carolus Linnaeus",
+        "George Bentham and Joseph Dalton Hooker",
+        "R.H. Whittaker",
+        "Aristotle"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Bryophytes",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: The sporophyte in mosses is more elaborate than that in liverworts.\nStatement II: Mosses possess an elaborate mechanism of spore dispersal involving peristome teeth.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Pteridophytes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the class of Pteridophytes in Column-I with its representative example in Column-II:\nColumn-I:\n(A) Psilopsida\n(B) Lycopsida\n(C) Sphenopsida\n(D) Pteropsida\nColumn-II:\n(i) Equisetum\n(ii) Psilotum\n(iii) Adiantum\n(iv) Selaginella",
+      "options": [
+        "A-(ii), B-(iv), C-(i), D-(iii)",
+        "A-(ii), B-(i), C-(iv), D-(iii)",
+        "A-(iv), B-(ii), C-(i), D-(iii)",
+        "A-(i), B-(iv), C-(ii), D-(iii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Algae",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Hydrocolloids are water-holding substances produced by certain marine brown and red algae.\nReason (R): Algin is produced by red algae while carrageen is produced by brown algae.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Plant Life Cycles",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which alga exhibits a diplontic life cycle pattern?",
+      "options": [
+        "Fucus",
+        "Volvox",
+        "Spirogyra",
+        "Chlamydomonas"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Algae",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Flagellar number and position of insertion in Phaeophyceae (Brown algae) are:",
+      "options": [
+        "2, unequal, lateral",
+        "2-8, equal, apical",
+        "Absent",
+        "2, equal, apical"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Bryophytes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Gemmae are green, multicellular, asexual buds produced in liverworts within gemma cups situated on the thallus. An example of a liverwort producing gemmae is:",
+      "options": [
+        "Marchantia",
+        "Funaria",
+        "Sphagnum",
+        "Polytrichum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Gymnosperms",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The giant redwood tree Sequoia is a/an:",
+      "options": [
+        "Gymnosperm",
+        "Angiosperm",
+        "Pteridophyte",
+        "Bryophyte"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Classification Systems",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Taxonomy based on chemical constituents of the plant to resolve confusion in classification is called:",
+      "options": [
+        "Chemotaxonomy",
+        "Cytotaxonomy",
+        "Numerical taxonomy",
+        "Alpha taxonomy"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Pteridophytes",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Pteridophytes:\n1. The main plant body is a sporophyte which is differentiated into true root, stem, and leaves.\n2. In microphyllous pteridophytes, leaves are small as in Selaginella.\n3. Sporangia produce spores by mitosis in spore mother cells.\n4. Prothallus requires cool, damp, shady places to grow.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, and 4",
+        "1, 2, and 3",
+        "2, 3, and 4",
+        "1 and 4 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Gymnosperms",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following statements about Gymnosperms is INCORRECT?",
+      "options": [
+        "Female gametophyte is retained within megasporangium.",
+        "They are homosporous producing only one type of spore.",
+        "Pollen tube carries male gametes towards archegonia.",
+        "Antheridia are absent."
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Algae",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pyrenoids present in the chloroplasts of green algae store food as:",
+      "options": [
+        "Protein surrounded by starch",
+        "Starch surrounded by protein",
+        "Pure lipid droplets",
+        "Glycogen and oil droplets"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Bryophytes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The main plant body of a bryophyte is haploid and produces gametes, hence it is called a gametophyte. The sex organs in bryophytes are:",
+      "options": [
+        "Unicellular and unjacketed",
+        "Multicellular and jacketed",
+        "Multicellular and unjacketed",
+        "Unicellular and jacketed"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Algae",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which alga is rich in proteins and used as a food supplement by space travellers?",
+      "options": [
+        "Chlorella",
+        "Sargassum",
+        "Ectocarpus",
+        "Polysiphonia"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Plant Life Cycles",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding algae life cycles:\nStatement I: Ectocarpus and Polysiphonia show haplo-diplontic life cycle pattern.\nStatement II: Fucus exhibits haplo-diplontic life cycle pattern.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Statement I is true but Statement II is false",
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Pteridophytes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In pteridophytes, sporangia are borne on leaf-like appendages called:",
+      "options": [
+        "Sporophylls",
+        "Prothallus",
+        "Strobili",
+        "Rhizoids"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Plant Kingdom",
+    "chapter_number": 3,
+    "topic": "Gymnosperms",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Unbranched stem is a feature of which gymnosperm?",
+      "options": [
+        "Cycas",
+        "Pinus",
+        "Cedrus",
+        "Ginkgo"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:36:00.000Z"
+  }
+]

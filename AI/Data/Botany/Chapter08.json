@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cell Cycle Phases",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "DNA replication and centriole duplication take place during which phase of the cell cycle?",
+      "options": [
+        "S phase",
+        "G1 phase",
+        "G2 phase",
+        "M phase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Mitosis - Stages",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Morphology and shape of chromosomes can be most easily studied under a microscope during:",
+      "options": [
+        "Metaphase",
+        "Prophase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Prophase I",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Crossing over between non-sister chromatids of homologous chromosomes is mediated by enzyme recombinase during:",
+      "options": [
+        "Pachytene",
+        "Zygotene",
+        "Diplotene",
+        "Leptotene"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Prophase I",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Dissolution of the synaptonemal complex occurs during which stage of prophase I?",
+      "options": [
+        "Diplotene",
+        "Zygotene",
+        "Pachytene",
+        "Diakinesis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Prophase I",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the stages of Prophase I in Column-I with their key features in Column-II:\nColumn-I:\n(A) Leptotene\n(B) Zygotene\n(C) Pachytene\n(D) Diakinesis\nColumn-II:\n(i) Terminalisation of chiasmata\n(ii) Crossing over\n(iii) Synapsis of homologous chromosomes\n(iv) Chromosomes become gradually visible under light microscope",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(ii), D-(i)",
+        "A-(iv), B-(ii), C-(iii), D-(i)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Mitosis - Stages",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Splitting of centromeres and separation of daughter chromatids to opposite poles occur during:",
+      "options": [
+        "Anaphase of mitosis and Anaphase II of meiosis",
+        "Anaphase I of meiosis",
+        "Metaphase of mitosis",
+        "Telophase of mitosis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cell Cycle Phases",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cells in G0 phase of the cell cycle are described as:",
+      "options": [
+        "Metabolically active but no longer proliferate unless called on to do so",
+        "Metabolically inactive and dead",
+        "Continuously dividing without entering interphase",
+        "Arrested permanently at S phase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cytokinesis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In plant cells, cytokinesis occurs by cell-plate formation starting from the center and growing outward. The precursor of cell-plate is called:",
+      "options": [
+        "Phragmoplast",
+        "Tonoplast",
+        "Cleavage furrow",
+        "Middle lamella directly"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cell Cycle Phases",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If the initial amount of DNA is denoted as 2C, what will be the amount of DNA per cell at G1, S, and G2 phases respectively?",
+      "options": [
+        "G1 = 2C, S = 4C, G2 = 4C",
+        "G1 = 2C, S = 2C, G2 = 4C",
+        "G1 = 4C, S = 4C, G2 = 2C",
+        "G1 = 2C, S = 4C, G2 = 2C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Stages",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bivalent or tetrad formation is a characteristic feature seen during which phase of meiosis?",
+      "options": [
+        "Zygotene",
+        "Pachytene",
+        "Diplotene",
+        "Leptotene"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Mitosis - Stages",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which stage of mitosis is marked by the complete disintegration of the nuclear envelope?",
+      "options": [
+        "Beginning of Metaphase",
+        "Late Prophase",
+        "Early Anaphase",
+        "Telophase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Mitosis - Stages",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Chromosomes cluster at opposite spindle poles and their identity is lost as discrete elements during:",
+      "options": [
+        "Telophase",
+        "Anaphase",
+        "Metaphase",
+        "Prophase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cytokinesis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Failure of cytokinesis after telophase stage of cell division results in an increase in a whole set of chromosomes in an organism, a phenomenon known as:",
+      "options": [
+        "Polyploidy",
+        "Aneuploidy",
+        "Polyteny",
+        "Syncytium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Stages",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "X-shaped structures called chiasmata are first clearly visible in:",
+      "options": [
+        "Diplotene",
+        "Pachytene",
+        "Diakinesis",
+        "Zygotene"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cell Cycle Phases",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: During S phase of interphase, the amount of DNA per cell doubles while chromosome number remains the same.\nStatement II: In G2 phase, proteins are synthesized in preparation for mitosis while cell growth continues.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Stages",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Homologous chromosomes separate, while sister chromatids remain associated at their centromeres during:",
+      "options": [
+        "Anaphase I of meiosis",
+        "Anaphase II of meiosis",
+        "Anaphase of mitosis",
+        "Metaphase I of meiosis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis vs Mitosis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Meiosis produces haploid daughter cells and introduces genetic variations.\nReason (R): Exchange of genetic material between non-sister chromatids occurs via crossing over during pachytene.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cell Cycle Duration",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a human cell dividing once every 24 hours, interphase lasts for approximately:",
+      "options": [
+        "More than 95% of the total duration (about 23 hours)",
+        "50% of the total duration (about 12 hours)",
+        "Only 1 hour",
+        "75% of the total duration (about 18 hours)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cytokinesis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Karyokinesis not followed by cytokinesis results in a multinucleate condition called syncytium. An example is:",
+      "options": [
+        "Liquid endosperm in coconut",
+        "Aleurone layer of maize",
+        "Palisade tissue of leaf",
+        "Companion cells in phloem"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Stages",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The stage between two meiotic divisions (Meiosis I and Meiosis II) is called interkinesis. Which feature is TRUE for interkinesis?",
+      "options": [
+        "It is generally short-lived and there is no DNA replication",
+        "S-phase occurs with complete DNA replication",
+        "Chromosomes remain fully condensed as in metaphase",
+        "Centrioles do not replicate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Mitosis - Stages",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The plane of alignment of chromosomes at metaphase is referred to as the:",
+      "options": [
+        "Metaphase plate",
+        "Equatorial ring",
+        "Centrosomal plane",
+        "Cleavage plane"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Mitosis - Significance",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mitosis is also called equational division because:",
+      "options": [
+        "The number of chromosomes in parent and daughter cells remains identical",
+        "The number of chromosomes is halved",
+        "Crossing over produces equal recombinants",
+        "Four haploid cells are formed"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Stages",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Meiosis II:\n1. Meiosis II is initiated immediately after cytokinesis before chromosomes fully elongate.\n2. In contrast to Meiosis I, Meiosis II resembles a normal mitosis.\n3. Nuclear membrane disappears by the end of Prophase II.\n4. Chromatids separate at Anaphase II due to splitting of centromeres.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "2, 3, and 4 only",
+        "1, 3, and 4 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cell Cycle Phases",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A yeast cell divides once every:",
+      "options": [
+        "90 minutes",
+        "24 hours",
+        "20 minutes",
+        "12 hours"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Mitosis - Stages",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nucleolus, Golgi complex, and Endoplasmic Reticulum reform during which mitotic stage?",
+      "options": [
+        "Telophase",
+        "Anaphase",
+        "Metaphase",
+        "Prophase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Stages",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In oocytes of some vertebrates, which stage of meiotic prophase I can last for months or years?",
+      "options": [
+        "Diplotene",
+        "Pachytene",
+        "Zygotene",
+        "Diakinesis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Cell Cycle Phases",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The phase between two successive M phases is called:",
+      "options": [
+        "Interphase",
+        "Karyokinesis",
+        "Cytokinesis",
+        "Anaphase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Stages",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Bivalents align on the equatorial plate during Metaphase I of meiosis.\nStatement II: Microtubules from opposite poles attach to kinetochores of homologous chromosomes during Metaphase I.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Mitosis - Significance",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Continuous growth of plants throughout their life is due to mitotic divisions in:",
+      "options": [
+        "Meristematic tissues (apical and lateral cambium)",
+        "Permanent parenchymatous tissues",
+        "Gametic cells exclusively",
+        "Sieve tube elements"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Cell Cycle and Cell Division",
+    "chapter_number": 8,
+    "topic": "Meiosis - Significance",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Meiosis ensures the maintenance of a constant chromosome number across generations in sexually reproducing organisms by:",
+      "options": [
+        "Reducing the chromosome number by half in gametes",
+        "Doubling the DNA content prior to fertilization",
+        "Dividing cells without nuclear membrane breakdown",
+        "Forming diploid spores directly"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:41:00.000Z"
+  }
+]

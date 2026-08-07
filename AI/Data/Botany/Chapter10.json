@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Glycolysis (EMP Pathway)",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The scheme of glycolysis was given by Gustav Embden, Otto Meyerhof, and J. Parnas (EMP pathway). In anaerobic organisms, it is the only process in respiration. Glycolysis takes place in the:",
+      "options": [
+        "Cytoplasm",
+        "Mitochondrial matrix",
+        "Inner mitochondrial membrane",
+        "Chloroplast stroma"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Glycolysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which enzyme catalyzes the conversion of glucose into glucose-6-phosphate during the first step of glycolysis?",
+      "options": [
+        "Hexokinase",
+        "Phosphofructokinase",
+        "Pyruvate kinase",
+        "Aldolase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Fermentation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In alcoholic fermentation by yeast, pyruvic acid is converted into ethanol and CO2 catalyzed by the enzymes:",
+      "options": [
+        "Pyruvic acid decarboxylase and Alcohol dehydrogenase",
+        "Lactate dehydrogenase and Hexokinase",
+        "Pyruvate dehydrogenase and Citrate synthase",
+        "Malate dehydrogenase and Fumarase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Link Reaction",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Conversion of pyruvate into Acetyl CoA in the mitochondrial matrix is catalyzed by pyruvate dehydrogenase complex. This reaction requires cofactors including:",
+      "options": [
+        "$Mg^{2+}$, NAD+, $CoA$, Thiamine pyrophosphate (TPP)",
+        "$Fe^{2+}$, FAD, NADP+",
+        "$Zn^{2+}$, ATP, Biotin",
+        "$Mn^{2+}$, Pyridoxal phosphate, FMN"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "TCA Cycle (Krebs Cycle)",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The first reaction of the Tricarboxylic Acid (TCA) cycle involves condensation of Acetyl CoA with oxaloacetic acid (OAA) and water to yield citric acid, catalyzed by:",
+      "options": [
+        "Citrate synthase",
+        "Aconitase",
+        "Isocitrate dehydrogenase",
+        "Succinic dehydrogenase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "TCA Cycle",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Substrate-level phosphorylation in Krebs cycle occurs during the conversion of:",
+      "options": [
+        "Succinyl-CoA to Succinic acid",
+        "Alpha-ketoglutaric acid to Succinyl-CoA",
+        "Citric acid to Alpha-ketoglutaric acid",
+        "Succinic acid to Fumaric acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Electron Transport System (ETS)",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the ETS Complex in Column-I with its corresponding name/components in Column-II:\nColumn-I:\n(A) Complex I\n(B) Complex II\n(C) Complex III\n(D) Complex IV\nColumn-II:\n(i) Cytochrome c oxidase (contains cytochromes a and a3, and two copper centers)\n(ii) Cytochrome bc1 complex\n(iii) Succinate dehydrogenase / $FADH_2$\n(iv) NADH dehydrogenase",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(ii), C-(iii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Respiratory Quotient (RQ)",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Respiratory Quotient (RQ) is the ratio of volume of CO2 evolved to volume of O2 consumed. What is the RQ value for fats (like tripalmitin)?",
+      "options": [
+        "0.7",
+        "1.0",
+        "0.9",
+        "More than 1 (1.33)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Glycolysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During glycolysis, how many net ATP molecules are directly synthesized per glucose molecule via substrate-level phosphorylation?",
+      "options": [
+        "2 ATP",
+        "4 ATP",
+        "36 ATP",
+        "38 ATP"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Fermentation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Yeasts poison themselves to death when the concentration of alcohol reaches about:",
+      "options": [
+        "13 percent",
+        "5 percent",
+        "25 percent",
+        "50 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Amphibolic Pathway",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Respiration is considered an amphibolic pathway because:",
+      "options": [
+        "It involves both catabolism (breakdown) and anabolism (synthesis of precursors)",
+        "It occurs in both presence and absence of light",
+        "It takes place in both cytoplasm and mitochondria",
+        "It utilizes both carbohydrates and proteins equally"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Electron Transport System",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Small mobile electron carrier protein attached to the outer surface of the inner mitochondrial membrane that transfers electrons between Complex III and IV is:",
+      "options": [
+        "Cytochrome c",
+        "Ubiquinone",
+        "Plastocyanin",
+        "Ferredoxin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Respiratory Balance Sheet",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oxidative phosphorylation of one molecule of NADH + $H^+$ and one molecule of $FADH_2$ yields how many ATP molecules respectively in ETS?",
+      "options": [
+        "3 ATP and 2 ATP",
+        "2 ATP and 3 ATP",
+        "1 ATP and 2 ATP",
+        "3 ATP and 3 ATP"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Glycolysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In glycolysis, cleavage of Fructose 1,6-bisphosphate yields two 3-carbon triose phosphates named:",
+      "options": [
+        "PGAL (Glyceraldehyde-3-phosphate) and DHAP (Dihydroxyacetone phosphate)",
+        "PGA and Pyruvic acid",
+        "PEP and OAA",
+        "Citric acid and Malic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "TCA Cycle",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Krebs cycle:\nStatement I: For each molecule of Glucose entering cellular respiration, two turns of Krebs cycle take place.\nStatement II: Each turn of Krebs cycle produces 3 NADH, 1 $FADH_2$, and 1 GTP/ATP.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Fermentation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In lactic acid fermentation by muscle cells under oxygen debt, reducing agent NADH + $H^+$ is reoxidized to NAD+ by converting pyruvate into:",
+      "options": [
+        "Lactic acid without evolution of CO2",
+        "Lactic acid with evolution of CO2",
+        "Ethanol and CO2",
+        "Acetyl CoA"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Respiratory Quotient",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Respiratory quotient (RQ) for carbohydrates is 1.0, while for organic acids like oxalic acid it is greater than 1.\nReason (R): Organic acids are rich in oxygen and require less external oxygen for complete oxidation.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Electron Transport System",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Terminal electron acceptor in the mitochondrial Electron Transport System (ETS) is:",
+      "options": [
+        "Oxygen ($O_2$)",
+        "Cytochrome a3",
+        "Ubiquinone",
+        "NAD+"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "TCA Cycle",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which enzyme of Krebs cycle is located on the inner mitochondrial membrane rather than in the matrix?",
+      "options": [
+        "Succinate dehydrogenase (Complex II)",
+        "Citrate synthase",
+        "Malate dehydrogenase",
+        "Alpha-ketoglutarate dehydrogenase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Respiratory Balance Sheet",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Net gain of ATP molecules during complete aerobic oxidation of one glucose molecule is theoretical calculated as:",
+      "options": [
+        "36 to 38 ATP",
+        "2 ATP",
+        "12 ATP",
+        "54 ATP"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Glycolysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "At which step of glycolysis is $NADH + H^+$ formed from NAD+?",
+      "options": [
+        "PGAL (Glyceraldehyde-3-phosphate) to 1,3-bisphosphoglycerate (BPGA)",
+        "Glucose-6-phosphate to Fructose-6-phosphate",
+        "3-phosphoglycerate to 2-phosphoglycerate",
+        "Phosphoenolpyruvate (PEP) to Pyruvic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Respiratory Quotient",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When proteins are used as respiratory substrates, the RQ value is approximately:",
+      "options": [
+        "0.9",
+        "1.0",
+        "0.7",
+        "Zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Amphibolic Pathway",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Respiratory Substrates:\n1. Fats are broken down into glycerol and fatty acids prior to respiration; fatty acids enter as Acetyl CoA.\n2. Glycerol enters glycolysis after conversion to PGAL/DHAP.\n3. Proteins are degraded by proteases into amino acids which enter at stages like Pyruvate, Acetyl CoA, or Krebs cycle intermediates.\n4. Carbohydrates are the preferred respiratory substrates.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 4 only",
+        "1, 2, and 3 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Fermentation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How much energy contained in glucose is released during anaerobic fermentation?",
+      "options": [
+        "Less than 7 percent",
+        "Around 45 percent",
+        "About 20 percent",
+        "More than 70 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Oxidative Phosphorylation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Complex V of ETS corresponds to ATP Synthase. The headpiece F1 of ATP Synthase is located in:",
+      "options": [
+        "Mitochondrial matrix",
+        "Intermembrane space",
+        "Thylakoid lumen",
+        "Outer mitochondrial membrane"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "TCA Cycle",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How many decarboxylation (release of CO2) steps occur in one turn of the TCA cycle?",
+      "options": [
+        "2 steps (Isocitrate \u2192 Alpha-ketoglutarate and Alpha-ketoglutarate \u2192 Succinyl-CoA)",
+        "3 steps",
+        "1 step",
+        "4 steps"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Glycolysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The end product of glycolysis under aerobic conditions is:",
+      "options": [
+        "Pyruvic acid (2 molecules)",
+        "Acetyl CoA",
+        "Lactic acid",
+        "Ethyl alcohol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Link Reaction",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Pyruvate enters mitochondrial matrix from cytoplasm for oxidative decarboxylation.\nStatement II: Two molecules of NADH + $H^+$ are produced from 2 molecules of pyruvate during the link reaction.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Glycolysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "ATP is consumed during glycolysis in which of the following reactions?",
+      "options": [
+        "Glucose \u2192 Glucose-6-phosphate AND Fructose-6-phosphate \u2192 Fructose 1,6-bisphosphate",
+        "BPGA \u2192 3-PGA",
+        "PEP \u2192 Pyruvic acid",
+        "PGAL \u2192 DHAP"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Respiration in Plants",
+    "chapter_number": 10,
+    "topic": "Respiratory Quotient",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When respiratory substrate is completely oxidized under anaerobic respiration, RQ value becomes:",
+      "options": [
+        "Infinity ($\\infty$)",
+        "Zero",
+        "One",
+        "Less than one"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:43:00.000Z"
+  }
+]

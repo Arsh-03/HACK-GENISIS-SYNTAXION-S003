@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Respiratory Volumes and Capacities",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Volume of air inspired or expired during normal respiration in a healthy human is Tidal Volume (TV), which is approximately:",
+      "options": [
+        "500 mL (6000-8000 mL per minute)",
+        "1000 mL",
+        "2500 mL",
+        "1200 mL"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Respiratory Capacities",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Functional Residual Capacity (FRC) is the volume of air remaining in lungs after a normal expiration. It equals:",
+      "options": [
+        "ERV + RV",
+        "TV + ERV",
+        "IRV + TV + ERV",
+        "VC + RV"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Mechanism of Breathing",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Inspiration occurs when intra-pulmonary pressure is less than atmospheric pressure. Inspiration is initiated by contraction of diaphragm and:",
+      "options": [
+        "External intercostal muscles",
+        "Internal intercostal muscles",
+        "Abdominal muscles",
+        "Phrenic muscles only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Partial Pressures of Gases",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Partial pressure of Oxygen (pO2) and Carbon dioxide (pCO2) in atmospheric air and alveoli in mm Hg are respectively:",
+      "options": [
+        "Atmosphere: pO2=159, pCO2=0.3; Alveoli: pO2=104, pCO2=40",
+        "Atmosphere: pO2=104, pCO2=40; Alveoli: pO2=159, pCO2=0.3",
+        "Atmosphere: pO2=40, pCO2=45; Alveoli: pO2=95, pCO2=40",
+        "Atmosphere: pO2=95, pCO2=40; Alveoli: pO2=40, pCO2=45"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Transport of Gases - Oxygen",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oxygen-hemoglobin dissociation curve is sigmoid-shaped. Shift of curve to right (facilitating O2 dissociation) occurs under conditions of:",
+      "options": [
+        "High pCO2, High H+ concentration (Low pH), High temperature, and Low pO2",
+        "High pO2, Low pCO2, Low temperature, High pH",
+        "Low pCO2 and Low temperature",
+        "High pH and High pO2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Transport of CO2",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Carbon dioxide is transported in blood in three forms. About 70 percent of CO2 is transported as bicarbonate ions ($HCO_3^-$) in plasma aided by RBC enzyme:",
+      "options": [
+        "Carbonic anhydrase",
+        "Carboxypeptidase",
+        "Hemoglobinase",
+        "Thrombokinase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Respiratory Capacities Matching",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Respiratory Volume/Capacity in Column-I with its average value in Column-II:\nColumn-I:\n(A) Tidal Volume (TV)\n(B) Inspiratory Reserve Volume (IRV)\n(C) Expiratory Reserve Volume (ERV)\n(D) Residual Volume (RV)\nColumn-II:\n(i) 1100 - 1200 mL\n(ii) 1000 - 1100 mL\n(iii) 2500 - 3000 mL\n(iv) 500 mL",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Regulation of Respiration",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pneumotaxic center that moderates functions of respiratory rhythm center and can reduce duration of inspiration is located in:",
+      "options": [
+        "Pons region of brain",
+        "Medulla oblongata",
+        "Cerebellum",
+        "Hypothalamus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Respiratory Disorders",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Emphysema is a chronic respiratory disorder in which alveolar walls are damaged leading to decreased respiratory surface area. Major cause of emphysema is:",
+      "options": [
+        "Cigarette smoking",
+        "Occupational dust exposure",
+        "Bacterial infection",
+        "Allergy to pollen"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Respiratory Disorders",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Asthma is a respiratory disease characterized by difficulty in breathing causing wheezing due to:",
+      "options": [
+        "Inflammation of bronchi and bronchioles",
+        "Infection of alveoli",
+        "Deposition of silica in lungs",
+        "Rupture of pulmonary capillaries"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Diffusion Membrane",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Diffusion membrane through which gas exchange occurs in alveoli consists of three layers: thin squamous epithelium of alveoli, basement membrane, and endothelium of alveolar capillaries. Its total thickness is:",
+      "options": [
+        "Much less than a millimeter (0.2 micrometer)",
+        "5 millimeters",
+        "1 centimeter",
+        "1 millimeter"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Transport of O2 Delivery",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Every 100 mL of oxygenated blood can deliver how much O2 to tissues under normal physiological conditions?",
+      "options": [
+        "5 mL of O2",
+        "20 mL of O2",
+        "15 mL of O2",
+        "4 mL of O2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Transport of CO2 Delivery",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Every 100 mL of deoxygenated blood delivers approximately how much CO2 to alveoli?",
+      "options": [
+        "4 mL of CO2",
+        "5 mL of CO2",
+        "10 mL of CO2",
+        "20 mL of CO2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Human Respiratory System Anatomy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Trachea divides at the level of which thoracic vertebra into right and left primary bronchi?",
+      "options": [
+        "5th thoracic vertebra",
+        "7th cervical vertebra",
+        "12th thoracic vertebra",
+        "1st lumbar vertebra"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Regulation of Respiration",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Regulation of Respiration:\nStatement I: Chemosensitive area situated adjacent to respiratory rhythm center is highly sensitive to CO2 and hydrogen ions.\nStatement II: Role of Oxygen in regulation of respiratory rhythm is quite insignificant.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Occupational Respiratory Disorders",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Silicosis and Asbestosis are occupational respiratory disorders common in stone-breaking industries leading to:",
+      "options": [
+        "Fibrosis (proliferation of fibrous tissue) and serious lung damage",
+        "Breakdown of alveolar walls",
+        "Excessive mucus in nasal cavity",
+        "Decrease in RBC count"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Exchange of Gases Factors",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): CO2 diffuses through the respiratory membrane 20-25 times faster than O2.\nReason (R): Solubility of CO2 is 20-25 times higher than that of O2 across diffusion membrane.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Transport of CO2 as Carbamino-hemoglobin",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What percentage of CO2 is carried in bound form with hemoglobin as carbamino-hemoglobin?",
+      "options": [
+        "20 - 25 percent",
+        "70 percent",
+        "7 percent in dissolved state in plasma",
+        "100 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Vital Capacity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Vital Capacity (VC) is the maximum volume of air a person can breathe in after a forced expiration. It is expressed as:",
+      "options": [
+        "ERV + TV + IRV",
+        "TV + IRV",
+        "FRC + IRV",
+        "TLC - IRV"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Trachea and Cartilaginous Rings",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Trachea, primary, secondary, and tertiary bronchi are supported by incomplete cartilaginous rings composed of:",
+      "options": [
+        "Hyaline cartilage",
+        "Fibrocartilage",
+        "Calcified cartilage",
+        "Elastic cartilage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Pleural Membrane",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lungs are enclosed by a double-layered membrane with pleural fluid between them that reduces friction on the lung surface. This membrane is the:",
+      "options": [
+        "Pleura / Pleural membrane",
+        "Pericardium",
+        "Peritoneum",
+        "Glisson's capsule"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Expiration Mechanism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Relaxation of diaphragm and intercostal muscles returns diaphragm and sternum to their normal positions, reducing thoracic volume and causing:",
+      "options": [
+        "Expiration",
+        "Inspiration",
+        "Forced inspiration",
+        "Deep breathing"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Total Lung Capacity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Lung Volumes:\n1. Total Lung Capacity (TLC) = RV + ERV + TV + IRV.\n2. Expiratory Capacity (EC) = TV + ERV.\n3. Inspiratory Capacity (IC) = TV + IRV.\n4. Residual Volume (RV) cannot be measured using simple spirometry.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "pO2 in Deoxygenated Blood",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Partial pressure of oxygen (pO2) in deoxygenated blood entering pulmonary artery is:",
+      "options": [
+        "40 mm Hg",
+        "95 mm Hg",
+        "104 mm Hg",
+        "45 mm Hg"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Respiratory Organs in Animals",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Earthworms use their moist cuticle for gas exchange (cutaneous respiration), whereas insects use a network of tubes called:",
+      "options": [
+        "Tracheal tubes",
+        "Gills",
+        "Book lungs",
+        "General body surface"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Hemoglobin Structure",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hemoglobin is a red-colored iron containing pigment. Each hemoglobin molecule can carry a maximum of how many molecules of O2?",
+      "options": [
+        "4 molecules of O2",
+        "2 molecules of O2",
+        "1 molecule of O2",
+        "6 molecules of O2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Transport of O2 in Plasma",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What percentage of O2 is transported in dissolved state through plasma?",
+      "options": [
+        "3 percent",
+        "97 percent",
+        "20 percent",
+        "50 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Bohr Effect & Haldane Effect",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: High pO2 and low pCO2 in alveoli favor binding of O2 to hemoglobin forming Oxyhemoglobin.\nStatement II: Low pO2, high pCO2, and high H+ concentration in tissues favor dissociation of O2 from Oxyhemoglobin.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Pharynx & Epiglottis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Flap of thin elastic cartilage that covers the glottis during swallowing to prevent entry of food into larynx is called:",
+      "options": [
+        "Epiglottis",
+        "Uvula",
+        "Thyroid cartilage",
+        "Cricoid cartilage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Breathing and Exchange of Gases",
+    "chapter_number": 3,
+    "topic": "Respiration Rate",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Normal breathing rate of a healthy adult human at rest is:",
+      "options": [
+        "12 - 16 times per minute",
+        "72 times per minute",
+        "20 - 25 times per minute",
+        "5 - 8 times per minute"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:58:00.000Z"
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Cell Theory and Overview",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Who proposed the generalization 'Omnis cellula-e-cellula' stating that all cells arise from pre-existing cells?",
+      "options": [
+        "Rudolf Virchow",
+        "Matthias Schleiden",
+        "Theodore Schwann",
+        "Robert Hooke"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Cell Membrane",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to the Fluid Mosaic Model proposed by Singer and Nicolson, the quasi-fluid nature of lipids enables lateral movement of:",
+      "options": [
+        "Proteins within the overall bilayer",
+        "Carbohydrates across the membrane",
+        "Water molecules exclusively",
+        "Nucleic acids through channels"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Prokaryotic Cells",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mesosomes in prokaryotes are specialized membranous structures formed by extensions of plasma membrane. They function in:",
+      "options": [
+        "Cell wall formation, DNA replication, and respiration",
+        "Protein synthesis on ribosomes",
+        "Photosynthesis in non-photosynthetic bacteria",
+        "Storage of reserve food materials"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Endomembrane System",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Smooth Endoplasmic Reticulum (SER) is the major site for the synthesis of:",
+      "options": [
+        "Lipids and steroidal hormones",
+        "Proteins and enzymes",
+        "Carbohydrates and nucleic acids",
+        "Ribosomes and nucleosomes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Plastids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Leucoplasts are colorless plastids that store nutrients. Match the leucoplast with its stored content:\n(A) Amyloplasts - (i) Proteins\n(B) Elaioplasts - (ii) Starch/Carbohydrates\n(C) Aleuroplasts - (iii) Oils and fats",
+      "options": [
+        "A-(ii), B-(iii), C-(i)",
+        "A-(i), B-(iii), C-(ii)",
+        "A-(iii), B-(ii), C-(i)",
+        "A-(ii), B-(i), C-(iii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Ribosomes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Eukaryotic and prokaryotic ribosomes are 80S and 70S respectively. What do the subunits of 80S and 70S ribosomes consist of?",
+      "options": [
+        "80S = 60S + 40S; 70S = 50S + 30S",
+        "80S = 50S + 30S; 70S = 40S + 30S",
+        "80S = 60S + 30S; 70S = 50S + 20S",
+        "80S = 50S + 50S; 70S = 40S + 40S"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Cilia and Flagella",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The core of eukaryotic cilia or flagella is called axoneme, which shows an arrangement of microtubules designated as:",
+      "options": [
+        "9 + 2 array",
+        "9 + 0 array",
+        "8 + 2 array",
+        "9 + 1 array"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Chromosomes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A chromosome with centromere situated near one end forming one extremely short and one very long arm is called:",
+      "options": [
+        "Acrocentric",
+        "Metacentric",
+        "Sub-metacentric",
+        "Telocentric"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Endomembrane System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which organelle plays a central role in packaging materials to be delivered either to intra-cellular targets or secreted outside the cell?",
+      "options": [
+        "Golgi apparatus",
+        "Lysosome",
+        "Peroxisome",
+        "Vacuole"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Cell Wall",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The middle lamella holding neighboring plant cells together is chiefly composed of:",
+      "options": [
+        "Calcium pectate",
+        "Sodium silicate",
+        "Cellulose",
+        "Lignin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Cell Wall",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cytoplasmic strands that connect the cytoplasm of neighboring plant cells through the middle lamella are called:",
+      "options": [
+        "Plasmodesmata",
+        "Desmosomes",
+        "Tight junctions",
+        "Gap junctions"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Mitochondria",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Infoldings of the inner membrane of mitochondria that increase surface area for enzyme activity are called:",
+      "options": [
+        "Cristae",
+        "Cisternae",
+        "Thylakoids",
+        "Grana"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Endomembrane System",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following organelles is NOT considered a part of the endomembrane system?",
+      "options": [
+        "Peroxisome",
+        "Endoplasmic reticulum",
+        "Golgi complex",
+        "Lysosome"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Vacuoles",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The single membrane surrounding the vacuole in plant cells is called:",
+      "options": [
+        "Tonoplast",
+        "Plasmalemma",
+        "Pericarp",
+        "Pellicle"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Centrosome and Centrioles",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Centrosome:\nStatement I: Centrosome contains two cylindrical structures called centrioles perpendicular to each other.\nStatement II: The centrioles form the basal body of cilia or flagella, and spindle fibers that give rise to spindle apparatus during cell division.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Prokaryotic Cells",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Inclusion bodies in prokaryotic cells serve to store reserve materials. Which of the following is an example of an inclusion body?",
+      "options": [
+        "Phosphate granules, Cyanophycean granules, and Glycogen granules",
+        "Lysosomes and peroxisomes",
+        "Plasmids and mesosomes",
+        "Polysomes and centrioles"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Mitochondria and Chloroplasts",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Mitochondria and chloroplasts are semi-autonomous organelles.\nReason (R): Both contain their own double-stranded circular DNA and 70S ribosomes, capable of synthesizing some of their proteins.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Nucleus",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Disc-shaped structures present on the sides of the centromere to which spindle fibers attach during cell division are called:",
+      "options": [
+        "Kinetochores",
+        "Chromomeres",
+        "Satellites",
+        "Telomeres"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Nucleus",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nucleolus is the site for active synthesis of:",
+      "options": [
+        "Ribosomal RNA (rRNA)",
+        "Messenger RNA (mRNA)",
+        "Transfer RNA (tRNA)",
+        "Steroidal hormones"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Cell Membrane",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Primary chemical constituents of human erythrocyte membrane consist of approximately:",
+      "options": [
+        "52 percent protein and 40 percent lipid",
+        "40 percent protein and 52 percent lipid",
+        "60 percent protein and 30 percent lipid",
+        "50 percent lipid and 50 percent protein"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Prokaryotic Cells",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When multiple ribosomes attach to a single mRNA strand forming a chain, the complex is known as a:",
+      "options": [
+        "Polysome / Polyribosome",
+        "Polynucleotide",
+        "Polyploid",
+        "Phagosome"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Chloroplasts",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Flattened membranous sacs organized in stacks like piles of coins inside chloroplasts are called:",
+      "options": [
+        "Thylakoids / Grana",
+        "Cristae",
+        "Cisternae",
+        "Stroma lamellae"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Chromosomes",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Chromosome morphology:\n1. A metacentric chromosome has equal arms.\n2. Sub-metacentric chromosome has centromere slightly away from middle leading to one shorter arm and one longer arm.\n3. Telocentric chromosome has a terminal centromere.\n4. Non-staining secondary constrictions present at constant locations give appearance of a small fragment called satellite.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1, 2, and 3 only",
+        "2 and 4 only",
+        "1 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Prokaryotic Cells",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The cell envelope of bacteria consists of a tightly bound three-layered structure. From outermost to innermost, the correct sequence is:",
+      "options": [
+        "Glycocalyx \u2192 Cell wall \u2192 Plasma membrane",
+        "Plasma membrane \u2192 Cell wall \u2192 Glycocalyx",
+        "Cell wall \u2192 Glycocalyx \u2192 Plasma membrane",
+        "Glycocalyx \u2192 Plasma membrane \u2192 Cell wall"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Microbodies",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Membrane-bound minute vesicles containing various enzymes present in both plant and animal cells are called:",
+      "options": [
+        "Microbodies",
+        "Lysosomes",
+        "Ribosomes",
+        "Centrosomes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Cytoskeleton",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An elaborate network of filamentous proteinaceous structures present in the cytoplasm providing mechanical support, motility, and maintenance of cell shape is termed:",
+      "options": [
+        "Cytoskeleton",
+        "Endomembrane system",
+        "Endoplasm",
+        "Extracellular matrix"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Endomembrane System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hydrolytic enzymes (lipases, proteases, carbohydrates) rich in lysosomes are optimally active at:",
+      "options": [
+        "Acidic pH",
+        "Alkaline pH",
+        "Neutral pH",
+        "High salt concentrations"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Prokaryotic Cells",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Gram-positive bacteria take up Gram stain due to differences in cell envelope structure.\nStatement II: A loose sheath glycocalyx is called a capsule, while a thick and tough one is called a slime layer.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Statement I is true but Statement II is false",
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Plastids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fat-soluble carotenoid pigments like carotene and xanthophylls giving yellow, orange, or red color to plant parts are contained in:",
+      "options": [
+        "Chromoplasts",
+        "Chloroplasts",
+        "Leucoplasts",
+        "Amyloplasts"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Cell: The Unit of Life",
+    "chapter_number": 6,
+    "topic": "Overview of Cell",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following is an non-membrane bound organelle found in both eukaryotic and prokaryotic cells?",
+      "options": [
+        "Ribosome",
+        "Mitochondria",
+        "Lysosome",
+        "Golgi body"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:39:00.000Z"
+  }
+]

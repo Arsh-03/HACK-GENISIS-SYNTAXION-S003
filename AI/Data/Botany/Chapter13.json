@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Mendelian Inheritance",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Gregor Mendel conducted hybridization experiments on garden peas (Pisum sativum) for seven years during:",
+      "options": [
+        "1856 - 1863",
+        "1840 - 1850",
+        "1870 - 1877",
+        "1890 - 1897"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Incomplete Dominance",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When a red-flowered snapdragon (Antirrhinum majus) RR is crossed with a white-flowered snapdragon rr, the F1 progeny Rr is pink. In the F2 generation, the phenotypic and genotypic ratios are identical at:",
+      "options": [
+        "1:2:1",
+        "3:1",
+        "9:3:3:1",
+        "1:1:1:1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Co-dominance and Multiple Alleles",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "ABO blood grouping in humans is controlled by the gene I, which has three alleles (IA, IB, i). How many possible genotypes and phenotypes exist in the human population for ABO blood group?",
+      "options": [
+        "6 genotypes and 4 phenotypes",
+        "4 genotypes and 6 phenotypes",
+        "3 genotypes and 3 phenotypes",
+        "9 genotypes and 4 phenotypes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Dihybrid Cross",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a Mendel's dihybrid cross involving pea seed shape and seed color (Round Yellow x Wrinkled Green), the phenotypic ratio in the F2 generation is:",
+      "options": [
+        "9:3:3:1",
+        "1:2:1",
+        "3:1",
+        "9:7"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Chromosomal Theory of Inheritance",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Chromosomal Theory of Inheritance, which states that chromosomes are vehicles of hereditary units, was independently proposed in 1902 by:",
+      "options": [
+        "Walter Sutton and Theodore Boveri",
+        "T.H. Morgan and Sturtevant",
+        "de Vries, Correns, and von Tschermak",
+        "Watson and Crick"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Linkage and Recombination",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Who used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes to construct the first chromosome maps?",
+      "options": [
+        "Alfred Sturtevant",
+        "Thomas Hunt Morgan",
+        "Gregor Mendel",
+        "Henking"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Sex Determination",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the organism in Column-I with its corresponding Sex Determination mechanism in Column-II:\nColumn-I:\n(A) Grasshopper\n(B) Birds (Chickens)\n(C) Drosophila / Humans\n(D) Honeybees\nColumn-II:\n(i) Haplodiploidy\n(ii) XX-XO type (male heterogamety)\n(iii) ZW-ZZ type (female heterogamety)\n(iv) XX-XY type (male heterogamety)",
+      "options": [
+        "A-(ii), B-(iii), C-(iv), D-(i)",
+        "A-(iii), B-(ii), C-(iv), D-(i)",
+        "A-(ii), B-(iv), C-(iii), D-(i)",
+        "A-(i), B-(iii), C-(iv), D-(ii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Pleiotropy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A single gene affecting multiple phenotypic expressions is called a pleiotropic gene. An example in humans caused by mutation in the gene encoding phenylalanine hydroxylase is:",
+      "options": [
+        "Phenylketonuria (PKU)",
+        "Thalassemia",
+        "Sickle cell anemia",
+        "Albinism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Polygenic Inheritance",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Inheritance of traits controlled by three or more genes where dominant alleles have an additive effect, as seen in human skin color or plant height, is termed:",
+      "options": [
+        "Polygenic inheritance",
+        "Pleiotropy",
+        "Multiple allelism",
+        "Incomplete dominance"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Mutations",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sickle cell anemia is a classical example of a point mutation resulting from substitution of Glutamic acid by Valine at 6th position of beta-globin chain due to base change:",
+      "options": [
+        "GAG to GUG",
+        "GUG to GAG",
+        "AAG to UAG",
+        "UAG to UGA"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Genetic Disorders",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Down's syndrome is a genetic disorder caused by the presence of an additional copy of chromosome number 21 (Trisomy 21). This chromosomal anomaly arises due to:",
+      "options": [
+        "Non-disjunction of chromosomes during meiotic cell division",
+        "Gene deletion on chromosome 21",
+        "Point mutation in somatic cells",
+        "Polyploidy during mitosis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Genetic Disorders",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Klinefelter's syndrome and Turner's syndrome result from sex chromosome aneuploidies with karyotypes respectively:",
+      "options": [
+        "47, XXY and 45, XO",
+        "45, XO and 47, XXY",
+        "47, XXX and 47, XYY",
+        "46, XY and 46, XX"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Mendelian Disorders",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Haemophilia is a sex-linked recessive disease where a single protein involved in blood clotting is affected. The disease is transmitted from an unaffected carrier female to:",
+      "options": [
+        "50 percent of her sons",
+        "All of her daughters",
+        "100 percent of her sons",
+        "None of her offspring"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Test Cross",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A test cross is used to determine the genotype of an organism displaying a dominant phenotype by crossing it with an individual displaying the:",
+      "options": [
+        "Recessive phenotype / Homozygous recessive",
+        "Dominant phenotype / Homozygous dominant",
+        "Heterozygous phenotype",
+        "F1 hybrid directly"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Linkage and Recombination",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Morgan's experiments on Drosophila:\nStatement I: T.H. Morgan selected Drosophila melanogaster because they grow on simple synthetic medium, complete life cycle in 2 weeks, and produce large progeny.\nStatement II: Genes for yellow body and white eyes showed 1.3% recombination, while white eye and miniature wing showed 37.2% recombination.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Mendelian Inheritance",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mendel's Law of Independent Assortment is based on dihybrid crosses and holds true specifically for gene pairs located on:",
+      "options": [
+        "Different non-homologous chromosomes (or far apart on same chromosome)",
+        "Same chromosome tightly linked",
+        "Sex chromosomes exclusively",
+        "Mitochondrial DNA"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Thalassemia vs Sickle Cell Anemia",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Thalassemia is a quantitative problem of synthesizing too few globin molecules, whereas Sickle cell anemia is a qualitative problem of synthesizing an incorrectly functioning globin.\nReason (R): Alpha Thalassemia is controlled by linked genes HBA1 and HBA2 on chromosome 16, while Beta Thalassemia is controlled by HBB gene on chromosome 11.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Rediscovery of Mendelism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mendel's work remained unrecognized until 1900 when three scientists independently rediscovered his results. These scientists were:",
+      "options": [
+        "Hugo de Vries, Carl Correns, and Erich von Tschermak",
+        "Sutton, Boveri, and Morgan",
+        "Watson, Crick, and Wilkins",
+        "Avery, MacLeod, and McCarty"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Haplodiploid Sex Determination",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In honeybees, males (drones) develop parthenogenetically from unfertilized eggs and are haploid (n=16). Male honeybees produce sperms by:",
+      "options": [
+        "Mitosis",
+        "Meiosis",
+        "Amitosis",
+        "Binary fission"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Punnett Square",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The graphical representation to calculate the probability of all possible genotypes of offspring in a genetic cross was developed by British geneticist:",
+      "options": [
+        "Reginald C. Punnett",
+        "Gregor Mendel",
+        "Walter Sutton",
+        "George Gamow"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Pleiotropy in Starch Grain Size",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Starch synthesis in pea seeds is controlled by gene B. BB seeds produce large starch grains, bb produce small starch grains, and Bb seeds produce intermediate size starch grains. With respect to starch grain size, allele B shows:",
+      "options": [
+        "Incomplete dominance",
+        "Complete dominance",
+        "Co-dominance",
+        "Polygenic inheritance"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Pedigree Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a pedigree chart, a filled/shaded square symbol and an open circle symbol represent respectively:",
+      "options": [
+        "Affected male and unaffected female",
+        "Affected female and unaffected male",
+        "Carrier female and normal male",
+        "Consanguineous marriage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Law of Segregation",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Mendel's Laws:\n1. Law of Segregation states that alleles do not show blending and segregate during gamete formation so a gamete receives only one allele.\n2. Law of Dominance explains the expression of only one parental character in F1 and 3:1 ratio in F2.\n3. Monohybrid test cross ratio for phenotype is 1:1.\n4. Dihybrid test cross ratio for phenotype is 1:1:1:1.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Sex Determination - X Body",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Who tracked a nuclear structure called 'X-body' in 50% of sperms during spermatogenesis in insects, which was later identified as the X chromosome?",
+      "options": [
+        "Henking",
+        "Stevens",
+        "Bridges",
+        "Morgan"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Mendelian Pea Traits",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following character pairs of pea studied by Mendel represents dominant and recessive traits correctly?",
+      "options": [
+        "Pod shape: Inflated (Dominant) / Constricted (Recessive)",
+        "Seed color: Green (Dominant) / Yellow (Recessive)",
+        "Flower position: Terminal (Dominant) / Axial (Recessive)",
+        "Stem height: Dwarf (Dominant) / Tall (Recessive)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Mutations",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Deletion or insertion of one or two base pairs in DNA causes a shift in the reading frame of mRNA triplets, resulting in a:",
+      "options": [
+        "Frame-shift mutation",
+        "Point mutation",
+        "Aneuploidy",
+        "Chromosomal inversion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Co-dominance",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In human ABO blood groups, an individual with genotype IAIB expresses both sugar polymers A and B on erythrocyte surface. This phenomenon is termed:",
+      "options": [
+        "Co-dominance",
+        "Incomplete dominance",
+        "Pleiotropy",
+        "Epistasis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Chromosomal Theory vs Mendelism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Chromosomes as well as genes occur in pairs; two alleles of a gene pair are located on homologous sites on homologous chromosomes.\nStatement II: During Anaphase I of meiosis, homologous chromosome pairs separate independently of each other.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Genetic Disorders",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An autosomal dominant trait example tracked through pedigree analysis in families is:",
+      "options": [
+        "Myotonic dystrophy",
+        "Sickle cell anemia",
+        "Cystic fibrosis",
+        "Thalassemia"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Principles of Inheritance and Variation",
+    "chapter_number": 13,
+    "topic": "Genetic Mapping",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "One map unit (centiMorgan) in genetic mapping corresponds to a recombination frequency of:",
+      "options": [
+        "1 percent",
+        "10 percent",
+        "50 percent",
+        "0.1 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:47:00.000Z"
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Meristematic Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Meristems that occur between mature tissues and regenerate parts removed by grazing herbivores are called:",
+      "options": [
+        "Intercalary meristems",
+        "Apical meristems",
+        "Lateral meristems",
+        "Secondary meristems"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Complex Permanent Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Companion cells are closely associated with which vascular element in angiosperms?",
+      "options": [
+        "Sieve tube elements",
+        "Tracheids",
+        "Vessels",
+        "Xylem parenchyma"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Tissue Systems",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Casparian strips are waxy deposits composed of suberin present on the radial and tangential walls of:",
+      "options": [
+        "Endodermis",
+        "Epidermis",
+        "Pericycle",
+        "Exodermis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Vascular Bundles",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In dicotyledonous stems, vascular bundles are described as 'open' because they possess:",
+      "options": [
+        "Cambium between xylem and phloem",
+        "Radial arrangement of xylem and phloem",
+        "Presence of bundle sheath cells surrounding phloem",
+        "Absence of cambium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Dicot and Monocot Stems",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Conjoint, collateral, closed vascular bundles surrounded by a sclerenchymatous bundle sheath are characteristic of:",
+      "options": [
+        "Monocotyledonous stem",
+        "Dicotyledonous stem",
+        "Monocotyledonous root",
+        "Dicotyledonous root"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Dicot and Monocot Roots",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Polyarch condition of xylem bundles and a large, well-developed pith are key anatomical features of:",
+      "options": [
+        "Monocot root",
+        "Dicot root",
+        "Dicot stem",
+        "Monocot stem"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Simple Permanent Tissues",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match Column-I (Tissue type) with Column-II (Characteristic/Function):\nColumn-I:\n(A) Parenchyma\n(B) Collenchyma\n(C) Sclerenchyma\nColumn-II:\n(i) Pectin deposits at corners, mechanical strength to young stems\n(ii) Lignified thick walls, dead at maturity\n(iii) Thin cellulose wall, major component within organs",
+      "options": [
+        "A-(iii), B-(i), C-(ii)",
+        "A-(iii), B-(ii), C-(i)",
+        "A-(i), B-(iii), C-(ii)",
+        "A-(ii), B-(i), C-(iii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Secondary Growth",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a dicot stem, cork cambium (phellogen) cuts off cork (phellem) on the outer side and secondary cortex (phelloderm) on the inner side. These three together are called:",
+      "options": [
+        "Periderm",
+        "Bark",
+        "Stele",
+        "Endodermis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Complex Permanent Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which element of xylem is living?",
+      "options": [
+        "Xylem parenchyma",
+        "Tracheids",
+        "Vessels",
+        "Xylem fibres"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Leaf Anatomy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a dorsiventral (dicot) leaf, mesophyll tissue is differentiated into:",
+      "options": [
+        "Palisade parenchyma and spongy parenchyma",
+        "Spongy parenchyma and endodermis",
+        "Collenchyma and sclerenchyma",
+        "Bundle sheath cells and guard cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Leaf Anatomy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bulliform cells present on the adaxial epidermis of grass leaves function to:",
+      "options": [
+        "Minimize water loss by rolling of leaves during water stress",
+        "Store food materials",
+        "Perform C4 photosynthesis",
+        "Provide mechanical rigidity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Vascular Bundles",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In roots, xylem and phloem in a vascular bundle are arranged in an alternate manner along different radii. This arrangement is called:",
+      "options": [
+        "Radial",
+        "Conjoint",
+        "Collateral",
+        "Bicollateral"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Secondary Growth",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Heartwood differs from sapwood in being:",
+      "options": [
+        "Darker, highly lignified, non-functional for water conduction, and resistant to microbes",
+        "Lighter in color and involved in active water transport",
+        "Composed purely of living parenchymatous cells",
+        "Formed towards outer periphery of secondary xylem"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Tissue Systems",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Guard cells in dicot leaves differ from monocot leaves in shape. Dicot guard cells are bean-shaped, whereas monocot guard cells are:",
+      "options": [
+        "Dumb-bell shaped",
+        "Triangular",
+        "Circular",
+        "Oval"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Secondary Growth",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Spring wood (early wood) has low density with vessels having wider cavities.\nStatement II: Autumn wood (late wood) has higher density with narrow vessels produced when cambium is less active.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Secondary Growth",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lenticels are lens-shaped openings in the periderm of woody trees that permit:",
+      "options": [
+        "Gaseous exchange between internal tissues and outer atmosphere",
+        "Transpiration in liquid form (guttation)",
+        "Secretion of resins and gums",
+        "Absorption of water from atmosphere"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Meristematic Tissues",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Interfascicular cambium and cork cambium are secondary meristems.\nReason (R): Secondary meristems arise from permanent cells through dedifferentiation and produce secondary tissues.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Complex Permanent Tissues",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Gymnosperms lack which of the following elements in their xylem and phloem respectively?",
+      "options": [
+        "Vessels in xylem and Sieve tubes / Companion cells in phloem",
+        "Tracheids in xylem and Albuminous cells in phloem",
+        "Xylem fibers and Phloem parenchyma",
+        "Xylem parenchyma and Sieve cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Secondary Growth",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How is interfascicular cambium formed in a dicot stem during secondary growth?",
+      "options": [
+        "By dedifferentiation of medullary ray parenchyma cells adjacent to intrafascicular cambium",
+        "Directly from primary apical meristem",
+        "By redifferentiation of pericycle cells",
+        "From endodermal cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Dicot and Monocot Stems",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Presence of water-containing cavities within vascular bundles is a characteristic feature of:",
+      "options": [
+        "Monocot stem",
+        "Dicot stem",
+        "Monocot root",
+        "Dicot root"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Complex Permanent Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In stems, the protoxylem lies towards the center (pith) and metaxylem lies towards the periphery. This type of primary xylem arrangement is called:",
+      "options": [
+        "Endarch",
+        "Exarch",
+        "Mesarch",
+        "Polyarch"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Simple Permanent Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sclereids (stone cells) providing stiffness to fruit walls of nuts, guava, pear, and sapota are a form of:",
+      "options": [
+        "Sclerenchyma",
+        "Collenchyma",
+        "Parenchyma",
+        "Aerenchyma"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Dicot and Monocot Roots",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Dicot Root anatomical features:\n1. Root hairs are unicellular elongations of epiblema cells.\n2. Endodermis consists of a single layer of barrel-shaped cells without intercellular spaces.\n3. Initiation of lateral roots and vascular cambium during secondary growth takes place in pericycle cells.\n4. Protoxylem lies towards periphery and metaxylem towards center (Exarch condition).\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1, 2, and 3 only",
+        "2, 3, and 4 only",
+        "1 and 4 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Complex Permanent Tissues",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Phloem fibers (bast fibers) are absent in primary phloem but present in secondary phloem. They are composed of:",
+      "options": [
+        "Sclerenchymatous cells",
+        "Parenchymatous cells",
+        "Collenchymatous cells",
+        "Meristematic cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Tissue Systems",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Epidermal hairs on the stem that help in preventing water loss due to transpiration are called:",
+      "options": [
+        "Trichomes",
+        "Root hairs",
+        "Lenticels",
+        "Stomata"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Dicot and Monocot Stems",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hypodermis in dicot stem is collenchymatous, whereas in monocot stem it is:",
+      "options": [
+        "Sclerenchymatous",
+        "Parenchymatous",
+        "Chlorenchymatous",
+        "Aerenchymatous"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Simple Permanent Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Collenchyma tissue cells possess localized thickenings composed of:",
+      "options": [
+        "Cellulose, hemicellulose, and pectin",
+        "Lignin exclusively",
+        "Suberin and chitin",
+        "Silica and cutin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Secondary Growth",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Bark:\nStatement I: Bark is a non-technical term that refers to all tissues exterior to vascular cambium, including secondary phloem and periderm.\nStatement II: Bark formed early in season is called soft bark and towards late season is called hard bark.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Leaf Anatomy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Isobilateral (monocot) leaves differ from dorsiventral (dicot) leaves because stomata are present on:",
+      "options": [
+        "Both adaxial and abaxial surfaces equally",
+        "Abaxial surface only",
+        "Adaxial surface only",
+        "Margins of the leaf only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Anatomy of Flowering Plants",
+    "chapter_number": 5,
+    "topic": "Secondary Growth",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Secondary growth does NOT occur in monocotyledons primarily due to the absence of:",
+      "options": [
+        "Vascular cambium",
+        "Xylem vessels",
+        "Pith",
+        "Epidermis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:38:00.000Z"
+  }
+]

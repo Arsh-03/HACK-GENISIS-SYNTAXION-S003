@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Epithelial Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Squamous epithelium consisting of a single thin layer of flattened cells with irregular boundaries is found in the walls of blood vessels and air sacs of lungs, where it functions in:",
+      "options": [
+        "Forming a diffusion boundary",
+        "Active secretion and absorption",
+        "Moving mucus across surface",
+        "Providing protection against mechanical abrasion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Epithelial Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ciliated epithelium functions to move particles or mucus in a specific direction over the cell surface. In humans, it is present on the inner surface of hollow organs like:",
+      "options": [
+        "Bronchioles and Fallopian tubes",
+        "Stomach and Intestine",
+        "Dry skin surface",
+        "Pharynx and Salivary ducts"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Cell Junctions",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which type of cell junction facilitates communication between neighboring cells by connecting the cytoplasm for rapid transfer of ions, small molecules, and sometimes big molecules?",
+      "options": [
+        "Gap junctions",
+        "Tight junctions",
+        "Adhering junctions",
+        "Desmosomes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Connective Tissues",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Connective Tissue Type in Column-I with its description in Column-II:\nColumn-I:\n(A) Areolar tissue\n(B) Adipose tissue\n(C) Tendon\n(D) Ligament\nColumn-II:\n(i) Dense regular connective tissue connecting bone to bone\n(ii) Dense regular connective tissue connecting skeletal muscle to bone\n(iii) Loose connective tissue specialized for fat storage\n(iv) Loose connective tissue present beneath skin serving as support framework for epithelium",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Cartilage & Bone",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Intercellular material of cartilage is solid and pliable and resists compression. Cartilage cells (chondrocytes) are enclosed in small cavities. Bone cells (osteocytes) are present in spaces called:",
+      "options": [
+        "Lacunae",
+        "Haversian canals",
+        "Lamellae",
+        "Canaliculi"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Morphology",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Indian bullfrog (Rana tigrina), skin is smooth, moist, and scaleless. Respiration in frog occurring through skin in water or during hibernation/aestivation is called:",
+      "options": [
+        "Cutaneous respiration",
+        "Pulmonary respiration",
+        "Buccal respiration",
+        "Branchial respiration"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Digestive & Circulatory System",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Frog possesses a 3-chambered heart (2 atria and 1 ventricle). Triangular structure that receives unoxygenated blood from vena cava and opens into right atrium is called:",
+      "options": [
+        "Sinus venosus",
+        "Truncus arteriosus",
+        "Conus arteriosus",
+        "Ventricle"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Nervous System & Sense Organs",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Brain of frog is enclosed in a bony brain box (cranium). How many pairs of cranial nerves arise from the brain of frog?",
+      "options": [
+        "10 pairs",
+        "12 pairs",
+        "8 pairs",
+        "31 pairs"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Excretory System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Excretory system of frog consists of a pair of kidneys, ureters, cloaca, and urinary bladder. Adult frog excretes nitrogenous waste mainly as:",
+      "options": [
+        "Urea (Ureotelic)",
+        "Uric acid (Uricotelic)",
+        "Ammonia (Ammonotelic)",
+        "Guanine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Male Reproductive System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In male frog, vasa efferentia (10-12 in number) arise from testes and enter the kidneys to open into:",
+      "options": [
+        "Bidder's canal",
+        "Ureter directly",
+        "Urinary bladder",
+        "Cloaca directly"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Muscle Tissues",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Smooth muscle fibers are described structurally as:",
+      "options": [
+        "Involuntary, non-striated, and fusiform (tapering at both ends)",
+        "Voluntary, striated, and cylindrical",
+        "Involuntary, striated, and branched",
+        "Voluntary, non-striated, and multinucleated"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Cardiac Muscle",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Intercalated discs with communication junctions (gap junctions) that allow cardiac muscle cells to contract as a single unit are characteristic of:",
+      "options": [
+        "Cardiac muscle tissue",
+        "Skeletal muscle tissue",
+        "Smooth muscle tissue",
+        "Dense connective tissue"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Neural Tissue",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Neurons are excitable cells of the nervous system. Non-excitable supporting cells that make up more than one-half the volume of neural tissue in human body are:",
+      "options": [
+        "Neuroglial cells",
+        "Chondrocytes",
+        "Osteocytes",
+        "Fibroblasts"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Glandular Epithelium",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Exocrine glands secrete mucus, saliva, earwax, oil, milk, and digestive enzymes through ducts. In contrast, endocrine glands:",
+      "options": [
+        "Lack ducts and release hormones directly into fluid bathing the gland",
+        "Possess complex branching ducts",
+        "Secrete sweat and sebum onto skin surface",
+        "Are composed purely of dense collagen fibers"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Life Cycle",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Frog development:\nStatement I: Development of frog involves an indirect larval stage called tadpole which undergoes metamorphosis to become an adult.\nStatement II: Tadpole larva excretes ammonia (ammonotelic), whereas adult terrestrial frog excretes urea (ureotelic).\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Compound Epithelium",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Compound (stratified) epithelium consists of multi-layered cells with limited role in secretion/absorption. Its main function is to provide protection against chemical and mechanical stresses, as seen in:",
+      "options": [
+        "Dry surface of skin, moist surface of buccal cavity, pharynx, and inner lining of ducts of salivary glands",
+        "Air sacs of lungs and blood vessel walls",
+        "Inner lining of stomach and intestine",
+        "Tubular parts of nephrons in kidney"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Specialized Connective Tissues",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Blood is classified as a fluid connective tissue.\nReason (R): Blood contains plasma, RBCs, WBCs, and platelets, but fibers are absent in normal circulating blood plasma.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Sexual Dimorphism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Male frogs can be distinguished from female frogs by the presence of:",
+      "options": [
+        "Vocal sacs and a copulatory pad on the first digit of forelimbs",
+        "Larger body size and moist skin",
+        "Tympanum behind eyes",
+        "Nictitating membrane"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Sensory Structures",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In frog, which sense organ lacks a cellular sensory structure complex and represents a membranous structure receiving sound signals?",
+      "options": [
+        "Tympanum with internal ear",
+        "Compound eye",
+        "Nasal epithelium",
+        "Taste buds"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Portal System",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Frog possesses special venous connections between liver and intestine, and between lower body parts and kidney. These are known as:",
+      "options": [
+        "Hepatic portal system and Renal portal system",
+        "Hypophyseal portal system",
+        "Pulmocutaneous system",
+        "Coronary system"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Cuboidal & Columnar Epithelium",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Microvilli-bearing cuboidal epithelium that increases surface area for reabsorption is found in the:",
+      "options": [
+        "Proximal Convoluted Tubule (PCT) of nephron in kidney",
+        "Wall of blood vessels",
+        "Fallopian tubes",
+        "Buccal cavity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Dense Connective Tissue",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Skin of humans possesses which type of connective tissue where collagen fibers are oriented in different random directions?",
+      "options": [
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue",
+        "Areolar tissue",
+        "Adipose tissue"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Anatomy",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Frog Anatomy:\n1. Alimentary canal is short because frogs are carnivores.\n2. Gall bladder stores bile secreted by liver.\n3. Pancreas secretes digestive enzymes into duodenum via common bile duct.\n4. Midgut has microvilli and folds for absorption of digested food.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Mast Cells & Fibroblasts",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In loose areolar connective tissue, cells that secrete histamine, serotonin, and heparin during inflammatory responses are called:",
+      "options": [
+        "Mast cells",
+        "Fibroblasts",
+        "Macrophages",
+        "Adipocytes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Respiration",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "On land, frog respires through:",
+      "options": [
+        "Buccal cavity, skin, and lungs",
+        "Skin exclusively",
+        "Gills and lungs",
+        "Tympanum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Adhering Junctions",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cell junctions that perform cementing function to keep neighboring cells together are known as:",
+      "options": [
+        "Adhering junctions",
+        "Tight junctions",
+        "Gap junctions",
+        "Synapses"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Female Reproductive System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A mature female frog can lay how many ova at a time in water during spawning?",
+      "options": [
+        "2500 to 3000 ova",
+        "100 to 200 ova",
+        "10,000 ova",
+        "Single egg"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Connective Tissue Fibers",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Fibroblasts secrete structural fiber proteins like collagen and elastin in most connective tissues.\nStatement II: Blood is the only connective tissue that lacks structural collagen fibers.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Goblet Cells",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Unicellular glandular epithelial cells isolated among columnar cells of alimentary canal that secrete mucus are called:",
+      "options": [
+        "Goblet cells",
+        "Salivary cells",
+        "Parietal cells",
+        "Acinar cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Structural Organisation in Animals",
+    "chapter_number": 2,
+    "topic": "Frog Camouflage",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ability of frogs to change color to hide from enemies by blending with surroundings is called protective coloration or:",
+      "options": [
+        "Mimicry / Camouflage",
+        "Aestivation",
+        "Hibernation",
+        "Metamorphosis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:57:00.000Z"
+  }
+]

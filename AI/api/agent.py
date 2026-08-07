@@ -45,6 +45,7 @@ def llm_auditor(state: ExamState):
         # Convert pydantic model to dict for state
         audit_report = report.model_dump()
     except Exception as e:
+        print(f"LLM API Error: {e}")
         # Fallback if API completely fails during call
         audit_report = {"is_approved": False, "balance_score": 0.0, "flagged_issues": [f"API Error: {str(e)}"], "final_questions": []}
 

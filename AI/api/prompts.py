@@ -6,6 +6,7 @@ Constraints & Rules:
 2. Semantic Duplication: Identify if any two questions test the exact same concept or use identical phrasing with only changed numbers. If found, reject one.
 3. Distractor Quality: Ensure incorrect options are plausible but unambiguously incorrect.
 4. Cognitive Balance: Ensure the overall paper aligns with the provided difficulty ratios.
+5. Field Retention: You MUST include ALL fields from the input questions in your `final_questions` output exactly as provided, especially `correct_option_index` and `media_url`.
 
 You must output your findings STRICTLY in the requested structured JSON schema format.
 """

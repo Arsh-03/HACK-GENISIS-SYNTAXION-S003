@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "DNA Structure and Packaging",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a nucleosome, positively charged basic proteins called histones form a unit of eight molecules called histone octamer. The histones present in the octamer are:",
+      "options": [
+        "Two molecules each of H2A, H2B, H3, and H4",
+        "H1, H2A, H2B, and H3",
+        "Two molecules each of H1, H2A, H3, and H4",
+        "H1, H2, H3, H4, and H5"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Search for Genetic Material",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Frederick Griffith performed transformation experiments on Streptococcus pneumoniae in 1928. Which strain of the bacteria was virulent and possessed a smooth polysaccharide coat?",
+      "options": [
+        "S strain (Smooth)",
+        "R strain (Rough)",
+        "Heat-killed R strain",
+        "Mutant non-capsulated strain"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Search for Genetic Material",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Unequivocal proof that DNA is the genetic material came from the experiment of Alfred Hershey and Martha Chase (1952) using bacteriophages labeled with radioactive isotopes:",
+      "options": [
+        "32P for DNA and 35S for protein coat",
+        "35S for DNA and 32P for protein coat",
+        "15N for DNA and 14N for protein coat",
+        "14C for DNA and 3H for protein coat"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "DNA Replication",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Experimental proof for semi-conservative replication of DNA in Escherichia coli using heavy isotope 15N and CsCl density gradient centrifugation was provided in 1958 by:",
+      "options": [
+        "Matthew Meselson and Franklin Stahl",
+        "Taylor and colleagues",
+        "Watson and Crick",
+        "Avery, MacLeod, and McCarty"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "DNA Replication",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "DNA-dependent DNA polymerase catalyzes polymerization strictly in which direction, leading to continuous synthesis on one strand and discontinuous synthesis on the other?",
+      "options": [
+        "5' \u2192 3'",
+        "3' \u2192 5'",
+        "Both 5' \u2192 3' and 3' \u2192 5' simultaneously",
+        "Random direction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Transcription",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In bacteria, initiation and termination of transcription are facilitated by which factors associated with RNA polymerase respectively?",
+      "options": [
+        "Sigma factor (\u03c3) and Rho factor (\u03c1)",
+        "Rho factor (\u03c1) and Sigma factor (\u03c3)",
+        "Beta factor and Gamma factor",
+        "TATA binding protein and Core enzyme"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Genetic Code",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the features/codons of Genetic Code in Column-I with their functions/descriptions in Column-II:\nColumn-I:\n(A) AUG\n(B) UAA, UAG, UGA\n(C) UUU\n(D) Degenerate code\nColumn-II:\n(i) Stop codons / Nonsense codons\n(ii) Codes for Phenylalanine (discovered by Nirenberg & Matthaei)\n(iii) Dual function: Initiator codon and codes for Methionine\n(iv) Some amino acids are coded by more than one codon",
+      "options": [
+        "A-(iii), B-(i), C-(ii), D-(iv)",
+        "A-(i), B-(iii), C-(ii), D-(iv)",
+        "A-(iii), B-(ii), C-(i), D-(iv)",
+        "A-(iv), B-(i), C-(ii), D-(iii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Lac Operon",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the Lac Operon model proposed by Fran\u00e7ois Jacob and Jacques Monod, the structural genes z, y, and a code for enzymes respectively:",
+      "options": [
+        "Beta-galactosidase, Permease, and Transacetylase",
+        "Permease, Transacetylase, and Beta-galactosidase",
+        "Beta-galactosidase, Transacetylase, and Permease",
+        "RNA polymerase, Repressor, and Permease"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Post-Transcriptional Modifications",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In eukaryotic transcription, primary hnRNA undergoes processing including Capping and Tailing. Capping involves addition of an unusual nucleotide at 5'-end named:",
+      "options": [
+        "Methyl guanosine triphosphate",
+        "Poly-A tail (Adenylate residues)",
+        "Deoxyadenosine triphosphate",
+        "Cytidine triphosphate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "tRNA Structure",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Transfer RNA (tRNA) acts as an adapter molecule. Its 2D secondary structure resembles a clover-leaf, while its 3D tertiary structure resembles a/an:",
+      "options": [
+        "Inverted L-shaped molecule",
+        "Double helix",
+        "Hairpin loop",
+        "Spherical ball"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Human Genome Project (HGP)",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to the Human Genome Project, the total number of genes in the human genome is estimated to be approximately:",
+      "options": [
+        "30,000",
+        "80,000",
+        "1,00,000",
+        "14,000"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "DNA Fingerprinting",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "DNA fingerprinting technique developed by Alec Jeffreys relies on identifying variations in short nucleotide repeats called VNTRs, which belong to a class of satellite DNA named:",
+      "options": [
+        "Minisatellites",
+        "Microsatellites",
+        "Ribosomal DNA",
+        "Centromeric DNA"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Translation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During protein synthesis in eukaryotes, formation of a peptide bond between amino acids is catalyzed by the 28S rRNA enzyme component of 60S subunit, functioning as a:",
+      "options": [
+        "Ribozyme (Peptidyl transferase)",
+        "RNA Polymerase II",
+        "Aminoacyl tRNA synthetase",
+        "Reverse transcriptase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Chargaff's Rule",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Erwin Chargaff's rules state that for a double-stranded DNA molecule, the ratio between Adenine and Thymine, and Guanine and Cytosine are equal and constant:",
+      "options": [
+        "A + G = T + C (Purines = Pyrimidines)",
+        "A + T = G + C",
+        "A / C = T / G",
+        "A + C = T + G = 0.5"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Eukaryotic RNA Polymerases",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding eukaryotic RNA Polymerases:\nStatement I: RNA Polymerase I transcribes rRNAs (28S, 18S, and 5.8S).\nStatement II: RNA Polymerase III transcribes tRNA, 5S rRNA, and snRNAs, while RNA Polymerase II transcribes hnRNA (precursor of mRNA).\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "DNA Replication",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Taylor and colleagues (1958) demonstrated semi-conservative replication of DNA on chromosomes of Vicia faba (faba beans) using radioactive:",
+      "options": [
+        "Thymidine (3H-thymidine)",
+        "Uridine",
+        "Cytidine",
+        "Phosphorus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Transcription Unit",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): The strand of DNA that has 3' \u2192 5' polarity acts as the template strand during transcription.\nReason (R): RNA polymerase enzyme catalyzes polymerization only in 5' \u2192 3' direction.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Lac Operon",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the Lac operon, the repressor protein produced by i gene binds to which region of the operon in the absence of inducer (allolactose)?",
+      "options": [
+        "Operator region (o)",
+        "Promoter region (p)",
+        "Structural gene z",
+        "Inducer binding site directly"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Human Genome Project",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the Human Genome Project, which chromosome was found to have the highest number of genes (2968 genes) and which chromosome has the lowest number (231 genes)?",
+      "options": [
+        "Chromosome 1 has maximum; Y chromosome has minimum",
+        "X chromosome has maximum; Y chromosome has minimum",
+        "Chromosome 21 has maximum; Chromosome 22 has minimum",
+        "Chromosome 1 has maximum; Chromosome 21 has minimum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Chromatin Structure",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Euchromatin and Heterochromatin differ in density and transcriptional activity. Euchromatin is:",
+      "options": [
+        "Loosely packed, stains light, and is transcriptionally active",
+        "Densely packed, stains dark, and is transcriptionally inactive",
+        "Loosely packed, stains dark, and is transcriptionally inactive",
+        "Densely packed, stains light, and is transcriptionally active"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Search for Genetic Material",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oswald Avery, Colin MacLeod, and Maclyn McCarty (1933-44) proved that the 'transforming principle' in Griffith's experiment was DNA by showing that transformation was inhibited by:",
+      "options": [
+        "DNase enzyme",
+        "RNase enzyme",
+        "Protease enzyme",
+        "Lipase enzyme"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Genetic Code",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Who postulated the triplet nature of the genetic code arguing that 4 bases coding for 20 amino acids must require 4^3 = 64 codons?",
+      "options": [
+        "George Gamow",
+        "Har Gobind Khorana",
+        "Marshall Nirenberg",
+        "Francis Crick"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Translation",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Translation during protein synthesis:\n1. Charging of tRNA (aminoacylation) requires ATP and binds amino acid to 3' end of tRNA.\n2. Small ribosomal subunit binds to mRNA at 5' end for initiation.\n3. Untranslated regions (UTRs) present at both 5'-end (before start codon) and 3'-end (after stop codon) are required for efficient translation.\n4. Release factor binds to stop codon terminating translation.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 2, and 4 only",
+        "2, 3, and 4 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "DNA Replication",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Discontinuously synthesized Okazaki fragments on the lagging strand during DNA replication are joined together by the enzyme:",
+      "options": [
+        "DNA Ligase",
+        "DNA Helicase",
+        "DNA Topoisomerase",
+        "RNA Primase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Splicing",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The process of removing non-coding intron sequences and joining coding exon sequences in a defined order in eukaryotic hnRNA is called:",
+      "options": [
+        "Splicing",
+        "Capping",
+        "Tailing",
+        "Translation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "RNA World Hypothesis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "RNA was the first genetic material in early evolution. Which characteristic of RNA made it chemically reactive and unstable compared to DNA?",
+      "options": [
+        "Presence of 2'-OH group in ribose sugar and Uracil instead of Thymine",
+        "Single-stranded helical structure exclusively",
+        "Presence of 3'-OH group in deoxyribose",
+        "Phosphodiester linkage instability"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Genetic Code",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which enzyme discovered by Severo Ochoa was helpful in synthesizing RNA with defined sequences in a template-independent manner?",
+      "options": [
+        "Polynucleotide phosphorylase",
+        "DNA Polymerase I",
+        "RNA Polymerase III",
+        "Reverse Transcriptase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Lac Operon",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Lac operon is a polycistronic structural gene regulated by a common promoter and regulatory gene.\nStatement II: Regulation of lac operon by repressor is referred to as negative regulation.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "Human Genome Project Methods",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In HGP, identifying all genes that are expressed as RNA is called ESTs, which stands for:",
+      "options": [
+        "Expressed Sequence Tags",
+        "Exon Sequence Targets",
+        "Eukaryotic Sequence Tags",
+        "Enzymatic Sequence Terminators"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Molecular Basis of Inheritance",
+    "chapter_number": 14,
+    "topic": "DNA Structure",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Length of DNA in a human diploid cell ($6.6 \\times 10^9$ bp) is calculated by multiplying distance between base pairs ($0.34 \\times 10^{-9}$ m). It comes out to approximately:",
+      "options": [
+        "2.2 meters",
+        "1.36 meters",
+        "0.34 meters",
+        "10 meters"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:48:00.000Z"
+  }
+]

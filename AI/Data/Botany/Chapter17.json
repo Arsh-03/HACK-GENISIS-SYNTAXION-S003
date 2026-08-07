@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Bt Cotton",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bt cotton plants express endotoxin protein crystals produced by Bacillus thuringiensis. Which genes specifically control cotton bollworms?",
+      "options": [
+        "cryIAc and cryIIAb",
+        "cryIAb",
+        "lacZ gene",
+        "ampR gene"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Bt Cotton",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The cry gene product cryIAb controls which crop pest?",
+      "options": [
+        "Corn borer",
+        "Cotton bollworm",
+        "Nematode Meloidogyne incognita",
+        "Aphids"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "RNA Interference (RNAi)",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "RNA interference (RNAi) takes place in all eukaryotic organisms as a method of cellular defense. It involves silencing of a specific mRNA due to a complementary:",
+      "options": [
+        "Double-stranded RNA (dsRNA) molecule",
+        "Single-stranded DNA molecule",
+        "Transfer RNA molecule",
+        "Ribosomal RNA molecule"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Pest Resistant Plants",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A nematode Meloidogyne incognita infects the roots of tobacco plants causing a great reduction in yield. Nematode resistance was introduced using vector:",
+      "options": [
+        "Agrobacterium tumefaciens",
+        "pBR322",
+        "Retrovirus",
+        "Bacillus thuringiensis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Genetically Modified Crops",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "'Golden rice' is a transgenic variety of Oryza sativa enriched with:",
+      "options": [
+        "Vitamin A (Beta-carotene)",
+        "Vitamin C",
+        "Iron and Calcium",
+        "Lysine and Tryptophan"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Human Insulin Production",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In 1983, American company Eli Lilly prepared two DNA sequences corresponding to chains A and B of human insulin and introduced them into plasmids of E. coli. Chains A and B were produced separately and combined by creating:",
+      "options": [
+        "Disulfide bonds",
+        "Peptide bonds",
+        "Hydrogen bonds",
+        "Glycosidic bonds"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Gene Therapy",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "First clinical gene therapy was given in 1990 to a 4-year-old girl with deficiency of which enzyme required for immune system functioning?",
+      "options": [
+        "Adenosine Deaminase (ADA)",
+        "Tyrosinase",
+        "Phenylalanine hydroxylase",
+        "Glucose-6-phosphate dehydrogenase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Ethical Issues & Patents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which Indian organization makes decisions regarding validity of GM research and safety of introducing GM organisms for public services?",
+      "options": [
+        "GEAC (Genetic Engineering Approval Committee)",
+        "IARI",
+        "KVIC",
+        "ICAR"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Biopiracy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Use of bio-resources by multinational companies and organizations without proper authorization from countries and people concerned is termed:",
+      "options": [
+        "Biopiracy",
+        "Biopatent",
+        "Bio-warfare",
+        "Bio-safety"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Transgenic Animals / Plants",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "First transgenic cow Rosie (1997) produced human protein-enriched milk (2.4 grams per liter) containing:",
+      "options": [
+        "Human alpha-lactalbumin",
+        "Human insulin",
+        "Alpha-1-antitrypsin",
+        "Coagulation Factor VIII"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Molecular Diagnosis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which technique allows early detection of pathogens like HIV or low-level gene mutations before symptoms appear?",
+      "options": [
+        "PCR and ELISA",
+        "Serum analysis",
+        "Urine analysis",
+        "Gram staining"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "ELISA Test",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "ELISA (Enzyme Linked Immuno-Sorbent Assay) diagnostic test is based on the principle of:",
+      "options": [
+        "Antigen-Antibody interaction",
+        "DNA hybridization",
+        "Polymerase chain reaction",
+        "Agglutination"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Transgenic Animals",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Human protein alpha-1-antitrypsin isolated from transgenic animals is used to treat:",
+      "options": [
+        "Emphysema",
+        "Phenylketonuria",
+        "Cystic fibrosis",
+        "Rheumatoid arthritis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Basmati Rice Patents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In 1997, an American company got patent rights on Basmati rice through US Patent and Trademark Office by crossing Indian Basmati with:",
+      "options": [
+        "Semi-dwarf varieties",
+        "Wild African rice",
+        "Japanese indica rice",
+        "European wild grasses"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Human Insulin Structure",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Insulin structure:\nStatement I: Pro-insulin contains an extra polypeptide stretch called C-peptide which is not present in mature functional insulin.\nStatement II: Mature functional human insulin consists of two short polypeptide chains (Chain A with 21 amino acids and Chain B with 30 amino acids).\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Bt Toxin Activation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bt toxin protein exists as inactive protoxin in Bacillus thuringiensis. It is converted into active toxin in insect gut due to:",
+      "options": [
+        "Alkaline pH of insect gut which solubilizes the crystals",
+        "Acidic pH in stomach",
+        "Digestive proteases in saliva",
+        "Presence of calcium ions"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Applications in Agriculture",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Genetically modified plants have been useful in increasing crop yields and reducing post-harvest losses.\nReason (R): GM crops show enhanced tolerance to abiotic stresses (cold, drought, salt, heat) and reduced reliance on chemical pesticides.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Gene Therapy Steps",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For permanent cure of ADA deficiency using gene therapy, functional ADA cDNA must be introduced into cells isolated from:",
+      "options": [
+        "Bone marrow cells at early embryonic stages",
+        "Mature blood lymphocytes periodically",
+        "Skin fibroblasts",
+        "Liver cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Molecular Probes",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A single stranded DNA or RNA tagged with a radioactive molecule used to detect complementary genes in clone of cells is called a:",
+      "options": [
+        "Probe",
+        "Vector",
+        "Primer",
+        "Selectable marker"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Transgenic Safety Testing",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Transgenic mice are being developed and used as model organisms for testing safety of vaccines before human use, such as:",
+      "options": [
+        "Polio vaccine",
+        "Hepatitis B vaccine",
+        "Rabies vaccine",
+        "Tetanus toxoid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Indian Patents and Legislation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Indian Parliament cleared the second amendment of the Indian Patents Bill, which considers aspects like:",
+      "options": [
+        "Patent terms, emergency provisions, and research & development initiative",
+        "Export ban on agricultural products",
+        "Import duties on GM seeds",
+        "Eradication of traditional medicinal plants"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Biopiracy - Rice Diversity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "India is estimated to have how many documented varieties of Basmati rice?",
+      "options": [
+        "27 documented varieties",
+        "200,000 varieties",
+        "1,000 varieties",
+        "50 varieties"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "RNA Interference",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding RNA interference (RNAi):\n1. Both sense and anti-sense RNA introduced into host plant form dsRNA.\n2. dsRNA triggers silencing of specific mRNA of nematode Meloidogyne incognita.\n3. As a result, parasite cannot survive in transgenic host expressing specific interfering RNA.\n4. Agrobacterium vectors were used to introduce nematode-specific genes.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Transgenic Models",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Over 95% of all existing transgenic animals created for human disease research are:",
+      "options": [
+        "Mice",
+        "Rats",
+        "Pigs",
+        "Cows"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Applications in Agriculture",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Genetically modified food/plants can be created to enhance efficiency of mineral usage by plants to prevent:",
+      "options": [
+        "Early exhaustion of fertility of soil",
+        "Soil erosion",
+        "Water logging",
+        "Pest attacks"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Biopiracy",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Traditional Indian bio-resources that faced biopiracy attempts and biopatent claims by foreign nations include:",
+      "options": [
+        "Neem, Turmeric, and Basmati Rice",
+        "Mango and Wheat",
+        "Sugarcane and Maize",
+        "Cotton and Mustard"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Molecular Diagnosis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Autoradiography combined with radioactive probe detects mutated genes because probe will not bind to mutated gene due to:",
+      "options": [
+        "Lack of complementarity",
+        "Excess base pairing",
+        "High temperature",
+        "Enzymatic degradation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Bt Crops",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Bt toxin is insect-group specific and encoded by cry genes.\nStatement II: Bt toxin does not kill Bacillus thuringiensis bacterium because it exists as inactive protoxin.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Applications in Medicine",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Recombinant therapeutics approved for human use worldwide total about 30, out of which how many are currently marketed in India?",
+      "options": [
+        "12",
+        "15",
+        "20",
+        "8"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology and Its Applications",
+    "chapter_number": 17,
+    "topic": "Applications in Agriculture",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Tripling food production during Green Revolution was achieved primarily by better management and agrochemicals, but it was insufficient to feed growing populations, leading to the development of:",
+      "options": [
+        "Genetically Modified (GM) crops",
+        "Organic farming exclusively",
+        "Hydroponics",
+        "Selective breeding only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:52:00.000Z"
+  }
+]

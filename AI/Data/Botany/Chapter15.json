@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Household Products",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lactic Acid Bacteria (LAB) like Lactobacillus grow in milk and convert it into curd. LAB improves the nutritional quality of curd by increasing the content of:",
+      "options": [
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin A",
+        "Vitamin D"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Household Products",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Large holes in 'Swiss cheese' are due to production of a large amount of CO2 by a bacterium named:",
+      "options": [
+        "Propionibacterium sharmanii",
+        "Penicillium roqueforti",
+        "Saccharomyces cerevisiae",
+        "Acetobacter aceti"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Industrial Products",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Baker's yeast used for fermenting dough and Brewer's yeast used for fermenting malted cereals and fruit juices to produce ethanol is scientifically known as:",
+      "options": [
+        "Saccharomyces cerevisiae",
+        "Aspergillus niger",
+        "Clostridium butylicum",
+        "Trichoderma polysporum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Industrial Products",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the microbe in Column-I with its commercially produced organic acid in Column-II:\nColumn-I:\n(A) Aspergillus niger (Fungus)\n(B) Acetobacter aceti (Bacterium)\n(C) Clostridium butylicum (Bacterium)\n(D) Lactobacillus (Bacterium)\nColumn-II:\n(i) Lactic acid\n(ii) Butyric acid\n(iii) Acetic acid\n(iv) Citric acid",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(ii), D-(i)",
+        "A-(iv), B-(ii), C-(iii), D-(i)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Bioactive Molecules",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cyclosporin A, an immunosuppressive agent used in organ-transplant patients, is produced by the fungus:",
+      "options": [
+        "Trichoderma polysporum",
+        "Monascus purpureus",
+        "Penicillium chrysogenum",
+        "Aspergillus niger"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Bioactive Molecules",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Statins, commercial blood-cholesterol lowering agents that act by competitively inhibiting cholesterol-synthesizing enzymes, are produced by the yeast:",
+      "options": [
+        "Monascus purpureus",
+        "Trichoderma polysporum",
+        "Saccharomyces cerevisiae",
+        "Candida utilis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Industrial Enzymes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Streptokinase produced by Streptococcus bacterium and modified by genetic engineering is used as a 'clot buster' for:",
+      "options": [
+        "Removing clots from blood vessels of myocardial infarction patients",
+        "Clearing bottle juices during storage",
+        "Removing oily stains in laundry detergents",
+        "Inhibiting organ rejection in kidney transplants"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Sewage Treatment",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In secondary sewage treatment, primary effluent is passed into aeration tanks where vigorous growth of aerobic microbes forms 'flocs'. Flocs consist of:",
+      "options": [
+        "Masses of bacteria associated with fungal filaments to form mesh-like structures",
+        "Anaerobic methanogenic bacteria clusters",
+        "Algal mats producing oxygen",
+        "Precipitated inorganic salts"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Sewage Treatment",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "BOD (Biochemical Oxygen Demand) measures the rate of uptake of oxygen by micro-organisms in a sample of water. Higher BOD value of wastewater indicates:",
+      "options": [
+        "Higher polluting potential and organic matter content",
+        "Lower polluting potential",
+        "High concentration of dissolved oxygen",
+        "Absence of organic matter"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Biogas Production",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Biogas produced by anaerobic breakdown of cellulosic material by methanogenic bacteria (Methanobacterium) is predominantly composed of:",
+      "options": [
+        "Methane ($CH_4$) and Carbon dioxide ($CO_2$)",
+        "Hydrogen sulfide ($H_2S$) and Oxygen ($O_2$)",
+        "Carbon monoxide ($CO$) and Nitrogen ($N_2$)",
+        "Ethane ($C_2H_6$) and Ammonia ($NH_3$)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes as Biocontrol Agents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bacillus thuringiensis (Bt) is widely used as a biocontrol agent against insect pests like caterpillars. Bt cotton plants carry toxin genes that kill pests by:",
+      "options": [
+        "Creating pores in midgut epithelial cells causing cell lysis and death",
+        "Inhibiting neurotransmitter release in pests",
+        "Blocking respiratory tracheae",
+        "Preventing egg hatching"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes as Biocontrol Agents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Baculoviruses used as biological control agents belong to the genus Nucleopolyhedrovirus. They are desirable because they are:",
+      "options": [
+        "Species-specific, narrow spectrum insecticidal agents with no negative impacts on non-target organisms",
+        "Broad-spectrum chemical poisons",
+        "Harmful to birds and mammals",
+        "Persistent in soil for decades"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes as Biofertilizers",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fungi form symbiotic associations with roots of higher plants called Mycorrhizae (e.g., genus Glomus). The fungal symbiont primarily absorbs and supplies the plant with:",
+      "options": [
+        "Phosphorus from soil",
+        "Nitrogen from atmosphere",
+        "Potassium from rocks",
+        "Calcium from groundwater"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes as Biofertilizers",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which cyanobacteria (blue-green algae) serve as important biofertilizers in paddy (rice) fields?",
+      "options": [
+        "Anabaena, Nostoc, and Oscillatoria",
+        "Rhizobium and Azotobacter",
+        "Glomus and Trichoderma",
+        "Methanobacterium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Antibiotics History",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Antibiotics:\nStatement I: Alexander Fleming discovered Penicillin accidentally while working on Staphylococci bacteria from Penicillium notatum mold.\nStatement II: Full potential of Penicillin as an effective antibiotic was established later by Ernest Chain and Howard Florey.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes as Biofertilizers",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Free-living nitrogen fixing bacteria present in soil that enrich nitrogen content include:",
+      "options": [
+        "Azotobacter and Azospirillum",
+        "Rhizobium legume symbionts",
+        "Frankia in Alnus",
+        "Glomus species"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Sewage Treatment",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Secondary sewage treatment is also known as biological treatment.\nReason (R): It utilizes naturally occurring aerobic and anaerobic microbes to reduce organic pollutants measured as BOD.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Microbes in Sewage Treatment",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During anaerobic sludge digestion in sewage treatment plants, biogas is produced which contains a mixture of gases including:",
+      "options": [
+        "Methane, Hydrogen sulfide, and Carbon dioxide",
+        "Oxygen, Nitrogen, and Methane",
+        "Carbon monoxide, Methane, and Chlorine",
+        "Ethane, Sulfur dioxide, and Nitrogen"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Biocontrol Agents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A free-living fungus commonly found in root ecosystems that acts as an effective biocontrol agent against several plant pathogens is:",
+      "options": [
+        "Trichoderma",
+        "Glomus",
+        "Rhizopus",
+        "Neurospora"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Household Products",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "'Toddy', a traditional drink in some parts of Southern India, is made by fermenting sap from:",
+      "options": [
+        "Palms",
+        "Sugarcane",
+        "Bamboo",
+        "Coconut meat"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Industrial Products",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bottled fruit juices bought from market are clearer compared to homemade ones because they are clarified using enzymes like:",
+      "options": [
+        "Pectinases and Proteases",
+        "Lipases and Amylases",
+        "Streptokinases and Cellulases",
+        "Zymase and Invertase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Industrial Products",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lipases used in detergent formulations for removing oily stains from laundry are isolated from micro-organisms like:",
+      "options": [
+        "Candida / Fungal species",
+        "Streptococcus",
+        "Lactobacillus",
+        "Methanobacterium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Biogas Technology",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Biogas production in India:\n1. Technology of biogas production was developed in India mainly due to efforts of IARI and KVIC.\n2. Biogas plant consists of a concrete tank (10-15 feet deep) in which bio-wastes are collected and slurry of dung is fed.\n3. Floating cover placed over slurry rises as gas is produced in tank due to microbial activity.\n4. Spent slurry is removed through an outlet and used as fertilizer.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Sewage Treatment",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Action plans initiated by Ministry of Environment and Forests to save major rivers of India from sewage pollution include:",
+      "options": [
+        "Ganga Action Plan and Yamuna Action Plan",
+        "Narmada Action Plan and Cauvery Action Plan",
+        "Godavari Action Plan and Brahmaputra Action Plan",
+        "Indus Action Plan and Tapti Action Plan"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Household Cheese",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "'Roquefort cheese' is ripened by growing a specific fungus on it which gives it a particular flavor. This fungus is:",
+      "options": [
+        "Penicillium roqueforti",
+        "Propionibacterium sharmanii",
+        "Aspergillus niger",
+        "Rhizopus stolonifer"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Biocontrol Agents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ladybird beetles and Dragonflies are useful biological control agents to get rid of which pests respectively?",
+      "options": [
+        "Aphids and Mosquitoes",
+        "Mosquitoes and Aphids",
+        "Caterpillars and Locusts",
+        "Termites and Ants"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Sewage Treatment",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Primary sewage treatment involves physical removal of particles through:",
+      "options": [
+        "Sequential filtration and sedimentation",
+        "Aeration and biological digestion",
+        "Anaerobic sludge digestion",
+        "Chlorination and UV disinfection"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Biocontrol",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Integrated Pest Management (IPM) emphasizes overall ecosystem conservation over eradication of pests.\nStatement II: Organic farming uses biocontrol agents and biofertilizers instead of chemical pesticides and synthetic fertilizers.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Biofertilizers",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An aquatic fern that harbors nitrogen-fixing cyanobacterium Anabaena azollae in its leaves, used as biofertilizer in rice paddies, is:",
+      "options": [
+        "Azolla",
+        "Salvinia",
+        "Marsilea",
+        "Equisetum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Microbes in Human Welfare",
+    "chapter_number": 15,
+    "topic": "Industrial Products",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Large vessels used for growing microbes on an industrial scale are called:",
+      "options": [
+        "Fermentors",
+        "Autoclaves",
+        "Incubators",
+        "Bioreactors / Chemostats"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:50:00.000Z"
+  }
+]

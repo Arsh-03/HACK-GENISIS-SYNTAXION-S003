@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Root",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pneumatophores are special respiratory roots present in plants growing in swampy areas such as:",
+      "options": [
+        "Rhizophora",
+        "Banyan tree",
+        "Sweet potato",
+        "Turnip"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Stem",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Flattened, green photosynthetic modified stems present in Opuntia are called:",
+      "options": [
+        "Phylloclades",
+        "Cladodes",
+        "Phyllodes",
+        "Stolons"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Leaf",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When the petiole expands, becomes green, and synthesizes food as in Australian Acacia, it is known as a:",
+      "options": [
+        "Phyllode",
+        "Phylloclade",
+        "Cladode",
+        "Stipule"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Flower",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a epigynous flower, the position of ovary with respect to other floral whorls is:",
+      "options": [
+        "Inferior",
+        "Superior",
+        "Half-inferior",
+        "Half-superior"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Aestivation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Vexillary or papilionaceous aestivation is characteristic of which plant family?",
+      "options": [
+        "Fabaceae",
+        "Solanaceae",
+        "Liliaceae",
+        "Brassicaceae"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Placentation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Free central placentation is found in:",
+      "options": [
+        "Dianthus and Primrose",
+        "Argemone and Mustard",
+        "Tomato and Lemon",
+        "Pea and Bean"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Placentation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match Column-I (Type of Placentation) with Column-II (Examples):\nColumn-I:\n(A) Marginal\n(B) Axile\n(C) Parietal\n(D) Basal\nColumn-II:\n(i) Tomato, Lemon\n(ii) Sunflower, Marigold\n(iii) Pea\n(iv) Mustard, Argemone",
+      "options": [
+        "A-(iii), B-(i), C-(iv), D-(ii)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(i), B-(iii), C-(iv), D-(ii)",
+        "A-(iv), B-(i), C-(iii), D-(ii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Seed",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In monocotyledonous seeds such as maize, the shield-shaped single cotyledon is known as:",
+      "options": [
+        "Scutellum",
+        "Coleoptile",
+        "Coleorhiza",
+        "Aleurone layer"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Root",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Roots developing from parts of the plant other than the radicle are called:",
+      "options": [
+        "Advantitious roots",
+        "Tap roots",
+        "Fibrous roots",
+        "Primary roots"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Leaf",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Reticulate venation is generally a characteristic feature of:",
+      "options": [
+        "Dicotyledonous plants",
+        "Monocotyledonous plants",
+        "Pteridophytes",
+        "Gymnosperms"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Flower",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A flower that can be divided into two equal radial halves in any radial plane passing through the center is said to be:",
+      "options": [
+        "Actinomorphic",
+        "Zygomorphic",
+        "Asymmetric",
+        "Irregular"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Inflorescence",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a racemose type of inflorescence, the main axis continues to grow and flowers are borne in an/a:",
+      "options": [
+        "Acropetal succession",
+        "Basipetal succession",
+        "Centripetal order strictly",
+        "Irregular order"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Plant Families",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Persistant calyx, epipetalous stamens, and swelling of placenta with axile placentation are key features of family:",
+      "options": [
+        "Solanaceae",
+        "Fabaceae",
+        "Liliaceae",
+        "Brassicaceae"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Fruit",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mango and Coconut are classified as 'drupe' fruits. They develop from:",
+      "options": [
+        "Monocarpellary superior ovaries and are single seeded",
+        "Multicarpellary inferior ovaries and are many seeded",
+        "Bicarpellary superior ovaries",
+        "Monocarpellary inferior ovaries"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Plant Families",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Family Liliaceae:\nStatement I: Flowers are trimerous, actinomorphic, and perianth consists of 6 tepals arranged in two whorls (3+3).\nStatement II: Endospermic seeds and tricarpellary, syncarpous, superior ovary with axile placentation are present.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Flower",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match Column-I (Floral character) with Column-II (Term):\nColumn-I:\n(A) Stamens attached to petals\n(B) Stamens attached to perianth\n(C) Stamens united into one bunch\n(D) Stamens united into two bunches\nColumn-II:\n(i) Epiphyllous\n(ii) Monadelphous\n(iii) Diadelphous\n(iv) Epipetalous",
+      "options": [
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iv), C-(ii), D-(iii)",
+        "A-(iv), B-(ii), C-(i), D-(iii)",
+        "A-(iii), B-(i), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Leaf",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): In alternate phyllotaxy, a single leaf arises at each node in an alternate manner.\nReason (R): Examples of alternate phyllotaxy include China rose, Mustard, and Sunflower plants.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Root",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Prop roots of Banyan tree and Stilt roots of Maize/Sugarcane provide mechanical support. Stilt roots arise from:",
+      "options": [
+        "Lower nodes of the stem",
+        "Radicle directly",
+        "Petiole base",
+        "Apical meristem of stem"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Plant Families",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Colchicine, an alkaloid used to induce polyploidy, is obtained from Colchicum autumnale which belongs to family:",
+      "options": [
+        "Liliaceae",
+        "Solanaceae",
+        "Fabaceae",
+        "Asteraceae"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Flower",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following plants possess perigynous flowers with a half-inferior ovary?",
+      "options": [
+        "Plum, Rose, Peach",
+        "Mustard, China rose, Brinjal",
+        "Guava, Cucumber, Ray florets of sunflower",
+        "Cotton, Citrus, Pea"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Stem",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Slender and spirally coiled stem tendrils that help plants to climb are modifications of axillary buds found in:",
+      "options": [
+        "Gourds (Cucumber, Pumpkins, Watermelon) and Grapevines",
+        "Opuntia and Euphorbia",
+        "Citrus and Bougainvillea",
+        "Pea and Sweet pea"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Leaf",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Opposite phyllotaxy is seen in plants like:",
+      "options": [
+        "Calotropis and Guava",
+        "China rose and Mustard",
+        "Alstonia and Nerium",
+        "Sunflower and Rose"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Aestivation",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding aestivation:\n1. In Valvate aestivation, sepals/petals touch one another at margin without overlapping (e.g., Calotropis).\n2. In Twisted aestivation, one margin of appendage overlaps that of next one (e.g., China rose, Lady's finger, Cotton).\n3. In Imbricate aestivation, margins overlap one another but not in any particular direction (e.g., Cassia and Gulmohur).\n4. In Vexillary aestivation, largest petal (standard) overlaps two lateral petals (wings) which overlap two smallest anterior petals (keel).\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1, 2, and 3 only",
+        "1 and 4 only",
+        "2, 3, and 4 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Plant Families",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following plants belongs to Fabaceae and is used as a dye?",
+      "options": [
+        "Indigofera",
+        "Sesbania",
+        "Lupin",
+        "Glycyrrhiza"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Fruit",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In coconut, the edible fibrous mesocarp surrounds the hard endocarp. The coconut water represents:",
+      "options": [
+        "Free-nuclear endosperm",
+        "Cellular endosperm",
+        "Fleshy mesocarp",
+        "Perisperm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Seed",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In seeds of dicots like Castor, the seed is endospermic. However, non-endospermic dicot seeds are found in:",
+      "options": [
+        "Gram, Pea, and Bean",
+        "Maize, Wheat, and Barley",
+        "Castor and Cotton",
+        "Onion and Lily"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Root",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The region of root responsible for growth in length containing actively dividing cells is the region of:",
+      "options": [
+        "Meristematic activity",
+        "Elongation",
+        "Maturation",
+        "Root cap"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "Plant Families",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Fabaceae was earlier called Papilionoideae, a subfamily of family Leguminosae.\nStatement II: Members of Fabaceae have diadelphous stamens (9)+1 and marginal placentation.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Leaf",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a pinnately compound leaf, a number of leaflets are present on a common axis called:",
+      "options": [
+        "Rachis",
+        "Petiole",
+        "Midrib",
+        "Pedicel"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Morphology of Flowering Plants",
+    "chapter_number": 4,
+    "topic": "The Flower",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When stamens are variation in length within a flower, as seen in Salvia and Mustard, the stamens are:",
+      "options": [
+        "Unequal in length",
+        "Monadelphous",
+        "Syngenesious",
+        "Epiphyllous"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:37:00.000Z"
+  }
+]

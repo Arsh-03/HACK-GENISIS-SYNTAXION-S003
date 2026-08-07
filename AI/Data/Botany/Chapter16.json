@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Restriction Enzymes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The first restriction endonuclease isolated and characterized was:",
+      "options": [
+        "Hind II",
+        "EcoRI",
+        "BamHI",
+        "Sal I"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Restriction Enzymes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the restriction enzyme EcoRI, the letter 'R' stands for:",
+      "options": [
+        "Name of strain (RY13)",
+        "Genus name",
+        "Species name",
+        "Order of isolation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Gel Electrophoresis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "DNA fragments separated on agarose gel can be visualized only after staining with Ethidium Bromide under exposure to:",
+      "options": [
+        "Ultraviolet (UV) radiation",
+        "Infrared radiation",
+        "Visible light",
+        "Gamma rays"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Cloning Vectors",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In pBR322 vector, selectable marker gene ampR contains restriction recognition sites for:",
+      "options": [
+        "Pst I and Pvu I",
+        "BamHI and Sal I",
+        "EcoRI and Cla I",
+        "Hind III and Pvu II"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Cloning Vectors",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Insertional inactivation of beta-galactosidase gene (lacZ) results in recombinant colonies appearing:",
+      "options": [
+        "White in color on chromogenic substrate",
+        "Blue in color",
+        "Red in color",
+        "Green in color"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Competent Host Transformation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "High-velocity micro-projectiles of gold or tungsten coated with DNA are used in biolistics (gene gun) specifically suitable for:",
+      "options": [
+        "Plant cells",
+        "Animal cells",
+        "Bacterial cells",
+        "Fungal cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Polymerase Chain Reaction (PCR)",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the steps of PCR in Column-I with their operating temperatures in Column-II:\nColumn-I:\n(A) Denaturation\n(B) Annealing\n(C) Extension\nColumn-II:\n(i) ~72 \u00b0C (Taq polymerase activity)\n(ii) ~50-60 \u00b0C (Primer binding)\n(iii) ~94-96 \u00b0C (DNA strand separation)",
+      "options": [
+        "A-(iii), B-(ii), C-(i)",
+        "A-(i), B-(ii), C-(iii)",
+        "A-(ii), B-(iii), C-(i)",
+        "A-(iii), B-(i), C-(ii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Bioreactors",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A stirred-tank bioreactor is superior to a simple shake flask because it provides:",
+      "options": [
+        "Optimal oxygen availability, pH, temperature control and mixing throughout culture",
+        "Higher pressure for cell division",
+        "A closed static environment without air",
+        "Instant crystallization of product"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Isolation of Genetic Material",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which enzyme is used to digest the cell wall of fungal cells to isolate DNA?",
+      "options": [
+        "Chitinase",
+        "Lysozyme",
+        "Cellulase",
+        "Pectinase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Downstream Processing",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Downstream processing in biotechnology includes:",
+      "options": [
+        "Separation and purification of expressed product",
+        "Gene cloning and ligation",
+        "Transformation into host cell",
+        "PCR amplification"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Restriction Enzymes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Restriction endonucleases cut DNA strands at specific palindromic sequences by cleaving:",
+      "options": [
+        "Phosphodiester bonds in sugar-phosphate backbone",
+        "Hydrogen bonds between nitrogen bases",
+        "Glycosidic bonds",
+        "Peptide bonds"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Cloning Vectors",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "'Natural genetic engineer' of plants used as a cloning vector after disarming its pathogenic genes is:",
+      "options": [
+        "Agrobacterium tumefaciens (Ti plasmid)",
+        "Thermus aquaticus",
+        "Escherichia coli",
+        "Bacillus thuringiensis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Polymerase Chain Reaction",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Taq DNA polymerase used in PCR is thermostable and isolated from bacterium:",
+      "options": [
+        "Thermus aquaticus",
+        "Agrobacterium tumefaciens",
+        "Bacillus subtilis",
+        "Methanobacterium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Gel Electrophoresis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The process of cutting out orange-stained DNA bands from agarose gel and extracting them from gel piece is called:",
+      "options": [
+        "Elution",
+        "Transformation",
+        "Annealing",
+        "Spooling"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Recombinant DNA Tools",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding recombinant DNA technology:\nStatement I: First recombinant DNA was constructed by Stanley Cohen and Herbert Boyer in 1972 by linking an antibiotic resistance gene with plasmid of Salmonella typhimurium.\nStatement II: Restriction enzymes belong to a larger class of enzymes called nucleases.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Isolation of DNA",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Precipitation of purified DNA from cell lysate solution is achieved by adding:",
+      "options": [
+        "Chilled ethanol",
+        "Isopropanol at room temperature",
+        "Warm methanol",
+        "Ether"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Vectors",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Plasmids and bacteriophages have the ability to replicate within bacterial cells independent of chromosomal control.\nReason (R): They possess their own origin of replication (ori) sequence.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Competent Host Transformation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Micro-injection is a direct gene transfer method where recombinant DNA is directly injected into the nucleus of:",
+      "options": [
+        "Animal cells",
+        "Plant cells",
+        "Bacterial protoplasts",
+        "Fungal spores"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Restriction Mapping",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which restriction enzyme recognizes the palindromic sequence 5'-GAATTC-3'?",
+      "options": [
+        "EcoRI",
+        "Hind II",
+        "BamHI",
+        "Sal I"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Competent Host",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bacterial cells are made competent to take up plasmid DNA by treating them with a specific concentration of a divalent cation such as:",
+      "options": [
+        "Calcium ($Ca^{2+}$)",
+        "Sodium ($Na^+$)",
+        "Potassium ($K^+$)",
+        "Iron ($Fe^{2+}$)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Cloning Vectors",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The rop gene in plasmid pBR322 codes for proteins involved in the:",
+      "options": [
+        "Replication of plasmid",
+        "Ampicillin resistance",
+        "Tetracycline resistance",
+        "Beta-galactosidase synthesis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Gel Electrophoresis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In agarose gel electrophoresis, DNA fragments move towards the anode because DNA molecules are:",
+      "options": [
+        "Negatively charged",
+        "Positively charged",
+        "Neutral",
+        "Amphoteric"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "PCR Amplification",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding PCR:\n1. PCR was invented by Kary Mullis in 1983.\n2. Oligonucleotide primers synthesized chemically are complementary to regions of DNA.\n3. If 30 cycles of PCR are completed, DNA segment is amplified approximately 1 billion times.\n4. Thermostable Taq polymerase remains active during high-temperature denaturation.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Cloning Vectors",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Retroviruses in animals have been disarmed and used as cloning vectors to deliver desirable genes into:",
+      "options": [
+        "Animal cells",
+        "Plant cells",
+        "Bacterial cells",
+        "Algal cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Isolation of DNA",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which enzyme is used to remove RNA during DNA isolation from plant cells?",
+      "options": [
+        "Ribonuclease (RNase)",
+        "Protease",
+        "Deoxyribonuclease (DNase)",
+        "Amylase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Bioreactors",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A sparged stirred-tank bioreactor differs from a simple stirred-tank bioreactor because sparged bioreactor has:",
+      "options": [
+        "Bubbled air through reactor increasing surface area for oxygen transfer",
+        "No stirrer impeller",
+        "Solid state growth medium",
+        "No temperature sensors"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Tools of rDNA Technology",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Joining of foreign DNA fragment to vector DNA fragment is catalyzed by enzyme:",
+      "options": [
+        "DNA Ligase",
+        "DNA Polymerase",
+        "Restriction Exonuclease",
+        "Reverse Transcriptase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Biotechnology Definition",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: European Federation of Biotechnology (EFB) defines biotechnology as the integration of natural science and organisms, cells, parts thereof, and molecular analogues for products and services.\nStatement II: Genetic engineering includes techniques to alter chemistry of genetic material (DNA and RNA) to introduce into host organisms.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Isolation of DNA",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fine threads of purified DNA precipitating out of solution upon addition of chilled ethanol can be collected by:",
+      "options": [
+        "Spooling",
+        "Elution",
+        "Centrifugation",
+        "Electrophoresis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Biotechnology: Principles and Processes",
+    "chapter_number": 16,
+    "topic": "Selectable Markers",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Selectable markers in cloning vectors help in identifying and eliminating non-transformants and selectively permitting the growth of:",
+      "options": [
+        "Transformants",
+        "Non-recombinants exclusively",
+        "Mutants",
+        "Wild-type cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:51:00.000Z"
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Types of Movement",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Amoeboid movement in human body cells like macrophages and leukocytes is effected by pseudopodia formed by streaming of protoplasm along with microfilaments of:",
+      "options": [
+        "Cytoskeleton",
+        "Microtubules",
+        "Cilia",
+        "Flagella"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Skeletal Muscle Structure",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Each skeletal muscle bundle (fascicle) is held together by a common collagenous connective tissue layer called:",
+      "options": [
+        "Fascia",
+        "Epimysium",
+        "Perimysium",
+        "Sarcolemma"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Contractile Proteins - Actin & Myosin",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a resting muscle fiber, active binding sites on G-actin for myosin are masked by a subunit of which regulatory protein?",
+      "options": [
+        "Troponin",
+        "Tropomyosin",
+        "Meromyosin",
+        "Actinin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Sliding Filament Theory",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During muscle contraction according to sliding filament theory, which zone/band shortens and disappears while the A band retains its length?",
+      "options": [
+        "H-zone and I-band",
+        "A-band only",
+        "Z-line",
+        "M-line"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Mechanism of Muscle Contraction",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Action potential traveling along sarcolemma causes release of calcium ions into sarcoplasm from:",
+      "options": [
+        "Sarcoplasmic reticulum",
+        "T-tubules",
+        "Mitochondria",
+        "Golgi apparatus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Axial Skeleton - Skull & Vertebrae",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Human skull is dicondylic because it articulates with first cervical vertebra (Atlas) via two:",
+      "options": [
+        "Occipital condyles",
+        "Temporal condyles",
+        "Parietal condyles",
+        "Frontal condyles"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Joints Matching",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Synovial Joint in Column-I with its location in Column-II:\nColumn-I:\n(A) Ball and Socket joint\n(B) Hinge joint\n(C) Pivot joint\n(D) Gliding joint\nColumn-II:\n(i) Between carpals\n(ii) Between Atlas and Axis\n(iii) Knee joint / Elbow joint\n(iv) Between humerus and pectoral girdle",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Ribs Classification",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In human rib cage, 8th, 9th, and 10th pairs of ribs do not articulate directly with sternum but join 7th rib with help of hyaline cartilage. These ribs are called:",
+      "options": [
+        "Vertebrochondral (False) ribs",
+        "True ribs",
+        "Floating ribs",
+        "Vertebral ribs"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Disorders - Myasthenia Gravis & Tetany",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Autoimmune disorder affecting neuromuscular junction leading to fatigue, weakening, and paralysis of skeletal muscle is Myasthenia gravis. Wild contractions (spasms) in muscle due to low Ca2+ in body fluid is called:",
+      "options": [
+        "Tetany",
+        "Gout",
+        "Muscular dystrophy",
+        "Arthritis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Disorders - Gout & Osteoporosis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Age-related bone disorder characterized by decreased bone mass and increased chance of fractures, often caused by decreased estrogen levels, is Osteoporosis. Inflammation of joints due to accumulation of uric acid crystals is called:",
+      "options": [
+        "Gout / Gouty arthritis",
+        "Rheumatoid arthritis",
+        "Osteoarthritis",
+        "Muscular dystrophy"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Red vs White Muscle Fibers",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Red muscle fibers are capable of sustained slow contractions without fatigue because they possess high amount of oxygen-storing pigment and mitochondria named:",
+      "options": [
+        "Myoglobin and large number of mitochondria",
+        "Hemoglobin and sarcoplasmic reticulum",
+        "Melanin and lysosome",
+        "Rhodopsin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Vertebral Column Formula",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Human vertebral column consists of 26 serially arranged units. Correct sequential vertebral formula in adult human is:",
+      "options": [
+        "C7 Th12 L5 S1(fused) Co1(fused)",
+        "C7 Th10 L5 S5 Co4",
+        "C8 Th12 L5 S5 Co1",
+        "C7 Th12 L6 S1 Co1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Pectoral & Pelvic Girdle",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Each coxal bone of pelvic girdle is formed by fusion of three bones named:",
+      "options": [
+        "Ilium, Ischium, and Pubis",
+        "Scapula, Clavicle, and Sternum",
+        "Femur, Tibia, and Fibula",
+        "Carpal, Metacarpal, and Phalanges"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Sarcomere Structure",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Functional unit of contraction in a myofibril situated between two successive Z-lines is called a:",
+      "options": [
+        "Sarcomere",
+        "Sarcolemma",
+        "Sarcoplasm",
+        "Fascicle"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Mechanism of Contraction",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Meromyosin:\nStatement I: Each heavy meromyosin (HMM) component has a globular head with active ATPase enzyme activity and binding sites for ATP and actin.\nStatement II: Light meromyosin (LMM) forms the tail portion of monomeric meromyosin unit of thick filament.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Skeletal System Bone Count",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Human adult skeleton comprises 206 bones divided into Axial skeleton (80 bones) and Appendicular skeleton (126 bones). Number of bones in each upper limb is:",
+      "options": [
+        "30 bones",
+        "60 bones",
+        "14 bones",
+        "8 bones"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Calcium in Contraction",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Binding of Ca2+ to Troponin C induces conformational change in tropomyosin, exposing active myosin binding sites on actin filaments.\nReason (R): ATP hydrolysis by head of myosin provides energy for cross-bridge formation between actin and myosin.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Floating Ribs",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pairs of ribs that are not connected ventrally to sternum at all are 11th and 12th pairs, known as:",
+      "options": [
+        "Floating ribs",
+        "True ribs",
+        "False ribs",
+        "Vertebrosternal ribs"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Cartilaginous & Fibrous Joints",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sutures in flat skull bones represent fibrous joints permitting no movement. Joint between adjacent vertebrae in vertebral column represents:",
+      "options": [
+        "Cartilaginous joint (permitting limited movement)",
+        "Synovial joint",
+        "Saddle joint",
+        "Hinge joint"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Glenoid Cavity & Acetabulum",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Depression on pectoral girdle into which head of humerus articulates is Glenoid cavity. Depression on pelvic girdle into which head of thigh bone (femur) articulates is called:",
+      "options": [
+        "Acetabulum",
+        "Foramen magnum",
+        "Obturator foramen",
+        "Olecranon fossa"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Patella / Knee Cap",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A cup-shaped sesamoid bone that covers the knee ventrally is the:",
+      "options": [
+        "Patella",
+        "Malleus",
+        "Sternum",
+        "Clavicle"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Muscular Dystrophy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Progressive degeneration of skeletal muscle mostly due to genetic defect (e.g., lack of dystrophin protein) is termed:",
+      "options": [
+        "Muscular dystrophy",
+        "Myasthenia gravis",
+        "Tetany",
+        "Osteoarthritis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Myofibril Structure",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Myofibril structure:\n1. Light bands contain actin and are called I-band (isotropic band).\n2. Dark bands contain myosin and are called A-band (anisotropic band).\n3. Elastic fiber Z-line bisects each I-band.\n4. Central part of thick filament not overlapped by thin filaments is H-zone.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Sternum & Rib Cage",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Flat bone on mid-ventral line of thorax providing attachment for true ribs is:",
+      "options": [
+        "Sternum (Breastbone)",
+        "Scapula",
+        "Clavicle",
+        "Hyoid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Saddle Joint",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Joint between carpal and metacarpal of human thumb is an example of:",
+      "options": [
+        "Saddle joint",
+        "Pivot joint",
+        "Gliding joint",
+        "Hinge joint"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Hyoid Bone",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A single U-shaped bone present at the base of buccal cavity that is not attached to any other bone is:",
+      "options": [
+        "Hyoid bone",
+        "Mandible",
+        "Vomer",
+        "Palatine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Ear Ossicles",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Each middle ear contains three tiny bones called ear ossicles named in order from tympanum to inner ear:",
+      "options": [
+        "Malleus, Incus, and Stapes",
+        "Stapes, Incus, and Malleus",
+        "Incus, Malleus, and Stapes",
+        "Scapula, Clavicle, and Humerus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Neuromuscular Junction",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Neuromuscular junction (motor end-plate) is the junction between a motor neuron and sarcolemma of muscle fiber.\nStatement II: Neurotransmitter Acetylcholine released at motor end-plate generates action potential in sarcolemma.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Clavicle / Collar Bone",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Each clavicle (collar bone) is a long slender bone with two curvatures articulating with:",
+      "options": [
+        "Acromion process of scapula and sternum",
+        "Glenoid cavity",
+        "Coracoid process",
+        "Humerus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Locomotion and Movement",
+    "chapter_number": 6,
+    "topic": "Ciliary Movement",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ciliary movement in human reproductive tract helps in passage of ova through:",
+      "options": [
+        "Fallopian tubes (Oviducts)",
+        "Uterus wall",
+        "Vagina",
+        "Vas deferens"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:01:00.000Z"
+  }
+]

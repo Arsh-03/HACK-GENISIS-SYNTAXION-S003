@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Modes of Excretion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nitrogenous wastes excreted by animals include Ammonia, Urea, and Uric acid. Uric acid is excreted with minimum loss of water as a pellet or paste by:",
+      "options": [
+        "Reptiles, Birds, Land snails, and Insects (Uricotelic)",
+        "Bony fishes and Aquatic amphibians (Ammonotelic)",
+        "Mammals and Terrestrial amphibians (Ureotelic)",
+        "Aquatic insects exclusively"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Nephron Anatomy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Glomerulus along with Bowman's capsule is called Malpighian body or Renal corpuscle. Epithelial cells of Bowman's capsule surrounding capillaries leave intricate pores (filtration slits). These cells are:",
+      "options": [
+        "Podocytes",
+        "Choanocytes",
+        "Flame cells",
+        "Parenchyma cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Types of Nephrons",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Juxtamedullary nephrons differ from Cortical nephrons because Juxtamedullary nephrons possess:",
+      "options": [
+        "Long loop of Henle extending deep into medulla and well-developed Vasa recta",
+        "Short loop of Henle restricted to cortex",
+        "Absence of Vasa recta",
+        "Glomerulus in medulla"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Urine Formation - Glomerular Filtration",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Glomerular Filtration Rate (GFR) in a healthy individual is about 125 mL/minute or 180 Liters per day. Out of 180 L of filtrate formed daily, volume of urine released is only ~1.5 L because:",
+      "options": [
+        "99 percent of filtrate is reabsorbed by renal tubules",
+        "Filtering membrane is impermeable to water",
+        "Glomerulus filters water only at night",
+        "Renal artery carries low blood volume"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Function of Tubules",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nearly all essential nutrients and 70-80 percent of electrolytes and water are reabsorbed in which segment of the nephron?",
+      "options": [
+        "Proximal Convoluted Tubule (PCT)",
+        "Distal Convoluted Tubule (DCT)",
+        "Descending limb of Henle's loop",
+        "Collecting duct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Counter Current Mechanism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Counter current mechanism to concentrate urine is operated by Henle's loop and Vasa recta. Osmolality of medullary interstitium increases from 300 mOsmol/L in cortex to about 1200 mOsmol/L in inner medulla primarily due to:",
+      "options": [
+        "NaCl and Urea gradient",
+        "Glucose and Amino acid gradient",
+        "Potassium and Bicarbonate gradient",
+        "Uric acid and Creatinine gradient"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Regulation - RAAS System",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Hormone / Regulatory Factor in Column-I with its origin / action in Column-II:\nColumn-I:\n(A) Renin\n(B) ANF (Atrial Natriuretic Factor)\n(C) ADH (Vasopressin)\n(D) Aldosterone\nColumn-II:\n(i) Released by adrenal cortex; promotes Na+ and water reabsorption in DCT\n(ii) Released by hypothalamus / neurohypophysis; prevents diuresis by water reabsorption in DCT/CD\n(iii) Released by heart atrium; causes vasodilation and lowers blood pressure (inhibits RAAS)\n(iv) Secreted by JGA cells when GFR/blood pressure drops",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Excretory Organs in Invertebrates",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Antennal glands or Green glands perform excretory function in crustaceans like:",
+      "options": [
+        "Prawns",
+        "Cockroaches",
+        "Earthworms",
+        "Flatworms"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Disorders - Uremia & Hemodialysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Accumulation of urea in blood due to kidney failure is called Uremia. Blood drained from an artery in uremic patient is pumped into dialyzing unit after adding an anticoagulant named:",
+      "options": [
+        "Heparin",
+        "Histamine",
+        "Thrombin",
+        "Warfarin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Disorders - Renal Calculi",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Renal calculi (kidney stones) are insoluble mass of crystallized salts formed within the kidney, mostly composed of:",
+      "options": [
+        "Oxalates (Calcium oxalate)",
+        "Urates",
+        "Sodium chloride",
+        "Phosphates exclusively"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Disorders - Glomerulonephritis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Inflammation of glomeruli of kidney is clinically termed:",
+      "options": [
+        "Glomerulonephritis",
+        "Glycosuria",
+        "Ketonuria",
+        "Gout"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Henle's Loop Permeability",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Descending limb of Henle's loop is permeable to water but almost impermeable to electrolytes. In contrast, Ascending limb of Henle's loop is:",
+      "options": [
+        "Impermeable to water but allows transport of electrolytes actively or passively",
+        "Permeable to water and impermeable to electrolytes",
+        "Impermeable to both water and electrolytes",
+        "Permeable to urea exclusively"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Role of Other Organs in Excretion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lungs, liver, and skin also assist in elimination of wastes. Lungs remove approximately how much CO2 per minute in humans?",
+      "options": [
+        "200 mL per minute (18 Liters/day)",
+        "50 mL per minute",
+        "500 mL per minute",
+        "1000 mL per minute"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Micturition Reflex",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Process of release of urine is called Micturition. Micturition reflex is initiated by stretch receptors on the wall of urinary bladder sending signals to the:",
+      "options": [
+        "Central Nervous System (CNS)",
+        "Adrenal gland",
+        "Kidney cortex",
+        "Urethra directly"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "RAAS Mechanism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding RAAS:\nStatement I: Fall in GFR activates JGA cells to release Renin, which converts Angiotensinogen in blood to Angiotensin I and then Angiotensin II.\nStatement II: Angiotensin II is a powerful vasoconstrictor that increases glomerular blood pressure and stimulates adrenal cortex to release Aldosterone.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Human Excretory Anatomy",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Human kidneys are reddish brown bean-shaped structures situated between levels of:",
+      "options": [
+        "Last thoracic (T12) and third lumbar (L3) vertebrae",
+        "First thoracic and fifth lumbar vertebrae",
+        "Seventh cervical and T12 vertebrae",
+        "L1 and L5 vertebrae"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Urine Analysis Indicators",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Presence of Glucose (Glycosuria) and Ketone bodies (Ketonuria) in urine are indicative of Diabetes Mellitus.\nReason (R): Glycosuria occurs when blood glucose level exceeds renal threshold of 180 mg/100 mL.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Urea Excretion Amount",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An adult human excretes on an average 1 to 1.5 liters of urine per day. How much urea is excreted per day in urine?",
+      "options": [
+        "25 to 30 grams of urea",
+        "5 to 10 grams of urea",
+        "100 grams of urea",
+        "50 to 60 grams of urea"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Juxtaglomerular Apparatus (JGA)",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Juxtaglomerular Apparatus (JGA) is a sensitive region formed by cellular modifications at point of contact between:",
+      "options": [
+        "Distal Convoluted Tubule (DCT) and Afferent arteriole",
+        "PCT and Efferent arteriole",
+        "Loop of Henle and Vasa recta",
+        "Bowman's capsule and Glomerulus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Invertebrate Excretory Structures",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Protonephridia or Flame cells are excretory structures found in Platyhelminthes (Planaria), Rotifers, some annelids, and:",
+      "options": [
+        "Cephalochordate Amphioxus",
+        "Earthworms",
+        "Cockroaches",
+        "Prawns"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Vasa Recta",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Capillary network arising from efferent arteriole forms peritubular capillaries. A minute vessel of this network running parallel to Henle's loop forming a U-shaped loop is called:",
+      "options": [
+        "Vasa recta",
+        "Glomerulus",
+        "Renal vein",
+        "Collecting duct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Sweat and Sebum Secretion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sweat produced by sweat glands contains NaCl, small amounts of urea, and lactic acid. Sebaceous glands eliminate sterols, hydrocarbons, and waxes through:",
+      "options": [
+        "Sebum",
+        "Sweat",
+        "Bile",
+        "Saliva"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Tubular Secretion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Tubular Secretion:\n1. Tubular cells secretes $H^+$, $K^+$, and ammonia into filtrate during urine formation.\n2. Tubular secretion helps in maintenance of ionic and acid-base (pH) balance of body fluids.\n3. Tubular secretion occurs in PCT, DCT, and Collecting duct.\n4. Reabsorption of bicarbonate ($HCO_3^-$) occurs in PCT and DCT.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Renal Column of Bertini",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In human kidney, cortex extends in between medullary pyramids as broad columns called:",
+      "options": [
+        "Columns of Bertini",
+        "Renal pelvis",
+        "Major calyces",
+        "Malpighian pyramids"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Urine Characteristics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Urine is a transparent, light yellow fluid with a characteristic odor. Its average pH is slightly acidic at:",
+      "options": [
+        "6.0",
+        "7.4",
+        "4.5",
+        "8.0"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Hemodialysis Apparatus",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In artificial kidney (Hemodialysis unit), dialyzing unit contains a coiled cellophane tube surrounded by dialyzing fluid. Dialyzing fluid has same composition as plasma EXCEPT that it lacks:",
+      "options": [
+        "Nitrogenous wastes (Urea, Uric acid, Creatinine)",
+        "Glucose",
+        "Electrolytes",
+        "Water"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Renal Portal System Absence",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Renal portal system is present in frogs but absent in:",
+      "options": [
+        "Mammals",
+        "Fishes",
+        "Amphibians",
+        "Reptiles"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Diabetes Insipidus",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Hyposecretion or deficiency of Anti-Diuretic Hormone (ADH / Vasopressin) leads to Diabetes Insipidus.\nStatement II: Patient with Diabetes Insipidus excretes large amounts of dilute urine (polyuria) and experiences extreme thirst (polydipsia).\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "Kidney Transplantation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In kidney transplantation, ultimate treatment for acute renal failure, organ rejection by recipient immune system is minimized by selecting donor from:",
+      "options": [
+        "Close relative / Identical twin",
+        "Unrelated stranger",
+        "Different animal species",
+        "Synthetic organ bank"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Excretory Products and Their Elimination",
+    "chapter_number": 5,
+    "topic": "PCT Epithelium",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Proximal Convoluted Tubule (PCT) is lined by which type of epithelium that provides high surface area for reabsorption?",
+      "options": [
+        "Simple cuboidal brush border epithelium",
+        "Simple squamous epithelium",
+        "Stratified columnar epithelium",
+        "Ciliated epithelium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:00:00.000Z"
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Chemical Analysis and Metabolites",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When plant tissue is ground in trichloroacetic acid and filtered, the acid-soluble pool represents approximately the:",
+      "options": [
+        "Cytoplasmic composition / Micromolecules",
+        "Macromolecular fraction",
+        "Nuclear membrane components",
+        "Cell wall framework"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Polysaccharides",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Exoskeletons of arthropods have a complex polysaccharide called chitin, which is a homopolymer of:",
+      "options": [
+        "N-acetyl glucosamine (NAG)",
+        "D-glucose",
+        "D-fructose",
+        "Glucuronic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Enzymes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Competitive inhibition of an enzyme occurs when the inhibitor closely resembles the substrate in its molecular structure. An example is inhibition of succinic dehydrogenase by:",
+      "options": [
+        "Malonate",
+        "Oxaloacetate",
+        "Alpha-ketoglutarate",
+        "Fumarate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Proteins",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which is the most abundant protein in the whole of the biosphere?",
+      "options": [
+        "RuBisCO",
+        "Collagen",
+        "Trypsin",
+        "Insulin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Amino Acids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Amino acids are organic compounds containing an amino group and an acidic group as substituents on the same carbon (alpha-carbon). Which amino acid is aromatic?",
+      "options": [
+        "Tyrosine, Phenylalanine, and Tryptophan",
+        "Lysine and Arginine",
+        "Glutamic acid and Aspartics acid",
+        "Valine, Leucine, and Isoleucine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Nucleic Acids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A nucleoside differs from a nucleotide in lacking a/an:",
+      "options": [
+        "Phosphate group",
+        "Nitrogenous base",
+        "Pentose sugar",
+        "Hydroxyl group at 3' position"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Metabolites",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match Column-I (Secondary Metabolite Category) with Column-II (Examples):\nColumn-I:\n(A) Alkaloids\n(B) Terpenoids\n(C) Toxins\n(D) Lectins\nColumn-II:\n(i) Concanavalin A\n(ii) Morphine, Codeine\n(iii) Monoterpenes, Diterpenes\n(iv) Abrin, Ricin",
+      "options": [
+        "A-(ii), B-(iii), C-(iv), D-(i)",
+        "A-(iii), B-(ii), C-(iv), D-(i)",
+        "A-(ii), B-(iv), C-(iii), D-(i)",
+        "A-(i), B-(iii), C-(iv), D-(ii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Polysaccharides",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Starch gives a blue color with Iodine solution because:",
+      "options": [
+        "Starch forms helical secondary structures that can hold I2 molecules in the helical portion",
+        "Starch reduces Iodine to Iodide ions",
+        "Iodine binds covalently to glucose monomers",
+        "Cellulose and starch have identical 3D structures"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Enzymes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Enzymes increase the rate of enzymatic reactions by:",
+      "options": [
+        "Lowering the activation energy requirement",
+        "Increasing the equilibrium constant of reaction",
+        "Increasing free energy of products",
+        "Changing the thermal stability of substrates"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Lipids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lecithin is an important structural lipid component of cell membranes. Chemically, it is a/an:",
+      "options": [
+        "Phospholipid",
+        "Sphingolipid",
+        "Triglyceride",
+        "Glycolipid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Enzymes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The non-protein organic component tightly/permanently bound to the apoenzyme is termed a/an:",
+      "options": [
+        "Prosthetic group",
+        "Coenzyme",
+        "Metal ion activator",
+        "Isoenzyme"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Polysaccharides",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Inulin is a polymer composed of monomeric units of:",
+      "options": [
+        "Fructose",
+        "Glucose",
+        "Galactose",
+        "Mannose"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Enzymes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which essential vitamins act as coenzymes for NAD and NADP during metabolic reactions?",
+      "options": [
+        "Niacin",
+        "Thiamine",
+        "Riboflavin",
+        "Pyridoxine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Proteins",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A polypeptide chain of a protein exhibits structural levels. The primary structure of a protein refers to:",
+      "options": [
+        "Positional information of amino acids in a linear sequence",
+        "Folding of polypeptide chain into alpha-helix or beta-pleated sheet",
+        "3D hollow woollen ball shape essential for biological activity",
+        "Architecture of protein with multiple subunits"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Enzymes",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Catalytic activity is lost when the co-factor is removed from the enzyme.\nStatement II: Transiently bound organic co-factors during catalysis are called co-enzymes.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Nucleic Acids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Watson-Crick B-DNA model, the pitch of the helix and distance between base pairs are respectively:",
+      "options": [
+        "34 \u00c5 and 3.4 \u00c5",
+        "20 \u00c5 and 3.4 \u00c5",
+        "3.4 \u00c5 and 0.34 \u00c5",
+        "34 \u00c5 and 20 \u00c5"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Lipids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Lipids are strictly not macromolecules, yet they are found in the acid-insoluble fraction during tissue extraction.\nReason (R): Lipids form vesicular structures during grinding which are not water soluble and get retained on cheesecloth filter.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Enzymes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Enzymes that catalyze removal of groups from substrates by mechanisms other than hydrolysis leaving double bonds are classified as:",
+      "options": [
+        "Lyases",
+        "Hydrolases",
+        "Ligases",
+        "Transferases"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Proteins",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which protein enables glucose transport into cells across plasma membrane?",
+      "options": [
+        "GLUT-4",
+        "GLUT-1",
+        "Collagen",
+        "Insulin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Chemical Bonds",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Glycosidic bond in polysaccharides and peptide bond in proteins are formed by reaction involving:",
+      "options": [
+        "Dehydration (removal of water molecule)",
+        "Hydration (addition of water molecule)",
+        "Oxidation-reduction",
+        "Decarboxylation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Amino Acids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "At a specific pH, the dipolar ion form of an amino acid carrying both positive and negative charges with net zero charge is called:",
+      "options": [
+        "Zwitterion",
+        "Cation",
+        "Anion",
+        "Isoelectric ion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Metabolites",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Vinblastin and Curcumin are classified under which category of secondary metabolites?",
+      "options": [
+        "Drugs",
+        "Toxins",
+        "Lectins",
+        "Essential oils"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Enzymes",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding enzyme kinetics:\n1. Michaelis constant (Km) represents substrate concentration at half of Vmax.\n2. Low Km value indicates high affinity of enzyme for its substrate.\n3. In competitive inhibition, Km increases while Vmax remains unchanged.\n4. Increase in temperature beyond optimum leads to denaturation of enzyme proteins.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 4 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Lipids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Palmitic acid and Arachidonic acid contain how many total carbon atoms (including carboxyl carbon) respectively?",
+      "options": [
+        "16 and 20",
+        "15 and 19",
+        "18 and 22",
+        "14 and 18"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Polysaccharides",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a glycogen chain, the right end is reducing and left end is non-reducing. Branching points in glycogen involve:",
+      "options": [
+        "alpha-1,6-glycosidic bonds",
+        "alpha-1,4-glycosidic bonds",
+        "beta-1,4-glycosidic bonds",
+        "beta-1,6-glycosidic bonds"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Enzymes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Zinc is an essential inorganic cofactor for the activity of which enzyme?",
+      "options": [
+        "Carboxypeptidase",
+        "Peroxidase",
+        "Catalase",
+        "Hexokinase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Nucleic Acids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Heterocyclic nitrogenous base adenine binds to ribose sugar to form adenosine. Adenosine attached to a phosphate group forms:",
+      "options": [
+        "Adenylic acid (AMP)",
+        "Adenine nucleotide",
+        "Guanidylate",
+        "Uridylic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Proteins",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Adult human hemoglobin consists of 4 subunits (2 alpha and 2 beta chains) exhibiting quaternary structure.\nStatement II: Tertiary structure gives a 3-dimensional view of protein essential for biological activities of enzymes.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Metabolites",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Carotenoids, anthocyanins, rubber, and gums are examples of:",
+      "options": [
+        "Secondary metabolites",
+        "Primary metabolites",
+        "Inorganic ions",
+        "Nucleotides"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 7,
+    "topic": "Chemical Bonds",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a nucleic acid strand, adjacent nucleotides are linked together by:",
+      "options": [
+        "Phosphodiester bond",
+        "Peptide bond",
+        "Glycosidic bond",
+        "Hydrogen bond"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:40:00.000Z"
+  }
+]

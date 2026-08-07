@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Male Reproductive System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Testes are situated outside the abdominal cavity within a pouch called scrotum. Scrotum maintains temperature of testes lower than normal internal body temperature by:",
+      "options": [
+        "2 to 2.5 \u00b0C (necessary for spermatogenesis)",
+        "5 \u00b0C",
+        "0.5 \u00b0C",
+        "10 \u00b0C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Male Accessory Glands",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Seminal plasma, the fluid component of semen, is rich in fructose, calcium, and certain enzymes. It is secreted by male accessory glands which include:",
+      "options": [
+        "Paired seminal vesicles, a prostate gland, and paired bulbourethral (Cowper's) glands",
+        "Paired prostate glands and single seminal vesicle",
+        "Bulbourethral glands only",
+        "Bartholin's glands"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Spermatogenesis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In seminiferous tubules, primary spermatocytes (2n=46) undergo first meiotic division to form two equal haploid cells called:",
+      "options": [
+        "Secondary spermatocytes (n=23)",
+        "Spermatogonia",
+        "Spermatids",
+        "Spermatozoa"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Sperm Structure & Acrosome",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cap-like structure covering anterior portion of human sperm head containing hydrolytic enzymes (hyaluronidase) that help in fertilization of ovum is called:",
+      "options": [
+        "Acrosome",
+        "Axoneme",
+        "Centriole",
+        "Middle piece"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Oogenesis Stages",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Primary oocytes are formed during embryonic development and remain arrested at which stage of cell division until puberty?",
+      "options": [
+        "Prophase I (Diplotene stage) of meiosis I",
+        "Metaphase II of meiosis II",
+        "Anaphase I of meiosis I",
+        "Telophase II"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Menstrual Cycle Phases",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ovulation (release of secondary oocyte from Graafian follicle) occurs around 14th day of a 28-day menstrual cycle primarily induced by rapid surge of:",
+      "options": [
+        "Luteinizing Hormone (LH surge)",
+        "Progesterone",
+        "FSH",
+        "Estrogen exclusively"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Female Reproductive System Matching",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Part of Female Reproductive Tract in Column-I with its description in Column-II:\nColumn-I:\n(A) Infundibulum\n(B) Ampulla\n(C) Isthmus\n(D) Endometrium\nColumn-II:\n(i) Inner glandular layer of uterus that undergoes cyclic changes during menstrual cycle\n(ii) Narrow lumen of fallopian tube joining uterus\n(iii) Wider part of fallopian tube where fertilization occurs\n(iv) Funnel-shaped part of oviduct close to ovary with finger-like projections (fimbriae)",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Fertilization & Implantation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fertilization in humans takes place at which specific site in female reproductive tract?",
+      "options": [
+        "Ampullary-isthmic junction of Fallopian tube",
+        "Uterus cavity",
+        "Cervix",
+        "Vagina"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Placental Hormones",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Placenta acts as an endocrine tissue and produces several hormones during pregnancy. Hormones produced ONLY during pregnancy in women include:",
+      "options": [
+        "hCG (Human Chorionic Gonadotropin), hPL (Human Placental Lactogen), and Relaxin",
+        "Estrogen and Progesterone",
+        "LH and FSH",
+        "Oxytocin and Prolactin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Parturition & Foetal Ejection Reflex",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Parturition (childbirth) is induced by a complex neuroendocrine mechanism initiated by fully developed fetus and placenta, which triggers mild uterine contractions called:",
+      "options": [
+        "Foetal ejection reflex",
+        "Micturition reflex",
+        "Swallowing reflex",
+        "Withdrawal reflex"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Colostrum & Lactation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Yellowish fluid milk secreted by mammary glands during initial days of lactation is Colostrum, which provides passive immunity to newborn because it is rich in antibodies of type:",
+      "options": [
+        "IgA antibodies",
+        "IgG antibodies",
+        "IgM antibodies",
+        "IgE antibodies"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Cleavage & Blastocyst",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mitotic division in zygote as it moves through isthmus towards uterus is called cleavage, forming 2, 4, 8, 16 daughter cells called blastomeres. Solid ball embryo with 8 to 16 blastomeres is:",
+      "options": [
+        "Morula",
+        "Blastocyst",
+        "Gastrula",
+        "Trophoblast"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Blastocyst Structure",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a blastocyst, outer cell layer that attaches to endometrium during implantation is Trophoblast. Inner group of cells attached to trophoblast that differentiates into embryo proper is:",
+      "options": [
+        "Inner cell mass (Embryoblast)",
+        "Blastocoel",
+        "Chorionic villi",
+        "Amnion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Spermiogenesis & Spermiation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Transformation of non-motile spermatids into functional spermatozoa is Spermiogenesis. Release of mature sperms from Sertoli cells into lumen of seminiferous tubules is termed:",
+      "options": [
+        "Spermiation",
+        "Spermatogenesis",
+        "Ejaculation",
+        "Capacitation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Spermatogenesis vs Oogenesis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Gametogenesis:\nStatement I: Spermatogenesis results in formation of 4 equal functional haploid spermatozoa from one primary spermatocyte.\nStatement II: Oogenesis results in formation of 1 functional haploid ovum and 3 tiny non-functional polar bodies from one primary oocyte.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Polyspermy Prevention",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During fertilization, sperm comes in contact with which layer of ovum and induces cortical reaction changes in membrane that block entry of additional sperms (prevents polyspermy)?",
+      "options": [
+        "Zona pellucida",
+        "Corona radiata",
+        "Vitelline membrane",
+        "Theca interna"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Male Duct System",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Male sex accessory ducts include Rete testis, Vasa efferentia, Epididymis, and Vas deferens.\nReason (R): Vasa efferentia conduct sperms from rete testis to epididymis, which leads to vas deferens ascending into abdomen and looping over urinary bladder.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Sertoli Cells & Leydig Cells",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In seminiferous tubules, Leydig cells (interstitial cells) located in interstitial spaces secrete androgens. Sertoli cells function to:",
+      "options": [
+        "Provide nutrition to germ cells / developing sperms",
+        "Secrete testosterone",
+        "Synthesize progesterone",
+        "Store glycogen"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Gastrulation & Germ Layers",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Immediately after implantation, inner cell mass differentiates into three germ layers: Ectoderm, Endoderm, and middle Mesoderm. Inner cell mass contains special cells capable of giving rise to all tissues called:",
+      "options": [
+        "Stem cells",
+        "Blastomeres",
+        "Trophoblasts",
+        "Somatic cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Sperm Count & Ejaculate",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Human male ejaculates about 200 to 300 million sperms during coitus. For normal fertility, what percentage of sperms must have normal shape/size and vigorous motility respectively?",
+      "options": [
+        "At least 60% normal shape and at least 40% vigorous motility",
+        "100% normal shape and 100% motility",
+        "20% normal shape and 80% motility",
+        "50% normal shape and 10% motility"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Hymen & External Genitalia",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Female external genitalia includes mons pubis, labia majora, labia minora, hymen, and clitoris. Clitoris is a tiny finger-like structure lying at upper junction of labia minora above:",
+      "options": [
+        "Urethral opening",
+        "Vaginal orifice",
+        "Anus",
+        "Mons pubis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Menarche & Menopause",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "First menstruation that begins at puberty in human females is called Menarche. Cessation of menstrual cycles around age 50 is termed:",
+      "options": [
+        "Menopause",
+        "Amenorrhea",
+        "Dysmenorrhea",
+        "Lactational amenorrhea"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Fetal Development Milestones",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Fetal Development milestones during human pregnancy:\n1. Heart is formed after 1 month of pregnancy.\n2. Limbs and digits develop by end of 2nd month.\n3. Major organ systems formed by end of 12 weeks (first trimester).\n4. First movements of fetus and appearance of hair on head are observed during 5th month.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Meiosis II Completion in Ovum",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Completion of second meiotic division in secondary oocyte is triggered by:",
+      "options": [
+        "Entry of sperm into cytoplasm of ovum through zona pellucida",
+        "LH surge at day 14",
+        "Implantation of blastocyst",
+        "Progesterone release from corpus luteum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Corpus Luteum Degeneration",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In absence of fertilization, corpus luteum degenerates into a scar tissue called Corpus albicans, leading to disintegration of endometrium and causing:",
+      "options": [
+        "Menstruation",
+        "Implantation",
+        "Pregnancy",
+        "Ovulation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Glandular Layers of Uterus",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Wall of uterus consists of three layers: Perimetrium (outer thin), Myometrium (middle thick smooth muscle), and Endometrium (inner glandular). Strong smooth muscle contractions during labor are exhibited by:",
+      "options": [
+        "Myometrium",
+        "Endometrium",
+        "Perimetrium",
+        "Epimetrium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Mammary Glands Structure",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Functional mammary gland contains 15-20 mammary lobes containing clusters of cells called alveoli. Milk secreted by alveoli opens into mammary tubules which join to form:",
+      "options": [
+        "Mammary duct \u2192 Mammary ampulla \u2192 Lactiferous duct",
+        "Lactiferous duct \u2192 Mammary duct",
+        "Nipple directly",
+        "Areola"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Hormonal Control of Spermatogenesis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: GnRH from hypothalamus acts on anterior pituitary to stimulate LH and FSH.\nStatement II: LH acts on Leydig cells to stimulate androgens, while FSH acts on Sertoli cells to stimulate factors for spermiogenesis.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Sperm Middle Piece",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Middle piece of human sperm contains numerous mitochondria that produce energy (ATP) for:",
+      "options": [
+        "Movement of tail facilitating sperm motility",
+        "Nuclear fusion",
+        "Digestion of zona pellucida",
+        "Implantation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Human Reproduction",
+    "chapter_number": 9,
+    "topic": "Umbilical Cord",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Placenta is connected to the developing embryo for transport of nutrients and oxygen and removal of wastes through an:",
+      "options": [
+        "Umbilical cord",
+        "Amniotic sac",
+        "Chorion",
+        "Allantois"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:04:00.000Z"
+  }
+]

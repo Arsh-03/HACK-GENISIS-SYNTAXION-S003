@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Five Kingdom Classification",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Five kingdom system of classification suggested by R.H. Whittaker is NOT based on:",
+      "options": [
+        "Presence or absence of a well-defined nucleus",
+        "Mode of nutrition",
+        "Complexity of body organization",
+        "Mode of locomotion exclusively"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Monera",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Archaebacteria differ from eubacteria in:",
+      "options": [
+        "Cell membrane structure",
+        "Mode of nutrition",
+        "Cell shape",
+        "Mode of reproduction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Monera",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which among the following are the smallest living cells, known without a definite cell wall, pathogenic to plants as well as animals and can survive without oxygen?",
+      "options": [
+        "Pseudomonas",
+        "Mycoplasma",
+        "Nostoc",
+        "Bacillus"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Protista",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Chrysophytes, Euglenoids, Dinoflagellates, and Slime moulds are included in the kingdom:",
+      "options": [
+        "Protista",
+        "Fungi",
+        "Animalia",
+        "Monera"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Protista",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Diatomaceous earth is formed due to the cell wall deposits of diatoms composed of:",
+      "options": [
+        "Cellulose and pectin",
+        "Silica",
+        "Chitin",
+        "Calcium carbonate"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Protista",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following organisms are responsible for 'red tides' in the oceans?",
+      "options": [
+        "Gonyaulax",
+        "Euglena",
+        "Physarum",
+        "Trypanosoma"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Fungi",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the class of Fungi in Column-I with their common examples in Column-II:\nColumn-I:\n(A) Phycomycetes\n(B) Ascomycetes\n(C) Basidiomycetes\n(D) Deuteromycetes\nColumn-II:\n(i) Agaricus\n(ii) Trichoderma\n(iii) Albugo\n(iv) Claviceps",
+      "options": [
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(iii), C-(i), D-(ii)",
+        "A-(iii), B-(i), C-(iv), D-(ii)",
+        "A-(i), B-(iv), C-(iii), D-(ii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Fungi",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which class of fungi is commonly known as 'Fungi Imperfecti' because only their asexual or vegetative phases are known?",
+      "options": [
+        "Phycomycetes",
+        "Ascomycetes",
+        "Basidiomycetes",
+        "Deuteromycetes"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Monera",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Specialized cells present in Nostoc and Anabaena for atmospheric nitrogen fixation are known as:",
+      "options": [
+        "Akinetes",
+        "Heterocysts",
+        "Hormogonia",
+        "Aplanospores"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Viruses, Viroids & Lichens",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following statements is INCORRECT regarding viruses?",
+      "options": [
+        "Viruses contain both RNA and DNA simultaneously as their genetic material.",
+        "Viruses are obligate parasites.",
+        "Bacterial viruses (bacteriophages) usually have double-stranded DNA.",
+        "The protein coat of viruses is called capsid."
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Viruses, Viroids & Lichens",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Viroids differ from viruses in having:",
+      "options": [
+        "DNA molecules with protein coat",
+        "DNA molecules without protein coat",
+        "RNA molecules with protein coat",
+        "RNA molecules without protein coat"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Viruses, Viroids & Lichens",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lichens are well known as pollution indicators because they do not grow in areas polluted with:",
+      "options": [
+        "Carbon monoxide",
+        "Sulfur dioxide",
+        "Methane",
+        "Nitrogen dioxide"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Fungi",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Dikaryon stage in sexual reproduction of fungi is characterized by:",
+      "options": [
+        "Meiosis occurring immediately after plasmogamy",
+        "Presence of two nuclei per cell (n + n) prior to karyogamy",
+        "Formation of diploid spores directly",
+        "Absence of plasmogamy"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Fungi",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Aseptate and coenocytic mycelium is a characteristic feature of:",
+      "options": [
+        "Phycomycetes",
+        "Ascomycetes",
+        "Basidiomycetes",
+        "Deuteromycetes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Protista",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Euglenoids:\nStatement I: Instead of a cell wall, they have a protein-rich layer called pellicle which makes their body flexible.\nStatement II: Though they are photosynthetic in the presence of sunlight, when deprived of sunlight they behave as heterotrophs.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Protista",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Under suitable conditions, slime moulds form an aggregation called:",
+      "options": [
+        "Prothallus",
+        "Plasmodium",
+        "Sorus",
+        "Mycelium"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Fungi",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Neurospora is widely used in biochemical and genetic work.\nReason (R): Ascomycetes form endogenous sexual spores called ascospores within sac-like asci.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Monera",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Methanogens belong to which group of microorganisms and are abundant in:",
+      "options": [
+        "Eubacteria; Hot sulfur springs",
+        "Archaebacteria; Gut of ruminant animals",
+        "Chrysophytes; Marine environments",
+        "Actinomycetes; Alkaline soils"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Viruses, Viroids & Lichens",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Who discovered 'Viroids' as infectious agents smaller than viruses consisting of free RNA?",
+      "options": [
+        "D.J. Ivanowsky",
+        "M.W. Beijerinck",
+        "W.M. Stanley",
+        "T.O. Diener"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Viruses, Viroids & Lichens",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The term 'Contagium vivum fluidum' (infectious living fluid) for the extract of infected tobacco plants was coined by:",
+      "options": [
+        "W.M. Stanley",
+        "M.W. Beijerinck",
+        "D.J. Ivanowsky",
+        "Robert Hooke"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Fungi",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cell walls of most fungi are composed of:",
+      "options": [
+        "Chitin and polysaccharides",
+        "Cellulose and hemicellulose",
+        "Peptidoglycan",
+        "Pectin and lignin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Protista",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ciliated protozoans like Paramecium are characterized by:",
+      "options": [
+        "Presence of pseudopodia for locomotion",
+        "Presence of thousands of cilia and a gullet opening to the outside",
+        "Flagella for movement and photosynthesis",
+        "Spore-like infectious stage in life cycle"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Five Kingdom Classification",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Five Kingdom Classification:\n1. Unicellular eukaryotic organisms were placed in Kingdom Protista.\n2. Chosened autotrophic green algae and heterotrophic fungi were grouped into separate kingdoms.\n3. Kingdom Monera includes all prokaryotic organisms.\n4. Kingdom Animalia includes unicellular heterotrophic protozoans.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, and 3",
+        "1 and 3 only",
+        "2, 3, and 4",
+        "1, 2, 3, and 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Fungi",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following edible fungi belong to the class Ascomycetes?",
+      "options": [
+        "Morels and Truffles",
+        "Agaricus and Puffballs",
+        "Ustilago and Puccinia",
+        "Rhizopus and Mucor"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Monera",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Chemosynthetic autotrophic bacteria obtain energy for ATP production by oxidizing:",
+      "options": [
+        "Organic compounds like glucose",
+        "Inorganic substances such as nitrates, nitrites, and ammonia",
+        "Water in the presence of sunlight",
+        "Carbon dioxide in the dark"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Fungi",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Puccinia causes rust disease in wheat and belongs to the class:",
+      "options": [
+        "Phycomycetes",
+        "Ascomycetes",
+        "Basidiomycetes",
+        "Deuteromycetes"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Monera",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which bacteria live in extreme salty areas?",
+      "options": [
+        "Halophiles",
+        "Thermoacidophiles",
+        "Methanogens",
+        "Cyanobacteria"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Viruses, Viroids & Lichens",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Lichens are symbiotic associations between an alga (phycobiont) and a fungus (mycobiont).\nStatement II: The phycobiont prepares food for mycobiont and mycobiont provides shelter and absorbs mineral nutrients and water for its partner.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Protista",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following organisms are chief producers in the oceans?",
+      "options": [
+        "Diatoms",
+        "Dinoflagellates",
+        "Euglenoids",
+        "Cyanobacteria"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Biological Classification",
+    "chapter_number": 2,
+    "topic": "Viruses, Viroids & Lichens",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Prions are infectious agents composed of abnormally folded:",
+      "options": [
+        "Proteins",
+        "RNA",
+        "DNA",
+        "Lipids"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:35:00.000Z"
+  }
+]

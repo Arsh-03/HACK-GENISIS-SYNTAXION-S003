@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Origin of Life",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "S.L. Miller in 1953 created electric discharge in a closed spark flask containing CH4, H2, NH3, and water vapor at 800 \u00b0C to simulate primitive Earth conditions. He observed the formation of:",
+      "options": [
+        "Amino acids",
+        "Nucleotides",
+        "Fatty acids",
+        "Polysaccharides"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Homologous & Analogous Structures",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Forelimbs of whales, bats, cheetah, and humans share similar anatomical bone structures (humerus, radius, ulna, carpals, metacarpals) despite performing different functions. This homology indicates:",
+      "options": [
+        "Divergent evolution",
+        "Convergent evolution",
+        "Adaptive radiation exclusively",
+        "Parallel evolution"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Analogous Organs",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Wings of butterflies and birds, and eyes of octopus and mammals perform similar functions but differ in anatomical origin. These analogous organs demonstrate:",
+      "options": [
+        "Convergent evolution",
+        "Divergent evolution",
+        "Homology",
+        "Saltation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Adaptive Radiation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Darwin's Finches in Galapagos Islands evolved different beak structures adapted to varied food habits starting from a common ancestral seed-eating stock. This process is called:",
+      "options": [
+        "Adaptive radiation",
+        "Saltation",
+        "Genetic drift",
+        "Gene flow"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Hardy-Weinberg Principle",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hardy-Weinberg equilibrium is represented by p^2 + 2pq + q^2 = 1. In a population in Hardy-Weinberg equilibrium, 2pq represents the frequency of:",
+      "options": [
+        "Heterozygous individuals",
+        "Homozygous dominant individuals",
+        "Homozygous recessive individuals",
+        "Mutant alleles"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Human Evolution",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Human Prehistoric Ancestor in Column-I with its cranial capacity / characteristic in Column-II:\nColumn-I:\n(A) Homo habilis\n(B) Homo erectus\n(C) Neanderthal man\n(D) Homo sapiens\nColumn-II:\n(i) Cranial capacity 1400 cc; buried their dead with flowers/tools\n(ii) Cranial capacity 900 cc; ate meat\n(iii) Cranial capacity 650 - 800 cc; first human-like hominid, did not eat meat\n(iv) Cranial capacity 1350 - 1500 cc; arose in Africa",
+      "options": [
+        "A-(iii), B-(ii), C-(i), D-(iv)",
+        "A-(ii), B-(iii), C-(i), D-(iv)",
+        "A-(iii), B-(i), C-(ii), D-(iv)",
+        "A-(i), B-(ii), C-(iii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Industrial Melanism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Industrial melanism observed in peppered moth (Biston betularia) in England before and after industrialization is a classic demonstration of:",
+      "options": [
+        "Natural selection",
+        "Mutation",
+        "Genetic drift",
+        "Artificial selection"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Natural Selection Types",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Natural selection leading to peak getting higher and narrower when more individuals acquire mean character value is called:",
+      "options": [
+        "Stabilizing selection",
+        "Directional selection",
+        "Disruptive selection",
+        "Balancing selection"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Coelacanth / Lobefins",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In 1938, a fish caught in South Africa thought to be extinct was Coelacanth (Lobefin). Lobefins evolved into the first:",
+      "options": [
+        "Amphibians",
+        "Reptiles",
+        "Mammals",
+        "Birds"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Hugo de Vries Mutation Theory",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hugo de Vries proposed the Mutation Theory of evolution working on evening primrose (Oenothera lamarckiana). He called large, single-step mutation that causes speciation:",
+      "options": [
+        "Saltation",
+        "Adaptive radiation",
+        "Branching descent",
+        "Genetic drift"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Genetic Drift & Founder Effect",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When a small group of individuals migrates to a new isolated habitat, the allele frequency changes by chance creating a new population. The original drifted population becomes the:",
+      "options": [
+        "Founders (Founder effect)",
+        "Bottleneck population",
+        "Homozygous population",
+        "Sympatric species"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Palaeontological Evidences",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fossils are preserved remains of hard body parts of life-forms found in rocks. Study of fossil age in different sedimentary rock layers shows that:",
+      "options": [
+        "Life forms varied over time and certain life forms are restricted to specific geological spans",
+        "Fossils are identical across all geological eras",
+        "Complex organisms appeared before unicellular organisms",
+        "Earth is only 6000 years old"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Marsupial Radiation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Australian marsupials (e.g., Tasmanian wolf, Sugar glider, Kangaroo) underwent adaptive radiation within the isolated island continent. Tasmanian wolf and Placental wolf show:",
+      "options": [
+        "Convergent evolution",
+        "Divergent evolution",
+        "Homology",
+        "Parallel mutation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Embryological Evidences",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Embryological support for evolution proposed by Ernst Haeckel (Biogenetic Law) was disapproved and rejected by:",
+      "options": [
+        "Karl Ernst von Baer",
+        "Charles Darwin",
+        "Alfred Russel Wallace",
+        "Lamarck"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Hardy-Weinberg Factors",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Hardy-Weinberg Principle:\nStatement I: Five factors affecting Hardy-Weinberg equilibrium are gene migration/gene flow, genetic drift, mutation, genetic recombination, and natural selection.\nStatement II: Natural selection can lead to stabilizing, directional, or disruptive changes in a population.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Lamarckism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "French naturalist Jean-Baptiste Lamarck proposed that evolution of life forms occurred by use and disuse of organs, giving the famous example of:",
+      "options": [
+        "Elongation of neck in Giraffe",
+        "Darwin's finches",
+        "Peppered moth",
+        "Industrial melanism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Biochemical Homology",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Similarities in proteins and genes (like cytochrome c or blood proteins) among diverse organisms indicate common ancestry.\nReason (R): Biochemical similarities point to the same shared genetic code and molecular origin of life.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Australopithecus & Ramapithecus",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fossils of Dryopithecus and Ramapithecus existed 15 million years ago. Which hominid was more man-like and walked erect in East African grasslands 3-4 million years ago?",
+      "options": [
+        "Australopithecus / Ramapithecus",
+        "Dryopithecus",
+        "Homo habilis",
+        "Neanderthal man"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Geological Time Scale",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Dinosaurs suddenly disappeared from Earth about 65 million years ago during the transition between Cretaceous and Tertiary periods. The largest carnivorous dinosaur was:",
+      "options": [
+        "Tyrannosaurus rex (about 20 feet high with dagger-like teeth)",
+        "Brachiosaurus",
+        "Stegosaurus",
+        "Triceratops"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Darwin & Wallace",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Naturalist Alfred Russel Wallace worked in Malay Archipelago and independently reached conclusions similar to Darwin on natural selection based on Thomas Malthus's essay on:",
+      "options": [
+        "Population",
+        "Principles of Geology",
+        "Origin of Species",
+        "Genetics"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Chemical Evolution Theory",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Theory of Chemical Evolution proposing that first form of life arose from pre-existing non-living organic molecules (abiogenesis followed by biogenesis) was proposed by:",
+      "options": [
+        "Oparin of Russia and Haldane of England",
+        "Louis Pasteur",
+        "Spallanzani",
+        "Francesco Redi"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Disproof of Spontaneous Generation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Louis Pasteur dismissed the theory of spontaneous generation experimentally using swan-necked flasks by demonstrating that:",
+      "options": [
+        "Life comes only from pre-existing life",
+        "Life originated spontaneously from decaying straw and mud",
+        "Spores arrived from outer space (Panspermia)",
+        "Metabolic enzymes assembled spontaneously"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Human Ancestry Timeline",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Human Evolution:\n1. Homo habilis was the first hominid with cranial capacity 650-800 cc.\n2. Homo erectus fossils discovered in Java in 1891 had cranial capacity 900 cc.\n3. Neanderthal man lived near east and central Asia 1,00,000-40,000 years ago with 1400 cc brain.\n4. Homo sapiens arose in Africa and migrated across continents developing modern races.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Anthropogenic Selection",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Excessive use of herbicides, pesticides, and antibiotics has resulted in selection of resistant varieties in a much lesser time scale (months/years). This is an example of evolution by:",
+      "options": [
+        "Anthropogenic action (human-induced selection)",
+        "Genetic drift",
+        "Adaptive radiation",
+        "Saltation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Age of Earth",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Earth was formed about 4.5 billion years ago. Life appeared on Earth approximately how many years ago?",
+      "options": [
+        "4 billion years ago (500 million years after Earth formation)",
+        "3.5 billion years ago",
+        "2 billion years ago",
+        "1 billion years ago"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Prehistoric Cave Art",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Prehistoric cave art developed by modern Homo sapiens (e.g., Bhimbetka rock shelters in Madhya Pradesh, India) dates back to about:",
+      "options": [
+        "18,000 years ago",
+        "10,000 years ago",
+        "50,000 years ago",
+        "5,000 years ago"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Plant Evolution Ancestors",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "First land plants were bryophytes/pteridophytes that evolved from ancient green algal ancestors. Modern seed plants (gymnosperms and angiosperms) evolved from:",
+      "options": [
+        "Progymnosperms via seed ferns",
+        "Psilophyton directly",
+        "Rhynia exclusively",
+        "Sphenopsids"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Darwinian Fitness",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Natural Selection:\nStatement I: According to Darwin, fitness refers ultimately and only to reproductive fitness (ability to leave more progeny).\nStatement II: Branching descent and natural selection are the two key concepts of Darwinian Theory of Evolution.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Big Bang Theory",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Big Bang Theory attempts to explain origin of universe as a singular huge explosion occurring approximately:",
+      "options": [
+        "20 billion years ago (20 mya)",
+        "4.5 billion years ago",
+        "10 billion years ago",
+        "1 billion years ago"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Evolution",
+    "chapter_number": 11,
+    "topic": "Plant Homology / Analogy",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Thorns of Bougainvillea and Tendrils of Cucurbita represent homologous structures because both are modifications of:",
+      "options": [
+        "Axillary buds",
+        "Leaves",
+        "Roots",
+        "Stipules"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:06:00.000Z"
+  }
+]

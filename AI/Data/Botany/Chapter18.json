@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Organism and Its Environment",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Salt concentration (salinity) measured in parts per thousand is less than 5 ppt in inland waters, 30-35 ppt in sea, and more than 100 ppt in:",
+      "options": [
+        "Hypersaline lagoons",
+        "Freshwater lakes",
+        "Estuaries",
+        "Rivers"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Adaptations",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Kangaroo rat in North American deserts satisfies all its water requirements through:",
+      "options": [
+        "Internal fat oxidation producing water as a byproduct",
+        "Drinking seawater",
+        "Absorbing atmospheric humidity",
+        "Consuming fleshy cacti"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Adaptations",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Allen's Rule states that mammals from colder climates generally have shorter ears and limbs to:",
+      "options": [
+        "Minimize heat loss",
+        "Maximize heat loss",
+        "Enhance swimming ability",
+        "Improve hearing capacity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Growth Models",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Logistic growth model is represented by the Verhulst-Pearl Logistic Growth equation dN/dt = rN[(K - N)/K]. In this equation, K represents:",
+      "options": [
+        "Carrying capacity",
+        "Intrinsic rate of natural increase",
+        "Population density",
+        "Biotic potential"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Interactions",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Gause's 'Competitive Exclusion Principle' states that two closely related species competing for the same limiting resource cannot coexist indefinitely and the competitively inferior one will be eliminated eventually. This holds true if resources are:",
+      "options": [
+        "Limiting",
+        "Unlimited",
+        "Fluctuating seasonal",
+        "Abundant"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "correct_option_index": 0
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Interactions",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Population Interaction in Column-I with its example in Column-II:\nColumn-I:\n(A) Mutualism (+/+)\n(B) Commensalism (+/0)\n(C) Parasitism (+/-)\n(D) Amensalism (-/0)\nColumn-II:\n(i) Penicillium producing penicillin inhibiting bacterial growth\n(ii) Cuscuta growing on hedge plants\n(iii) Barnacles on back of whale / Cattle egret and grazing cattle\n(iv) Lichens (Alga + Fungus) / Mycorrhizae",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(ii), D-(i)",
+        "A-(iv), B-(ii), C-(iii), D-(i)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Attributes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An expanding population age pyramid is characterized by a triangular shape where:",
+      "options": [
+        "Pre-reproductive individuals form the broad base and are more than reproductive ones",
+        "Post-reproductive individuals are maximum",
+        "Reproductive and pre-reproductive individuals are equal (bell-shaped)",
+        "Base is narrow (urn-shaped)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Adaptations in Plants",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Desert plants like Opuntia have thick cuticle, sunken stomata arranged in deep pits, and modified leaves into spines to minimize water loss. They perform photosynthesis via special pathway called:",
+      "options": [
+        "CAM (Crassulacean Acid Metabolism) pathway",
+        "C3 pathway exclusively",
+        "C2 pathway",
+        "Glycolate pathway"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Responses to Abiotic Factors",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Organisms that maintain constant body temperature and osmotic concentration despite varying external environment are called Regulators (Endotherms), such as:",
+      "options": [
+        "All birds and mammals",
+        "Reptiles and amphibians",
+        "Fishes and insects",
+        "Invertebrates"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Migration and Diapause",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Keoladeo National Park (Bharatpur, Rajasthan) hosts thousands of migratory birds coming from Siberia every winter. In zooplankton species, stage of suspended development under unfavorable conditions is called:",
+      "options": [
+        "Diapause",
+        "Hibernation",
+        "Aestivation",
+        "Migration"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Interactions - Predation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Prickly pear cactus introduced into Australia in 1920s caused havoc by spreading rapidly over millions of hectares. It was brought under control by introducing its natural predator:",
+      "options": [
+        "Cactophagous moth",
+        "Ladybird beetle",
+        "Dragonfly",
+        "Bollworm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Interactions - Sexual Deceit",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mediterranean orchid Ophrys employs 'sexual deceit' to get pollinated by male bee species (Colletes). One petal of the flower resembles:",
+      "options": [
+        "Female bee in size, color, and markings",
+        "Honey cell",
+        "Nectar droplet",
+        "Pollen sack"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Density",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If N is population density at time t, then density at time t+1 is expressed as Nt+1 = Nt + [(B + I) - (D + E)]. In this equation, B, I, D, E represent:",
+      "options": [
+        "Natality, Immigration, Mortality, Emigration",
+        "Birth rate, Index, Death rate, Energy",
+        "Natality, Infant death, Mortality, Environment",
+        "Biotic potential, Immigration, Density, Emigration"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Plant Defenses against Herbivores",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Calotropis weed growing in abandoned fields is avoided by cattle and goats because it produces highly poisonous cardiac glycosides. Chemical defenses like Nicotine, Caffeine, Quinine, and Strychnine produced by plants are actually:",
+      "options": [
+        "Secondary metabolites produced for self-defense against herbivores",
+        "Primary food storage compounds",
+        "Growth promoters",
+        "Excretory waste products"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Growth Models",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Population Growth:\nStatement I: Exponential growth occurs when resources (food and space) are unlimited, giving a J-shaped curve (dN/dt = rN).\nStatement II: Logistic growth occurs when resources are limited, giving an S-shaped sigmoid curve.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Thermal Tolerance",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Organisms that can tolerate and thrive in a wide range of temperatures are called eurythermal, whereas those restricted to a narrow range of temperatures are called:",
+      "options": [
+        "Stenothermal",
+        "Euryhaline",
+        "Stenohaline",
+        "Homeotherms"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Interactions",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Predators play an important ecological role in maintaining species diversity in a community.\nReason (R): Predators reduce the intensity of competition among competing prey species, as demonstrated by Robert Paine's star fish Pisaster removal experiment.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Competition & Resource Partitioning",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "MacArthur showed that five closely related species of warblers living on the same tree were able to avoid competition and coexist due to behavioral differences in their foraging activities. This phenomenon is called:",
+      "options": [
+        "Resource partitioning",
+        "Competitive exclusion",
+        "Competitive release",
+        "Amensalism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Brood Parasitism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Brood parasitism in birds is a fascinating example of parasitism in which parasitic bird lays its eggs in the nest of its host. An example is:",
+      "options": [
+        "Cuckoo (Koel) laying eggs in Crow's nest",
+        "Pigeon laying eggs in Eagle's nest",
+        "Sparrow laying eggs in Weaver bird nest",
+        "Parrot laying eggs in Owl's nest"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Adaptations at High Altitudes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "People visiting high altitude places (>3500 m like Rohtang Pass) experience altitude sickness (nausea, fatigue, heart palpitations). The body compensates for low atmospheric oxygen by:",
+      "options": [
+        "Increasing RBC production, decreasing binding affinity of hemoglobin, and increasing breathing rate",
+        "Decreasing RBC production and breathing rate",
+        "Increasing binding affinity of hemoglobin",
+        "Decreasing heart rate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Competitive Release",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Connell's elegant field experiments on rocky sea coasts of Scotland showed that superior barnacle Balanus excludes smaller barnacle Chthamalus from intertidal zone. Expanding of inferior species range when superior species is removed is termed:",
+      "options": [
+        "Competitive release",
+        "Competitive exclusion",
+        "Resource partitioning",
+        "Amensalism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Life History Variation",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Organisms maximize their Darwinian fitness (high r value). Which organisms breed only once in their lifetime?",
+      "options": [
+        "Pacific salmon fish and Bamboo",
+        "Birds and mammals",
+        "Oysters and pelagic fishes",
+        "Lions and Elephants"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Growth Models",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Intrinsic rate of natural increase (r):\n1. 'r' is an important parameter for assessing impacts of biotic or abiotic factors on population growth.\n2. For Norway rat, r value is 0.015.\n3. For flour beetle, r value is 0.12.\n4. For human population in India in 1981, r value was 0.0205.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Parasitism Adaptations",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In accordance with lifestyle, parasites evolved special adaptations such as:",
+      "options": [
+        "Loss of unnecessary sense organs, presence of suckers/hooks, loss of digestive system, high reproductive capacity",
+        "Well developed digestive system and sense organs",
+        "Low reproductive capacity",
+        "Presence of wings for fast locomotion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Commensalism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An orchid growing as an epiphyte on a mango branch, and sea anemone with clown fish living among its stinging tentacles represent:",
+      "options": [
+        "Commensalism (+/0)",
+        "Mutualism (+/+)",
+        "Parasitism (+/-)",
+        "Amensalism (-/0)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Population Density Measurement",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Tiger census in Indian national parks and tiger reserves is often based on indirect estimation using:",
+      "options": [
+        "Pug marks and fecal pellets",
+        "Direct counting of adult tigers only",
+        "Camera traps exclusively at water holes",
+        "Radio collars"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Conformers",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nearly 99 percent of animals and almost all plants cannot maintain a constant internal environment. Their body temperature changes with ambient temperature. They are called:",
+      "options": [
+        "Conformers",
+        "Regulators",
+        "Partial regulators",
+        "Endotherms"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Mutualism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Mutualism:\nStatement I: Fig species can be pollinated only by its partner wasp species, and wasp uses fig fruit for oviposition and larvae feeding.\nStatement II: Co-evolution is tight in fig-wasp mutualism so that evolutionary changes in one species drive changes in partner.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Ecological Adaptations",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Thick layer of fat called blubber below the skin of seals in polar seas functions as an:",
+      "options": [
+        "Insulator reducing loss of body heat",
+        "Oxygen storage tissue",
+        "Excretory organ",
+        "Energy producer"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Organisms and Populations",
+    "chapter_number": 18,
+    "topic": "Ecology Definition",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ecology is basically concerned with four levels of biological organization: Organisms, Populations, Communities, and:",
+      "options": [
+        "Biomes",
+        "Tissues",
+        "Species",
+        "Biospheres"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:53:00.000Z"
+  }
+]

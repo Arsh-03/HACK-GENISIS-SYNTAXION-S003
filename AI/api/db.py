@@ -5,8 +5,9 @@ import redis
 # MongoDB Connection
 MONGO_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
 try:
-    mongo_client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000)
-    db = mongo_client["cbt_database"]
+    import certifi
+    mongo_client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000, tlsCAFile=certifi.where())
+    db = mongo_client.get_default_database("neetcbt")
     questions_collection = db["questions"]
     used_questions_registry = db["used_questions"]
 except Exception as e:

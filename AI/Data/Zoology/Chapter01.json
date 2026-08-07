@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Levels of Organization & Symmetry",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which phylum exhibits cellular level of organization with asymmetrical or radially symmetrical body plans?",
+      "options": [
+        "Porifera",
+        "Coelenterata",
+        "Ctenophora",
+        "Platyhelminthes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Coelom and Germ Layers",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pseudocoelom, where mesoderm is present as scattered pouches between ectoderm and endoderm, is characteristic of:",
+      "options": [
+        "Aschelminthes (Nematodes)",
+        "Annelida",
+        "Platyhelminthes",
+        "Arthropoda"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Porifera",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In sponges, water enters through minute pores (ostia) into a central cavity called spongocoel and goes out through the osculum. The spongocoel and canals are lined by specialized flagellated cells called:",
+      "options": [
+        "Choanocytes (Collar cells)",
+        "Cnidocytes",
+        "Flame cells",
+        "Solenocytes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Cnidaria / Coelenterata",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Metagenesis, the alternation of generation where polyp produces medusae asexually and medusae form polyps sexually, is exhibited by:",
+      "options": [
+        "Obelia",
+        "Physalia",
+        "Aurelia",
+        "Metridium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Ctenophora",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Comb jellies or sea walnuts (Ctenophora) bear how many external rows of ciliated comb plates that help in locomotion?",
+      "options": [
+        "Eight rows",
+        "Four rows",
+        "Six rows",
+        "Twelve rows"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Platyhelminthes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Specialized cells present in flatworms (Platyhelminthes) that help in osmoregulation and excretion are called:",
+      "options": [
+        "Flame cells",
+        "Nephridia",
+        "Malpighian tubules",
+        "Proboscis gland"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Non-Chordata Phyla Matching",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Phylum in Column-I with its key excretory/specialized organ in Column-II:\nColumn-I:\n(A) Porifera\n(B) Annelida\n(C) Arthropoda\n(D) Mollusca\nColumn-II:\n(i) Feather-like gills (ctenidia) / Radula\n(ii) Malpighian tubules / Green glands\n(iii) Nephridia\n(iv) Canal system with ostia and osculum",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Mollusca",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "File-like rasping organ for feeding present in the mouth of many molluscs is called:",
+      "options": [
+        "Radula",
+        "Statocyst",
+        "Mantle",
+        "Parapodia"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Echinodermata",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Water vascular system which helps in locomotion, capture and transport of food, and respiration is the most distinctive feature of:",
+      "options": [
+        "Echinodermata",
+        "Hemichordata",
+        "Mollusca",
+        "Annelida"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Hemichordata",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Balanoglossus and Saccoglossus belong to Hemichordata. Their body is cylindrical and composed of:",
+      "options": [
+        "An anterior proboscis, a collar, and a long trunk",
+        "Head, thorax, and abdomen",
+        "Head, muscular foot, and visceral hump",
+        "Cephalothorax and abdomen"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Chordata Characteristics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following is a fundamental characteristic feature of all chordates?",
+      "options": [
+        "Presence of a dorsal hollow nerve cord, notochord, and paired pharyngeal gill slits",
+        "Ventral solid nerve cord and open circulatory system",
+        "Absence of post-anal tail",
+        "Cellular level of body organization"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Chondrichthyes vs Osteichthyes",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cartilaginous fishes (Chondrichthyes) differ from bony fishes (Osteichthyes) because Chondrichthyes possess:",
+      "options": [
+        "Ventral mouth, placoid scales, and absence of air bladder (must swim constantly to avoid sinking)",
+        "Terminal mouth, cycloid scales, and swim bladder",
+        "Operculum covering gill slits",
+        "Homocercal caudal fin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Reptilia & Aves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pneumatic bones (long bones hollow with air cavities) to reduce body weight for flight are found in:",
+      "options": [
+        "Aves (Birds)",
+        "Mammalia",
+        "Reptilia",
+        "Amphibia"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Mammalia",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following is an egg-laying (oviparous) mammal?",
+      "options": [
+        "Ornithorhynchus (Platypus)",
+        "Macropus (Kangaroo)",
+        "Pteropus (Flying fox)",
+        "Balaenoptera (Blue whale)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Chordates Classification",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Subphyla of Chordata:\nStatement I: In Urochordata (e.g., Ascidia, Salpa), notochord is present only in larval tail.\nStatement II: In Cephalochordata (e.g., Branchiostoma/Amphioxus), notochord extends from head to tail region and persists throughout life.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Cyclostomata",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Class Cyclostomata comprises jawless vertebrates. They are ectoparasites on some fishes and migrate for spawning to freshwater. After spawning, adult cyclostomes:",
+      "options": [
+        "Die within a few days, while larvae metamorphose and return to ocean",
+        "Return to ocean immediately",
+        "Live in freshwater permanently",
+        "Lay eggs in deep ocean trenches"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Echinodermata Symmetry",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Echinoderms exhibit radial symmetry as adults but bilateral symmetry in their larval stage.\nReason (R): Radial symmetry is advantageous for sessile or slow-moving adult marine life.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Arthropoda",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Arthropoda is the largest phylum of Animalia which includes over two-thirds of all named species on earth. Their body is covered by a chitinous exoskeleton and appendages are:",
+      "options": [
+        "Jointed",
+        "Unsegmented",
+        "Absent",
+        "Parapodial"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Amphibia",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Amphibians have a 3-chambered heart (2 auricles and 1 ventricle). Their alimentary canal, urinary, and reproductive tracts open into a common chamber called:",
+      "options": [
+        "Cloaca",
+        "Anus",
+        "Coelom",
+        "Sinus venosus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Annelida",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Aquatic annelid Nereis possesses lateral appendages that help in swimming called:",
+      "options": [
+        "Parapodia",
+        "Setae",
+        "Suckers",
+        "Tentacles"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Coelenterata / Cnidaria",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Stinging capsules called nematocysts present on tentacles and body of cnidarians function in:",
+      "options": [
+        "Anchorage, defense, and capture of prey",
+        "Osmoregulation",
+        "Digestion exclusively",
+        "Respiration"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Platyhelminthes Examples",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Planaria possesses high capacity of regeneration. Taenia (Tapeworm) and Fasciola (Liver fluke) belong to phylum:",
+      "options": [
+        "Platyhelminthes",
+        "Aschelminthes",
+        "Annelida",
+        "Ctenophora"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Arthropoda Examples",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Arthropoda:\n1. Economically important insects include Apis (Honey bee), Bombyx (Silkworm), Laccifer (Lac insect).\n2. Vectors include Anopheles, Culex, and Aedes mosquitoes.\n3. Gregarious pest is Locusta (Locust).\n4. Living fossil is Limulus (King crab).\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Reptilia Heart",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Reptiles generally possess a 3-chambered heart. An exception having a completely 4-chambered heart is:",
+      "options": [
+        "Crocodiles / Alligators",
+        "Snakes",
+        "Lizards",
+        "Turtles"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Poikilotherms vs Homoiotherms",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Warm-blooded animals (Homoiotherms) capable of maintaining a constant body temperature include classes:",
+      "options": [
+        "Aves and Mammalia",
+        "Reptilia and Amphibia",
+        "Pisces and Amphibia",
+        "Cyclostomata and Chondrichthyes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Metamerism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "True metameric segmentation where body is externally and internally divided into segments with serial repetition of organs is first seen in phylum:",
+      "options": [
+        "Annelida",
+        "Arthropoda",
+        "Platyhelminthes",
+        "Aschelminthes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Aves Digestive System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The digestive tract of birds (Aves) has additional chambers called:",
+      "options": [
+        "Crop and Gizzard",
+        "Rumen and Reticulum",
+        "Caecum and Colon",
+        "Oesophagus and Stomach"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Coelenterata Body Forms",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Cnidarians:\nStatement I: Polyp is a sessile and cylindrical form like Hydra and Adamsia.\nStatement II: Medusa is an umbrella-shaped and free-swimming form like Aurelia (Jelly fish).\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Aschelminthes Characteristics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Roundworms (Aschelminthes) are dioecious with distinct sexual dimorphism where females are usually:",
+      "options": [
+        "Longer than males",
+        "Shorter than males",
+        "Identical in size to males",
+        "Microscopic"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Animal Kingdom",
+    "chapter_number": 1,
+    "topic": "Poison Sting Fishes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Chondrichthyes, Trygon possesses a poison sting, whereas Torpedo possesses:",
+      "options": [
+        "Electric organs",
+        "Luminescent organs",
+        "Bony scutes",
+        "Heterocercal scales"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:56:00.000Z"
+  }
+]

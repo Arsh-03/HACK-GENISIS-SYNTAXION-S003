@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Infectious Diseases & Pathogens",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Typhoid fever in humans is caused by Salmonella typhi bacterium. Diagnostic test used to confirm typhoid is:",
+      "options": [
+        "Widal test",
+        "ELISA test",
+        "Western blot test",
+        "Mantoux test"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Pneumonia",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pneumonia in humans infects alveoli of lungs, filling them with fluid. Pathogens responsible for pneumonia include:",
+      "options": [
+        "Streptococcus pneumoniae and Haemophilus influenzae",
+        "Salmonella typhi and E. coli",
+        "Entamoeba histolytica",
+        "Rhino viruses"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Life Cycle of Plasmodium (Malaria)",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Malarial parasite Plasmodium enters human body as infectious sporozoites through bite of infected female Anopheles mosquito. Recurrent high fever and chills occurring every 3-4 days in malaria is caused by release of a toxic substance called:",
+      "options": [
+        "Haemozoin released upon rupture of RBCs",
+        "Histamine",
+        "Interferon",
+        "Endotoxin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Innate Immunity Barriers",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Innate immunity consists of non-specific defense barriers. Match the Barrier in Column-I with its example in Column-II:\nColumn-I:\n(A) Physical barrier\n(B) Physiological barrier\n(C) Cellular barrier\n(D) Cytokine barrier\nColumn-II:\n(i) Interferons released by virus-infected cells\n(ii) Polymorpho-nuclear leukocytes (PMNL-neutrophils) and Monocytes\n(iii) Acid in stomach, saliva in mouth, tears from eyes\n(iv) Skin and mucus coating of respiratory/urogenital tract",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Immunity - Active vs Passive",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Injecting pre-formed antibodies or antitoxins directly into patient's body to provide immediate protection against deadly infections like Tetanus or Snakebite is an example of:",
+      "options": [
+        "Passive immunity",
+        "Active immunity",
+        "Cell-mediated immunity",
+        "Innate immunity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Structure of Antibody",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An antibody molecule consists of four peptide chains (two light chains and two heavy chains) represented as H2L2. Chains are held together by:",
+      "options": [
+        "Disulfide bonds",
+        "Peptide bonds",
+        "Hydrogen bonds",
+        "Glycosidic bonds"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Cell-Mediated Immunity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Graft rejection following organ transplantation (kidney, heart, liver) is primarily mediated by which type of immune response?",
+      "options": [
+        "Cell-Mediated Immunity (CMI) involving T-lymphocytes",
+        "Humoral immune response involving B-lymphocytes",
+        "Innate physical barriers",
+        "Passive immunity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "AIDS & HIV Mechanism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "HIV (Human Immunodeficiency Virus) is a retrovirus having an RNA genome. Inside host cells, HIV reverse transcriptase converts viral RNA into viral DNA, which enters nucleus and infects:",
+      "options": [
+        "Helper T-cells ($T_H$ cells) and Macrophages",
+        "B-lymphocytes exclusively",
+        "RBCs and platelets",
+        "Neutrophils"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:07:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Cancer - Proto-oncogenes & Tumor Suppressors",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Normal cells show contact inhibition where contact with other cells inhibits uncontrolled growth. Cancerous cells lose contact inhibition and form tumors. Malignant tumors differ from benign tumors because malignant cells exhibit:",
+      "options": [
+        "Metastasis (sloughing off and invading distant organs via blood)",
+        "Capsulated static growth",
+        "Cellular differentiation",
+        "Apoptosis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Drugs - Opioids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Heroin (smack) is chemically diacetylmorphine, obtained by acetylation of morphine extracted from latex of opium poppy plant named:",
+      "options": [
+        "Papaver somniferum",
+        "Cannabis sativa",
+        "Erythroxylum coca",
+        "Atropa belladonna"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Drugs - Cannabinoids & Cocaine",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cannabinoids (marijuana, hashish, charas, ganja) obtained from Cannabis sativa interact with cannabinoid receptors in brain and primarily affect the:",
+      "options": [
+        "Cardiovascular system",
+        "Respiratory system",
+        "Digestive tract",
+        "Excretory system"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Lymphoid Organs",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Primary lymphoid organs where immature lymphocytes differentiate into antigen-sensitive lymphocytes are:",
+      "options": [
+        "Bone marrow and Thymus",
+        "Spleen and Lymph nodes",
+        "Tonsils and Peyer's patches",
+        "MALT and Appendices"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "MALT & Spleen",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mucosa-Associated Lymphoid Tissue (MALT) constitutes what percentage of total lymphoid tissue in human body?",
+      "options": [
+        "50 percent",
+        "20 percent",
+        "70 percent",
+        "10 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Amoebiasis & Ascariasis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Amoebic dysentery (Amoebiasis) characterized by constipation, abdominal pain, and stool with excess mucus and blood clots is caused by protozoan parasite Entamoeba histolytica, transmitted by mechanical carrier:",
+      "options": [
+        "Houseflies",
+        "Female Anopheles mosquito",
+        "Culex mosquito",
+        "Aedes mosquito"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Allergies & IgE",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Allergy:\nStatement I: Exaggerated response of immune system to certain environmental antigens (allergens like dust, pollen, animal dander) is called allergy.\nStatement II: Allergy involves production of IgE type antibodies and release of chemicals like histamine and serotonin from mast cells.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Ringworm Infections",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Dry, scaly lesions on skin, nails, and scalp accompanied by intense itching in Ringworm disease are caused by fungi belonging to genera:",
+      "options": [
+        "Microsporum, Trichophyton, and Epidermophyton",
+        "Aspergillus and Penicillium",
+        "Rhizopus and Mucor",
+        "Puccinia and Ustilago"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Autoimmune Disorders",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Rheumatoid arthritis is an autoimmune disease where body's immune system attacks self-cells.\nReason (R): Higher vertebrates evolved the ability to differentiate self-cells from non-self foreign molecules.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Filariasis / Elephantiasis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Elephantiasis or Filariasis characterized by chronic inflammation and swelling of lymphatic vessels of lower limbs and genital organs is caused by filarial worms Wuchereria bancrofti and Wuchereria malayi, transmitted by female vector:",
+      "options": [
+        "Culex mosquito",
+        "Anopheles mosquito",
+        "Aedes mosquito",
+        "Tsetse fly"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Cancer Detection Methods",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cancer detection methods include biopsy, histopathological studies, Radiography (X-rays), CT (Computed Tomography), and MRI (Magnetic Resonance Imaging). MRI uses non-ionizing radiation and strong magnetic fields to accurately detect changes in living tissues safely without:",
+      "options": [
+        "Ionizing radiation exposure",
+        "Contrast dyes",
+        "Surgical incision",
+        "Anesthesia"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Coca Alkaloid / Cocaine",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cocaine (coke/crack) obtained from South American plant Erythroxylum coca interferes with transport of neurotransmitter Dopamine, producing potent stimulation of CNS and sense of euphoria. Excessive dosage causes:",
+      "options": [
+        "Hallucinations",
+        "Drowsiness and sedation",
+        "Respiratory depression",
+        "Muscle paralysis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Common Cold vs Typhoid",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Common cold caused by Rhino viruses infects nose and respiratory passage but differs from pneumonia because common cold does NOT infect:",
+      "options": [
+        "Lungs / Alveoli",
+        "Nasal mucosa",
+        "Pharynx",
+        "Trachea"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Tobacco & Nicotine",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Tobacco contains alkaloid Nicotine which stimulates adrenal gland to release adrenaline and noradrenaline into circulation, increasing blood pressure and heart rate. Smoking tobacco increases risk of cancer of lungs, urinary bladder, throat, and increases CO concentration in blood leading to:",
+      "options": [
+        "Oxygen deficiency in tissues",
+        "Polycythemia",
+        "High WBC count",
+        "Hypertension exclusively"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Malaria Species",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Malarial parasites:\n1. Plasmodium vivax, P. malariae, and P. falciparum cause malaria in humans.\n2. Malignant malaria caused by Plasmodium falciparum is the most serious and can be fatal.\n3. Sexual stage (gametocytes) of Plasmodium develops in human RBCs.\n4. Fertilization and development of Plasmodium occur in mosquito gut.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Primary vs Secondary Immune Response",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "First encounter with a pathogen produces a primary immune response of low intensity. Subsequent encounter with same pathogen produces a highly intensified secondary or anamnestic response based on:",
+      "options": [
+        "Immunological memory (Memory B and T cells)",
+        "Innate physical barriers",
+        "Passive antibodies",
+        "Phagocytosis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Spleen Functions",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Spleen is a large bean-shaped organ containing lymphocytes and phagocytes. It acts as a filter for blood by trapping blood-borne microbes and serves as a major reservoir of:",
+      "options": [
+        "Erythrocytes (RBCs)",
+        "Platelets only",
+        "Bile salts",
+        "Hormones"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Carcinogens",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Agents that transform normal cells into cancerous neoplastic cells are called Carcinogens. Physical carcinogens causing DNA damage include ionizing radiations like X-rays and gamma rays, and non-ionizing radiation like:",
+      "options": [
+        "Ultraviolet (UV) rays",
+        "Infrared rays",
+        "Microwaves",
+        "Visible light"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "NACO & AIDS Prevention",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "National AIDS Control Organisation (NACO) and NGOs in India educate people about AIDS prevention. World AIDS Day is celebrated every year on:",
+      "options": [
+        "December 1",
+        "June 5",
+        "April 7",
+        "July 11"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Anabolic Steroids Abuse",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Anabolic Steroids abuse by athletes:\nStatement I: Side effects of anabolic steroids in females include masculinization, increased aggressiveness, mood swings, depression, and facial hair.\nStatement II: Side effects in males include reduction in size of testes, decreased sperm production, kidney/liver dysfunction, and premature balding.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Biological Response Modifiers",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cancer patients are given biological response modifiers that activate their immune system to destroy tumors, such as:",
+      "options": [
+        "Alpha-interferon",
+        "Morphine",
+        "Histamine",
+        "Barbiturates"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Human Health and Disease",
+    "chapter_number": 12,
+    "topic": "Vaccines via rDNA Technology",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Recombinant DNA technology has allowed production of antigenic polypeptides of pathogens in bacteria or yeast for large scale vaccine production, such as:",
+      "options": [
+        "Hepatitis B vaccine produced from yeast",
+        "Polio vaccine",
+        "BCG vaccine",
+        "DPT vaccine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:07:00.000Z"
+  }
+]

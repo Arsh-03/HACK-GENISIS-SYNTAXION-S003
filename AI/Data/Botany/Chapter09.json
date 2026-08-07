@@ -1,0 +1,660 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Early Experiments",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Who demonstrated that photosynthesis is essentially a light-dependent reaction in which hydrogen from a suitable oxidizable compound reduces carbon dioxide to carbohydrates, using purple and green sulfur bacteria?",
+      "options": [
+        "C. van Niel",
+        "Joseph Priestley",
+        "Jan Ingenhousz",
+        "T.W. Engelmann"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Photosynthetic Pigments",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which pigment acts as the chief photosynthetic pigment showing maximum absorption peaks in the blue and red regions of the spectrum?",
+      "options": [
+        "Chlorophyll a",
+        "Chlorophyll b",
+        "Xanthophyll",
+        "Carotenoid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Light Reaction & Z-Scheme",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Photosystem II (PS II), the reaction center chlorophyll a absorbs light at which specific wavelength?",
+      "options": [
+        "680 nm",
+        "700 nm",
+        "540 nm",
+        "430 nm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Water Splitting",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The oxygen-evolving complex (water splitting complex) is physically associated with:",
+      "options": [
+        "PS II on the inner side (lumen side) of the thylakoid membrane",
+        "PS I on the stroma side of the thylakoid membrane",
+        "Cytochrome b6f complex in the stroma",
+        "ATP synthase F1 headpiece"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Cyclic and Non-cyclic Photophosphorylation",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cyclic photophosphorylation results in the synthesis of:",
+      "options": [
+        "ATP only (no NADPH and no O2 evolved)",
+        "Both ATP and NADPH",
+        "NADPH and O2 only",
+        "ATP, NADPH, and O2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Chemiosmotic Hypothesis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During chemiosmotic ATP synthesis in chloroplasts, protons accumulate in high concentration within the:",
+      "options": [
+        "Lumen of thylakoids",
+        "Stroma of chloroplasts",
+        "Intermembrane space of chloroplasts",
+        "Matrix of mitochondria"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C3 Pathway (Calvin Cycle)",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The primary CO2 acceptor molecule in C3 plants is a 5-carbon ketose sugar called:",
+      "options": [
+        "Ribulose-1,5-bisphosphate (RuBP)",
+        "Phosphoenolpyruvate (PEP)",
+        "Oxaloacetic acid (OAA)",
+        "3-phosphoglyceric acid (PGA)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C3 Pathway (Calvin Cycle)",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "To fix one molecule of CO2 via the Calvin cycle, how many molecules of ATP and NADPH are consumed?",
+      "options": [
+        "3 ATP and 2 NADPH",
+        "2 ATP and 3 NADPH",
+        "18 ATP and 12 NADPH",
+        "5 ATP and 2 NADPH"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C4 Pathway (Hatch & Slack)",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Large bundle sheath cells surrounding the vascular bundles in C4 plants, characterized by thick walls, no intercellular spaces, and large numbers of chloroplasts, form a leaf anatomy called:",
+      "options": [
+        "Kranz anatomy",
+        "Dorsiventral anatomy",
+        "Isobilateral anatomy",
+        "Pellicle anatomy"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C4 Pathway (Hatch & Slack)",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In C4 plants, the primary CO2 acceptor present in mesophyll cells is:",
+      "options": [
+        "Phosphoenolpyruvate (PEP)",
+        "Ribulose-1,5-bisphosphate (RuBP)",
+        "Oxaloacetic acid (OAA)",
+        "Malic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Photorespiration",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "RuBisCO acts as an oxygenase when O2 concentration is high and CO2 is low. Photorespiration leads to the loss of fixed CO2 without producing ATP or NADPH. It occurs in sequence across three organelles:",
+      "options": [
+        "Chloroplast \u2192 Peroxisome \u2192 Mitochondrion",
+        "Mitochondria \u2192 Chloroplast \u2192 Peroxisome",
+        "Peroxisome \u2192 Chloroplast \u2192 Mitochondrion",
+        "Chloroplast \u2192 Lysosome \u2192 Mitochondrion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Factors Affecting Photosynthesis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Law of Limiting Factors in biological processes was proposed in 1905 by:",
+      "options": [
+        "Blackman",
+        "Calvin",
+        "Hatch and Slack",
+        "Arnon"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C4 Pathway",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which enzyme is missing in the mesophyll cells of C4 plants, making Calvin cycle occur exclusively in bundle sheath cells?",
+      "options": [
+        "RuBisCO",
+        "PEP carboxylase",
+        "ATPase",
+        "NADP reductase"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Early Experiments",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "T.W. Engelmann plotted the first action spectrum of photosynthesis using Cladophora (a green alga) and aerobic bacteria to discover that photosynthesis occurs primarily in:",
+      "options": [
+        "Blue and Red light regions",
+        "Green and Yellow light regions",
+        "Far-red light regions",
+        "Ultraviolet region"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C4 Pathway",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding C4 Plants:\nStatement I: C4 plants are adapted to dry tropical regions, show higher optimal temperature requirement, and lack photorespiration.\nStatement II: Fixation of CO2 in C4 plants requires total 30 ATP molecules per hexose molecule synthesized.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Chemiosmotic Hypothesis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the components of ATP Synthase in Column-I with their functions in Column-II:\nColumn-I:\n(A) CF0 membrane channel\n(B) CF1 headpiece\nColumn-II:\n(i) Protrudes on the stroma side and catalyzes ATP synthesis\n(ii) Embedded in thylakoid membrane and carries out facilitated diffusion of protons",
+      "options": [
+        "A-(ii), B-(i)",
+        "A-(i), B-(ii)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Photorespiration",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): C4 plants show high productivity and biomass yield compared to C3 plants.\nReason (R): C4 plants have a mechanism that concentrates CO2 at the RuBisCO site in bundle sheath cells, eliminating photorespiration.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C3 Pathway",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The first stable product of CO2 fixation in C3 plants identified by Melvin Calvin using radioactive 14C in green algae is:",
+      "options": [
+        "3-phosphoglyceric acid (PGA)",
+        "Oxaloacetic acid (OAA)",
+        "Phosphoglyceraldehyde (PGAL)",
+        "Dihydroxyacetone phosphate (DHAP)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Light Reactions",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Stroma lamellae membranes lack which essential components present in grana thylakoids?",
+      "options": [
+        "PS II and NADP reductase enzyme",
+        "PS I and ATP synthase",
+        "Chlorophyll a and Carotenoids",
+        "Cytochrome complex"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Factors Affecting Photosynthesis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Light saturation for plants occurs at what percentage of full sunlight?",
+      "options": [
+        "10 percent",
+        "50 percent",
+        "25 percent",
+        "100 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Photosynthetic Pigments",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In paper chromatography, what colors do Chlorophyll a and Chlorophyll b display on the chromatogram respectively?",
+      "options": [
+        "Chlorophyll a = Bright/blue green; Chlorophyll b = Yellow-green",
+        "Chlorophyll a = Yellow-green; Chlorophyll b = Blue-green",
+        "Chlorophyll a = Yellow; Chlorophyll b = Orange",
+        "Chlorophyll a = Red; Chlorophyll b = Blue"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C3 Pathway",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The three main steps of the Calvin cycle in correct sequential order are:",
+      "options": [
+        "Carboxylation \u2192 Reduction \u2192 Regeneration",
+        "Reduction \u2192 Carboxylation \u2192 Regeneration",
+        "Regeneration \u2192 Carboxylation \u2192 Reduction",
+        "Carboxylation \u2192 Regeneration \u2192 Reduction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C4 Pathway",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding C4 plants (e.g., Maize, Sugarcane, Sorghum):\n1. Oxaloacetic acid (OAA) is formed in mesophyll cells by PEPcase.\n2. OAA is converted into 4-carbon acids like malic acid or aspartic acid which are transported to bundle sheath cells.\n3. In bundle sheath cells, C4 acids undergo decarboxylation releasing CO2 and 3-carbon pyruvate.\n4. Pyruvate travels back to mesophyll cells to regenerate PEP.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Factors Affecting Photosynthesis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Atmospheric CO2 saturation level for C3 and C4 plants occurs at approximately:",
+      "options": [
+        "C3 plants at 450 \u00b5L/L; C4 plants at 360 \u00b5L/L",
+        "C3 plants at 360 \u00b5L/L; C4 plants at 450 \u00b5L/L",
+        "Both at 300 \u00b5L/L",
+        "Both at 500 \u00b5L/L"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Early Experiments",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Julius von Sachs provided evidence in 1854 that the green substance (chlorophyll) in plants is located in special bodies (chloroplasts) and that the plant produces:",
+      "options": [
+        "Glucose stored as starch",
+        "Proteins stored in aleuroplasts",
+        "Lipids stored in elaioplasts",
+        "Sucrose stored in vacuoles"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Water Splitting",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which essential mineral elements are required for the water-splitting reaction in photosynthesis?",
+      "options": [
+        "Manganese (Mn) and Chlorine (Cl)",
+        "Magnesium (Mg) and Iron (Fe)",
+        "Zinc (Zn) and Molybdenum (Mo)",
+        "Copper (Cu) and Boron (B)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Light Reaction",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Photosystem I (PS I), the reaction center chlorophyll a absorbs light at a peak wavelength of:",
+      "options": [
+        "700 nm",
+        "680 nm",
+        "650 nm",
+        "400 nm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Factors Affecting Photosynthesis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: Tomatoes and Bell peppers are C3 greenhouse crops grown in CO2 enriched atmosphere for higher yields.\nStatement II: C4 plants respond to higher temperatures with enhanced photosynthesis, whereas C3 plants have much lower optimal temperatures.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "Photosynthetic Pigments",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Accessory pigments such as Chlorophyll b, Xanthophylls, and Carotenoids function to:",
+      "options": [
+        "Absorb light at broader wavelengths and transfer energy to Chlorophyll a while protecting it from photo-oxidation",
+        "Perform light-independent CO2 fixation directly",
+        "Split water molecules in the lumen",
+        "Synthesize ATP independently"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Photosynthesis in Higher Plants",
+    "chapter_number": 9,
+    "topic": "C3 Pathway",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How many total ATP and NADPH molecules are required to synthesize one molecule of Glucose ($C_6H_{12}O_6$) via the Calvin cycle?",
+      "options": [
+        "18 ATP and 12 NADPH",
+        "12 ATP and 18 NADPH",
+        "30 ATP and 12 NADPH",
+        "12 ATP and 12 NADPH"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:42:00.000Z"
+  }
+]

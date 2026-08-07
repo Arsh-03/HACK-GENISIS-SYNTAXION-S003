@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Ecosystem Structure & Function",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Vertical distribution of different species occupying different levels in an ecosystem, such as trees occupying top vertical layer, shrubs second, and herbs bottom layer, is termed:",
+      "options": [
+        "Stratification",
+        "Zonation",
+        "Succession",
+        "Scarification"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Primary Productivity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Net Primary Productivity (NPP) is the available biomass for consumption by heterotrophs. It is related to Gross Primary Productivity (GPP) and Respiration loss (R) by the equation:",
+      "options": [
+        "NPP = GPP - R",
+        "GPP = NPP - R",
+        "NPP = GPP + R",
+        "R = NPP + GPP"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Decomposition Steps",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Breakdown of detritus into smaller particles by detritivores like earthworms is called:",
+      "options": [
+        "Fragmentation",
+        "Leaching",
+        "Catabolism",
+        "Humification"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Decomposition Factors",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Decomposition rate is slower if detritus is rich in:",
+      "options": [
+        "Lignin and Chitin",
+        "Nitrogen and water soluble substances",
+        "Sugars",
+        "Proteins"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Energy Flow",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Of the incident solar radiation, less than 50% is Photosynthetically Active Radiation (PAR). Plants capture what percentage of PAR for photosynthesis?",
+      "options": [
+        "2 - 10 percent",
+        "50 percent",
+        "20 - 30 percent",
+        "100 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "10 Percent Law",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Lindeman's 10% law of energy transfer, only 10% of energy is transferred to each trophic level from the lower level. If producers synthesize 10,000 J of energy, energy available to tertiary consumer will be:",
+      "options": [
+        "10 J",
+        "100 J",
+        "1,000 J",
+        "1 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Ecological Pyramids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Pyramid Type in Column-I with its nature in Column-II:\nColumn-I:\n(A) Pyramid of Energy\n(B) Pyramid of Biomass in Sea / Aquatic ecosystem\n(C) Pyramid of Numbers in Grassland\nColumn-II:\n(i) Always upright (never inverted)\n(ii) Inverted (small standing crop of phytoplankton supports large standing crop of zooplankton/fish)\n(iii) Upright",
+      "options": [
+        "A-(i), B-(ii), C-(iii)",
+        "A-(ii), B-(i), C-(iii)",
+        "A-(i), B-(iii), C-(ii)",
+        "A-(iii), B-(ii), C-(i)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Primary Productivity Values",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Annual net primary productivity of the whole biosphere is approximately 170 billion tons of dry organic matter. Oceans contribute only about:",
+      "options": [
+        "55 billion tons despite occupying 70% of Earth's surface",
+        "115 billion tons",
+        "100 billion tons",
+        "10 billion tons"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Decomposition Steps",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Process by which water-soluble inorganic nutrients go down into soil horizon and get precipitated as unavailable salts is called:",
+      "options": [
+        "Leaching",
+        "Fragmentation",
+        "Catabolism",
+        "Humification"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Food Chains",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a terrestrial ecosystem, major conduit for energy flow is Detritus Food Chain (DFC), whereas in an aquatic ecosystem, major conduit for energy flow is:",
+      "options": [
+        "Grazing Food Chain (GFC)",
+        "Detritus Food Chain (DFC)",
+        "Parasitic Food Chain",
+        "Saprophytic Food Chain"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Humification and Mineralization",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Humus is dark-colored amorphous substance extremely resistant to microbial action that undergoes slow decomposition. Release of inorganic nutrients from humus by microbes is called:",
+      "options": [
+        "Mineralization",
+        "Humification",
+        "Leaching",
+        "Catabolism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Standing Crop",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Each trophic level has a certain mass of living material at a particular time called Standing Crop. Standing crop is measured as:",
+      "options": [
+        "Mass of living organisms (biomass) or number in a unit area",
+        "Total solar energy absorbed",
+        "Amount of inorganic nutrients in soil",
+        "Rate of decomposition per year"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Ecological Services",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Robert Constanza and his colleagues put price tags on nature's life-support services. Average price tag for global ecosystem services is estimated at US$ 33 trillion a year, out of which soil formation accounts for:",
+      "options": [
+        "50 percent",
+        "10 percent",
+        "6 percent",
+        "20 percent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Ecological Pyramids Limitations",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Limitation of ecological pyramids includes:",
+      "options": [
+        "It does not accommodate food webs and excludes saprophytes",
+        "It accounts for organisms belonging to multiple trophic levels",
+        "Energy pyramid is inverted",
+        "It includes dead organic matter"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Energy Flow",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Energy Flow:\nStatement I: Energy flow in an ecosystem is always unidirectional (from sun to producers to consumers).\nStatement II: No energy that is trapped into an organism remains in it forever; energy decreases at successive trophic levels according to Second Law of Thermodynamics.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Ecological Succession",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In primary hydrarch succession in water, correct sequential order of developmental stages is:",
+      "options": [
+        "Phytoplankton \u2192 Submerged plant stage \u2192 Submerged free-floating \u2192 Reed-swamp \u2192 Marsh-meadow \u2192 Scrub \u2192 Forest",
+        "Forest \u2192 Scrub \u2192 Phytoplankton \u2192 Reed-swamp",
+        "Reed-swamp \u2192 Marsh-meadow \u2192 Phytoplankton \u2192 Forest",
+        "Phytoplankton \u2192 Forest \u2192 Reed-swamp \u2192 Scrub"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Nutrient Cycling",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Gaseous nutrient cycles (Carbon, Nitrogen) have reservoir in atmosphere, whereas Sedimentary nutrient cycles (Phosphorus, Sulfur) have reservoir in Earth's crust.\nReason (R): Carbon constitutes 49% of dry weight of organisms and 71% of global carbon is dissolved in oceans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Pioneer Species",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In xerarch primary succession on bare rock, pioneer species that secrete acids to dissolve rock and help in soil formation are:",
+      "options": [
+        "Lichens",
+        "Mosses",
+        "Grasses",
+        "Trees"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Phosphorus Cycle",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Natural reservoir of phosphorus is rock, which contains phosphorus in the form of phosphates. Phosphates enter food chain primarily through absorption by:",
+      "options": [
+        "Plant roots from soil solution",
+        "Gaseous absorption through stomata",
+        "Direct rainfall precipitation",
+        "Atmospheric nitrogen fixation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Climax Community",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Individual transitional communities in ecological succession are called seral stages. The stable, near-equilibrium community with environment at end of succession is called:",
+      "options": [
+        "Climax community",
+        "Pioneer community",
+        "Seral community",
+        "Secondary community"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Decomposition Enzymes",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Degradation of detritus into simpler inorganic substances by extracellular fungal and bacterial enzymes is termed:",
+      "options": [
+        "Catabolism",
+        "Fragmentation",
+        "Leaching",
+        "Humification"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Secondary Productivity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Secondary productivity is defined as the rate of formation of new organic matter by:",
+      "options": [
+        "Consumers",
+        "Producers",
+        "Decomposers",
+        "Parasites"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Succession",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Ecological Succession:\n1. Secondary succession begins in areas where natural biotic communities were destroyed (burnt forest, flooded land).\n2. Secondary succession is faster than primary succession because soil/sediments are already present.\n3. Both hydrarch and xerarch successions lead to medium water conditions (mesic climax community).\n4. Species that invade a bare area are called pioneer species.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Carbon Cycle",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Amount of carbon fixed annually in the biosphere through photosynthesis is estimated at approximately:",
+      "options": [
+        "4 x 10^13 kg",
+        "7 x 10^11 kg",
+        "1 x 10^9 kg",
+        "5 x 10^15 kg"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Ecosystem Components",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a pond ecosystem, autotrophic components include phytoplankton, algae, and floating plants, while decomposers are represented by:",
+      "options": [
+        "Fungi, Bacteria, and Flagellates in bottom of pond",
+        "Zooplankton",
+        "Small fishes",
+        "Frogs"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Trophic Levels",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a food chain, sparrow eating seeds behaves as a primary consumer (2nd trophic level). When same sparrow eats insects/worms, it behaves as a:",
+      "options": [
+        "Secondary consumer (3rd trophic level)",
+        "Primary producer",
+        "Tertiary consumer",
+        "Decomposer"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Primary Productivity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Rate of total production of organic matter during photosynthesis is called:",
+      "options": [
+        "Gross Primary Productivity (GPP)",
+        "Net Primary Productivity (NPP)",
+        "Secondary Productivity",
+        "Net Community Productivity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Nutrient Cycling - Standing State",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: The amount of nutrients (Carbon, Nitrogen, Phosphorus, Calcium) present in soil at any given time is called standing state.\nStatement II: Standing state varies in different kinds of ecosystems and on a seasonal basis.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Ecosystem Definition",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Term 'Ecosystem' was coined by:",
+      "options": [
+        "A.G. Tansley",
+        "E.P. Odum",
+        "R. Mishra",
+        "Humboldt"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Botany",
+    "chapter_name": "Ecosystem",
+    "chapter_number": 19,
+    "topic": "Decomposition Conditions",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Decomposition rate is favored by:",
+      "options": [
+        "Warm and moist environment with abundant oxygen",
+        "Anaerobic and cold environment",
+        "Dry and freezing conditions",
+        "Absence of soil moisture"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T12:54:00.000Z"
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Neuron Structure",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nissl's granules present in cyton and dendrites of neurons are composed of:",
+      "options": [
+        "Ribosomes and Rough Endoplasmic Reticulum (RER)",
+        "Mitochondria and Golgi bodies",
+        "Lysosomes and centrioles",
+        "Microfilaments"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Myelin Sheath & Nodes of Ranvier",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In peripheral nervous system, Schwann cells form myelin sheath around axons. Gaps between two adjacent myelin sheaths are called:",
+      "options": [
+        "Nodes of Ranvier",
+        "Synaptic clefts",
+        "Axon hillock",
+        "Telodendria"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Resting Membrane Potential",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a resting axonal membrane, Na+-K+ pump actively transports:",
+      "options": [
+        "3 Na+ outwards for 2 K+ inwards into cell",
+        "2 Na+ outwards for 3 K+ inwards",
+        "3 Na+ inwards for 2 K+ outwards",
+        "Equal Na+ and K+ ions"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Action Potential & Depolarization",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When a stimulus is applied to a resting axonal membrane at a point, electrical potential difference across plasma membrane rapidly reverses due to influx of:",
+      "options": [
+        "Na+ ions (rapid permeability to Na+)",
+        "K+ ions",
+        "Ca2+ ions",
+        "Cl- ions"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Synaptic Transmission",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "At a chemical synapse, arrival of impulse at axon terminal stimulates synaptic vesicles to fuse with pre-synaptic membrane and release neurotransmitters into synaptic cleft upon entry of:",
+      "options": [
+        "Calcium ions ($Ca^{2+}$)",
+        "Sodium ions ($Na^+$)",
+        "Potassium ions ($K^+$)",
+        "Magnesium ions ($Mg^{2+}$)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Brain Parts - Forebrain",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cerebrum is divided into two hemispheres connected by a tract of nerve fibers called:",
+      "options": [
+        "Corpus callosum",
+        "Corpora quadrigemina",
+        "Crura cerebri",
+        "Pons varolii"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Brain Regions & Functions",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Match the Brain Region in Column-I with its function in Column-II:\nColumn-I:\n(A) Hypothalamus\n(B) Cerebellum\n(C) Medulla oblongata\n(D) Thalamus\nColumn-II:\n(i) Major relay center for sensory and motor signaling\n(ii) Controls cardiovascular reflexes, respiration, and gastric secretions\n(iii) Maintains posture, equilibrium, and precision of movements\n(iv) Controls body temperature, urge for eating/drinking, and hormone secretion",
+      "options": [
+        "A-(iv), B-(iii), C-(ii), D-(i)",
+        "A-(iii), B-(iv), C-(i), D-(ii)",
+        "A-(iv), B-(i), C-(ii), D-(iii)",
+        "A-(i), B-(iii), C-(ii), D-(iv)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Limbic System",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Limbic system or limbic lobe, which regulates emotional reactions (fear, rage, pleasure) and motivation along with hypothalamus, comprises:",
+      "options": [
+        "Amygdala and Hippocampus",
+        "Corpora quadrigemina and Pons",
+        "Cerebellum and Medulla",
+        "Thalamus and Optic lobes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Midbrain - Corpora Quadrigemina",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Dorsal portion of midbrain consists of four round swellings (lobes) called:",
+      "options": [
+        "Corpora quadrigemina",
+        "Corpus callosum",
+        "Cerebral aqueduct",
+        "Foramen of Monro"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Brain Stem & Cranial Meninges",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Brain stem forms the connection between brain and spinal cord and comprises:",
+      "options": [
+        "Midbrain, Pons, and Medulla oblongata",
+        "Forebrain and Midbrain",
+        "Cerebrum and Cerebellum",
+        "Thalamus and Hypothalamus"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Types of Neurons",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Unipolar neurons with cell body and one axon only are found usually in the:",
+      "options": [
+        "Embryonic stage",
+        "Retina of eye",
+        "Cerebral cortex",
+        "Dorsal root ganglion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Eye - Retina & Photoreceptors",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Retina contains three layers of neural cells from inside to outside:",
+      "options": [
+        "Ganglion cells \u2192 Bipolar cells \u2192 Photoreceptor cells",
+        "Photoreceptor cells \u2192 Bipolar cells \u2192 Ganglion cells",
+        "Bipolar cells \u2192 Ganglion cells \u2192 Photoreceptors",
+        "Photoreceptors \u2192 Ganglion cells \u2192 Bipolar cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Eye - Fovea & Yellow Spot",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Macula lutea (yellow spot) at posterior pole of eye has a central thinned-out pit called Fovea. Fovea provides maximum visual resolution (acuity) because it contains:",
+      "options": [
+        "Densely packed cones only",
+        "Rods exclusively",
+        "Equal rods and cones",
+        "No photoreceptor cells"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Ear - Organ of Corti",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Organ of Corti, the hearing organ located on basilar membrane of cochlea, contains sensory hair cells topped by an elastic membrane called:",
+      "options": [
+        "Tectorial membrane",
+        "Reissner's membrane",
+        "Tympanic membrane",
+        "Otolith membrane"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Autonomic Nervous System",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements regarding Autonomic Nervous System (ANS):\nStatement I: Sympathetic nervous system prepares body for 'fight or flight' (increases heart rate, dilates pupil, inhibits salivation).\nStatement II: Parasympathetic nervous system promotes 'rest and digest' activities (decreases heart rate, constricts pupil, stimulates digestion).\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are correct",
+        "Both Statement I and Statement II are incorrect",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Ear - Vestibular Apparatus",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Vestibular apparatus responsible for maintaining dynamic and static body balance consists of three semicircular canals and Otolith organ. Otolith organ comprises:",
+      "options": [
+        "Saccule and Utricle",
+        "Cochlea and Organ of Corti",
+        "Scala vestibuli and Scala tympani",
+        "Ampulla and Crista"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Mechanism of Vision",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Assertion (A): Light rays induce dissociation of retinal from opsin protein in rhodopsin, altering membrane permeability.\nReason (R): Structural changes in opsin generate potential differences in photoreceptor cells that trigger action potentials in ganglion cells via bipolar cells.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Cranial Meninges",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Brain is protected by cranial meninges. From outermost to innermost, the correct sequence of meninges is:",
+      "options": [
+        "Dura mater \u2192 Arachnoid \u2192 Pia mater",
+        "Pia mater \u2192 Arachnoid \u2192 Dura mater",
+        "Arachnoid \u2192 Dura mater \u2192 Pia mater",
+        "Dura mater \u2192 Pia mater \u2192 Arachnoid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Reflex Arc",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Knee jerk reflex is an involuntary reflex response. Pathway of knee jerk reflex arc involves in order:",
+      "options": [
+        "Receptor \u2192 Afferent (sensory) neuron \u2192 CNS (Spinal cord) \u2192 Efferent (motor) neuron \u2192 Effector muscle",
+        "Effector \u2192 Afferent neuron \u2192 Motor neuron \u2192 CNS",
+        "CNS \u2192 Sensory neuron \u2192 Receptor \u2192 Effector",
+        "Receptor \u2192 Motor neuron \u2192 CNS \u2192 Effector"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Eustachian Tube",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Eustachian tube connects the middle ear cavity with the pharynx. Its function is to:",
+      "options": [
+        "Equalize air pressure on either side of the eardrum",
+        "Amplify sound vibrations",
+        "Detect linear acceleration of body",
+        "Secrete earwax"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Blind Spot",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Point on retina where optic nerve leaves the eye and retinal blood vessels enter, lacking photoreceptor cells, is called the:",
+      "options": [
+        "Blind spot",
+        "Fovea centralis",
+        "Macula lutea",
+        "Cornea"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Bipolar Neurons",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bipolar neurons possessing one axon and one dendrite are located in the:",
+      "options": [
+        "Retina of eye and olfactory epithelium",
+        "Embryonic stage",
+        "Cerebral cortex",
+        "Spinal cord motor horn"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Nerve Impulse Propagation",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the following statements regarding Nerve Impulse conduction:\n1. Resting membrane potential is maintained by Na+-K+ ATPase pump.\n2. Influx of Na+ causes depolarization (action potential = +30 mV).\n3. Outflow of K+ restores resting membrane potential (repolarization).\n4. Saltatory conduction occurs in myelinated nerve fibers where impulse jumps from node to node.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2, 3, and 4",
+        "1 and 2 only",
+        "1, 3, and 4 only",
+        "2 and 3 only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Inner Ear - Cochlea",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Coiled portion of labyrinth in inner ear is Cochlea. Fluid present inside scala media of cochlea is:",
+      "options": [
+        "Endolymph",
+        "Perilymph",
+        "Aqueous humor",
+        "Vitreous humor"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Cornea & Iris",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Anterior transparent portion of sclera in human eye is Cornea. Colored visible portion of eye that regulates diameter of pupil is called:",
+      "options": [
+        "Iris",
+        "Ciliary body",
+        "Choroid",
+        "Retina"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Crista Ampullaris & Macula",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Base of each semicircular canal is swollen as ampulla, which contains a projecting ridge called Crista ampullaris. Macula is the sensory spot of:",
+      "options": [
+        "Saccule and Utricle",
+        "Cochlea",
+        "Organ of Corti",
+        "Eustachian tube"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Rods & Cones Pigments",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Rods contain purplish-red protein called Rhodopsin (visual purple), which is a derivative of:",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin B12"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Electrical vs Chemical Synapses",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given below are two statements:\nStatement I: At electrical synapses, membranes of pre- and post-synaptic neurons are in very close proximity, allowing direct current flow.\nStatement II: Impulse transmission across electrical synapses is faster than chemical synapses, but chemical synapses are more common in human body.\nIn light of the above statements, choose the correct answer:",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Both Statement I and Statement II are false",
+        "Statement I is true but Statement II is false",
+        "Statement I is false but Statement II is true"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 29,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Aqueous & Vitreous Humor",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Space between cornea and lens is aqueous chamber containing aqueous humor. Space between lens and retina is vitreous chamber containing transparent gel named:",
+      "options": [
+        "Vitreous humor",
+        "Aqueous humor",
+        "Endolymph",
+        "Perilymph"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  },
+  {
+    "sequence_id": 30,
+    "subject": "Zoology",
+    "chapter_name": "Neural Control and Coordination",
+    "chapter_number": 7,
+    "topic": "Cerebral Cortex - Association Areas",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Large regions in cerebral cortex that are neither clearly sensory nor motor in function are called Association areas, responsible for:",
+      "options": [
+        "Intersensory associations, memory, and communication",
+        "Control of heart rate",
+        "Regulation of body temperature",
+        "Reflex arc actions"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-07T13:02:00.000Z"
+  }
+]
