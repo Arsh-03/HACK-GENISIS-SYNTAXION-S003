@@ -1,21 +1,17 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { AdminLayout } from '../layouts/AdminLayout';
-import { ExamLayout } from '../layouts/ExamLayout';
 import { AuthLayout } from '../layouts/AuthLayout';
 
 import { LandingPage } from '../pages/LandingPage';
 import { AdminLoginPage } from '../pages/auth/AdminLoginPage';
-import { ExamLoginPage } from '../pages/auth/ExamLoginPage';
 import { ForgotPasswordPage } from '../pages/auth/ForgotPasswordPage';
 import { OtpVerificationPage } from '../pages/auth/OtpVerificationPage';
 import { ResetPasswordPage } from '../pages/auth/ResetPasswordPage';
 import { FirstLoginPasswordChangePage } from '../pages/auth/FirstLoginPasswordChangePage';
 
 import { AdminDashboardPage } from '../pages/AdminDashboardPage';
-import { InvigilatorDashboardPage } from '../pages/InvigilatorDashboardPage';
 import { AIPaperPipelinePage } from '../pages/AIPaperPipelinePage';
-import { CandidateExamPortalPage } from '../pages/CandidateExamPortalPage';
 import { DesignSystemPage } from '../pages/DesignSystemPage';
 import { StudentManagementPage } from '../pages/StudentManagementPage';
 import { SessionManagementPage } from '../pages/SessionManagementPage';
@@ -40,11 +36,6 @@ export function AppRoutes() {
       {/* Portal 1: Administrator Login */}
       <Route path="/admin/login" element={<AuthLayout />}>
         <Route index element={<AdminLoginPage />} />
-      </Route>
-
-      {/* Portal 2: Examination Login */}
-      <Route path="/exam/login" element={<AuthLayout />}>
-        <Route index element={<ExamLoginPage />} />
       </Route>
 
       {/* Common Auth Utilities (Password recovery / First login) */}
@@ -75,7 +66,7 @@ export function AppRoutes() {
         <Route path="examination/sessions" element={<SessionManagementPage />} />
         <Route path="examination/question-bank" element={<QuestionBankPage />} />
         <Route path="examination/builder" element={<ExamBuilderPage />} />
-        <Route path="examination/seat-mapping" element={<InvigilatorDashboardPage />} />
+        <Route path="examination/seat-mapping" element={<PlaceholderPage title="Seat Mapping" />} />
         <Route path="centers" element={<ExamCentersPage />} />
         <Route path="examination/centers" element={<ExamCentersPage />} />
 
@@ -85,8 +76,8 @@ export function AppRoutes() {
         <Route path="ai/audit" element={<AIPaperPipelinePage />} />
 
         {/* Proctoring */}
-        <Route path="proctoring/live" element={<InvigilatorDashboardPage />} />
-        <Route path="proctoring/incidents" element={<InvigilatorDashboardPage />} />
+        <Route path="proctoring/live" element={<PlaceholderPage title="Live Proctoring" />} />
+        <Route path="proctoring/incidents" element={<PlaceholderPage title="Proctoring Incidents" />} />
 
         {/* Reports & Analytics */}
         <Route path="reports/dashboard" element={<ReportsAnalyticsPage initialTab="executive" />} />
@@ -110,13 +101,6 @@ export function AppRoutes() {
 
         {/* Design System */}
         <Route path="design-system" element={<DesignSystemPage />} />
-      </Route>
-
-      {/* Portal 2: Examination Portal Routes */}
-      <Route path="/exam" element={<ExamLayout />}>
-        <Route index element={<Navigate to="/exam/login" replace />} />
-        <Route path="candidate" element={<CandidateExamPortalPage />} />
-        <Route path="invigilator" element={<InvigilatorDashboardPage />} />
       </Route>
 
       {/* Catch-all Redirect */}
