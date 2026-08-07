@@ -1,6 +1,7 @@
 import React from 'react';
-import { Camera, Mic, Monitor, AlertTriangle, ShieldCheck, Wifi, Clock, CheckCircle2 } from 'lucide-react';
+import { AlertTriangle, CheckCircle2 } from 'lucide-react';
 import { Badge } from '../ui/Badge';
+import { LiveFeedFrame } from './LiveFeedFrame';
 
 export function ProctoringCard({ candidate, onSelect }) {
   const isCritical = candidate.status === 'CRITICAL';
@@ -16,41 +17,13 @@ export function ProctoringCard({ candidate, onSelect }) {
         isCritical ? 'border-red-400 ring-1 ring-red-400' : isWarning ? 'border-yellow-400' : isOffline ? 'border-slate-300 opacity-80' : 'border-outline-variant'
       }`}
     >
-      {/* Video stream mockup */}
-      <div className="relative aspect-video bg-slate-900 overflow-hidden flex items-center justify-center">
-        <img
-          src={candidate.snapshotUrl}
-          alt={candidate.name}
-          className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-300"
-        />
-
-        {/* Live HUD Header */}
-        <div className="absolute top-2 left-2 right-2 flex justify-between items-center z-10">
-          <Badge variant={statusVariant} size="sm">
-            {candidate.status}
-          </Badge>
-          <div className="flex gap-1.5 bg-slate-950/80 backdrop-blur-xs px-2 py-0.5 rounded text-[10px] text-white">
-            <Camera className={`w-3 h-3 ${candidate.cameraActive ? 'text-emerald-400' : 'text-red-400'}`} title="Camera" />
-            <Mic className={`w-3 h-3 ${candidate.micActive ? 'text-emerald-400' : 'text-red-400'}`} title="Microphone" />
-            <Monitor className={`w-3 h-3 ${candidate.screenShareActive ? 'text-emerald-400' : 'text-red-400'}`} title="Screen Share" />
-            <Wifi className={`w-3 h-3 ${candidate.internetStatus === 'CONNECTED' ? 'text-emerald-400' : candidate.internetStatus === 'LAGGING' ? 'text-amber-400' : 'text-red-400'}`} title="Internet" />
-          </div>
-        </div>
-
-        {/* Risk meter & Heartbeat indicator */}
-        <div className="absolute bottom-2 left-2 right-2 bg-slate-950/80 backdrop-blur-xs px-2.5 py-1 rounded flex items-center justify-between text-xs text-white">
-          <div className="flex items-center gap-1.5 text-[10px] font-mono text-slate-300">
-            <Clock className="w-3 h-3 text-indigo-400" />
-            <span>Ping: {candidate.heartbeatStatus || '1s'}</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <span className="text-[10px] uppercase font-bold tracking-wider text-slate-300">Risk</span>
-            <span className={`font-bold font-mono ${isCritical ? 'text-red-400' : isWarning ? 'text-yellow-400' : 'text-emerald-400'}`}>
-              {candidate.riskScore}%
-            </span>
-          </div>
-        </div>
-      </div>
+      <LiveFeedFrame
+        candidate={candidate}
+        frameUrl={candidate.frameUrl}
+        title="Candidate Live Feed"
+        subtitle="Current webcam view streamed to the invigilator console"
+        className="group-hover:scale-105 transition-transform duration-300"
+      />
 
       {/* Candidate Metadata */}
       <div className="p-4 space-y-2">

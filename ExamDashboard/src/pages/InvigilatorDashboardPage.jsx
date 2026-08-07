@@ -9,6 +9,8 @@ import { Modal } from '../shared/components/ui/Modal';
 import { ProgressBar } from '../shared/components/ui/ProgressBar';
 import { Input } from '../shared/components/ui/Input';
 import { Select } from '../shared/components/ui/Select';
+import { LiveFeedFrame } from '../shared/components/common/LiveFeedFrame';
+import { useLiveFeedRegistry } from '../hooks/useLiveFeedRegistry';
 import {
   ShieldAlert,
   Filter,
@@ -20,7 +22,6 @@ import {
   Users,
   Eye,
   Search,
-  Grid,
   MapPin,
   Bell,
   FileText,
@@ -83,11 +84,11 @@ export function InvigilatorDashboardPage() {
     updateIncidentStatus,
     reassignCandidateSeat
   } = useProctoringStream();
+  const liveFeedRegistry = useLiveFeedRegistry();
 
   const [customMsgText, setCustomMsgText] = useState('');
   const [reassignSeatValue, setReassignSeatValue] = useState('');
 
-  // Helper map for KPI icons
   const getKpiIcon = (iconName) => {
     switch (iconName) {
       case 'Clock': return Clock;
@@ -116,6 +117,18 @@ export function InvigilatorDashboardPage() {
     );
     setIsMessagingOpen(true);
   };
+
+  const getCandidateFeed = (candidate) => {
+    const feed = liveFeedRegistry[candidate.candidateId];
+    return {
+      ...candidate,
+      frameUrl: feed?.frameUrl || feed?.streamUrl || `http://localhost:5001/api/feeds/${candidate.candidateId}/stream`,
+      liveFeedUrl: feed?.streamUrl || `http://localhost:5001/api/feeds/${candidate.candidateId}/stream`,
+      heartbeatStatus: feed ? 'LIVE' : candidate.heartbeatStatus || 'Awaiting feed'
+    };
+  };
+
+  const inspectedCandidateFeed = selectedCandidate ? getCandidateFeed(selectedCandidate) : null;
 
   return (
     <div className="flex-1 overflow-y-auto h-full p-6 md:p-8 space-y-8 pb-12 w-full">
@@ -251,18 +264,6 @@ export function InvigilatorDashboardPage() {
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 border-b border-outline-variant pb-3">
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
           <button
-            onClick={() => setActiveTab('GRID')}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-bold transition-all shrink-0 ${
-              activeTab === 'GRID'
-                ? 'bg-primary text-on-primary shadow-xs'
-                : 'bg-surface-container-lowest text-on-surface-variant border border-outline-variant hover:bg-surface-bright'
-            }`}
-          >
-            <Grid className="w-4 h-4" />
-            <span>Live Monitoring Grid ({allCandidates.length})</span>
-          </button>
-
-          <button
             onClick={() => setActiveTab('SEAT_MAP')}
             className={`flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-bold transition-all shrink-0 ${
               activeTab === 'SEAT_MAP'
@@ -325,114 +326,6 @@ export function InvigilatorDashboardPage() {
       </div>
 
       {/* ==================================================== */}
-      {/* TAB 1: LIVE MONITORING GRID */}
-      {/* ==================================================== */}
-      {activeTab === 'GRID' && (
-        <div className="space-y-6">
-          {/* Status Filters Bar */}
-          <div className="flex flex-wrap items-center justify-between gap-3 bg-surface-container-lowest p-3 rounded-xl border border-outline-variant">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-xs font-bold text-on-surface-variant uppercase tracking-wider mr-2">Filter Feed:</span>
-              <button
-                onClick={() => setFilter('ALL')}
-                className={`px-3 py-1 rounded-md text-xs font-semibold transition-colors ${
-                  filter === 'ALL' ? 'bg-primary text-on-primary' : 'bg-surface-bright text-on-surface-variant hover:bg-surface-container-high'
-                }`}
-              >
-                All ({allCandidates.length})
-              </button>
-              <button
-                onClick={() => setFilter('CRITICAL')}
-                className={`px-3 py-1 rounded-md text-xs font-semibold transition-colors ${
-                  filter === 'CRITICAL' ? 'bg-red-600 text-white' : 'bg-red-50 text-red-700 hover:bg-red-100'
-                }`}
-              >
-                Critical ({criticalCount})
-              </button>
-              <button
-                onClick={() => setFilter('WARNING')}
-                className={`px-3 py-1 rounded-md text-xs font-semibold transition-colors ${
-                  filter === 'WARNING' ? 'bg-yellow-500 text-white' : 'bg-yellow-50 text-yellow-700 hover:bg-yellow-100'
-                }`}
-              >
-                Warning ({warningCount})
-              </button>
-              <button
-                onClick={() => setFilter('NORMAL')}
-                className={`px-3 py-1 rounded-md text-xs font-semibold transition-colors ${
-                  filter === 'NORMAL' ? 'bg-emerald-600 text-white' : 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100'
-                }`}
-              >
-                Normal ({normalCount})
-              </button>
-              <button
-                onClick={() => setFilter('OFFLINE')}
-                className={`px-3 py-1 rounded-md text-xs font-semibold transition-colors ${
-                  filter === 'OFFLINE' ? 'bg-slate-700 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                }`}
-              >
-                Offline ({offlineCount})
-              </button>
-            </div>
-            <div className="text-xs font-mono text-on-surface-variant">
-              Showing {candidates.length} active feeds
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {/* Candidate Feed Cards Grid */}
-            <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {candidates.length === 0 ? (
-                <div className="col-span-2 p-12 bg-surface-container-lowest border border-outline-variant rounded-xl text-center text-xs text-on-surface-variant">
-                  No candidate streams found matching filter criteria.
-                </div>
-              ) : (
-                candidates.map((candidate) => (
-                  <ProctoringCard
-                    key={candidate.id}
-                    candidate={candidate}
-                    onSelect={(cand) => setSelectedCandidate(cand)}
-                  />
-                ))
-              )}
-            </div>
-
-            {/* Live AI Anomaly Feed Sidebar Stream */}
-            <div className="bg-surface-container-lowest p-5 rounded-xl border border-outline-variant shadow-sm flex flex-col h-[650px]">
-              <div className="flex items-center justify-between pb-3 border-b border-outline-variant">
-                <div className="flex items-center gap-2">
-                  <Activity className="w-5 h-5 text-red-500 animate-pulse" />
-                  <h3 className="font-bold text-on-surface text-sm">Live AI Anomaly Telemetry</h3>
-                </div>
-                <Badge variant="mono" size="sm">
-                  STREAMING
-                </Badge>
-              </div>
-
-              <div className="flex-1 overflow-y-auto mt-4 space-y-3 pr-1">
-                {logs.map((log) => (
-                  <div
-                    key={log.id}
-                    className={`p-3 rounded-lg border text-xs leading-relaxed transition-all ${
-                      log.type === 'CRITICAL'
-                        ? 'bg-red-50 border-red-200 text-red-900'
-                        : 'bg-yellow-50 border-yellow-200 text-yellow-900'
-                    }`}
-                  >
-                    <div className="flex items-center justify-between font-mono text-[10px] text-slate-500 mb-1">
-                      <span className="font-bold">{log.candidate}</span>
-                      <span>{log.time}</span>
-                    </div>
-                    <div className="font-medium">{log.text}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* ==================================================== */}
       {/* TAB 2: INTERACTIVE SEAT MAP */}
       {/* ==================================================== */}
       {activeTab === 'SEAT_MAP' && (
@@ -459,7 +352,9 @@ export function InvigilatorDashboardPage() {
                 <div
                   key={seat.seatId}
                   onClick={() => {
-                    if (matchedCandidate) setSelectedCandidate(matchedCandidate);
+                    if (matchedCandidate) {
+                      setSelectedCandidate(matchedCandidate);
+                    }
                   }}
                   className={`p-3 rounded-xl border transition-all cursor-pointer relative ${
                     isCritical ? 'bg-red-50 border-red-300 hover:bg-red-100 ring-1 ring-red-400' :
@@ -744,143 +639,41 @@ export function InvigilatorDashboardPage() {
         <Modal
           isOpen={!!selectedCandidate}
           onClose={() => setSelectedCandidate(null)}
-          title={`Candidate Control dossier: ${selectedCandidate.name}`}
+          title={`Candidate Live Feed: ${selectedCandidate.name}`}
           icon={Eye}
           iconBg="bg-indigo-100 text-indigo-700"
-          maxWidth="max-w-3xl"
+          maxWidth="max-w-4xl"
           footer={
-            <div className="flex flex-wrap items-center justify-between gap-3 w-full">
-              <div className="flex gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  icon={MessageSquare}
-                  onClick={() => handleOpenMessaging(selectedCandidate, 'WARNING')}
-                >
-                  Send Warning
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  icon={Flag}
-                  onClick={() => {
-                    issueWarning(selectedCandidate.name, 'Manually flagged for administrative review.');
-                    alert(`Flag raised for ${selectedCandidate.name}`);
-                  }}
-                >
-                  Raise Flag
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  icon={UserCheck}
-                  onClick={() => alert(`Marked technical assistance provided for ${selectedCandidate.name}`)}
-                >
-                  Mark Assisted
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  icon={UserCog}
-                  onClick={() => setIsReassignModalOpen(true)}
-                >
-                  Reassign Seat
-                </Button>
-              </div>
-
-              <Button
-                variant="danger"
-                size="sm"
-                icon={XCircle}
-                onClick={() => {
-                  if (window.confirm(`Terminate exam session for candidate ${selectedCandidate.name}?`)) {
-                    terminateSession(selectedCandidate.id);
-                    setSelectedCandidate(null);
-                  }
-                }}
-              >
-                Terminate Session
+            <div className="flex justify-end w-full">
+              <Button variant="outline" size="sm" icon={XCircle} onClick={() => setSelectedCandidate(null)}>
+                Close
               </Button>
             </div>
           }
         >
-          <div className="space-y-6 text-xs">
-            {/* Live Camera Stream Header */}
+          <div className="space-y-4 text-xs">
             <div className="aspect-video bg-slate-950 rounded-xl overflow-hidden relative shadow-md">
-              <img
-                src={selectedCandidate.snapshotUrl}
-                alt={selectedCandidate.name}
-                className="w-full h-full object-cover"
+              <LiveFeedFrame
+                candidate={{
+                  ...inspectedCandidateFeed,
+                  micActive: true,
+                  screenShareActive: true,
+                  internetStatus: 'CONNECTED'
+                }}
+                allowSnapshotFallback={false}
+                frameUrl={inspectedCandidateFeed?.frameUrl}
+                title="Selected Candidate Live Feed"
+                subtitle={`REG: ${inspectedCandidateFeed?.candidateId} • SEAT: ${inspectedCandidateFeed?.seat} • ${inspectedCandidateFeed?.terminalId}`}
+                className="aspect-video"
               />
-              <div className="absolute top-3 left-3 bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg text-white text-xs font-mono border border-white/20">
-                REG: {selectedCandidate.candidateId} • SEAT: {selectedCandidate.seat} • {selectedCandidate.terminalId}
-              </div>
-              <div className="absolute top-3 right-3 flex gap-2">
-                <Badge variant={selectedCandidate.status === 'CRITICAL' ? 'danger' : 'warning'}>
-                  {selectedCandidate.status}
-                </Badge>
-              </div>
-            </div>
-
-            {/* Student Info & Exam Progress */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-surface-bright p-4 rounded-xl border border-outline-variant">
-              <div className="space-y-1.5">
-                <div className="text-sm font-bold text-on-surface">{selectedCandidate.name}</div>
-                <div className="text-on-surface-variant">{selectedCandidate.email}</div>
-                <div className="text-on-surface-variant font-medium">{selectedCandidate.department} ({selectedCandidate.batch})</div>
-              </div>
-
-              <div className="space-y-2">
-                <div className="flex justify-between items-center">
-                  <span className="font-semibold text-on-surface-variant">Exam Progress</span>
-                  <span className="font-mono font-bold text-primary">{selectedCandidate.examProgress || 68}% ({selectedCandidate.answeredCount || 34}/50 questions)</span>
-                </div>
-                <ProgressBar progress={selectedCandidate.examProgress || 68} height="h-2" color="bg-primary" />
-              </div>
-            </div>
-
-            {/* Verification History & Face Match Score */}
-            <div className="grid grid-cols-3 gap-3 text-center">
-              <div className="bg-emerald-50 p-3 rounded-lg border border-emerald-200">
-                <div className="text-[10px] uppercase font-bold text-emerald-800">Biometric Face Match</div>
-                <div className="text-lg font-black font-mono text-emerald-700 mt-0.5">{selectedCandidate.faceMatchScore || '98.4%'}</div>
-              </div>
-              <div className="bg-surface-bright p-3 rounded-lg border border-outline-variant">
-                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Current Violation</div>
-                <div className="text-xs font-bold text-red-600 mt-1 line-clamp-1">{selectedCandidate.violationType || 'None'}</div>
-              </div>
-              <div className="bg-surface-bright p-3 rounded-lg border border-outline-variant">
-                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Heartbeat Ping</div>
-                <div className="text-xs font-mono font-bold text-emerald-600 mt-1">{selectedCandidate.heartbeatStatus || '1s ago'}</div>
-              </div>
-            </div>
-
-            {/* Activity Timeline Log */}
-            <div className="space-y-2">
-              <div className="font-bold text-on-surface uppercase tracking-wider text-[11px]">Activity & Anomaly Log</div>
-              <div className="bg-surface-bright p-3 rounded-xl border border-outline-variant space-y-2 max-h-36 overflow-y-auto">
-                {selectedCandidate.activityTimeline && selectedCandidate.activityTimeline.length > 0 ? (
-                  selectedCandidate.activityTimeline.map((item, idx) => (
-                    <div key={idx} className="flex justify-between items-center text-[11px] pb-1 border-b border-outline-variant/40 last:border-0">
-                      <span className="font-mono text-slate-500">[{item.time}]</span>
-                      <span className="font-medium text-on-surface">{item.text}</span>
-                      <Badge variant={item.type === 'CRITICAL' ? 'danger' : 'warning'} size="sm">{item.type}</Badge>
-                    </div>
-                  ))
-                ) : (
-                  <div className="text-on-surface-variant text-center py-2">No past infraction events recorded for this session.</div>
-                )}
-              </div>
             </div>
           </div>
         </Modal>
       )}
 
-      {/* ==================================================== */}
-      {/* 5. INVIGILATOR MESSAGING DIALOG */}
-      {/* ==================================================== */}
-      <Modal
-        isOpen={isMessagingOpen}
+      {isMessagingOpen && (
+        <Modal
+          isOpen={isMessagingOpen}
         onClose={() => setIsMessagingOpen(false)}
         title={`Dispatch Candidate Communication: ${messageRecipient?.name || 'Selected Candidate'}`}
         icon={Send}
@@ -939,6 +732,7 @@ export function InvigilatorDashboardPage() {
           </div>
         </div>
       </Modal>
+      )}
 
       {/* MODAL 6: REASSIGN SEAT */}
       <Modal

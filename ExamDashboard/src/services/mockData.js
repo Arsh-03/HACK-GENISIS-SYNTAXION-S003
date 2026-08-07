@@ -683,7 +683,8 @@ export const mockCandidateProfile = {
   assignedInvigilator: "Dr. H. Vance",
   verificationStatus: "VERIFIED", // 'VERIFIED', 'PENDING'
   profileCompletion: 100,
-  photoUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
+  photoUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+  liveFeedUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
 };
 
 export const mockTodayExam = {

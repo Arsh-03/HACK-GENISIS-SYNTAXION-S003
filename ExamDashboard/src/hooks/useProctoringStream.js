@@ -1,26 +1,27 @@
-import { useState } from 'react';
-import {
-  mockCandidates,
-  mockViolationLogs,
-  mockProctoringOverviewKPIs,
-  mockExamHallSeats,
-  mockLiveAlerts,
-  mockIncidents,
-  mockProctoringAnalytics
-} from '../services/mockData';
+import { useState, useEffect, useRef } from 'react';
+import { io } from 'socket.io-client';
+
+const BACKEND_URL = 'http://localhost:5001';
 
 export function useProctoringStream() {
-  const [candidates, setCandidates] = useState(mockCandidates);
-  const [logs, setLogs] = useState(mockViolationLogs);
-  const [kpis, setKpis] = useState(mockProctoringOverviewKPIs);
-  const [seats, setSeats] = useState(mockExamHallSeats);
-  const [alerts, setAlerts] = useState(mockLiveAlerts);
-  const [incidents, setIncidents] = useState(mockIncidents);
-  const [analytics, setAnalytics] = useState(mockProctoringAnalytics);
+  const [candidates, setCandidates] = useState([]);
+  const [logs, setLogs] = useState([]);
+  const [kpis, setKpis] = useState([]);
+  const [seats, setSeats] = useState([]);
+  const [alerts, setAlerts] = useState([]);
+  const [incidents, setIncidents] = useState([]);
+  const [analytics, setAnalytics] = useState({
+    alertDistribution: [],
+    verificationStatus: [],
+    connectivityStatus: [],
+    hourlyIncidentTrend: []
+  });
+
+  const socketRef = useRef(null);
 
   // Controls & Navigation
-  const [sessionStatus, setSessionStatus] = useState('RUNNING'); // 'RUNNING', 'PAUSED', 'LOCKED', 'ENDED'
-  const [activeTab, setActiveTab] = useState('GRID'); // 'GRID', 'SEAT_MAP', 'ALERTS', 'INCIDENTS', 'ANALYTICS'
+  const [sessionStatus, setSessionStatusInternal] = useState('RUNNING'); // 'RUNNING', 'PAUSED', 'LOCKED', 'ENDED'
+  const [activeTab, setActiveTab] = useState('SEAT_MAP'); // 'SEAT_MAP', 'ALERTS', 'INCIDENTS', 'ANALYTICS'
   const [filter, setFilter] = useState('ALL'); // 'ALL', 'CRITICAL', 'WARNING', 'NORMAL', 'OFFLINE'
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -30,6 +31,60 @@ export function useProctoringStream() {
   const [messageRecipient, setMessageRecipient] = useState(null);
   const [messageType, setMessageType] = useState('WARNING'); // 'WARNING', 'REMINDER', 'ATTENTION', 'TECH_DISPATCH'
   const [isReassignModalOpen, setIsReassignModalOpen] = useState(false);
+
+  const setSessionStatus = (status) => {
+    if (socketRef.current) {
+      socketRef.current.emit('update-session-status', { status });
+    }
+  };
+
+  useEffect(() => {
+    // Connect to Socket.io backend
+    const socket = io(BACKEND_URL);
+    socketRef.current = socket;
+
+    socket.on('state-update', (data) => {
+      if (data.candidates) setCandidates(data.candidates);
+      if (data.logs) setLogs(data.logs);
+      if (data.kpis) setKpis(data.kpis);
+      if (data.seats) setSeats(data.seats);
+      if (data.alerts) setAlerts(data.alerts);
+      if (data.incidents) setIncidents(data.incidents);
+      if (data.analytics) setAnalytics(data.analytics);
+      if (data.sessionStatus) setSessionStatusInternal(data.sessionStatus);
+    });
+
+    socket.on('session-status-update', ({ status }) => {
+      setSessionStatusInternal(status);
+    });
+
+    socket.on('warning-issued', ({ candidateName, message, log }) => {
+      setLogs(prev => [log, ...prev]);
+    });
+
+    socket.on('session-terminated', ({ candidateId, candidateName, log }) => {
+      setLogs(prev => [log, ...prev]);
+      setCandidates(prev => prev.filter(c => c.id !== candidateId && c.candidateId !== candidateId));
+    });
+
+    // Initial fetch of state just in case
+    fetch(`${BACKEND_URL}/api/state`)
+      .then(res => res.json())
+      .then(data => {
+        if (data.candidates) setCandidates(data.candidates);
+        if (data.logs) setLogs(data.logs);
+        if (data.kpis) setKpis(data.kpis);
+        if (data.seats) setSeats(data.seats);
+        if (data.alerts) setAlerts(data.alerts);
+        if (data.incidents) setIncidents(data.incidents);
+        if (data.analytics) setAnalytics(data.analytics);
+      })
+      .catch(() => undefined);
+
+    return () => {
+      socket.disconnect();
+    };
+  }, []);
 
   const filteredCandidates = candidates.filter(cand => {
     const matchesFilter = filter === 'ALL' || cand.status === filter;
@@ -41,50 +96,27 @@ export function useProctoringStream() {
   });
 
   const terminateSession = (candidateId) => {
-    setCandidates(prev => prev.filter(c => c.id !== candidateId));
-    const timestamp = new Date().toLocaleTimeString();
-    setLogs(prev => [
-      {
-        id: `log-${Date.now()}`,
-        time: timestamp,
-        candidate: candidateId,
-        type: 'CRITICAL',
-        text: `Invigilator manually terminated exam session for candidate ${candidateId}.`
-      },
-      ...prev
-    ]);
+    if (socketRef.current) {
+      socketRef.current.emit('terminate-session', { candidateId });
+    }
   };
 
   const issueWarning = (candidateName, message) => {
-    const timestamp = new Date().toLocaleTimeString();
-    setLogs(prev => [
-      {
-        id: `log-${Date.now()}`,
-        time: timestamp,
-        candidate: candidateName,
-        type: 'WARNING',
-        text: `Official warning issued to ${candidateName}: ${message}`
-      },
-      ...prev
-    ]);
+    if (socketRef.current) {
+      socketRef.current.emit('issue-warning', { candidateName, message });
+    }
   };
 
   const updateIncidentStatus = (incidentId, newStatus) => {
-    setIncidents(prev => prev.map(inc => {
-      if (inc.id === incidentId) {
-        return { ...inc, status: newStatus };
-      }
-      return inc;
-    }));
+    if (socketRef.current) {
+      socketRef.current.emit('update-incident', { incidentId, newStatus });
+    }
   };
 
   const reassignCandidateSeat = (candidateId, newSeat) => {
-    setCandidates(prev => prev.map(c => {
-      if (c.id === candidateId || c.candidateId === candidateId) {
-        return { ...c, seat: newSeat };
-      }
-      return c;
-    }));
+    if (socketRef.current) {
+      socketRef.current.emit('reassign-seat', { candidateId, newSeat });
+    }
   };
 
   return {

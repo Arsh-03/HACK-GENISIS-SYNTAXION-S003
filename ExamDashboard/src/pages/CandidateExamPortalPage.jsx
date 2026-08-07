@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { io } from 'socket.io-client';
 import { useExamTimer } from '../hooks/useExamTimer';
 import { QuestionPalette } from '../shared/components/common/QuestionPalette';
 import { Card } from '../shared/components/ui/Card';
@@ -8,6 +9,8 @@ import { Modal } from '../shared/components/ui/Modal';
 import { ProgressBar } from '../shared/components/ui/ProgressBar';
 import { Badge } from '../shared/components/ui/Badge';
 import { Table } from '../shared/components/ui/Table';
+import { LiveFeedFrame } from '../shared/components/common/LiveFeedFrame';
+import { useCandidateCameraFeed } from '../hooks/useCandidateCameraFeed';
 import {
   Clock,
   ChevronLeft,
@@ -20,6 +23,7 @@ import {
   XCircle,
   Video,
   Mic,
+  Lock,
   Wifi,
   Monitor,
   Maximize,
@@ -63,7 +67,7 @@ export function CandidateExamPortalPage() {
   const [waitingCountdown, setWaitingCountdown] = useState(15);
 
   // Active Exam state
-  const { formattedTime, progressPercentage, timeLeft } = useExamTimer(7200); // 2 hours
+  const { formattedTime, progressPercentage, timeLeft, setIsRunning } = useExamTimer(7200); // 2 hours
   const [activeSectionId, setActiveSectionId] = useState("sec-1");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(16);
   const [selectedOption, setSelectedOption] = useState("C");
@@ -73,9 +77,57 @@ export function CandidateExamPortalPage() {
   });
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
 
+  // Real-time backend states
+  const [sessionStatus, setSessionStatus] = useState('RUNNING');
+  const [isTerminated, setIsTerminated] = useState(false);
+
   const profile = mockCandidateProfile;
   const todayExam = mockTodayExam;
   const activeSection = mockExamSections.find(s => s.id === activeSectionId) || mockExamSections[0];
+  const examCameraEnabled = (currentView === 'PRE_EXAM' && preExamStep >= 2) || currentView === 'ACTIVE_EXAM';
+  const { videoRef, frameUrl, isCameraReady, cameraError } = useCandidateCameraFeed(profile.candidateId, examCameraEnabled);
+
+  useEffect(() => {
+    const socket = io('http://localhost:5001');
+
+    socket.on('state-update', (data) => {
+      if (data.sessionStatus) {
+        setSessionStatus(data.sessionStatus);
+        if (data.sessionStatus === 'ENDED') {
+          setCurrentView('RESULT');
+        }
+      }
+    });
+
+    socket.on('session-status-update', ({ status }) => {
+      setSessionStatus(status);
+      if (status === 'ENDED') {
+        setCurrentView('RESULT');
+      }
+    });
+
+    socket.on('session-terminated', ({ candidateId }) => {
+      if (candidateId === profile.candidateId) {
+        setIsTerminated(true);
+      }
+    });
+
+    socket.on('warning-issued', ({ candidateName, message }) => {
+      if (candidateName === profile.name) {
+        alert(`WARNING FROM INVIGILATOR: ${message}`);
+      }
+    });
+
+    return () => {
+      socket.disconnect();
+    };
+  }, [profile.candidateId, profile.name]);
+
+  useEffect(() => {
+    if (setIsRunning) {
+      setIsRunning(sessionStatus === 'RUNNING');
+    }
+  }, [sessionStatus, setIsRunning]);
 
   // Waiting room countdown effect
   useEffect(() => {
@@ -136,8 +188,54 @@ export function CandidateExamPortalPage() {
     }
   };
 
+  if (isTerminated) {
+    return (
+      <div className="h-screen w-screen bg-red-950 text-white flex flex-col items-center justify-center p-8 space-y-6">
+        <XCircle className="w-20 h-20 text-red-500 animate-bounce" />
+        <h1 className="text-3xl font-black">Session Terminated</h1>
+        <p className="text-sm text-red-200 text-center max-w-md font-semibold">
+          Your examination session has been terminated by the supervising invigilator. Please remain seated and await instructions from the exam hall staff.
+        </p>
+      </div>
+    );
+  }
+
+  if (sessionStatus === 'PAUSED') {
+    return (
+      <div className="h-screen w-screen bg-slate-900 text-white flex flex-col items-center justify-center p-8 space-y-6">
+        <Clock className="w-20 h-20 text-amber-500 animate-pulse" />
+        <h1 className="text-3xl font-black">Examination Paused</h1>
+        <p className="text-sm text-slate-300 text-center max-w-md font-semibold">
+          The exam session has been paused by the invigilator. Your answers and timer are safe. Please wait patiently for the invigilator to resume the session.
+        </p>
+      </div>
+    );
+  }
+
+  if (sessionStatus === 'LOCKED') {
+    return (
+      <div className="h-screen w-screen bg-red-900 text-white flex flex-col items-center justify-center p-8 space-y-6">
+        <Lock className="w-20 h-20 text-red-400" />
+        <h1 className="text-3xl font-black">Terminal Locked</h1>
+        <p className="text-sm text-red-200 text-center max-w-md font-semibold">
+          Your workstation terminal has been locked by the administration. All inputs are disabled. Contact the chief invigilator to unlock your station.
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div className="h-screen w-screen bg-background text-on-surface flex flex-col font-sans select-none overflow-hidden">
+      {examCameraEnabled && (
+        <video
+          ref={videoRef}
+          className="hidden"
+          playsInline
+          muted
+          autoPlay
+          style={{ display: 'none' }}
+        />
+      )}
 
       {/* Top Banner Navigation Header */}
       <header className="h-16 bg-slate-900 text-white flex items-center justify-between px-6 border-b border-slate-800 shrink-0 z-30">
@@ -247,7 +345,9 @@ export function CandidateExamPortalPage() {
                   <Button
                     variant="primary"
                     disabled={!instructionsAcknowledged}
-                    onClick={() => setPreExamStep(2)}
+                    onClick={() => {
+                      setPreExamStep(2);
+                    }}
                   >
                     Proceed to Identity Verification
                   </Button>
@@ -332,19 +432,20 @@ export function CandidateExamPortalPage() {
                     </div>
                   </div>
 
-                  <div className="aspect-video bg-slate-900 rounded-xl overflow-hidden relative flex flex-col items-center justify-center text-white">
-                    <img
-                      src={profile.photoUrl}
-                      alt={profile.name}
-                      className="w-full h-full object-cover opacity-80"
-                    />
-                    <div className="absolute inset-0 border-2 border-emerald-400/60 rounded-xl pointer-events-none flex items-center justify-center">
-                      <div className="w-32 h-32 border-2 border-dashed border-emerald-400 rounded-full animate-spin" style={{ animationDuration: '10s' }} />
-                    </div>
-                    <div className="absolute bottom-3 left-3 bg-black/70 px-2.5 py-1 rounded font-mono text-[10px]">
-                      Face Match: {verificationProgress === 100 ? '98.6% VERIFIED' : `${verificationProgress}% Scanning...`}
-                    </div>
-                  </div>
+                  <LiveFeedFrame
+                    candidate={{
+                      ...profile,
+                      status: verificationProgress === 100 ? 'NORMAL' : 'WARNING',
+                      cameraActive: isCameraReady,
+                      micActive: false,
+                      screenShareActive: true,
+                      internetStatus: 'CONNECTED',
+                      heartbeatStatus: cameraError ? 'Camera blocked' : verificationProgress === 100 ? 'Verified' : 'Scanning'
+                    }}
+                    frameUrl={frameUrl}
+                    title="Setup Live Feed"
+                    subtitle={cameraError ? `Camera access issue: ${cameraError}` : verificationProgress === 100 ? 'Identity verified, same feed will remain pinned during the exam' : 'Identity verification and camera calibration in progress'}
+                  />
                 </div>
 
                 <div className="space-y-2">
@@ -518,83 +619,132 @@ export function CandidateExamPortalPage() {
 
               {/* Question View Canvas */}
               <div className="flex-1 overflow-y-auto py-8 px-4 sm:px-8 flex justify-center">
-                <div className="w-full max-w-[800px] flex flex-col gap-6">
-                  {/* Context Header */}
-                  <div className="flex justify-between items-start">
-                    <div className="flex items-center gap-3">
-                      <span className="w-8 h-8 rounded bg-primary text-on-primary flex items-center justify-center font-bold text-sm">
-                        {currentQuestionIndex}
-                      </span>
-                      <span className="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">
-                        Single Choice Question
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      {isMarked && (
-                        <Badge variant="warning" size="sm">
-                          Marked for Review
+                <div className="w-full max-w-[1200px] grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_320px] gap-6 items-start">
+                  <div className="flex flex-col gap-6">
+                    {/* Context Header */}
+                    <div className="flex justify-between items-start">
+                      <div className="flex items-center gap-3">
+                        <span className="w-8 h-8 rounded bg-primary text-on-primary flex items-center justify-center font-bold text-sm">
+                          {currentQuestionIndex}
+                        </span>
+                        <span className="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">
+                          Single Choice Question
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        {isMarked && (
+                          <Badge variant="warning" size="sm">
+                            Marked for Review
+                          </Badge>
+                        )}
+                        <Badge variant="default" size="sm">
+                          2 Points
                         </Badge>
-                      )}
-                      <Badge variant="default" size="sm">
-                        2 Points
-                      </Badge>
-                    </div>
-                  </div>
-
-                  {/* Question Body Card */}
-                  <div className="bg-surface-container-lowest p-6 sm:p-8 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
-                    <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
-                    <div className="text-base text-on-surface mb-6 leading-relaxed font-medium">
-                      In a B+ Tree index of order m=4, what is the maximum number of keys contained in a leaf node, and what is the time complexity of searching assuming a balanced tree structure?
+                      </div>
                     </div>
 
-                    {/* Code Block */}
-                    <div className="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 overflow-x-auto">
-                      <pre className="font-mono text-xs text-slate-200 leading-relaxed">
+                    {/* Question Body Card */}
+                    <div className="bg-surface-container-lowest p-6 sm:p-8 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
+                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+                      <div className="text-base text-on-surface mb-6 leading-relaxed font-medium">
+                        In a B+ Tree index of order m=4, what is the maximum number of keys contained in a leaf node, and what is the time complexity of searching assuming a balanced tree structure?
+                      </div>
+
+                      {/* Code Block */}
+                      <div className="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 overflow-x-auto">
+                        <pre className="font-mono text-xs text-slate-200 leading-relaxed">
 {`class BPlusTreeNode {
     int keys[3];
     BPlusTreeNode* childPointers[4];
     bool isLeaf;
 }`}
-                      </pre>
-                    </div>
+                        </pre>
+                      </div>
 
-                    {/* Options List */}
-                    <div className="flex flex-col gap-3">
-                      {[
-                        { id: 'A', text: 'Maximum keys = 3, Time Complexity = O(log n)' },
-                        { id: 'B', text: 'Maximum keys = 4, Time Complexity = O(n)' },
-                        { id: 'C', text: 'Maximum keys = 3, Time Complexity = O(1)' },
-                        { id: 'D', text: 'Maximum keys = 2, Time Complexity = O(n log n)' }
-                      ].map((option) => {
-                        const isSelected = selectedOption === option.id;
-                        return (
-                          <label
-                            key={option.id}
-                            onClick={() => handleOptionChange(option.id)}
-                            className={`relative flex items-center p-4 border rounded-lg cursor-pointer transition-all ${
-                              isSelected
-                                ? 'border-primary bg-primary-fixed/20 shadow-xs'
-                                : 'border-outline-variant bg-surface-container-lowest hover:bg-surface-variant'
-                            }`}
-                          >
-                            <div
-                              className={`w-5 h-5 rounded-full border-2 mr-4 flex items-center justify-center transition-all ${
-                                isSelected ? 'border-primary bg-primary' : 'border-slate-300'
+                      {/* Options List */}
+                      <div className="flex flex-col gap-3">
+                        {[
+                          { id: 'A', text: 'Maximum keys = 3, Time Complexity = O(log n)' },
+                          { id: 'B', text: 'Maximum keys = 4, Time Complexity = O(n)' },
+                          { id: 'C', text: 'Maximum keys = 3, Time Complexity = O(1)' },
+                          { id: 'D', text: 'Maximum keys = 2, Time Complexity = O(n log n)' }
+                        ].map((option) => {
+                          const isSelected = selectedOption === option.id;
+                          return (
+                            <label
+                              key={option.id}
+                              onClick={() => handleOptionChange(option.id)}
+                              className={`relative flex items-center p-4 border rounded-lg cursor-pointer transition-all ${
+                                isSelected
+                                  ? 'border-primary bg-primary-fixed/20 shadow-xs'
+                                  : 'border-outline-variant bg-surface-container-lowest hover:bg-surface-variant'
                               }`}
                             >
-                              {isSelected && <div className="w-2 h-2 rounded-full bg-white"></div>}
-                            </div>
-                            <div className={`text-sm flex-1 ${isSelected ? 'font-bold text-primary' : 'text-on-surface'}`}>
-                              {option.text}
-                            </div>
-                          </label>
-                        );
-                      })}
+                              <div
+                                className={`w-5 h-5 rounded-full border-2 mr-4 flex items-center justify-center transition-all ${
+                                  isSelected ? 'border-primary bg-primary' : 'border-slate-300'
+                                }`}
+                              >
+                                {isSelected && <div className="w-2 h-2 rounded-full bg-white"></div>}
+                              </div>
+                              <div className={`text-sm flex-1 ${isSelected ? 'font-bold text-primary' : 'text-on-surface'}`}>
+                                {option.text}
+                              </div>
+                            </label>
+                          );
+                        })}
+                      </div>
                     </div>
+
+                    <div className="h-24"></div>
                   </div>
 
-                  <div className="h-24"></div>
+                  <aside className="space-y-4 xl:sticky xl:top-6">
+                    <Card
+                      title="Pinned Candidate Feed"
+                      subtitle="The same camera frame stays visible while the candidate completes the exam"
+                    >
+                      <LiveFeedFrame
+                        candidate={{
+                          ...profile,
+                          status: 'NORMAL',
+                          cameraActive: isCameraReady,
+                          micActive: false,
+                          screenShareActive: true,
+                          internetStatus: 'CONNECTED',
+                          heartbeatStatus: cameraError ? 'Camera blocked' : 'Exam running'
+                        }}
+                        frameUrl={frameUrl}
+                        title="Exam Live Feed"
+                        subtitle="Pinned to the candidate session until submission"
+                        className="shadow-none"
+                      />
+                    </Card>
+
+                    <Card
+                      title="Session Snapshot"
+                      subtitle="Current candidate telemetry"
+                    >
+                      <div className="space-y-3 text-xs">
+                        <div className="flex items-center justify-between">
+                          <span className="text-on-surface-variant">Candidate</span>
+                          <span className="font-semibold text-on-surface">{profile.name}</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-on-surface-variant">Terminal</span>
+                          <span className="font-mono font-semibold text-primary">{profile.terminalId}</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-on-surface-variant">Invigilator</span>
+                          <span className="font-semibold text-on-surface">{profile.assignedInvigilator}</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-on-surface-variant">Timer</span>
+                          <span className="font-mono font-semibold text-emerald-600">{formattedTime}</span>
+                        </div>
+                      </div>
+                    </Card>
+                  </aside>
                 </div>
               </div>
 
