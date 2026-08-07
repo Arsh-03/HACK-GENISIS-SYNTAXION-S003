@@ -1,0 +1,921 @@
+import React, { useState, useEffect } from 'react';
+import { useExamTimer } from '../hooks/useExamTimer';
+import { QuestionPalette } from '../shared/components/common/QuestionPalette';
+import { Card } from '../shared/components/ui/Card';
+import { StatCard } from '../shared/components/ui/StatCard';
+import { Button } from '../shared/components/ui/Button';
+import { Modal } from '../shared/components/ui/Modal';
+import { ProgressBar } from '../shared/components/ui/ProgressBar';
+import { Badge } from '../shared/components/ui/Badge';
+import { Table } from '../shared/components/ui/Table';
+import {
+  Clock,
+  ChevronLeft,
+  ChevronRight,
+  Bookmark,
+  AlertTriangle,
+  RotateCcw,
+  Send,
+  CheckCircle2,
+  XCircle,
+  Video,
+  Mic,
+  Wifi,
+  Monitor,
+  Maximize,
+  ShieldCheck,
+  UserCheck,
+  Calendar,
+  Award,
+  Bell,
+  FileText,
+  FileCheck,
+  Download,
+  LayoutDashboard,
+  ArrowRight,
+  HelpCircle,
+  AlertCircle,
+  Sparkles,
+  Check,
+  RefreshCw
+} from 'lucide-react';
+import {
+  mockCandidateProfile,
+  mockTodayExam,
+  mockUpcomingExams,
+  mockPreviousExamAttempts,
+  mockExamNotifications,
+  mockSystemReadinessChecks,
+  mockExamResultData,
+  mockExamSections
+} from '../services/mockData';
+
+export function CandidateExamPortalPage() {
+  // Main view state switcher: 'DASHBOARD', 'PRE_EXAM', 'ACTIVE_EXAM', 'REVIEW', 'RESULT'
+  const [currentView, setCurrentView] = useState('DASHBOARD');
+
+  // Pre-exam flow step: 1 (Instructions), 2 (Verification), 3 (System Check), 4 (Waiting Room)
+  const [preExamStep, setPreExamStep] = useState(1);
+  const [instructionsAcknowledged, setInstructionsAcknowledged] = useState(false);
+  const [verificationProgress, setVerificationProgress] = useState(0);
+  const [isVerifying, setIsVerifying] = useState(false);
+  const [waitingCountdown, setWaitingCountdown] = useState(15);
+
+  // Active Exam state
+  const { formattedTime, progressPercentage, timeLeft } = useExamTimer(7200); // 2 hours
+  const [activeSectionId, setActiveSectionId] = useState("sec-1");
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(16);
+  const [selectedOption, setSelectedOption] = useState("C");
+  const [isMarked, setIsMarked] = useState(true);
+  const [questionStates, setQuestionStates] = useState({
+    16: 'marked'
+  });
+  const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
+
+  const profile = mockCandidateProfile;
+  const todayExam = mockTodayExam;
+  const activeSection = mockExamSections.find(s => s.id === activeSectionId) || mockExamSections[0];
+
+  // Waiting room countdown effect
+  useEffect(() => {
+    let timer;
+    if (currentView === 'PRE_EXAM' && preExamStep === 4 && waitingCountdown > 0) {
+      timer = setInterval(() => {
+        setWaitingCountdown(prev => prev - 1);
+      }, 1000);
+    }
+    return () => clearInterval(timer);
+  }, [currentView, preExamStep, waitingCountdown]);
+
+  // Mock verification scanner effect
+  const triggerMockVerification = () => {
+    setIsVerifying(true);
+    setVerificationProgress(10);
+    const interval = setInterval(() => {
+      setVerificationProgress(prev => {
+        if (prev >= 100) {
+          clearInterval(interval);
+          setIsVerifying(false);
+          return 100;
+        }
+        return prev + 25;
+      });
+    }, 400);
+  };
+
+  const handleOptionChange = (optionId) => {
+    setSelectedOption(optionId);
+    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex]: 'answered' }));
+  };
+
+  const handleClearResponse = () => {
+    setSelectedOption(null);
+    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex]: 'unanswered' }));
+  };
+
+  const handleToggleMark = () => {
+    setIsMarked(prev => !prev);
+    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex]: !isMarked ? 'marked' : 'answered' }));
+  };
+
+  const handleSaveAndNext = () => {
+    if (currentQuestionIndex < 50) {
+      setCurrentQuestionIndex(prev => prev + 1);
+    }
+  };
+
+  const handlePreviousQuestion = () => {
+    if (currentQuestionIndex > 1) {
+      setCurrentQuestionIndex(prev => prev - 1);
+    }
+  };
+
+  return (
+    <div className="h-screen w-screen bg-background text-on-surface flex flex-col font-sans select-none overflow-hidden">
+
+      {/* Top Banner Navigation Header */}
+      <header className="h-16 bg-slate-900 text-white flex items-center justify-between px-6 border-b border-slate-800 shrink-0 z-30">
+        <div className="flex items-center gap-3">
+          <div className="p-2 bg-primary/20 rounded-lg border border-primary/40 text-primary-fixed">
+            <ShieldCheck className="w-5 h-5 text-indigo-400" />
+          </div>
+          <div>
+            <div className="font-bold text-sm text-white tracking-tight flex items-center gap-2">
+              <span>Nexis CBT Enterprise Exam Portal</span>
+              <Badge variant="mono" size="sm">v2.4 SECURE KIOSK</Badge>
+            </div>
+            <div className="text-[11px] text-slate-400">Candidate: {profile.name} ({profile.candidateId})</div>
+          </div>
+        </div>
+
+        {/* View Switcher Quick Indicator */}
+        <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 text-xs">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+            <span className="text-slate-300 font-mono">Terminal: {profile.terminalId}</span>
+          </div>
+
+          {currentView !== 'DASHBOARD' && (
+            <Button
+              variant="outline"
+              size="sm"
+              icon={LayoutDashboard}
+              onClick={() => setCurrentView('DASHBOARD')}
+              className="bg-slate-800 text-slate-200 border-slate-700 hover:bg-slate-700 text-xs"
+            >
+              Dashboard
+            </Button>
+          )}
+        </div>
+      </header>
+
+      {/* ==================================================== */}
+      {/* VIEW 1: CANDIDATE DASHBOARD */}
+      {/* ==================================================== */}
+      {currentView === 'DASHBOARD' && (
+        <div className="flex-1 overflow-y-auto p-6 md:p-8 space-y-6 max-w-7xl mx-auto w-full">
+
+          {/* Profile Header & Verification Status Banner */}
+          <div className="bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div className="flex items-center gap-4">
+              <img
+                src={profile.photoUrl}
+                alt={profile.name}
+                className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow-sm shrink-0"
+              />
+              <div>
+                <div className="flex items-center gap-2">
+                  <h2 className="text-xl font-bold text-on-surface">{profile.name}</h2>
+                  <Badge variant="success" size="sm" className="flex items-center gap-1">
+                    <UserCheck className="w-3 h-3 text-emerald-600" />
+                    {profile.verificationStatus}
+                  </Badge>
+                </div>
+                <div className="text-xs text-on-surface-variant mt-1">
+                  ID: <span className="font-mono font-bold text-on-surface">{profile.candidateId}</span> • {profile.department}
+                </div>
+                <div className="text-xs text-on-surface-variant font-mono mt-0.5">
+                  Assigned Terminal: {profile.terminalId} ({profile.seatNumber})
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full md:w-64 space-y-2 bg-surface-bright p-3 rounded-xl border border-outline-variant">
+              <div className="flex justify-between text-xs font-semibold">
+                <span className="text-on-surface-variant">Profile Completion</span>
+                <span className="text-emerald-600 font-mono font-bold">{profile.profileCompletion}%</span>
+              </div>
+              <ProgressBar progress={profile.profileCompletion} height="h-2" color="bg-emerald-600" />
+            </div>
+          </div>
+
+          {/* Today's Exam Highlight Banner */}
+          <div className="bg-gradient-to-r from-primary via-indigo-700 to-indigo-900 text-on-primary p-6 md:p-8 rounded-2xl shadow-lg border border-primary/30 flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative overflow-hidden">
+            <div className="space-y-2 z-10">
+              <span className="px-3 py-1 text-[10px] font-mono font-bold uppercase tracking-wider rounded-full bg-emerald-400/20 text-emerald-300 border border-emerald-400/40">
+                TODAY'S SCHEDULED EXAMINATION
+              </span>
+              <h1 className="text-2xl font-black text-white">{todayExam.title}</h1>
+              <p className="text-xs text-indigo-200">
+                {todayExam.subject} • {todayExam.durationMinutes} Minutes • {todayExam.totalQuestions} Questions • {todayExam.totalMarks} Marks
+              </p>
+            </div>
+
+            <Button
+              variant="primary"
+              size="lg"
+              icon={ArrowRight}
+              iconPosition="right"
+              onClick={() => {
+                setPreExamStep(1);
+                setCurrentView('PRE_EXAM');
+              }}
+              className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm shadow-md border border-emerald-400/40 shrink-0 z-10"
+            >
+              Enter Exam Hall & Pre-Check
+            </Button>
+          </div>
+
+          {/* Dashboard Grid: Upcoming & Previous Attempts */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+            {/* Upcoming Exams */}
+            <Card title="Upcoming Examinations" subtitle="Scheduled computer-based tests for your cohort" headerAction={<Calendar className="w-5 h-5 text-primary" />}>
+              <div className="space-y-3">
+                {mockUpcomingExams.map((ex) => (
+                  <div key={ex.id} className="p-4 bg-surface-bright rounded-xl border border-outline-variant flex items-center justify-between gap-4">
+                    <div>
+                      <div className="font-bold text-sm text-on-surface">{ex.title}</div>
+                      <div className="text-xs text-on-surface-variant font-mono mt-0.5">{ex.code} • Date: {ex.date}</div>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <div className="text-xs font-bold font-mono text-primary">{ex.duration}</div>
+                      <div className="text-[10px] text-on-surface-variant">{ex.marks} Marks</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </Card>
+
+            {/* Previous Attempts History */}
+            <Card title="Previous Exam Scorecards" subtitle="Completed test scores and rank certificate ledger" headerAction={<Award className="w-5 h-5 text-emerald-600" />}>
+              <div className="space-y-3">
+                {mockPreviousExamAttempts.map((att) => (
+                  <div key={att.id} className="p-4 bg-surface-bright rounded-xl border border-outline-variant flex items-center justify-between gap-4">
+                    <div>
+                      <div className="font-bold text-sm text-on-surface">{att.title}</div>
+                      <div className="text-xs text-on-surface-variant font-mono mt-0.5">{att.date} • {att.rank}</div>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <div className="text-xs font-bold font-mono text-emerald-600">{att.score}</div>
+                      <Badge variant="success" size="sm">{att.status}</Badge>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </Card>
+
+          </div>
+
+          {/* Exam Notifications & Announcements */}
+          <Card title="Important Candidate Bulletins & Notifications" subtitle="Compliance rules, proctoring guidelines, and announcements" headerAction={<Bell className="w-5 h-5 text-amber-500" />}>
+            <div className="space-y-3">
+              {mockExamNotifications.map((notif) => (
+                <div key={notif.id} className="p-3.5 bg-amber-50/60 border border-amber-200 rounded-xl flex items-start gap-3">
+                  <AlertCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                  <div>
+                    <div className="text-xs font-bold text-amber-900">{notif.title} <span className="font-mono text-[10px] font-normal text-amber-700">[{notif.date}]</span></div>
+                    <div className="text-xs text-amber-800 mt-0.5">{notif.text}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Card>
+
+        </div>
+      )}
+
+      {/* ==================================================== */}
+      {/* VIEW 2: PRE-EXAM FLOW (4-STEP GUIDED WIZARD) */}
+      {/* ==================================================== */}
+      {currentView === 'PRE_EXAM' && (
+        <div className="flex-1 overflow-y-auto p-6 md:p-8 space-y-6 max-w-4xl mx-auto w-full">
+
+          {/* Wizard Stepper Progress Header */}
+          <div className="bg-surface-container-lowest p-4 rounded-xl border border-outline-variant shadow-sm flex items-center justify-between">
+            {[
+              { step: 1, title: "Instructions" },
+              { step: 2, title: "Identity Verification" },
+              { step: 3, title: "System Check" },
+              { step: 4, title: "Waiting Room" }
+            ].map((st, idx) => (
+              <React.Fragment key={st.step}>
+                <div className="flex items-center gap-2">
+                  <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs ${
+                    preExamStep > st.step ? 'bg-emerald-600 text-white' :
+                    preExamStep === st.step ? 'bg-primary text-white ring-4 ring-primary/20' :
+                    'bg-slate-200 text-slate-600'
+                  }`}>
+                    {preExamStep > st.step ? <Check className="w-4 h-4" /> : st.step}
+                  </div>
+                  <span className={`text-xs font-semibold hidden sm:inline ${preExamStep === st.step ? 'text-primary' : 'text-on-surface-variant'}`}>
+                    {st.title}
+                  </span>
+                </div>
+                {idx < 3 && <div className={`h-0.5 flex-1 mx-2 ${preExamStep > st.step ? 'bg-emerald-500' : 'bg-slate-200'}`} />}
+              </React.Fragment>
+            ))}
+          </div>
+
+          {/* STEP 1: EXAM INSTRUCTIONS */}
+          {preExamStep === 1 && (
+            <Card
+              title="Step 1: Examination Rules & General Instructions"
+              subtitle="Please read all candidate rules thoroughly prior to starting"
+              footer={
+                <div className="flex justify-between items-center w-full">
+                  <Button variant="outline" onClick={() => setCurrentView('DASHBOARD')}>
+                    Cancel & Return to Dashboard
+                  </Button>
+                  <Button
+                    variant="primary"
+                    disabled={!instructionsAcknowledged}
+                    onClick={() => setPreExamStep(2)}
+                  >
+                    Proceed to Identity Verification
+                  </Button>
+                </div>
+              }
+            >
+              <div className="space-y-4 text-xs leading-relaxed">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+                  <div className="bg-surface-bright p-3 rounded-lg border border-outline-variant">
+                    <div className="text-[10px] font-bold text-on-surface-variant uppercase">Time Limit</div>
+                    <div className="text-sm font-bold text-primary mt-0.5">{todayExam.durationMinutes} Minutes</div>
+                  </div>
+                  <div className="bg-surface-bright p-3 rounded-lg border border-outline-variant">
+                    <div className="text-[10px] font-bold text-on-surface-variant uppercase">Questions</div>
+                    <div className="text-sm font-bold text-primary mt-0.5">{todayExam.totalQuestions} Items</div>
+                  </div>
+                  <div className="bg-surface-bright p-3 rounded-lg border border-outline-variant">
+                    <div className="text-[10px] font-bold text-on-surface-variant uppercase">Total Marks</div>
+                    <div className="text-sm font-bold text-emerald-600 mt-0.5">{todayExam.totalMarks} Marks</div>
+                  </div>
+                  <div className="bg-surface-bright p-3 rounded-lg border border-outline-variant">
+                    <div className="text-[10px] font-bold text-on-surface-variant uppercase">Negative Marking</div>
+                    <div className="text-xs font-bold text-red-600 mt-0.5">-0.5 Per Wrong</div>
+                  </div>
+                </div>
+
+                <div className="space-y-2 bg-surface-bright p-4 rounded-xl border border-outline-variant">
+                  <div className="font-bold text-on-surface">General Candidate Guidelines:</div>
+                  <ul className="list-disc pl-4 space-y-1 text-on-surface-variant">
+                    <li>The clock will be set at the server. The countdown timer at the top right corner of screen will display the remaining time.</li>
+                    <li>You can click on the question palette button on the left to navigate directly to any question.</li>
+                    <li>The Question Palette shows: Answered (Green), Unanswered (Red), Marked for Review (Yellow), Not Visited (White).</li>
+                    <li>Saving an option automatically records your response. Marked for Review items are evaluated if answered.</li>
+                    <li>AI anti-cheat guard will monitor webcam feed, acoustic background noise, and browser window focus.</li>
+                  </ul>
+                </div>
+
+                <label className="flex items-start gap-3 p-3 bg-indigo-50 border border-indigo-200 rounded-xl cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={instructionsAcknowledged}
+                    onChange={(e) => setInstructionsAcknowledged(e.target.checked)}
+                    className="mt-0.5 accent-primary w-4 h-4"
+                  />
+                  <span className="font-semibold text-indigo-900">
+                    I have read and understood all instructions. I agree to abide by all anti-cheat regulations of the National CBT Board.
+                  </span>
+                </label>
+              </div>
+            </Card>
+          )}
+
+          {/* STEP 2: IDENTITY VERIFICATION */}
+          {preExamStep === 2 && (
+            <Card
+              title="Step 2: Biometric Identity Verification"
+              subtitle="Verifying candidate facial features against official registration database"
+              footer={
+                <div className="flex justify-between items-center w-full">
+                  <Button variant="outline" onClick={() => setPreExamStep(1)}>
+                    Back
+                  </Button>
+                  <Button
+                    variant="primary"
+                    disabled={verificationProgress < 100}
+                    onClick={() => setPreExamStep(3)}
+                  >
+                    Proceed to System Check
+                  </Button>
+                </div>
+              }
+            >
+              <div className="space-y-6 text-xs">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+                  <div className="space-y-3 bg-surface-bright p-4 rounded-xl border border-outline-variant">
+                    <div className="font-bold text-on-surface text-sm">Registered Student Profile</div>
+                    <div className="space-y-1 text-on-surface-variant">
+                      <div>Name: <span className="font-bold text-on-surface">{profile.name}</span></div>
+                      <div>Registration Number: <span className="font-mono font-bold text-primary">{profile.candidateId}</span></div>
+                      <div>Department: <span className="font-semibold text-on-surface">{profile.department}</span></div>
+                      <div>Assigned Terminal: <span className="font-mono font-bold text-emerald-600">{profile.terminalId} ({profile.seatNumber})</span></div>
+                    </div>
+                  </div>
+
+                  <div className="aspect-video bg-slate-900 rounded-xl overflow-hidden relative flex flex-col items-center justify-center text-white">
+                    <img
+                      src={profile.photoUrl}
+                      alt={profile.name}
+                      className="w-full h-full object-cover opacity-80"
+                    />
+                    <div className="absolute inset-0 border-2 border-emerald-400/60 rounded-xl pointer-events-none flex items-center justify-center">
+                      <div className="w-32 h-32 border-2 border-dashed border-emerald-400 rounded-full animate-spin" style={{ animationDuration: '10s' }} />
+                    </div>
+                    <div className="absolute bottom-3 left-3 bg-black/70 px-2.5 py-1 rounded font-mono text-[10px]">
+                      Face Match: {verificationProgress === 100 ? '98.6% VERIFIED' : `${verificationProgress}% Scanning...`}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center font-semibold">
+                    <span className="text-on-surface-variant">Biometric Facial Scan & Government ID OCR Match</span>
+                    <span className="font-mono text-emerald-600 font-bold">{verificationProgress}%</span>
+                  </div>
+                  <ProgressBar progress={verificationProgress} height="h-2.5" color="bg-emerald-600" />
+                </div>
+
+                {verificationProgress < 100 && (
+                  <Button
+                    variant="secondary"
+                    icon={RefreshCw}
+                    onClick={triggerMockVerification}
+                    disabled={isVerifying}
+                    className="w-full"
+                  >
+                    {isVerifying ? "Running Biometric Face Matching..." : "Run Identity Verification Scan"}
+                  </Button>
+                )}
+              </div>
+            </Card>
+          )}
+
+          {/* STEP 3: SYSTEM READINESS CHECK */}
+          {preExamStep === 3 && (
+            <Card
+              title="Step 3: Hardware & Network Readiness Check"
+              subtitle="Ensuring candidate workstation meets CBT security requirements"
+              footer={
+                <div className="flex justify-between items-center w-full">
+                  <Button variant="outline" onClick={() => setPreExamStep(2)}>
+                    Back
+                  </Button>
+                  <Button
+                    variant="primary"
+                    onClick={() => setPreExamStep(4)}
+                  >
+                    Proceed to Waiting Room
+                  </Button>
+                </div>
+              }
+            >
+              <div className="space-y-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {mockSystemReadinessChecks.map((chk) => (
+                    <div key={chk.id} className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant flex items-center justify-between gap-3">
+                      <div>
+                        <div className="text-xs font-bold text-on-surface">{chk.name}</div>
+                        <div className="text-[11px] text-on-surface-variant mt-0.5">{chk.detail}</div>
+                      </div>
+                      <Badge variant="success" size="sm" className="shrink-0 flex items-center gap-1">
+                        <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                        {chk.status}
+                      </Badge>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Card>
+          )}
+
+          {/* STEP 4: WAITING ROOM */}
+          {preExamStep === 4 && (
+            <Card
+              title="Step 4: Examination Hall Waiting Room"
+              subtitle="Your terminal is locked and verified. Exam launch countdown active."
+              accentLeft
+              accentColor="bg-emerald-500"
+              footer={
+                <div className="flex justify-between items-center w-full">
+                  <Button variant="outline" onClick={() => setPreExamStep(3)}>
+                    Back to Check
+                  </Button>
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    icon={Play}
+                    onClick={() => setCurrentView('ACTIVE_EXAM')}
+                    className="bg-emerald-600 hover:bg-emerald-700 font-bold text-sm"
+                  >
+                    Launch Exam Now
+                  </Button>
+                </div>
+              }
+            >
+              <div className="space-y-6 text-center py-4">
+                <div className="space-y-1">
+                  <div className="text-xs font-bold uppercase tracking-wider text-on-surface-variant">Session Start Countdown</div>
+                  <div className="text-4xl font-black font-mono text-primary tracking-widest">
+                    00:00:{waitingCountdown.toString().padStart(2, '0')}
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-surface-bright p-4 rounded-xl border border-outline-variant text-left text-xs">
+                  <div>
+                    <div className="text-[10px] text-on-surface-variant uppercase font-bold">Assigned Terminal</div>
+                    <div className="font-mono font-bold text-primary mt-0.5">{profile.terminalId}</div>
+                  </div>
+                  <div>
+                    <div className="text-[10px] text-on-surface-variant uppercase font-bold">Station Seat</div>
+                    <div className="font-bold text-on-surface mt-0.5">{profile.seatNumber}</div>
+                  </div>
+                  <div>
+                    <div className="text-[10px] text-on-surface-variant uppercase font-bold">Invigilator</div>
+                    <div className="font-semibold text-on-surface mt-0.5">{profile.assignedInvigilator}</div>
+                  </div>
+                  <div>
+                    <div className="text-[10px] text-on-surface-variant uppercase font-bold">Session Slot</div>
+                    <div className="font-bold text-emerald-600 mt-0.5">Slot #02</div>
+                  </div>
+                </div>
+
+                <p className="text-xs text-on-surface-variant max-w-lg mx-auto leading-relaxed">
+                  Do not refresh or close this browser window. When the timer hits 00:00:00, your exam will automatically initialize.
+                </p>
+              </div>
+            </Card>
+          )}
+
+        </div>
+      )}
+
+      {/* ==================================================== */}
+      {/* VIEW 3: ACTIVE EXAM INTERFACE */}
+      {/* ==================================================== */}
+      {currentView === 'ACTIVE_EXAM' && (
+        <div className="flex-1 flex flex-col h-full overflow-hidden relative">
+          {/* Top Progress Bar */}
+          <div className="fixed top-0 left-0 right-0 z-50">
+            <ProgressBar progress={progressPercentage} height="h-1" color="bg-primary" trackColor="bg-slate-200" />
+          </div>
+
+          <div className="flex-1 flex h-full pt-1 overflow-hidden">
+            {/* Question Palette Sidebar */}
+            <QuestionPalette
+              subject={todayExam.subject}
+              sectionTitle={activeSection.title}
+              currentQuestionNumber={currentQuestionIndex}
+              onSelectQuestion={(num) => setCurrentQuestionIndex(num)}
+              questionStates={questionStates}
+            />
+
+            {/* Center Question Canvas */}
+            <main className="flex-1 flex flex-col h-full relative overflow-hidden bg-surface">
+              {/* Header Bar */}
+              <header className="h-16 bg-surface-container-lowest border-b border-outline-variant flex items-center justify-between px-6 shrink-0 z-10">
+                <div className="flex items-center gap-2 overflow-x-auto no-scrollbar">
+                  {mockExamSections.map((sec) => (
+                    <button
+                      key={sec.id}
+                      onClick={() => setActiveSectionId(sec.id)}
+                      className={`px-4 py-2 text-xs font-semibold rounded-t-sm whitespace-nowrap transition-colors ${
+                        activeSectionId === sec.id
+                          ? 'border-b-2 border-primary text-primary bg-surface-container-low font-bold'
+                          : 'text-on-surface-variant hover:bg-surface-variant'
+                      }`}
+                    >
+                      {sec.shortName}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Timer HUD */}
+                <div className="flex items-center gap-3">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => setCurrentView('REVIEW')}
+                    className="text-xs font-semibold"
+                  >
+                    Review Summary
+                  </Button>
+
+                  <div className="flex items-center gap-2 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800 text-white">
+                    <Clock className="w-4 h-4 text-emerald-400" />
+                    <span className="font-mono text-sm font-bold text-white tracking-wider">
+                      {formattedTime}
+                    </span>
+                  </div>
+                </div>
+              </header>
+
+              {/* Question View Canvas */}
+              <div className="flex-1 overflow-y-auto py-8 px-4 sm:px-8 flex justify-center">
+                <div className="w-full max-w-[800px] flex flex-col gap-6">
+                  {/* Context Header */}
+                  <div className="flex justify-between items-start">
+                    <div className="flex items-center gap-3">
+                      <span className="w-8 h-8 rounded bg-primary text-on-primary flex items-center justify-center font-bold text-sm">
+                        {currentQuestionIndex}
+                      </span>
+                      <span className="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">
+                        Single Choice Question
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      {isMarked && (
+                        <Badge variant="warning" size="sm">
+                          Marked for Review
+                        </Badge>
+                      )}
+                      <Badge variant="default" size="sm">
+                        2 Points
+                      </Badge>
+                    </div>
+                  </div>
+
+                  {/* Question Body Card */}
+                  <div className="bg-surface-container-lowest p-6 sm:p-8 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
+                    <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+                    <div className="text-base text-on-surface mb-6 leading-relaxed font-medium">
+                      In a B+ Tree index of order m=4, what is the maximum number of keys contained in a leaf node, and what is the time complexity of searching assuming a balanced tree structure?
+                    </div>
+
+                    {/* Code Block */}
+                    <div className="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 overflow-x-auto">
+                      <pre className="font-mono text-xs text-slate-200 leading-relaxed">
+{`class BPlusTreeNode {
+    int keys[3];
+    BPlusTreeNode* childPointers[4];
+    bool isLeaf;
+}`}
+                      </pre>
+                    </div>
+
+                    {/* Options List */}
+                    <div className="flex flex-col gap-3">
+                      {[
+                        { id: 'A', text: 'Maximum keys = 3, Time Complexity = O(log n)' },
+                        { id: 'B', text: 'Maximum keys = 4, Time Complexity = O(n)' },
+                        { id: 'C', text: 'Maximum keys = 3, Time Complexity = O(1)' },
+                        { id: 'D', text: 'Maximum keys = 2, Time Complexity = O(n log n)' }
+                      ].map((option) => {
+                        const isSelected = selectedOption === option.id;
+                        return (
+                          <label
+                            key={option.id}
+                            onClick={() => handleOptionChange(option.id)}
+                            className={`relative flex items-center p-4 border rounded-lg cursor-pointer transition-all ${
+                              isSelected
+                                ? 'border-primary bg-primary-fixed/20 shadow-xs'
+                                : 'border-outline-variant bg-surface-container-lowest hover:bg-surface-variant'
+                            }`}
+                          >
+                            <div
+                              className={`w-5 h-5 rounded-full border-2 mr-4 flex items-center justify-center transition-all ${
+                                isSelected ? 'border-primary bg-primary' : 'border-slate-300'
+                              }`}
+                            >
+                              {isSelected && <div className="w-2 h-2 rounded-full bg-white"></div>}
+                            </div>
+                            <div className={`text-sm flex-1 ${isSelected ? 'font-bold text-primary' : 'text-on-surface'}`}>
+                              {option.text}
+                            </div>
+                          </label>
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  <div className="h-24"></div>
+                </div>
+              </div>
+
+              {/* Footer Action Bar */}
+              <footer className="h-20 bg-surface-container-lowest border-t border-outline-variant flex items-center justify-between px-6 shrink-0 shadow-md absolute bottom-0 left-0 right-0 z-20">
+                <div className="flex gap-3">
+                  <Button variant="outline" icon={ChevronLeft} onClick={handlePreviousQuestion}>
+                    Previous
+                  </Button>
+                  <Button variant="primary" icon={ChevronRight} iconPosition="right" onClick={handleSaveAndNext}>
+                    Save & Next
+                  </Button>
+                </div>
+
+                <div className="flex gap-3">
+                  <Button variant="ghost" icon={RotateCcw} onClick={handleClearResponse}>
+                    Clear Response
+                  </Button>
+                  <Button
+                    variant={isMarked ? "warning" : "outline"}
+                    icon={Bookmark}
+                    onClick={handleToggleMark}
+                  >
+                    {isMarked ? "Marked for Review" : "Mark for Review"}
+                  </Button>
+                </div>
+
+                <Button
+                  variant="danger"
+                  icon={Send}
+                  onClick={() => setIsSubmitModalOpen(true)}
+                >
+                  Submit Exam
+                </Button>
+              </footer>
+            </main>
+          </div>
+        </div>
+      )}
+
+      {/* ==================================================== */}
+      {/* VIEW 4: REVIEW PAGE */}
+      {/* ==================================================== */}
+      {currentView === 'REVIEW' && (
+        <div className="flex-1 overflow-y-auto p-6 md:p-8 space-y-6 max-w-4xl mx-auto w-full">
+          <Card
+            title="Candidate Exam Attempt Summary & Verification"
+            subtitle="Review your overall attempt statistics prior to final submission"
+            footer={
+              <div className="flex justify-between items-center w-full">
+                <Button variant="outline" icon={ChevronLeft} onClick={() => setCurrentView('ACTIVE_EXAM')}>
+                  Return to Active Exam
+                </Button>
+                <Button
+                  variant="danger"
+                  icon={Send}
+                  onClick={() => setIsSubmitModalOpen(true)}
+                >
+                  Proceed to Final Submission
+                </Button>
+              </div>
+            }
+          >
+            <div className="space-y-6 text-xs">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+                <div className="bg-emerald-50 p-4 rounded-xl border border-emerald-200">
+                  <div className="text-[10px] font-bold text-emerald-800 uppercase">Answered</div>
+                  <div className="text-2xl font-black font-mono text-emerald-700 mt-1">44</div>
+                </div>
+                <div className="bg-yellow-50 p-4 rounded-xl border border-yellow-200">
+                  <div className="text-[10px] font-bold text-yellow-800 uppercase">Marked for Review</div>
+                  <div className="text-2xl font-black font-mono text-yellow-700 mt-1">3</div>
+                </div>
+                <div className="bg-red-50 p-4 rounded-xl border border-red-200">
+                  <div className="text-[10px] font-bold text-red-800 uppercase">Unanswered</div>
+                  <div className="text-2xl font-black font-mono text-red-700 mt-1">3</div>
+                </div>
+                <div className="bg-surface-bright p-4 rounded-xl border border-outline-variant">
+                  <div className="text-[10px] font-bold text-on-surface-variant uppercase">Time Remaining</div>
+                  <div className="text-lg font-black font-mono text-primary mt-1">{formattedTime}</div>
+                </div>
+              </div>
+
+              <Table headers={["Section Name", "Total Items", "Answered", "Marked", "Unanswered"]}>
+                <tr className="hover:bg-surface-bright text-xs">
+                  <td className="px-4 py-3 font-bold text-on-surface">Section 1: Core Concepts</td>
+                  <td className="px-4 py-3 font-mono font-bold">20</td>
+                  <td className="px-4 py-3 font-mono text-emerald-600 font-bold">18</td>
+                  <td className="px-4 py-3 font-mono text-yellow-600 font-bold">1</td>
+                  <td className="px-4 py-3 font-mono text-red-600 font-bold">1</td>
+                </tr>
+                <tr className="hover:bg-surface-bright text-xs">
+                  <td className="px-4 py-3 font-bold text-on-surface">Section 2: Data Structures</td>
+                  <td className="px-4 py-3 font-mono font-bold">15</td>
+                  <td className="px-4 py-3 font-mono text-emerald-600 font-bold">14</td>
+                  <td className="px-4 py-3 font-mono text-yellow-600 font-bold">1</td>
+                  <td className="px-4 py-3 font-mono text-red-600 font-bold">0</td>
+                </tr>
+                <tr className="hover:bg-surface-bright text-xs">
+                  <td className="px-4 py-3 font-bold text-on-surface">Section 3: Algorithms</td>
+                  <td className="px-4 py-3 font-mono font-bold">15</td>
+                  <td className="px-4 py-3 font-mono text-emerald-600 font-bold">12</td>
+                  <td className="px-4 py-3 font-mono text-yellow-600 font-bold">1</td>
+                  <td className="px-4 py-3 font-mono text-red-600 font-bold">2</td>
+                </tr>
+              </Table>
+            </div>
+          </Card>
+        </div>
+      )}
+
+      {/* ==================================================== */}
+      {/* VIEW 5: RESULT SCORECARD PAGE */}
+      {/* ==================================================== */}
+      {currentView === 'RESULT' && (
+        <div className="flex-1 overflow-y-auto p-6 md:p-8 space-y-6 max-w-4xl mx-auto w-full">
+          <div className="bg-surface-container-lowest p-6 md:p-8 rounded-2xl border border-outline-variant shadow-lg space-y-6">
+
+            {/* Score Banner */}
+            <div className="p-6 bg-gradient-to-r from-emerald-600 to-teal-700 text-white rounded-xl text-center space-y-2">
+              <Badge variant="mono" className="bg-white/20 text-white border-white/30">OFFICIAL CBT SCORECARD</Badge>
+              <h1 className="text-3xl font-black">{mockExamResultData.status}</h1>
+              <div className="text-5xl font-black font-mono tracking-tight mt-2">{mockExamResultData.score} / {mockExamResultData.totalMarks}</div>
+              <div className="text-sm font-semibold text-emerald-100">{mockExamResultData.percentage} • {mockExamResultData.rank} • {mockExamResultData.percentile}</div>
+            </div>
+
+            {/* Stat Cards */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center text-xs">
+              <div className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant">
+                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Correct Answers</div>
+                <div className="text-lg font-bold font-mono text-emerald-600 mt-1">{mockExamResultData.correctCount}</div>
+              </div>
+              <div className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant">
+                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Incorrect Answers</div>
+                <div className="text-lg font-bold font-mono text-red-600 mt-1">{mockExamResultData.incorrectCount}</div>
+              </div>
+              <div className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant">
+                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Unattempted</div>
+                <div className="text-lg font-bold font-mono text-slate-600 mt-1">{mockExamResultData.unattemptedCount}</div>
+              </div>
+              <div className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant">
+                <div className="text-[10px] uppercase font-bold text-on-surface-variant">Time Taken</div>
+                <div className="text-sm font-bold font-mono text-primary mt-1">{mockExamResultData.timeTaken}</div>
+              </div>
+            </div>
+
+            {/* Subject-Wise Performance Breakdown */}
+            <div className="space-y-3">
+              <div className="font-bold text-on-surface text-sm uppercase tracking-wider">Subject-Wise Performance Breakdown</div>
+              <div className="space-y-3 bg-surface-bright p-4 rounded-xl border border-outline-variant text-xs">
+                {mockExamResultData.subjectBreakdown.map((sub, idx) => (
+                  <div key={idx} className="space-y-1">
+                    <div className="flex justify-between font-semibold">
+                      <span>{sub.subject}</span>
+                      <span className="font-mono text-emerald-600 font-bold">{sub.score} ({sub.percentage}%)</span>
+                    </div>
+                    <ProgressBar progress={sub.percentage} height="h-2" color="bg-emerald-600" />
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Bottom Actions */}
+            <div className="flex flex-col sm:flex-row justify-between gap-3 pt-4 border-t border-outline-variant">
+              <Button variant="outline" icon={LayoutDashboard} onClick={() => setCurrentView('DASHBOARD')}>
+                Return to Candidate Dashboard
+              </Button>
+              <Button variant="primary" icon={Download} onClick={() => alert("Downloading official certified scorecard PDF...")}>
+                Download Certified Scorecard PDF
+              </Button>
+            </div>
+
+          </div>
+        </div>
+      )}
+
+      {/* ==================================================== */}
+      {/* CONFIRMATION SUBMISSION MODAL */}
+      {/* ==================================================== */}
+      <Modal
+        isOpen={isSubmitModalOpen}
+        onClose={() => setIsSubmitModalOpen(false)}
+        title="Confirm Final Exam Submission"
+        icon={AlertTriangle}
+        iconBg="bg-red-100 text-red-600"
+        footer={
+          <>
+            <Button variant="outline" onClick={() => setIsSubmitModalOpen(false)}>
+              Return to Exam
+            </Button>
+            <Button
+              variant="danger"
+              onClick={() => {
+                setIsSubmitModalOpen(false);
+                setCurrentView('RESULT');
+              }}
+            >
+              Yes, Submit Exam Permanently
+            </Button>
+          </>
+        }
+      >
+        <div className="space-y-3 text-xs text-on-surface-variant">
+          <p>
+            Are you sure you want to submit your examination? Once submitted, your answers cannot be altered.
+          </p>
+          <div className="p-3 bg-slate-100 rounded-lg font-mono text-slate-800 space-y-1">
+            <div>Total Questions: <strong>50</strong></div>
+            <div>Attempted: <strong className="text-emerald-700">44</strong></div>
+            <div>Marked for Review: <strong className="text-yellow-700">3</strong></div>
+            <div>Unattempted: <strong className="text-red-700">3</strong></div>
+          </div>
+        </div>
+      </Modal>
+
+    </div>
+  );
+}

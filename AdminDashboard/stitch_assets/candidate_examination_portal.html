@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Candidate Portal - Examination Interface</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#cbdbf5",
+                        "primary": "#3525cd",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#213145",
+                        "on-tertiary-container": "#ffd2be",
+                        "surface-bright": "#f8f9ff",
+                        "inverse-primary": "#c3c0ff",
+                        "tertiary-container": "#a44100",
+                        "on-background": "#0b1c30",
+                        "tertiary-fixed": "#ffdbcc",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed-variant": "#3f465c",
+                        "primary-container": "#4f46e5",
+                        "on-error-container": "#93000a",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed": "#dae2fd",
+                        "surface": "#f8f9ff",
+                        "background": "#f8f9ff",
+                        "outline": "#777587",
+                        "primary-fixed-dim": "#c3c0ff",
+                        "on-primary-fixed-variant": "#3323cc",
+                        "on-tertiary-fixed": "#351000",
+                        "surface-container-low": "#eff4ff",
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#eaf1ff",
+                        "on-surface": "#0b1c30",
+                        "secondary": "#565e74",
+                        "surface-variant": "#d3e4fe",
+                        "surface-container-highest": "#d3e4fe",
+                        "on-secondary-container": "#5c647a",
+                        "on-secondary": "#ffffff",
+                        "outline-variant": "#c7c4d8",
+                        "secondary-fixed-dim": "#bec6e0",
+                        "on-secondary-fixed": "#131b2e",
+                        "surface-container-high": "#dce9ff",
+                        "on-surface-variant": "#464555",
+                        "surface-tint": "#4d44e3",
+                        "tertiary-fixed-dim": "#ffb695",
+                        "on-primary": "#ffffff",
+                        "primary-fixed": "#e2dfff",
+                        "on-primary-fixed": "#0f0069",
+                        "surface-container": "#e5eeff",
+                        "on-tertiary-fixed-variant": "#7b2f00",
+                        "error": "#ba1a1a",
+                        "secondary-container": "#dae2fd",
+                        "on-primary-container": "#dad7ff",
+                        "tertiary": "#7e3000",
+                        
+                        // Functional colors for exam statuses based on design system request
+                        "status-answered": "#059669", // Emerald 600
+                        "status-marked": "#eab308",   // Yellow 500
+                        "status-unanswered": "#ef4444",// Red 500
+                        "status-not-visited": "#e2e8f0", // Slate 200
+                        "status-active": "#4f46e5"    // Indigo 600
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "sm": "8px",
+                        "lg": "24px",
+                        "container-max": "1024px", // Updated for assessment layout
+                        "xs": "4px",
+                        "xl": "40px",
+                        "base": "4px",
+                        "md": "16px",
+                        "gutter": "20px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Inter", "sans-serif"],
+                        "headline-md": ["Inter", "sans-serif"],
+                        "body-sm": ["Inter", "sans-serif"],
+                        "label-sm": ["Inter", "sans-serif"],
+                        "label-md": ["JetBrains Mono", "monospace"],
+                        "body-lg": ["Inter", "sans-serif"],
+                        "headline-sm": ["Inter", "sans-serif"],
+                        "body-md": ["Inter", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "600" }],
+                        "label-md": ["13px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        /* Custom scrollbar for focus mode */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 4px; }
+        
+        body { margin: 0; padding: 0; height: 100vh; overflow: hidden; }
+        
+        .question-palette-btn {
+            width: 36px; height: 36px;
+            display: flex; align-items: center; justify-content: center;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 500;
+            border: 1px solid #e2e8f0;
+            background-color: #f8fafc; color: #475569;
+            transition: all 0.2s ease;
+        }
+        
+        .palette-answered { background-color: #d1fae5; border-color: #059669; color: #065f46; }
+        .palette-marked { background-color: #fef08a; border-color: #eab308; color: #854d0e; }
+        .palette-unanswered { background-color: #fee2e2; border-color: #ef4444; color: #991b1b; }
+        .palette-not-visited { background-color: #ffffff; border-color: #cbd5e1; color: #64748b; }
+        .palette-active { border-width: 2px; border-color: #4f46e5; box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2); }
+
+        .option-label {
+            display: flex; align-items: flex-start;
+            padding: 16px; border: 1px solid #e2e8f0; border-radius: 4px;
+            margin-bottom: 12px; cursor: pointer;
+            transition: all 0.15s ease; background-color: white;
+        }
+        .option-label:hover { border-color: #94a3b8; background-color: #f8fafc; }
+        .option-input:checked + .option-content { font-weight: 500; }
+        .option-input:checked ~ .option-bg { border-color: #4f46e5; background-color: #eff6ff; }
+        
+        /* Modal setup */
+        .modal-overlay { display: none; background-color: rgba(15, 23, 42, 0.6); backdrop-filter: blur(2px); }
+        .modal-active .modal-overlay { display: flex; }
+    </style>
+</head>
+<body class="bg-background text-on-surface h-screen flex flex-col font-body-md select-none">
+<!-- Progress Bar (Top Edge) -->
+<div class="h-1 w-full bg-slate-200 fixed top-0 left-0 z-50">
+<div class="h-full bg-primary" style="width: 35%;"></div>
+</div>
+<!-- Main Application Container (Focus Mode) -->
+<div class="flex-1 flex h-full pt-1 overflow-hidden">
+<!-- Left Sidebar: Question Palette -->
+<aside class="w-72 bg-surface-container-lowest border-r border-outline-variant flex flex-col h-full shrink-0 shadow-sm z-10 hidden lg:flex">
+<div class="p-4 border-b border-outline-variant bg-surface-bright flex items-center justify-between">
+<div>
+<h2 class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Computer Science 101</h2>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">Section 1: Core Concepts</p>
+</div>
+<div class="flex gap-2">
+<span class="material-symbols-outlined text-status-answered" style="font-variation-settings: 'FILL' 1;">videocam</span>
+<span class="material-symbols-outlined text-status-answered" style="font-variation-settings: 'FILL' 1;">mic</span>
+</div>
+</div>
+<div class="p-4 border-b border-outline-variant">
+<div class="grid grid-cols-2 gap-y-2 gap-x-4">
+<div class="flex items-center gap-2"><div class="w-3 h-3 rounded-sm bg-emerald-100 border border-emerald-600"></div><span class="font-label-sm text-label-sm text-on-surface-variant">Answered (12)</span></div>
+<div class="flex items-center gap-2"><div class="w-3 h-3 rounded-sm bg-yellow-100 border border-yellow-500"></div><span class="font-label-sm text-label-sm text-on-surface-variant">Marked (3)</span></div>
+<div class="flex items-center gap-2"><div class="w-3 h-3 rounded-sm bg-red-100 border border-red-500"></div><span class="font-label-sm text-label-sm text-on-surface-variant">Unanswered (2)</span></div>
+<div class="flex items-center gap-2"><div class="w-3 h-3 rounded-sm bg-white border border-slate-300"></div><span class="font-label-sm text-label-sm text-on-surface-variant">Not Visited (33)</span></div>
+</div>
+</div>
+<div class="flex-1 overflow-y-auto p-4">
+<div class="mb-4">
+<h3 class="font-label-sm text-label-sm text-on-surface-variant mb-3 uppercase tracking-wider">Section 1</h3>
+<div class="flex flex-wrap gap-2">
+<button class="question-palette-btn palette-answered">1</button>
+<button class="question-palette-btn palette-answered">2</button>
+<button class="question-palette-btn palette-unanswered">3</button>
+<button class="question-palette-btn palette-answered">4</button>
+<button class="question-palette-btn palette-marked">5</button>
+<button class="question-palette-btn palette-answered">6</button>
+<button class="question-palette-btn palette-answered">7</button>
+<button class="question-palette-btn palette-answered">8</button>
+<button class="question-palette-btn palette-answered">9</button>
+<button class="question-palette-btn palette-marked">10</button>
+<button class="question-palette-btn palette-answered">11</button>
+<button class="question-palette-btn palette-answered">12</button>
+<button class="question-palette-btn palette-unanswered">13</button>
+<button class="question-palette-btn palette-answered">14</button>
+<button class="question-palette-btn palette-answered">15</button>
+<button class="question-palette-btn palette-marked palette-active">16</button>
+<button class="question-palette-btn palette-not-visited">17</button>
+<button class="question-palette-btn palette-not-visited">18</button>
+<button class="question-palette-btn palette-not-visited">19</button>
+<button class="question-palette-btn palette-not-visited">20</button>
+</div>
+</div>
+<div class="mb-4">
+<h3 class="font-label-sm text-label-sm text-on-surface-variant mb-3 uppercase tracking-wider">Section 2</h3>
+<div class="flex flex-wrap gap-2">
+<!-- Generative place holders for remaining buttons to show density -->
+<script>
+                            for(let i=21; i<=50; i++) {
+                                document.write(`<button class="question-palette-btn palette-not-visited">${i}</button>`);
+                            }
+                        </script>
+</div>
+</div>
+</div>
+</aside>
+<!-- Center & Right Column Wrapper -->
+<main class="flex-1 flex flex-col h-full relative">
+<!-- Top Header Area (Timer & Subject Nav) -->
+<header class="h-16 bg-surface-container-lowest border-b border-outline-variant flex items-center justify-between px-6 shrink-0 shadow-sm z-10">
+<div class="flex items-center gap-1 overflow-x-auto no-scrollbar">
+<button class="px-4 py-2 border-b-2 border-primary text-primary font-label-sm text-label-sm bg-surface-container-low rounded-t-sm whitespace-nowrap">Core Concepts</button>
+<button class="px-4 py-2 text-on-surface-variant font-label-sm text-label-sm hover:bg-surface-variant transition-colors rounded-sm whitespace-nowrap">Data Structures</button>
+<button class="px-4 py-2 text-on-surface-variant font-label-sm text-label-sm hover:bg-surface-variant transition-colors rounded-sm whitespace-nowrap">Algorithms</button>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-2 bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-200">
+<span class="material-symbols-outlined text-slate-500 text-sm">schedule</span>
+<span class="font-label-md text-label-md text-slate-700 tracking-wider">01:45:22</span>
+</div>
+</div>
+</header>
+<!-- Question Canvas -->
+<div class="flex-1 overflow-y-auto bg-surface flex justify-center py-8 px-4 sm:px-8">
+<div class="w-full max-w-[800px] flex flex-col gap-6">
+<!-- Question Context/Header -->
+<div class="flex justify-between items-start mb-2">
+<div class="flex items-center gap-3">
+<span class="w-8 h-8 rounded bg-primary text-on-primary flex items-center justify-center font-headline-sm text-headline-sm">16</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Single Choice Question</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-1 bg-yellow-50 text-yellow-700 text-[11px] font-bold uppercase rounded border border-yellow-200 tracking-wider">Marked for Review</span>
+<span class="px-2 py-1 bg-slate-100 text-slate-600 text-[11px] font-bold uppercase rounded border border-slate-200 tracking-wider">2 Points</span>
+</div>
+</div>
+<!-- Question Body -->
+<div class="bg-surface-container-lowest p-6 sm:p-8 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
+<!-- Left Accent Border -->
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<div class="font-body-lg text-body-lg text-on-surface mb-6 leading-relaxed">
+                            Consider the following binary search tree implementation. What is the time complexity of searching for an element in the worst-case scenario, assuming the tree is not self-balancing?
+                        </div>
+<!-- Supporting Code Block -->
+<div class="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 overflow-x-auto">
+<pre class="font-label-md text-label-md text-slate-300 leading-relaxed">class Node {
+    int key;
+    Node left, right;
+    public Node(int item) {
+        key = item; left = right = null;
+    }
+}
+// Search function omitted for brevity</pre>
+</div>
+<!-- Options List -->
+<div class="flex flex-col gap-3">
+<label class="relative flex items-start p-4 border border-outline-variant rounded-lg cursor-pointer bg-surface-container-lowest hover:bg-surface-variant transition-colors group">
+<input class="peer sr-only" name="q16" type="radio" value="A"/>
+<div class="w-5 h-5 rounded-full border-2 border-slate-300 mr-4 mt-0.5 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center after:content-[''] after:w-2 after:h-2 after:bg-white after:rounded-full after:opacity-0 peer-checked:after:opacity-100 transition-all"></div>
+<div class="font-body-md text-body-md text-on-surface flex-1 peer-checked:font-medium peer-checked:text-primary">O(1)</div>
+<div class="absolute inset-0 rounded-lg border-2 border-transparent peer-checked:border-primary pointer-events-none transition-colors"></div>
+</label>
+<label class="relative flex items-start p-4 border border-outline-variant rounded-lg cursor-pointer bg-surface-container-lowest hover:bg-surface-variant transition-colors group">
+<input class="peer sr-only" name="q16" type="radio" value="B"/>
+<div class="w-5 h-5 rounded-full border-2 border-slate-300 mr-4 mt-0.5 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center after:content-[''] after:w-2 after:h-2 after:bg-white after:rounded-full after:opacity-0 peer-checked:after:opacity-100 transition-all"></div>
+<div class="font-body-md text-body-md text-on-surface flex-1 peer-checked:font-medium peer-checked:text-primary">O(log n)</div>
+<div class="absolute inset-0 rounded-lg border-2 border-transparent peer-checked:border-primary pointer-events-none transition-colors"></div>
+</label>
+<label class="relative flex items-start p-4 border border-outline-variant rounded-lg cursor-pointer bg-surface-container-lowest hover:bg-surface-variant transition-colors group">
+<input checked="" class="peer sr-only" name="q16" type="radio" value="C"/>
+<div class="w-5 h-5 rounded-full border-2 border-slate-300 mr-4 mt-0.5 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center after:content-[''] after:w-2 after:h-2 after:bg-white after:rounded-full after:opacity-0 peer-checked:after:opacity-100 transition-all"></div>
+<div class="font-body-md text-body-md text-on-surface flex-1 peer-checked:font-medium peer-checked:text-primary">O(n)</div>
+<div class="absolute inset-0 rounded-lg border-2 border-transparent peer-checked:border-primary bg-primary-fixed opacity-10 pointer-events-none transition-colors"></div>
+<div class="absolute inset-0 rounded-lg border-2 border-transparent peer-checked:border-primary pointer-events-none transition-colors"></div>
+</label>
+<label class="relative flex items-start p-4 border border-outline-variant rounded-lg cursor-pointer bg-surface-container-lowest hover:bg-surface-variant transition-colors group">
+<input class="peer sr-only" name="q16" type="radio" value="D"/>
+<div class="w-5 h-5 rounded-full border-2 border-slate-300 mr-4 mt-0.5 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center after:content-[''] after:w-2 after:h-2 after:bg-white after:rounded-full after:opacity-0 peer-checked:after:opacity-100 transition-all"></div>
+<div class="font-body-md text-body-md text-on-surface flex-1 peer-checked:font-medium peer-checked:text-primary">O(n log n)</div>
+<div class="absolute inset-0 rounded-lg border-2 border-transparent peer-checked:border-primary pointer-events-none transition-colors"></div>
+</label>
+</div>
+</div>
+<!-- Bottom padding for footer clearance -->
+<div class="h-24"></div>
+</div>
+</div>
+<!-- Footer Navigation & Actions -->
+<footer class="h-20 bg-surface-container-lowest border-t border-outline-variant flex items-center justify-between px-6 shrink-0 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] absolute bottom-0 w-full z-20">
+<div class="flex gap-3">
+<button class="px-4 py-2 border border-outline-variant bg-surface rounded flex items-center gap-2 hover:bg-surface-variant transition-colors">
+<span class="material-symbols-outlined text-on-surface-variant" style="font-size: 18px;">chevron_left</span>
+<span class="font-label-sm text-label-sm text-on-surface">Previous</span>
+</button>
+<button class="px-4 py-2 bg-primary text-on-primary rounded flex items-center gap-2 hover:bg-opacity-90 transition-colors">
+<span class="font-label-sm text-label-sm">Save &amp; Next</span>
+<span class="material-symbols-outlined" style="font-size: 18px;">chevron_right</span>
+</button>
+</div>
+<div class="flex gap-3">
+<button class="px-4 py-2 text-on-surface-variant font-label-sm text-label-sm hover:bg-surface-variant rounded transition-colors hidden sm:block">Clear Response</button>
+<button class="px-4 py-2 border border-yellow-500 text-yellow-700 bg-yellow-50 hover:bg-yellow-100 rounded flex items-center gap-2 font-label-sm text-label-sm transition-colors">
+<span class="material-symbols-outlined" style="font-size: 16px;">bookmark</span>
+                        Mark for Review
+                    </button>
+</div>
+<div>
+<button class="px-6 py-2 bg-on-background text-surface-container-lowest rounded font-label-sm text-label-sm hover:bg-slate-800 transition-colors shadow-sm" id="submitBtn">
+                        Submit Exam
+                    </button>
+</div>
+</footer>
+</main>
+</div>
+<!-- Submit Confirmation Modal -->
+<div class="fixed inset-0 z-50 modal-overlay items-center justify-center" id="submitModal">
+<div class="bg-surface-container-lowest w-full max-w-md rounded-xl shadow-2xl p-6 border border-outline-variant transform scale-95 opacity-0 transition-all duration-200" id="modalContent">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+<span class="material-symbols-outlined">warning</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Confirm Submission</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                Are you sure you want to submit your exam? You have <strong class="text-on-surface">2 unanswered</strong> questions and <strong class="text-on-surface">3 marked for review</strong>. You cannot change your answers after submission.
+            </p>
+<div class="flex justify-end gap-3">
+<button class="px-4 py-2 border border-outline-variant text-on-surface rounded font-label-sm text-label-sm hover:bg-surface-variant transition-colors" id="cancelSubmit">Return to Exam</button>
+<button class="px-4 py-2 bg-error text-on-error rounded font-label-sm text-label-sm hover:bg-red-700 transition-colors">Yes, Submit Now</button>
+</div>
+</div>
+</div>
+<script>
+        // Simple modal interaction logic
+        const submitBtn = document.getElementById('submitBtn');
+        const modal = document.getElementById('submitModal');
+        const modalContent = document.getElementById('modalContent');
+        const cancelSubmit = document.getElementById('cancelSubmit');
+
+        submitBtn.addEventListener('click', () => {
+            modal.classList.add('modal-active');
+            setTimeout(() => {
+                modalContent.classList.remove('scale-95', 'opacity-0');
+                modalContent.classList.add('scale-100', 'opacity-100');
+            }, 10);
+        });
+
+        cancelSubmit.addEventListener('click', () => {
+            modalContent.classList.remove('scale-100', 'opacity-100');
+            modalContent.classList.add('scale-95', 'opacity-0');
+            setTimeout(() => {
+                modal.classList.remove('modal-active');
+            }, 200);
+        });
+    </script>
+</body></html>

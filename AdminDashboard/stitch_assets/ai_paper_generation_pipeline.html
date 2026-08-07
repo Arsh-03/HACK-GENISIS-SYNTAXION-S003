@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Paper Generation Pipeline - CBT Platform</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-dim": "#cbdbf5",
+                      "primary": "#3525cd",
+                      "surface-container-lowest": "#ffffff",
+                      "inverse-surface": "#213145",
+                      "on-tertiary-container": "#ffd2be",
+                      "surface-bright": "#f8f9ff",
+                      "inverse-primary": "#c3c0ff",
+                      "tertiary-container": "#a44100",
+                      "on-background": "#0b1c30",
+                      "tertiary-fixed": "#ffdbcc",
+                      "error-container": "#ffdad6",
+                      "on-secondary-fixed-variant": "#3f465c",
+                      "primary-container": "#4f46e5",
+                      "on-error-container": "#93000a",
+                      "on-tertiary": "#ffffff",
+                      "secondary-fixed": "#dae2fd",
+                      "surface": "#f8f9ff",
+                      "background": "#f8f9ff",
+                      "outline": "#777587",
+                      "primary-fixed-dim": "#c3c0ff",
+                      "on-primary-fixed-variant": "#3323cc",
+                      "on-tertiary-fixed": "#351000",
+                      "surface-container-low": "#eff4ff",
+                      "on-error": "#ffffff",
+                      "inverse-on-surface": "#eaf1ff",
+                      "on-surface": "#0b1c30",
+                      "secondary": "#565e74",
+                      "surface-variant": "#d3e4fe",
+                      "surface-container-highest": "#d3e4fe",
+                      "on-secondary-container": "#5c647a",
+                      "on-secondary": "#ffffff",
+                      "outline-variant": "#c7c4d8",
+                      "secondary-fixed-dim": "#bec6e0",
+                      "on-secondary-fixed": "#131b2e",
+                      "surface-container-high": "#dce9ff",
+                      "on-surface-variant": "#464555",
+                      "surface-tint": "#4d44e3",
+                      "tertiary-fixed-dim": "#ffb695",
+                      "on-primary": "#ffffff",
+                      "primary-fixed": "#e2dfff",
+                      "on-primary-fixed": "#0f0069",
+                      "surface-container": "#e5eeff",
+                      "on-tertiary-fixed-variant": "#7b2f00",
+                      "error": "#ba1a1a",
+                      "secondary-container": "#dae2fd",
+                      "on-primary-container": "#dad7ff",
+                      "tertiary": "#7e3000"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "sm": "8px",
+                      "lg": "24px",
+                      "container-max": "1440px",
+                      "xs": "4px",
+                      "xl": "40px",
+                      "base": "4px",
+                      "md": "16px",
+                      "gutter": "20px"
+              },
+              "fontFamily": {
+                      "display-lg": ["Inter"],
+                      "headline-md": ["Inter"],
+                      "body-sm": ["Inter"],
+                      "label-sm": ["Inter"],
+                      "label-md": ["JetBrains Mono"],
+                      "body-lg": ["Inter"],
+                      "headline-sm": ["Inter"],
+                      "body-md": ["Inter"]
+              },
+              "fontSize": {
+                      "display-lg": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                      "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                      "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "600"}],
+                      "label-md": ["13px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+              }
+            }
+          }
+        }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0; }
+        .fill-icon { font-variation-settings: 'FILL' 1; }
+        
+        /* Subtle pulse for active pipeline stage */
+        @keyframes subtle-pulse {
+            0% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.4); }
+            70% { box-shadow: 0 0 0 6px rgba(79, 70, 229, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0); }
+        }
+        .pipeline-active { animation: subtle-pulse 2s infinite; }
+        
+        /* Grid background pattern for technical feel */
+        .bg-grid-pattern {
+            background-image: 
+                linear-gradient(to right, rgba(119, 117, 135, 0.05) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(119, 117, 135, 0.05) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-sm antialiased h-screen overflow-hidden flex flex-col md:flex-row">
+<!-- Top Navigation (Mobile primarily, but structurally required for layout) -->
+<header class="md:hidden fixed top-0 w-full h-16 z-30 flex justify-between items-center px-lg bg-surface-bright border-b border-outline-variant">
+<div class="font-headline-sm text-headline-sm font-black text-primary">CBT Pro Admin</div>
+<div class="flex gap-md">
+<span class="material-symbols-outlined text-primary cursor-pointer" data-icon="account_circle">account_circle</span>
+</div>
+</header>
+<!-- Side Navigation Shell -->
+<nav class="hidden md:flex fixed left-0 top-0 h-screen z-40 flex-col bg-surface border-r border-outline-variant w-[280px]">
+<div class="p-lg">
+<h1 class="font-display-lg text-display-lg font-bold text-primary">CBT Platform</h1>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-xs">Enterprise Assessment</p>
+</div>
+<div class="px-md mt-md">
+<button class="w-full bg-primary text-on-primary py-sm px-md rounded flex items-center justify-center gap-sm hover:bg-opacity-90 transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span class="font-label-sm text-label-sm">New Assessment</span>
+</button>
+</div>
+<div class="flex-1 overflow-y-auto mt-lg px-sm pb-lg space-y-[2px]">
+<!-- Inactive -->
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="dashboard">dashboard</span>
+<span class="font-label-sm text-label-sm">Dashboard</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="group">group</span>
+<span class="font-label-sm text-label-sm">Students</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="database">database</span>
+<span class="font-label-sm text-label-sm">Question Bank</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="assignment">assignment</span>
+<span class="font-label-sm text-label-sm">Exams</span>
+</a>
+<!-- Active -->
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-primary font-bold border-r-2 border-primary bg-surface-container-low scale-95 duration-100" href="#">
+<span class="material-symbols-outlined text-[20px] fill-icon" data-icon="psychology">psychology</span>
+<span class="font-label-sm text-label-sm">AI Generation</span>
+</a>
+<!-- Inactive -->
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="calendar_month">calendar_month</span>
+<span class="font-label-sm text-label-sm">Sessions</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="monitor_heart">monitor_heart</span>
+<span class="font-label-sm text-label-sm">Invigilator</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="laptop_mac">laptop_mac</span>
+<span class="font-label-sm text-label-sm">Portal</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="analytics">analytics</span>
+<span class="font-label-sm text-label-sm">Reports</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="settings">settings</span>
+<span class="font-label-sm text-label-sm">Settings</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="security">security</span>
+<span class="font-label-sm text-label-sm">Audit</span>
+</a>
+</div>
+<div class="mt-auto p-sm border-t border-outline-variant space-y-[2px]">
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="help">help</span>
+<span class="font-label-sm text-label-sm">Help Center</span>
+</a>
+<a class="flex items-center gap-md px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="logout">logout</span>
+<span class="font-label-sm text-label-sm">Logout</span>
+</a>
+</div>
+</nav>
+<!-- Top App Bar (Desktop Shell) -->
+<div class="hidden md:flex fixed top-0 right-0 left-[280px] h-16 z-30 justify-between items-center px-lg bg-surface-bright border-b border-outline-variant">
+<div class="flex items-center gap-lg">
+<h2 class="font-headline-sm text-headline-sm font-black text-primary">CBT Pro Admin</h2>
+<!-- Navigation Links -->
+<div class="flex gap-lg ml-xl border-l border-outline-variant pl-lg h-8 items-center">
+<a class="text-on-surface-variant font-body-sm hover:text-primary transition-opacity" href="#">Timeline</a>
+<a class="text-primary font-semibold border-b-2 border-primary pb-1 font-body-sm opacity-80" href="#">Status</a>
+<a class="text-on-surface-variant font-body-sm hover:text-primary transition-opacity" href="#">Logs</a>
+</div>
+</div>
+<div class="flex items-center gap-md">
+<div class="flex gap-sm mr-lg">
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-opacity" data-icon="notifications">notifications</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-opacity" data-icon="command_key">command_key</button>
+</div>
+<button class="font-label-sm text-label-sm text-on-surface-variant border border-outline-variant px-md py-sm rounded hover:bg-surface-container-low">Support</button>
+<button class="font-label-sm text-label-sm bg-primary text-on-primary px-md py-sm rounded hover:bg-opacity-90">Create Exam</button>
+<button class="material-symbols-outlined text-primary ml-sm" data-icon="account_circle">account_circle</button>
+</div>
+</div>
+<!-- Main Content Canvas -->
+<main class="flex-1 mt-16 md:ml-[280px] bg-background bg-grid-pattern overflow-y-auto p-lg lg:p-xl relative">
+<div class="max-w-container-max mx-auto space-y-lg">
+<!-- Header Section -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-md pb-md border-b border-outline-variant">
+<div>
+<h1 class="font-headline-md text-headline-md text-on-surface mb-xs">Paper Generation Pipeline</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Job ID: GEN-2023-X982 • Target: Advanced Calculus 401</p>
+</div>
+<div class="flex items-center gap-md">
+<div class="flex items-center gap-xs px-sm py-xs bg-[#ecfdf5] border border-[#a7f3d0] rounded-full">
+<span class="material-symbols-outlined text-[14px] text-[#065f46]" data-icon="lock">lock</span>
+<span class="font-label-md text-label-md text-[#065f46] text-[11px]">AES-256 Enabled</span>
+</div>
+<button class="font-label-sm text-label-sm border border-outline-variant text-on-surface px-md py-sm rounded hover:bg-surface-container-low transition-colors flex items-center gap-xs">
+<span class="material-symbols-outlined text-[16px]" data-icon="refresh">refresh</span>
+                        Retry Failed
+                    </button>
+<button class="font-label-sm text-label-sm bg-primary text-on-primary px-md py-sm rounded hover:bg-opacity-90 transition-colors flex items-center gap-xs">
+<span class="material-symbols-outlined text-[16px]" data-icon="bolt">bolt</span>
+                        Force Re-generate
+                    </button>
+</div>
+</div>
+<!-- Pipeline Visualization (Horizontal Stages) -->
+<div class="bg-surface-container-lowest rounded border border-outline-variant p-lg shadow-sm">
+<h3 class="font-label-sm text-label-sm text-on-surface-variant mb-lg uppercase tracking-wider">Processing Flow</h3>
+<div class="relative flex justify-between items-start pt-md">
+<!-- Connecting Line Base -->
+<div class="absolute top-[32px] left-[5%] right-[5%] h-[2px] bg-outline-variant z-0"></div>
+<!-- Connecting Line Progress -->
+<div class="absolute top-[32px] left-[5%] w-[45%] h-[2px] bg-primary z-0 transition-all duration-1000"></div>
+<!-- Stage 1: Done -->
+<div class="relative z-10 flex flex-col items-center w-[18%]">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center mb-sm shadow-sm ring-4 ring-surface-container-lowest">
+<span class="material-symbols-outlined text-[20px]" data-icon="check">check</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center mb-xs">Candidate Pool</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] text-center">1,240 items selected</span>
+</div>
+<!-- Stage 2: Done -->
+<div class="relative z-10 flex flex-col items-center w-[18%]">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center mb-sm shadow-sm ring-4 ring-surface-container-lowest">
+<span class="material-symbols-outlined text-[20px]" data-icon="check">check</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center mb-xs">Semantic Filtering</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] text-center">42 duplicates replaced</span>
+</div>
+<!-- Stage 3: Active -->
+<div class="relative z-10 flex flex-col items-center w-[18%]">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest border-2 border-primary text-primary flex items-center justify-center mb-sm ring-4 ring-surface-container-lowest pipeline-active">
+<span class="material-symbols-outlined text-[20px] animate-spin" data-icon="sync">sync</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold text-center mb-xs">Ambiguity Check</span>
+<span class="font-body-sm text-body-sm text-primary text-[11px] text-center">LLM analyzing stems... (68%)</span>
+</div>
+<!-- Stage 4: Pending -->
+<div class="relative z-10 flex flex-col items-center w-[18%] opacity-50">
+<div class="w-10 h-10 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center mb-sm ring-4 ring-surface-container-lowest">
+<span class="material-symbols-outlined text-[20px]" data-icon="balance">balance</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant text-center mb-xs">Difficulty Balancing</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] text-center">Waiting...</span>
+</div>
+<!-- Stage 5: Pending -->
+<div class="relative z-10 flex flex-col items-center w-[18%] opacity-50">
+<div class="w-10 h-10 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center mb-sm ring-4 ring-surface-container-lowest">
+<span class="material-symbols-outlined text-[20px]" data-icon="verified">verified</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant text-center mb-xs">Final Validation</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] text-center">Waiting...</span>
+</div>
+</div>
+</div>
+<!-- Main Dashboard Area (Bento Grid) -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-lg">
+<!-- Left Column: System Status & Logs -->
+<div class="lg:col-span-1 space-y-lg">
+<!-- Progress & Infrastructure -->
+<div class="bg-surface-container-lowest rounded border border-outline-variant p-md shadow-sm">
+<h3 class="font-label-sm text-label-sm text-on-surface-variant mb-md border-b border-outline-variant pb-xs">System Resources</h3>
+<div class="space-y-md">
+<div>
+<div class="flex justify-between items-center mb-xs">
+<span class="font-label-sm text-label-sm text-on-surface flex items-center gap-xs">
+<span class="material-symbols-outlined text-[16px] text-primary" data-icon="memory">memory</span> AI Processing
+                                    </span>
+<span class="font-label-md text-label-md text-on-surface-variant text-[12px]">Model: GPT-4-Turbo</span>
+</div>
+<div class="w-full bg-surface-variant h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[72%] transition-all duration-500"></div>
+</div>
+<div class="flex justify-between mt-xs text-[10px] text-on-surface-variant font-label-md">
+<span>Tokens: 142k/200k</span>
+<span>72% Load</span>
+</div>
+</div>
+<div>
+<div class="flex justify-between items-center mb-xs">
+<span class="font-label-sm text-label-sm text-on-surface flex items-center gap-xs">
+<span class="material-symbols-outlined text-[16px] text-primary" data-icon="dns">dns</span> Redis Caching
+                                    </span>
+<span class="font-label-md text-label-md text-on-surface-variant text-[12px]">Hit Rate: 94%</span>
+</div>
+<div class="w-full bg-surface-variant h-1.5 rounded-full overflow-hidden">
+<div class="bg-[#059669] h-full w-[45%] transition-all duration-500"></div>
+</div>
+<div class="flex justify-between mt-xs text-[10px] text-on-surface-variant font-label-md">
+<span>Mem: 4.2GB/8GB</span>
+<span>Stable</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Event Stream -->
+<div class="bg-surface-container-lowest rounded border border-outline-variant p-md shadow-sm h-[320px] flex flex-col">
+<h3 class="font-label-sm text-label-sm text-on-surface-variant mb-sm border-b border-outline-variant pb-xs flex justify-between">
+                            Live Execution Logs 
+                            <span class="material-symbols-outlined text-[14px] text-primary animate-pulse" data-icon="radio_button_checked">radio_button_checked</span>
+</h3>
+<div class="flex-1 overflow-y-auto bg-[#0f172a] rounded p-sm font-label-md text-label-md text-[11px] text-[#94a3b8] space-y-xs font-mono">
+<div class="flex gap-sm"><span class="text-[#3b82f6]">[14:02:11]</span> <span>INFO: Initiating Candidate Pool fetch...</span></div>
+<div class="flex gap-sm"><span class="text-[#3b82f6]">[14:02:12]</span> <span>INFO: 1,240 items retrieved from DB.</span></div>
+<div class="flex gap-sm"><span class="text-[#10b981]">[14:02:15]</span> <span>SUCCESS: Semantic filtering complete.</span></div>
+<div class="flex gap-sm"><span class="text-[#f59e0b]">[14:02:15]</span> <span>WARN: 42 high-similarity clusters detected.</span></div>
+<div class="flex gap-sm"><span class="text-[#3b82f6]">[14:02:16]</span> <span>INFO: Replaced duplicates with variance pool items.</span></div>
+<div class="flex gap-sm"><span class="text-[#3b82f6]">[14:02:18]</span> <span>INFO: Handing off to LLM Ambiguity Check...</span></div>
+<div class="flex gap-sm"><span class="text-[#3b82f6]">[14:02:22]</span> <span>INFO: Batch 1/5 analyzed. No flags.</span></div>
+<div class="flex gap-sm"><span class="text-[#ef4444]">[14:02:25]</span> <span>FLAG: QID-9982 syntax ambiguity detected.</span></div>
+<div class="flex gap-sm"><span class="text-[#3b82f6]">[14:02:25]</span> <span>INFO: Auto-resolving QID-9982 via strict-mode rewrite...</span></div>
+<div class="flex gap-sm animate-pulse text-white"><span class="text-[#3b82f6]">[14:02:28]</span> <span>PROCESSING: Batch 3/5...</span></div>
+</div>
+</div>
+</div>
+<!-- Right Columns: Audit Report & Metrics -->
+<div class="lg:col-span-2 space-y-lg">
+<!-- Interim Audit Report Canvas -->
+<div class="bg-surface-container-lowest rounded border border-outline-variant p-md shadow-sm h-full flex flex-col relative overflow-hidden">
+<!-- Subtle Background Accent -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary opacity-5 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none"></div>
+<div class="flex justify-between items-center mb-md border-b border-outline-variant pb-xs relative z-10">
+<h3 class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Interim Audit Report (Draft)</h3>
+<span class="bg-surface-container-low text-primary font-label-md text-[10px] px-sm py-[2px] rounded border border-primary-fixed">Updating Live</span>
+</div>
+<div class="grid grid-cols-2 gap-md mb-md relative z-10">
+<!-- Difficulty Distribution -->
+<div class="bg-surface p-sm rounded border border-outline-variant">
+<h4 class="font-label-sm text-label-sm text-on-surface mb-sm flex items-center gap-xs">
+<span class="material-symbols-outlined text-[16px]" data-icon="bar_chart">bar_chart</span>
+                                    Target Difficulty Distribution
+                                </h4>
+<div class="space-y-sm">
+<div class="flex items-center text-[11px] font-body-sm">
+<span class="w-16 text-on-surface-variant">Easy</span>
+<div class="flex-1 bg-surface-variant h-4 rounded-sm mx-sm overflow-hidden flex">
+<div class="bg-[#10b981] h-full w-[20%]"></div>
+</div>
+<span class="w-8 text-right font-label-md">20%</span>
+</div>
+<div class="flex items-center text-[11px] font-body-sm">
+<span class="w-16 text-on-surface-variant">Medium</span>
+<div class="flex-1 bg-surface-variant h-4 rounded-sm mx-sm overflow-hidden flex">
+<div class="bg-[#f59e0b] h-full w-[50%]"></div>
+</div>
+<span class="w-8 text-right font-label-md">50%</span>
+</div>
+<div class="flex items-center text-[11px] font-body-sm">
+<span class="w-16 text-on-surface-variant">Hard</span>
+<div class="flex-1 bg-surface-variant h-4 rounded-sm mx-sm overflow-hidden flex">
+<div class="bg-[#ef4444] h-full w-[30%]"></div>
+</div>
+<span class="w-8 text-right font-label-md">30%</span>
+</div>
+</div>
+</div>
+<!-- Subject Coverage -->
+<div class="bg-surface p-sm rounded border border-outline-variant">
+<h4 class="font-label-sm text-label-sm text-on-surface mb-sm flex items-center gap-xs">
+<span class="material-symbols-outlined text-[16px]" data-icon="pie_chart">pie_chart</span>
+                                    Subject Coverage Matrix
+                                </h4>
+<div class="space-y-xs">
+<div class="flex justify-between items-center bg-surface-container-lowest px-sm py-[2px] rounded border border-outline-variant/50">
+<span class="text-[11px] font-body-sm text-on-surface">Derivatives</span>
+<span class="text-[11px] font-label-md text-primary">15 Qs</span>
+</div>
+<div class="flex justify-between items-center bg-surface-container-lowest px-sm py-[2px] rounded border border-outline-variant/50">
+<span class="text-[11px] font-body-sm text-on-surface">Integrals</span>
+<span class="text-[11px] font-label-md text-primary">12 Qs</span>
+</div>
+<div class="flex justify-between items-center bg-surface-container-lowest px-sm py-[2px] rounded border border-outline-variant/50">
+<span class="text-[11px] font-body-sm text-on-surface">Limits</span>
+<span class="text-[11px] font-label-md text-primary">8 Qs</span>
+</div>
+<div class="flex justify-between items-center bg-surface-container-lowest px-sm py-[2px] rounded border border-outline-variant/50">
+<span class="text-[11px] font-body-sm text-on-surface">Series</span>
+<span class="text-[11px] font-label-md text-primary">5 Qs</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Active Intervention Highlight (Glassmorphism inspired card inside) -->
+<div class="mt-auto bg-surface-container-low border border-primary/20 rounded p-md relative z-10">
+<div class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-primary" data-icon="info">info</span>
+<div>
+<h5 class="font-label-sm text-label-sm text-on-surface mb-[2px]">Current AI Operation: Ambiguity Resolution</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[12px] leading-relaxed">
+                                        The LLM is currently cross-referencing terminology in generated questions against the standard curriculum ontology to ensure terms like "function rate" are corrected to "derivative" where contextually required.
+                                    </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</body></html>
