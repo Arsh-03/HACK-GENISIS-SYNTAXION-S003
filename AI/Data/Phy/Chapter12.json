@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The resistance of a wire is R ohm. If it is melted and stretched to n times its original length, its new resistance will be:",
+      "options": [
+        "n² R",
+        "n R",
+        "R / n",
+        "R / n²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wire of resistance 12 Ω is bent in the form of a circle. The effective resistance between two points at the ends of any diameter is:",
+      "options": [
+        "3 Ω",
+        "6 Ω",
+        "12 Ω",
+        "1.5 Ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The drift velocity of free electrons in a conductor is v_d when a current I flows through it. If both the radius of the conductor and the current are doubled, the new drift velocity will be:",
+      "options": [
+        "v_d / 2",
+        "v_d",
+        "2 v_d",
+        "v_d / 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A cell of internal resistance r is connected across an external resistance R. The maximum power output is delivered to the load when:",
+      "options": [
+        "R = r",
+        "R = 2r",
+        "R = r / 2",
+        "R >> r"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The temperature coefficient of resistance of a wire is 0.00125 /°C. At 300 K, its resistance is 1 Ω. The resistance of the wire will be 2 Ω at:",
+      "options": [
+        "1127 K",
+        "1000 K",
+        "800 K",
+        "1100 K"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Three identical bulbs B₁, B₂, and B₃ are connected in series across a constant voltage source. If bulb B₂ fuses, the brightness of bulbs B₁ and B₃ will:",
+      "options": [
+        "Become zero (bulbs will not glow)",
+        "Increase",
+        "Decrease",
+        "Remain unchanged"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a meter bridge experiment, null point is obtained at 20 cm from one end when a known resistance of 10 Ω is connected in the left gap. The unknown resistance in the right gap is:",
+      "options": [
+        "40 Ω",
+        "20 Ω",
+        "5 Ω",
+        "80 Ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Kirchhoff's first law (Loop/Junction rule ΣI = 0) and second law (ΣV = 0) are based respectively on conservation of:",
+      "options": [
+        "Charge and Energy",
+        "Energy and Charge",
+        "Charge and Momentum",
+        "Energy and Momentum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two cells of emfs E₁ and E₂ and internal resistances r₁ and r₂ are connected in parallel with like terminals together. The equivalent emf of the combination is:",
+      "options": [
+        "(E₁ r₂ + E₂ r₁) / (r₁ + r₂)",
+        "(E₁ r₁ + E₂ r₂) / (r₁ + r₂)",
+        "(E₁ + E₂) / 2",
+        "E₁ + E₂"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A carbon resistor has color bands Brown, Black, Green, and Gold. The resistance of the resistor is:",
+      "options": [
+        "10 × 10⁵ Ω ± 5%",
+        "10 × 10⁴ Ω ± 10%",
+        "1 × 10⁵ Ω ± 5%",
+        "10 × 10⁶ Ω ± 5%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wire of resistance R is connected across a cell of emf E and internal resistance r. The terminal potential difference across the cell is V. The internal resistance r is given by:",
+      "options": [
+        "R (E / V - 1)",
+        "R (V / E - 1)",
+        "R (1 - V / E)",
+        "V R / E"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a Wheatstone bridge, four arms have resistances P = 10 Ω, Q = 20 Ω, R = 30 Ω, and S = 60 Ω. The bridge is:",
+      "options": [
+        "Balanced",
+        "Unbalanced",
+        "Short-circuited",
+        "Open-circuited"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A copper wire carrying current I has a cross-sectional area A. If relaxation time of free electrons is τ and mass is m, the electrical conductivity σ is given by:",
+      "options": [
+        "n e² τ / m",
+        "n e τ / m",
+        "m / (n e² τ)",
+        "n e² / (m τ)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two electric bulbs rated 220 V, 40 W and 220 V, 60 W are connected in series across a 220 V supply. The total power consumed by the combination is:",
+      "options": [
+        "24 W",
+        "100 W",
+        "50 W",
+        "12 W"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The mobility μ of free electrons in a conductor is related to drift speed v_d and applied electric field E as:",
+      "options": [
+        "μ = v_d / E",
+        "μ = v_d · E",
+        "μ = E / v_d",
+        "μ = v_d / E²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electric cable contains a single copper wire of radius 9 mm. Its resistance is 5 Ω. This cable is replaced by 6 insulated copper wires each of radius 3 mm connected in parallel. The new resistance of the cable is:",
+      "options": [
+        "7.5 Ω",
+        "5 Ω",
+        "15 Ω",
+        "2.5 Ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "With increase in temperature, the electrical resistivity of a semiconductor:",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains constant",
+        "First increases then decreases"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A current of 5 A passes through a circuit for 2 minutes. The total charge passing through any cross-section of the wire in this time is:",
+      "options": [
+        "600 C",
+        "10 C",
+        "300 C",
+        "120 C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Three identical resistors each of resistance R are connected to form a triangle. The equivalent resistance between any two vertices of the triangle is:",
+      "options": [
+        "(2/3) R",
+        "3 R",
+        "(3/2) R",
+        "R / 3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A storage battery of emf 8 V and internal resistance 0.5 Ω is being charged by a 120 V DC supply using a series resistor of 15.5 Ω. The terminal voltage across the battery during charging is:",
+      "options": [
+        "11.5 V",
+        "12 V",
+        "8 V",
+        "7.5 V"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A cylindrical conductor of length L and uniform area A has resistance R. If its length is doubled by stretching, the resistivity of the material of conductor will:",
+      "options": [
+        "Remain unchanged",
+        "Become 4 times",
+        "Be halved",
+        "Become 2 times"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "N identical cells each of emf E and internal resistance r are connected in series across an external resistance R. The current through R is I₁. When connected in parallel, the current through R is I₂. If I₁ = I₂, then R is equal to:",
+      "options": [
+        "r",
+        "N r",
+        "r / N",
+        "N² r"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The relation between current density J and applied electric field E according to Ohm's law in vector form is:",
+      "options": [
+        "J = σ E",
+        "J = E / σ",
+        "E = σ J",
+        "J = ρ E"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electric heater rated 220 V, 1000 W is connected to a 110 V line. The power consumed by the heater will be:",
+      "options": [
+        "250 W",
+        "500 W",
+        "750 W",
+        "1000 W"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Twelve equal wires each of resistance R are connected to form a cube. The equivalent resistance between two diagonally opposite corners of the cube is:",
+      "options": [
+        "(5/6) R",
+        "(3/4) R",
+        "(7/12) R",
+        "R"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When a metal conductor is heated, its resistance increases because:",
+      "options": [
+        "Relaxation time decreases",
+        "Electron density increases",
+        "Mass of electron increases",
+        "Relaxation time increases"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a meter bridge, the balance point is found at 40 cm from zero end when end A has resistance R₁ and end B has resistance R₂. When a 10 Ω resistance is connected in series with R₁, the balance point shifts to 50 cm. The value of R₁ is:",
+      "options": [
+        "20 Ω",
+        "10 Ω",
+        "30 Ω",
+        "40 Ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Current Electricity",
+    "chapter_number": 12,
+    "topic": "Current Electricity",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wire of non-uniform cross-sectional area carries a steady current I. Which of the following quantities remains constant along the length of the wire?",
+      "options": [
+        "Electric current",
+        "Current density",
+        "Drift speed",
+        "Electric field"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

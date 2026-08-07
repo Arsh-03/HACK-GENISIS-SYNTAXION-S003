@@ -1,0 +1,486 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Classification and Nomenclature",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following represents an allylic halide?",
+      "options": [
+        "CH2=CH-CH2-Cl",
+        "CH2=CH-Cl",
+        "CH3-CH2-Cl",
+        "C6H5-Cl"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Preparation of Haloalkanes - Finkelstein Reaction",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The Finkelstein reaction is used for the preparation of alkyl iodides from alkyl chlorides/bromides using NaI in the presence of which solvent?",
+      "options": [
+        "Dry acetone",
+        "Water",
+        "Ethanol",
+        "Diethyl ether"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Preparation of Haloalkanes - Swarts Reaction",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which reagent is best suited for the synthesis of alkyl fluorides via the Swarts reaction?",
+      "options": [
+        "AgF",
+        "KF in water",
+        "HF gas",
+        "F2 in dark"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Physical Properties - Dipole Moment",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Among the chloromethanes, which compound has the highest dipole moment?",
+      "options": [
+        "CH3Cl",
+        "CH2Cl2",
+        "CHCl3",
+        "CCl4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Nucleophilic Substitution - SN2 Mechanism",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The SN2 mechanism proceeds with which stereochemical outcome at the chiral center?",
+      "options": [
+        "Inversion of configuration",
+        "Retention of configuration",
+        "Racemization",
+        "No change in spatial arrangement"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Preparation of Haloarenes - Sandmeyer Reaction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the Sandmeyer reaction, benzenediazonium chloride is converted to chlorobenzene using which reagent?",
+      "options": [
+        "Cu2Cl2 in HCl",
+        "Cu powder in HCl",
+        "Cl2 in FeCl3",
+        "NaCl in H2SO4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Nucleophilic Substitution - SN1 Mechanism",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which alkyl halide undergoes SN1 reaction most rapidly due to carbocation stability?",
+      "options": [
+        "tert-Butyl chloride",
+        "Isopropyl chloride",
+        "Ethyl chloride",
+        "Methyl chloride"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Elimination Reaction - Saytzeff's Rule",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Dehydrohalogenation of 2-bromobutane with alcoholic KOH yields 2-butene as the major product according to:",
+      "options": [
+        "Saytzeff's rule",
+        "Markovnikov's rule",
+        "Hofmann's rule",
+        "Kharasch effect"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Ambident Nucleophiles",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Reaction of ethyl bromide with AgCN primarily forms ethyl isocyanide because AgCN is predominantly:",
+      "options": [
+        "Covalent in nature",
+        "Ionic in nature",
+        "A weak electrophile",
+        "A strong oxidizing agent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Organometallic Compounds - Grignard Reagent",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Grignard reagents (RMgX) must be prepared under strictly anhydrous conditions because they react with water to form:",
+      "options": [
+        "Alkanes",
+        "Alcohols",
+        "Ethers",
+        "Aldehydes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Reactions of Haloarenes - Wurtz-Fittig Reaction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A mixture of chlorobenzene and methyl chloride treated with sodium in dry ether yields toluene via the:",
+      "options": [
+        "Wurtz-Fittig reaction",
+        "Fittig reaction",
+        "Wurtz reaction",
+        "Ullmann reaction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Optical Activity and Chirality",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A 50:50 mixture of two enantiomers showing zero optical rotation is called a:",
+      "options": [
+        "Racemic mixture",
+        "Meso compound",
+        "Diastereomer",
+        "Anomer"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Polyhalogen Compounds - Freons",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which chlorofluorocarbon (Freon) is most commonly used as a refrigerant in domestic refrigerators?",
+      "options": [
+        "Freon-12 (CCl2F2)",
+        "Freon-11 (CCl3F)",
+        "Freon-22 (CHClF2)",
+        "Freon-113 (C2Cl3F3)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Low Reactivity of Haloarenes",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Aryl halides are extremely less reactive towards nucleophilic substitution reactions primarily due to:",
+      "options": [
+        "Resonance effect imparting partial double bond character to C-X bond",
+        "Hyperconjugation effect",
+        "Steric hindrance by benzene ring",
+        "High solubility in polar solvents"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Electrophilic Substitution of Haloarenes",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Although halogen is an electron-withdrawing group via -I effect, it acts as an ortho/para director in electrophilic substitution due to:",
+      "options": [
+        "+R (resonance) effect",
+        "-R (resonance) effect",
+        "+I (inductive) effect",
+        "Hyperconjugation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Nucleophilic Aromatic Substitution - Effect of Substituents",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which compound undergoes nucleophilic substitution with aqueous NaOH under the mildest conditions?",
+      "options": [
+        "2,4,6-Trinitrochlorobenzene",
+        "2,4-Dinitrochlorobenzene",
+        "4-Nitrochlorobenzene",
+        "Chlorobenzene"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Stereochemistry of SN1 and SN2",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An optically active alkyl halide undergoes substitution via SN1 pathway. The resulting product is typically:",
+      "options": [
+        "Racemic with partial inversion",
+        "100% inverted",
+        "100% retained",
+        "Optically inactive due to destruction of chiral center"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Reactivity of Halides in SN2",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which halide shows the fastest SN2 reaction rate?",
+      "options": [
+        "1-Bromobutane",
+        "2-Bromobutane",
+        "2-Bromo-2-methylpropane",
+        "1-Bromo-2,2-dimethylpropane"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Polyhalogen Compounds - Chloroform Oxidation",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Chloroform is stored in closed dark-colored bottles completely filled to the top to prevent its slow oxidation by air into poisonous:",
+      "options": [
+        "Phosgene (COCl2)",
+        "Mustard gas",
+        "Tear gas (CCl3NO2)",
+        "Phosphine (PH3)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Leaving Group Ability",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the correct order of reactivity of alkyl halides towards nucleophilic substitution reactions?",
+      "options": [
+        "R-I > R-Br > R-Cl > R-F",
+        "R-F > R-Cl > R-Br > R-I",
+        "R-Cl > R-Br > R-I > R-F",
+        "R-I > R-Cl > R-Br > R-F"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Nucleophilic Substitution with Rearrangement",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Solvolysis of neopentyl bromide in ethanol yields 2-ethoxy-2-methylbutane as the major product. This conversion occurs via:",
+      "options": [
+        "SN1 mechanism involving a 1,2-methyl shift to form a 3° carbocation",
+        "Direct SN2 substitution at the primary carbon",
+        "E2 elimination followed by Markovnikov addition",
+        "Free radical substitution mechanism"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Haloalkanes and Haloarenes",
+    "chapter_number": 10,
+    "topic": "Benzyne Intermediate Mechanism",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When 1-chloronaphthalene is treated with KNH2 in liquid NH3, a mixture of 1-naphthylamine and 2-naphthylamine is obtained. This reaction proceeds via which intermediate?",
+      "options": [
+        "1,2-Dehydronaphthalene (Naphthyne)",
+        "Naphthyl free radical",
+        "Meisenheimer complex",
+        "Naphthyl carbocation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

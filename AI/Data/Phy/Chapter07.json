@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The Young's modulus of a wire of length L and radius r is Y. If the length is reduced to L/2 and radius to r/2, its Young's modulus will be:",
+      "options": [
+        "Y",
+        "2Y",
+        "Y / 2",
+        "4Y"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two wires A and B are made of same material. Wire A has radius r and wire B has radius 2r. They are stretched by the same force. The ratio of stress in wire A to wire B is:",
+      "options": [
+        "4 : 1",
+        "2 : 1",
+        "1 : 4",
+        "1 : 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Water rises to a height h in a capillary tube of radius r. If the radius of the capillary tube is halved, the height to which water rises will be:",
+      "options": [
+        "2h",
+        "h / 2",
+        "4h",
+        "h"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Terminal velocity v of a small spherical ball of radius r falling through a viscous medium depends on r as:",
+      "options": [
+        "v ∝ r²",
+        "v ∝ r",
+        "v ∝ 1 / r",
+        "v ∝ r³"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A small spherical droplet of water of radius r falls through air with a terminal velocity v. If 8 such identical droplets coalesce to form a single large drop, the terminal velocity of the large drop will be:",
+      "options": [
+        "4v",
+        "2v",
+        "8v",
+        "v / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a streamline flow of an incompressible fluid, the velocity of the fluid at a point where the cross-sectional area is halved becomes:",
+      "options": [
+        "Doubled",
+        "Halved",
+        "Four times",
+        "Unchanged"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Excess pressure inside a soap bubble of radius R and surface tension T is:",
+      "options": [
+        "4T / R",
+        "2T / R",
+        "T / R",
+        "8T / R"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Work done in blowing a soap bubble of radius R is W. The work done in blowing a soap bubble of radius 2R using the same solution is:",
+      "options": [
+        "4W",
+        "2W",
+        "8W",
+        "W / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two black bodies A and B radiate energy at temperatures 27°C and 327°C respectively. The ratio of rates of heat radiation by body B to body A is:",
+      "options": [
+        "16 : 1",
+        "4 : 1",
+        "2 : 1",
+        "8 : 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A steel rod of length 1 m and cross-sectional area 1 cm² is clamped at both ends. Its temperature is raised by 20°C. The thermal stress developed in the rod is (Y = 2 × 10¹¹ N/m², α = 10⁻⁵ /°C):",
+      "options": [
+        "4 × 10⁷ N/m²",
+        "2 × 10⁷ N/m²",
+        "1 × 10⁷ N/m²",
+        "8 × 10⁷ N/m²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bernoulli's theorem is a restatement of the law of conservation of:",
+      "options": [
+        "Energy",
+        "Mass",
+        "Linear momentum",
+        "Angular momentum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body cools from 80°C to 70°C in 5 minutes. The time taken by the body to cool from 70°C to 60°C in a room at 30°C is:",
+      "options": [
+        "6 minutes",
+        "5 minutes",
+        "7 minutes",
+        "8 minutes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy stored per unit volume in a stretched wire of Young's modulus Y with strain ε is:",
+      "options": [
+        "(1/2) Y ε²",
+        "Y ε²",
+        "(1/2) Y² ε",
+        "Y² ε²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If 10 g of ice at 0°C is mixed with 10 g of water at 80°C, the final temperature of the mixture will be (Latent heat of ice = 80 cal/g):",
+      "options": [
+        "0°C",
+        "40°C",
+        "20°C",
+        "10°C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Angle of contact of a liquid with a glass surface is obtuse if the liquid:",
+      "options": [
+        "Does not wet the glass surface",
+        "Wets the glass surface completely",
+        "Rises in the capillary tube",
+        "Has zero surface tension"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A cylindrical vessel of height H and radius R is completely filled with water. A small hole is made at depth h from the top. The horizontal range of the water stream coming out of the hole on the floor is maximum when h equals:",
+      "options": [
+        "H / 2",
+        "H / 4",
+        "H / 3",
+        "H"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The coefficient of linear expansion of brass and steel are α1 and α2 respectively. If lengths of brass and steel rods are l1 and l2, then (l2 - l1) remains constant at all temperatures if:",
+      "options": [
+        "α1 l1 = α2 l2",
+        "α1 l2 = α2 l1",
+        "α1² l1 = α2² l2",
+        "α1 l1² = α2 l2²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two capillary tubes of radii r and 2r are dipped in the same liquid. The ratio of heights of liquid column in the two tubes is:",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "4 : 1",
+        "1 : 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following substances has the maximum specific heat capacity at room temperature?",
+      "options": [
+        "Water",
+        "Copper",
+        "Iron",
+        "Mercury"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wire suspended vertically from one of its ends is stretched by attaching a weight of 200 N to the lower end. The weight stretches the wire by 1 mm. The elastic potential energy stored in the wire is:",
+      "options": [
+        "0.1 J",
+        "0.2 J",
+        "0.4 J",
+        "0.05 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Three rods of same dimensions but made of different materials having thermal conductivities K1, K2, and K3 are joined in series. The equivalent thermal conductivity of the combination is:",
+      "options": [
+        "3 K1 K2 K3 / (K1 K2 + K2 K3 + K3 K1)",
+        "(K1 + K2 + K3) / 3",
+        "(K1 K2 K3)^(1/3)",
+        "(K1 K2 + K2 K3 + K3 K1) / (K1 + K2 + K3)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A capillary tube of radius r is immersed in water and water rises in it to a height h. The mass of water in the capillary tube is m. Another capillary tube of radius 2r is immersed in water. The mass of water that will rise in this tube is:",
+      "options": [
+        "2m",
+        "m",
+        "m / 2",
+        "4m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bulk modulus of an ideal gas during an isothermal process is equal to:",
+      "options": [
+        "Pressure (P)",
+        "γ P",
+        "Zero",
+        "Infinity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The velocity of efflux of a liquid through a small orifice at depth h below the free surface of a liquid open to atmosphere is given by:",
+      "options": [
+        "√(2gh)",
+        "√(gh)",
+        "2gh",
+        "√(gh / 2)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A metal sphere of radius r and specific heat S is rotated about an axis passing through its center at n revolutions per second. It is suddenly stopped and 50% of its mechanical energy is converted into heat. The rise in temperature of the sphere is:",
+      "options": [
+        "(2 π² r² n²) / (5 S)",
+        "(4 π² r² n²) / (5 S)",
+        "(π² r² n²) / S",
+        "(2 π² r² n²) / S"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Wien's displacement law, the wavelength λm corresponding to maximum spectral intensity is related to absolute temperature T as:",
+      "options": [
+        "λm T = constant",
+        "λm / T = constant",
+        "λm T² = constant",
+        "λm √T = constant"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wire of length L and area of cross-section A is made of a material of Young's modulus Y. It is stretched by an amount x. The work done in stretching the wire is:",
+      "options": [
+        "Y A x² / (2 L)",
+        "Y A x / L",
+        "Y A x² / L",
+        "(1/2) Y A x / L"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Properties of Solids and Liquids",
+    "chapter_number": 7,
+    "topic": "Properties of Solids and Liquids",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The hydraulic lift works on the principle of:",
+      "options": [
+        "Pascal's law",
+        "Archimedes' principle",
+        "Bernoulli's principle",
+        "Torricelli's law"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

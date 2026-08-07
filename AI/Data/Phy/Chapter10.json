@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle executing Simple Harmonic Motion (SHM) has a displacement x = A sin(ωt + φ). The ratio of its kinetic energy to potential energy at x = A / 2 is:",
+      "options": [
+        "3 : 1",
+        "1 : 3",
+        "1 : 1",
+        "2 : 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The time period of a simple pendulum of length L suspended inside a lift accelerating upwards with acceleration 'a' is given by:",
+      "options": [
+        "2π √(L / (g + a))",
+        "2π √(L / (g - a))",
+        "2π √(L / g)",
+        "2π √((g + a) / L)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An organ pipe closed at one end and open at the other end has length L. The fundamental frequency of vibration of the air column in this pipe is (v = speed of sound in air):",
+      "options": [
+        "v / (4L)",
+        "v / (2L)",
+        "v / L",
+        "2v / L"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two tuning forks A and B produce 4 beats per second when sounded together. Tuning fork A has a frequency of 256 Hz. When fork B is loaded with a little wax, the beat frequency decreases to 2 beats per second. The frequency of fork B before waxing was:",
+      "options": [
+        "260 Hz",
+        "252 Hz",
+        "250 Hz",
+        "262 Hz"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A spring-mass system has a time period T. If the spring is cut into two equal halves and the same mass m is suspended from one half, the new time period of oscillation is:",
+      "options": [
+        "T / √2",
+        "T / 2",
+        "√2 T",
+        "2 T"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A progressive transverse wave is represented by y = 0.02 sin(20π t - 2π x), where x and y are in meters and t in seconds. The velocity of the wave is:",
+      "options": [
+        "10 m/s along +x direction",
+        "20 m/s along +x direction",
+        "10 m/s along -x direction",
+        "5 m/s along +x direction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a stationary wave formed on a stretched string, the distance between two consecutive nodes or antinodes is:",
+      "options": [
+        "λ / 2",
+        "λ / 4",
+        "λ",
+        "2λ"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The fundamental frequency of a closed organ pipe of length L₁ is equal to the first overtone of an open organ pipe of length L₂. The ratio of L₁ to L₂ is:",
+      "options": [
+        "1 : 4",
+        "1 : 2",
+        "1 : 3",
+        "3 : 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle performs SHM along x-axis with amplitude A and time period T. The minimum time taken by the particle to travel from x = A / 2 to x = A is:",
+      "options": [
+        "T / 6",
+        "T / 12",
+        "T / 4",
+        "T / 3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The equation of a wave traveling on a string is y = 5 sin(π(0.01x - 2.0t)) cm, where x is in cm and t in seconds. The maximum transverse speed of any particle on the string is:",
+      "options": [
+        "10π cm/s",
+        "5π cm/s",
+        "20π cm/s",
+        "0.05π cm/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two simple harmonic motions are represented by y₁ = 10 sin(3πt + π/4) and y₂ = 5(sin 3πt + √3 cos 3πt). The ratio of their amplitudes is:",
+      "options": [
+        "1 : 1",
+        "2 : 1",
+        "1 : 2",
+        "1 : √3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A U-tube of uniform cross-sectional area contains liquid of density ρ up to height h in each limb. If the liquid is depressed slightly in one limb and released, the time period of vertical oscillation of the liquid column is:",
+      "options": [
+        "2π √(h / g)",
+        "2π √(2h / g)",
+        "π √(h / g)",
+        "2π √(h / 2g)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The fundamental frequency of a sonometer wire under tension T is f. If the tension is increased by 69% keeping length constant, the percentage change in fundamental frequency is:",
+      "options": [
+        "30%",
+        "13%",
+        "69%",
+        "50%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When a sound wave travels from air into water, which of the following properties remains unchanged?",
+      "options": [
+        "Frequency",
+        "Wavelength",
+        "Velocity",
+        "Amplitude"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle performing SHM has acceleration 'a' given by a = -16 x, where x is in meters and 'a' in m/s². The time period of oscillation is:",
+      "options": [
+        "π / 2 s",
+        "π s",
+        "2π s",
+        "π / 4 s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two identical springs of force constant k are connected in series and parallel combinations separately. A body of mass m is suspended from both combinations. The ratio of time periods T_series / T_parallel is:",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "4 : 1",
+        "1 : 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The phase difference between velocity and displacement of a particle executing simple harmonic motion is:",
+      "options": [
+        "π / 2 rad",
+        "π rad",
+        "0 rad",
+        "π / 4 rad"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a damped harmonic oscillator, the amplitude of oscillation reduces to half in 10 seconds. The time taken for the amplitude to fall to 1/8th of its initial value is:",
+      "options": [
+        "30 seconds",
+        "20 seconds",
+        "40 seconds",
+        "15 seconds"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The maximum velocity of a particle executing simple harmonic motion is v_max. Its velocity at displacement x = A / √2 is:",
+      "options": [
+        "v_max / √2",
+        "v_max / 2",
+        "√3 v_max / 2",
+        "v_max / 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wire of length L and mass m stretched with tension T vibrates in its fundamental mode. The frequency of vibration is:",
+      "options": [
+        "(1 / 2) √(T / (m L))",
+        "√(T / (m L))",
+        "(1 / 2L) √(T / m)",
+        "(1 / L) √(T / m)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle moves on x-axis according to x = A sin(ωt) + A sin(ωt + π/3). The motion is simple harmonic motion with amplitude:",
+      "options": [
+        "√3 A",
+        "A",
+        "2 A",
+        "A / √3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An open organ pipe of length L vibrates in its third harmonic. The distance between two consecutive nodes in the pipe is:",
+      "options": [
+        "L / 3",
+        "L / 6",
+        "2L / 3",
+        "L / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When two sound waves of slightly different frequencies f₁ and f₂ superimpose, the beat period is given by:",
+      "options": [
+        "1 / |f₁ - f₂|",
+        "|f₁ - f₂|",
+        "1 / (f₁ + f₂)",
+        "(f₁ + f₂) / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A pendulum bob is filled with water and has a small hole at the bottom. As the water leaks out continuously, the time period of the pendulum will:",
+      "options": [
+        "First increase, then decrease to its initial value",
+        "Decrease continuously",
+        "Increase continuously",
+        "Remain constant"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A steel rod 100 cm long is clamped at its middle. The fundamental frequency of longitudinal vibrations of the rod is (v = speed of longitudinal wave in steel = 5000 m/s):",
+      "options": [
+        "2500 Hz",
+        "5000 Hz",
+        "1250 Hz",
+        "10000 Hz"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If intensity of a sound wave is quadrupled, the sound level in decibels increases by approximately:",
+      "options": [
+        "6 dB",
+        "3 dB",
+        "12 dB",
+        "2 dB"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle executing SHM has total mechanical energy E. When its displacement is half of its amplitude, its velocity is:",
+      "options": [
+        "(√3 / 2) v_max",
+        "(1 / 2) v_max",
+        "(1 / √2) v_max",
+        "(3 / 4) v_max"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Oscillations and Waves",
+    "chapter_number": 10,
+    "topic": "Oscillations and Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The velocity of sound in a gas is v. If the absolute temperature of the gas is made four times and pressure is doubled, the velocity of sound in the gas becomes:",
+      "options": [
+        "2 v",
+        "4 v",
+        "v / 2",
+        "v"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

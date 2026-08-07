@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A long straight wire carries a current of 35 A. The magnitude of magnetic field B at a point 20 cm from the wire is (μ₀ = 4π × 10⁻⁷ T·m/A):",
+      "options": [
+        "3.5 × 10⁻⁵ T",
+        "7.0 × 10⁻⁵ T",
+        "1.75 × 10⁻⁵ T",
+        "3.5 × 10⁻⁴ T"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A charged particle of charge q and mass m enters a uniform magnetic field B perpendicularly with velocity v. The radius r of its circular path is:",
+      "options": [
+        "m v / (q B)",
+        "q B / (m v)",
+        "m q / (v B)",
+        "q v / (m B)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electron and a proton having the same kinetic energy enter perpendicularly into a uniform magnetic field. The ratio of radii of their circular paths (r_e / r_p) is:",
+      "options": [
+        "√(m_e / m_p)",
+        "m_e / m_p",
+        "m_p / m_e",
+        "√(m_p / m_e)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A circular coil of N turns and radius R carries a current I. The magnetic field at its center is B_center and at a point on its axis at a distance R from the center is B_axis. The ratio B_center / B_axis is:",
+      "options": [
+        "2√2",
+        "2",
+        "√2",
+        "4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A galvanometer of resistance 50 Ω gives full-scale deflection for a current of 0.05 A. To convert it into a voltmeter of range 0 to 100 V, the resistance to be connected in series with the galvanometer is:",
+      "options": [
+        "1950 Ω",
+        "2000 Ω",
+        "1900 Ω",
+        "2050 Ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two parallel long wires separated by a distance d carry currents I₁ and I₂ in the same direction. The force per unit length between them is:",
+      "options": [
+        "μ₀ I₁ I₂ / (2π d) (Attractive)",
+        "μ₀ I₁ I₂ / (2π d) (Repulsive)",
+        "μ₀ I₁ I₂ / (4π d) (Attractive)",
+        "μ₀ I₁ I₂ / (2π d²)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A magnetic dipole of magnetic moment M is rotated through an angle of 90° from the direction of a uniform magnetic field B. The work done in doing so is:",
+      "options": [
+        "M B",
+        "2 M B",
+        "zero",
+        "-M B"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Susceptibility χ of a diamagnetic substance is:",
+      "options": [
+        "Small and negative",
+        "Small and positive",
+        "Large and positive",
+        "Zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A current loop of area A carrying current I is placed in a uniform magnetic field B with its plane parallel to the field lines. The torque experienced by the loop is:",
+      "options": [
+        "I A B",
+        "zero",
+        "I A / B",
+        "I B / A"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wire of length L carries a current I. It is bent into a circular loop of 1 turn. Its magnetic dipole moment is M₁. If the same wire is bent into a circular loop of N turns, its new magnetic moment M₂ will be:",
+      "options": [
+        "M₁ / N",
+        "N M₁",
+        "M₁ / N²",
+        "N² M₁"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A solenoid of length 0.5 m and radius 1 cm has 500 turns. It carries a current of 5 A. The magnetic field inside the solenoid near its center is:",
+      "options": [
+        "6.28 × 10⁻³ T",
+        "3.14 × 10⁻³ T",
+        "1.25 × 10⁻² T",
+        "6.28 × 10⁻² T"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a cyclotron, the maximum kinetic energy gained by an ion of mass m and charge q in a magnetic field B with dee radius R is:",
+      "options": [
+        "q² B² R² / (2m)",
+        "q B R / (2m)",
+        "q² B R² / m",
+        "q B² R / m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Curie's Law, the magnetic susceptibility χ of a paramagnetic material varies with absolute temperature T as:",
+      "options": [
+        "χ ∝ 1 / T",
+        "χ ∝ T",
+        "χ ∝ T²",
+        "χ = constant"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A galvanometer of resistance G Ω is shunted by a resistance S Ω to convert it into an ammeter. The effective resistance of the ammeter is:",
+      "options": [
+        "G S / (G + S)",
+        "G + S",
+        "(G + S) / (G S)",
+        "G - S"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The magnetic force F experienced by a wire of length L carrying current I placed in a uniform magnetic field B making an angle θ with B is:",
+      "options": [
+        "I L B sin θ",
+        "I L B cos θ",
+        "I L B tan θ",
+        "I L B"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle of charge q and mass m moves in a region where mutually perpendicular uniform electric field E and magnetic field B exist. If the particle passes undeflected, its velocity v is:",
+      "options": [
+        "E / B",
+        "B / E",
+        "E B",
+        "√(E / B)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "At a place on Earth, the vertical component of Earth's magnetic field is √3 times the horizontal component. The angle of dip at that place is:",
+      "options": [
+        "60°",
+        "30°",
+        "45°",
+        "90°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Biot-Savart Law gives the magnetic field dB due to a small current element I dl at a distance r as:",
+      "options": [
+        "(μ₀ / 4π) I (dl × r̂) / r²",
+        "(μ₀ / 4π) I (dl · r) / r³",
+        "(μ₀ / 4π) I (dl × r) / r²",
+        "(μ₀ / 4π) I dl / r"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Domain formation is a characteristic feature of which magnetic material?",
+      "options": [
+        "Ferromagnetic materials",
+        "Paramagnetic materials",
+        "Diamagnetic materials",
+        "Non-magnetic materials"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electron moves in a circular orbit of radius r with speed v. The magnetic dipole moment associated with the orbiting electron is (e = charge of electron):",
+      "options": [
+        "e v r / 2",
+        "e v r",
+        "e v / (2r)",
+        "2 e v r"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A bar magnet of magnetic moment M is cut into two equal halves perpendicular to its length. The magnetic moment of each half becomes:",
+      "options": [
+        "M / 2",
+        "M",
+        "2 M",
+        "M / 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A toroid has a core of inner radius 20 cm and outer radius 22 cm with 2000 turns of wire. If current through it is 10 A, the magnetic field along the central axis inside the core is:",
+      "options": [
+        "1.9 × 10⁻² T",
+        "3.8 × 10⁻² T",
+        "1.9 × 10⁻³ T",
+        "0.95 × 10⁻² T"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ampere's Circuital Law states that the line integral of magnetic field ∮ B · dl around any closed loop is equal to:",
+      "options": [
+        "μ₀ I_enclosed",
+        "I_enclosed / μ₀",
+        "ε₀ I_enclosed",
+        "zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The gyromagnetic ratio of an electron revolving in a hydrogen atom is defined as the ratio of its orbital magnetic moment to orbital angular momentum. Its value is:",
+      "options": [
+        "e / (2m)",
+        "e / m",
+        "2e / m",
+        "e m / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A magnetic needle suspended horizontally in Earth's magnetic field oscillates with a time period T. If its magnetic moment is quadrupled, its new time period of oscillation will be:",
+      "options": [
+        "T / 2",
+        "2 T",
+        "T / 4",
+        "T"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following materials is repelled by a magnet?",
+      "options": [
+        "Bismuth (Diamagnetic)",
+        "Iron (Ferromagnetic)",
+        "Aluminum (Paramagnetic)",
+        "Nickel (Ferromagnetic)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A square loop of side L carrying current I is placed in a uniform magnetic field B such that the normal to the loop makes an angle θ with B. The torque acting on the loop is:",
+      "options": [
+        "I L² B sin θ",
+        "I L² B cos θ",
+        "I L B sin θ",
+        "I L² B"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Magnetic Effects of Current and Magnetism",
+    "chapter_number": 13,
+    "topic": "Magnetic Effects of Current and Magnetism",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Work done in magnetizing a ferromagnetic material per unit volume is proportional to the area of its:",
+      "options": [
+        "Hysteresis loop",
+        "B-T curve",
+        "M-T curve",
+        "I-V curve"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

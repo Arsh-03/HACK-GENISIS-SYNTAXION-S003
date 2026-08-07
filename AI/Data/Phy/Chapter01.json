@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensions of Stefan-Boltzmann constant (σ) are:",
+      "options": [
+        "[M L⁰ T⁻³ K⁻⁴]",
+        "[M L T⁻² K⁻⁴]",
+        "[M L² T⁻³ K⁻¹]",
+        "[M L⁰ T⁻² K⁻⁴]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following physical quantities has the same dimensions as that of Planck's constant?",
+      "options": [
+        "Work",
+        "Angular momentum",
+        "Linear momentum",
+        "Energy density"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensional formula of universal gravitational constant (G) is:",
+      "options": [
+        "[M⁻¹ L³ T⁻²]",
+        "[M L³ T⁻²]",
+        "[M⁻² L³ T⁻¹]",
+        "[M⁻¹ L² T⁻²]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Errors in Measurement",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If the percentage error in the measurement of radius of a sphere is 2%, then the percentage error in the determination of its volume is:",
+      "options": [
+        "2%",
+        "4%",
+        "6%",
+        "8%"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Errors in Measurement",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The density of a cube is measured by measuring its mass and length of its sides. If the maximum error in the measurement of mass and length are 3% and 2% respectively, the maximum error in the measurement of density is:",
+      "options": [
+        "5%",
+        "7%",
+        "9%",
+        "1%"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A vernier calipers has 1 mm marks on the main scale. It has 20 equal divisions on the Vernier scale which match with 16 main scale divisions. For this Vernier calipers, the least count is:",
+      "options": [
+        "0.02 mm",
+        "0.2 mm",
+        "0.1 mm",
+        "0.05 mm"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A student measured the diameter of a small steel ball using a screw gauge of least count 0.001 cm. The main scale reading is 5 mm and zero of circular scale coincides with 25 divisions above the reference level. If screw gauge has a zero error of -0.004 cm, the correct diameter of the ball is:",
+      "options": [
+        "0.521 cm",
+        "0.525 cm",
+        "0.529 cm",
+        "0.053 cm"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Significant Figures",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Taking into account the rules of significant figures, what is the calculated value of 9.99 m - 0.0099 m?",
+      "options": [
+        "9.9801 m",
+        "9.98 m",
+        "9.980 m",
+        "9.9 m"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If Force (F), Velocity (V), and Time (T) are taken as fundamental quantities, then the dimensional formula of mass is:",
+      "options": [
+        "[F V⁻¹ T]",
+        "[F V T⁻¹]",
+        "[F V⁻¹ T⁻¹]",
+        "[F V T]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensional formula of permeability of free space (μ₀) is:",
+      "options": [
+        "[M L T⁻² A⁻²]",
+        "[M L T⁻¹ A⁻²]",
+        "[M L² T⁻² A⁻¹]",
+        "[M L T⁻² A⁻¹]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Errors in Measurement",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two resistors of resistances R₁ = (100 ± 3) Ω and R₂ = (200 ± 4) Ω are connected in series. The equivalent resistance of the series combination is:",
+      "options": [
+        "(300 ± 7) Ω",
+        "(300 ± 1) Ω",
+        "(300 ± 3.5) Ω",
+        "(100 ± 7) Ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensions of electrical capacitance (C) are:",
+      "options": [
+        "[M⁻¹ L⁻² T⁴ A²]",
+        "[M L² T⁻³ A⁻¹]",
+        "[M⁻¹ L⁻² T³ A²]",
+        "[M L⁻² T⁴ A⁻²]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Errors in Measurement",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an experiment, the period of oscillation of a simple pendulum is T = 2π√(L/g). Measured value of L is 20.0 cm known to 1 mm accuracy and time for 100 oscillations of the pendulum is found to be 90 s using a stopwatch of 1 s resolution. The percentage error in g is approximately:",
+      "options": [
+        "2.7%",
+        "3.8%",
+        "1.5%",
+        "5.4%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following pairs of physical quantities does NOT have identical dimensions?",
+      "options": [
+        "Impulse and Linear Momentum",
+        "Work and Torque",
+        "Angular Momentum and Planck's Constant",
+        "Tension and Surface Tension"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensions of 1 / √(μ₀ε₀) are the same as that of:",
+      "options": [
+        "Velocity",
+        "Acceleration",
+        "Force",
+        "Frequency"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Errors in Measurement",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A physical quantity P is given by P = (a³ b²) / (√c · d). The percentage errors of measurement in a, b, c, and d are 1%, 2%, 4%, and 2% respectively. The percentage error in P is:",
+      "options": [
+        "11%",
+        "9%",
+        "14%",
+        "7%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensional formula for latent heat is:",
+      "options": [
+        "[M⁰ L² T⁻²]",
+        "[M L² T⁻²]",
+        "[M⁰ L T⁻²]",
+        "[M L T⁻²]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Significant Figures",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The number of significant figures in the numbers 0.007 m², 2.64 × 10²⁴ kg, and 0.2370 g/cm³ are respectively:",
+      "options": [
+        "1, 3, 4",
+        "3, 3, 4",
+        "1, 3, 3",
+        "4, 3, 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. The least count of the screw gauge is:",
+      "options": [
+        "0.01 mm",
+        "0.001 mm",
+        "0.1 mm",
+        "0.05 mm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensional formula of self-inductance (L) is:",
+      "options": [
+        "[M L² T⁻² A⁻²]",
+        "[M L² T⁻¹ A⁻²]",
+        "[M L T⁻² A⁻²]",
+        "[M L² T⁻² A⁻¹]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the Van der Waals equation (P + a/V²)(V - b) = RT, the dimensional formula of constant 'a' is:",
+      "options": [
+        "[M L⁵ T⁻²]",
+        "[M L³ T⁻²]",
+        "[M L⁵ T⁻¹]",
+        "[M L² T⁻²]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The velocity v of a particle at time t is given by v = a t + b / (t + c). The dimensions of a, b, and c are respectively:",
+      "options": [
+        "[L T⁻²], [L], [T]",
+        "[L T⁻¹], [L], [T]",
+        "[L T⁻²], [L T], [T]",
+        "[L], [L T⁻¹], [T]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensional formula of surface tension is:",
+      "options": [
+        "[M L⁰ T⁻²]",
+        "[M L T⁻²]",
+        "[M L⁻¹ T⁻²]",
+        "[M L² T⁻²]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensions of coefficient of viscosity (η) are:",
+      "options": [
+        "[M L⁻¹ T⁻¹]",
+        "[M L⁻¹ T⁻²]",
+        "[M L T⁻¹]",
+        "[M L² T⁻¹]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If Energy (E) and Velocity (V) are chosen as fundamental quantities, the dimensions of mass (M) in terms of E and V are:",
+      "options": [
+        "[E V⁻²]",
+        "[E V²]",
+        "[E V⁻¹]",
+        "[E V⁻³]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Significant Figures",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The mass and volume of a body are 4.237 g and 2.5 cm³ respectively. The density of the material of the body reported to correct significant figures is:",
+      "options": [
+        "1.6948 g/cm³",
+        "1.7 g/cm³",
+        "1.69 g/cm³",
+        "1.70 g/cm³"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If Energy (E), Length (L), and Time (T) are taken as fundamental quantities, the dimensional formula of mass is:",
+      "options": [
+        "[E L⁻² T²]",
+        "[E L T⁻²]",
+        "[E L² T⁻²]",
+        "[E L⁻¹ T]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Units and Measurements",
+    "chapter_number": 1,
+    "topic": "Dimensions and Dimensional Analysis",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensional formula of Young's Modulus of elasticity is:",
+      "options": [
+        "[M L⁻¹ T⁻²]",
+        "[M L² T⁻²]",
+        "[M L T⁻²]",
+        "[M L⁻² T⁻²]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Classification and IUPAC Nomenclature of Amines",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the IUPAC name of the primary amine CH₃-CH₂-NH₂?",
+      "options": [
+        "Ethanamine",
+        "Methanamine",
+        "Ethylamine",
+        "N-Methylmethanamine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Structure and Hybridization of Amines",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the hybridization and geometry of the nitrogen atom in trimethylamine?",
+      "options": [
+        "sp³ hybridized, pyramidal",
+        "sp² hybridized, trigonal planar",
+        "sp³ hybridized, tetrahedral",
+        "sp hybridized, linear"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Preparation of Amines - Reduction of Nitriles",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Reduction of alkyl nitriles (R-CN) with LiAlH₄ or catalytic hydrogenation yields which class of amines?",
+      "options": [
+        "Primary aliphatic amines",
+        "Secondary aliphatic amines",
+        "Tertiary aliphatic amines",
+        "Quaternary ammonium salts"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Preparation of Amines - Reduction of Nitro Compounds",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which reagent is preferred for laboratory reduction of nitrobenzene to aniline to prevent waste disposal issues with iron salts?",
+      "options": [
+        "Fe / concentrated HCl",
+        "Sn / concentrated HCl",
+        "H₂ / Pd in ethanol",
+        "LiAlH₄ in ether"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Physical Properties - Boiling Points",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Among isomeric amines of formula C₃H₉N, which one has the highest boiling point?",
+      "options": [
+        "Propan-1-amine (Primary amine)",
+        "N-Methylethanamine (Secondary amine)",
+        "N,N-Dimethylmethanamine (Tertiary amine)",
+        "All have equal boiling points"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Preparation of Primary Amines - Gabriel Phthalimide Synthesis",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Gabriel phthalimide synthesis is exclusively used for the preparation of which type of amines?",
+      "options": [
+        "Primary aliphatic amines",
+        "Primary aromatic amines",
+        "Secondary aliphatic amines",
+        "Tertiary aliphatic amines"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Named Reactions - Hofmann Bromamide Degradation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Hofmann bromamide degradation, an amide is treated with Br₂ and aqueous or ethanolic NaOH to yield a primary amine containing:",
+      "options": [
+        "One carbon atom less than the parent amide",
+        "One carbon atom more than the parent amide",
+        "The same number of carbon atoms as the parent amide",
+        "Two carbon atoms less than the parent amide"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Distinction Tests - Carbylamine Reaction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Heating a primary aliphatic or aromatic amine with chloroform and ethanolic KOH gives an extremely foul-smelling substance due to the formation of:",
+      "options": [
+        "Isocyanide (Carbylamine)",
+        "Cyanide",
+        "Isocyanate",
+        "Nitroalkane"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Distinction Tests - Hinsberg Test",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which reagent is known as Hinsberg's reagent and is used to distinguish primary, secondary, and tertiary amines?",
+      "options": [
+        "Benzenesulfonyl chloride",
+        "p-Toluenesulfonyl chloride",
+        "Acetyl chloride",
+        "Benzoyl chloride"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Reaction with Nitrous Acid",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Primary aliphatic amines react with nitrous acid (NaNO₂ + HCl at 273-278 K) to produce unstable diazonium salts which quantitative yield:",
+      "options": [
+        "Alcohols with liberation of Nitrogen gas",
+        "Nitroalkanes with liberation of Ammonia",
+        "Alkyl chlorides with liberation of Hydrogen",
+        "Aldehydes with liberation of Oxygen"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Electrophilic Substitution - Bromination of Aniline",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Treating aniline with bromine water at room temperature yields a white precipitate of:",
+      "options": [
+        "2,4,6-Tribromoaniline",
+        "4-Bromoaniline",
+        "2-Bromoaniline",
+        "2,4-Dibromoaniline"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Electrophilic Substitution - Nitration of Aniline",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Direct nitration of aniline with concentrated HNO₃ and H₂SO₄ gives a significant amount (47%) of m-nitroaniline because:",
+      "options": [
+        "Aniline gets protonated in strong acid to form anilinium ion which is meta-directing",
+        "The amino group undergoes oxidation to nitro group",
+        "The reaction temperature destabilizes the ortho-para intermediates",
+        "Nitric acid acts as a meta-orienting catalytic complex"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Diazonium Salts - Sandmeyer Reaction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Conversion of benzenediazonium chloride to chlorobenzene or bromobenzene using Cu₂Cl₂/HCl or Cu₂Br₂/HBr is known as:",
+      "options": [
+        "Sandmeyer reaction",
+        "Gattermann reaction",
+        "Balz-Schiemann reaction",
+        "Finkelstein reaction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Diazonium Salts - Coupling Reactions",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Reaction of benzenediazonium chloride with phenol in mildly basic medium yields an orange dye named:",
+      "options": [
+        "p-Hydroxyazobenzene",
+        "p-Aminoazobenzene",
+        "o-Hydroxyazobenzene",
+        "p-Nitroazobenzene"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Preparation of Amines - Ammonolysis of Alkyl Halides",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hofmann ammonolysis of alkyl halides usually yields a mixture of primary, secondary, tertiary amines and quaternary ammonium salts. Which condition favors primary amine as the major product?",
+      "options": [
+        "Using large excess of ammonia",
+        "Using excess alkyl halide",
+        "Carrying out reaction at room temperature",
+        "Adding catalytic sodium hydroxide"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Basicity of Methyl-Substituted Amines in Aqueous Solution",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the correct order of basic strength of methyl-substituted amines in aqueous medium?",
+      "options": [
+        "(CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃",
+        "(CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃",
+        "CH₃NH₂ > (CH₃)₂NH > (CH₃)₃N > NH₃",
+        "(CH₃)₂NH > (CH₃)₃N > CH₃NH₂ > NH₃"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Basicity of Ethyl-Substituted Amines in Aqueous Solution",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the correct decreasing order of basic strength of ethyl-substituted amines in aqueous solution?",
+      "options": [
+        "(C₂H₅)₂NH > (C₂H₅)₃N > C₂H₅NH₂ > NH₃",
+        "(C₂H₅)₃N > (C₂H₅)₂NH > C₂H₅NH₂ > NH₃",
+        "(C₂H₅)₂NH > C₂H₅NH₂ > (C₂H₅)₃N > NH₃",
+        "C₂H₅NH₂ > (C₂H₅)₂NH > (C₂H₅)₃N > NH₃"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Relative Basicity of Aromatic Amines",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Arranging the following compounds in decreasing order of basic strength in aqueous medium gives:",
+      "options": [
+        "p-Toluidine > Aniline > p-Nitroaniline",
+        "p-Nitroaniline > Aniline > p-Toluidine",
+        "Aniline > p-Toluidine > p-Nitroaniline",
+        "p-Toluidine > p-Nitroaniline > Aniline"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Electrophilic Substitution - Monobromination of Aniline",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "To prepare 4-bromoaniline as the major product from aniline, which protecting group strategy is employed?",
+      "options": [
+        "Acetylation with acetic anhydride followed by bromination and acid hydrolysis",
+        "Direct bromination in CS₂ at low temperature",
+        "Nitration followed by reduction with iron/HCl",
+        "Sulphonation at 453 K followed by bromination"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Diazonium Salts - Replacement by Fluorine",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fluorobenzene is prepared by treating benzenediazonium chloride with fluoroboric acid (HBF₄) followed by heating the isolated diazonium fluoroborate precipitate. This reaction is called:",
+      "options": [
+        "Balz-Schiemann reaction",
+        "Sandmeyer reaction",
+        "Gattermann reaction",
+        "Swarts reaction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Mechanism of Hofmann Bromamide Degradation",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the mechanism of Hofmann bromamide degradation, which reactive intermediate undergoes intramolecular rearrangement with migration of the alkyl/aryl group to electron-deficient nitrogen?",
+      "options": [
+        "Alkyl isocyanate (R-N=C=O)",
+        "N-Bromoamide (R-CONHBr)",
+        "Nitrene anion",
+        "Carbamic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Amines",
+    "chapter_number": 13,
+    "topic": "Sulphonation of Aniline and Zwitterion Formation",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Aniline reacts with concentrated H₂SO₄ to form anilinium hydrogensulphate, which on heating at 453-473 K produces sulfanilic acid. In aqueous medium, sulfanilic acid predominantly exists as a:",
+      "options": [
+        "Zwitterion containing dipolar +NH₃-C₆H₄-SO₃⁻ structure",
+        "Cationic salt in acidic medium",
+        "Neutral uncharged molecule",
+        "Stable cyclic imide dimer"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

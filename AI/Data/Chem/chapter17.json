@@ -1,0 +1,486 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Atmospheric Pollution - Tropospheric Pollution",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which layer of the atmosphere contains the majority of atmospheric air, water vapor, and clouds, extending up to about 10 km from sea level?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Water Pollution - Biochemical Oxygen Demand (BOD)",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Clean drinking water should have a Biochemical Oxygen Demand (BOD) value of less than:",
+      "options": [
+        "5 ppm",
+        "17 ppm",
+        "50 ppm",
+        "100 ppm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Greenhouse Effect - Gases",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which gas is the major contributor to the global greenhouse effect?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Argon"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Drinking Water Quality - Fluoride Concentration",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Excess concentration of fluoride ions above 2 ppm in drinking water causes:",
+      "options": [
+        "Brown mottling of teeth",
+        "Methemoglobinemia",
+        "Kidney failure",
+        "Laxative effect"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Green Chemistry - Definition",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Green chemistry aims to:",
+      "options": [
+        "Reduce or eliminate the use and generation of hazardous substances",
+        "Increase the production of synthetic chemical fertilizers",
+        "Promote non-biodegradable polymer synthesis",
+        "Decontaminate heavy metal waste using high thermal incineration"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Acid Rain - Chemical Composition",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Rainwater is considered acid rain when its pH falls below:",
+      "options": [
+        "5.6",
+        "6.5",
+        "7.0",
+        "4.0"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Smog - Classical vs Photochemical",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Classical smog (reducing smog) occurs in cold humid climates and is a mixture of smoke, fog, and:",
+      "options": [
+        "Sulphur dioxide",
+        "Nitrogen dioxide",
+        "Ozone",
+        "PAN (Peroxyacetyl nitrate)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Photochemical Smog - Components",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following is a secondary pollutant component of photochemical smog?",
+      "options": [
+        "Peroxyacetyl nitrate (PAN)",
+        "Nitric oxide (NO)",
+        "Unburnt hydrocarbons",
+        "Carbon monoxide (CO)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Stratospheric Pollution - Ozone Depletion Mechanism",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Chlorofluorocarbons (CFCs) release which reactive free radicals in the stratosphere upon exposure to UV radiation that deplete ozone?",
+      "options": [
+        "Chlorine free radicals",
+        "Fluorine free radicals",
+        "Hydroxyl free radicals",
+        "Oxygen free radicals"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Water Pollution - Eutrophication",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nutrient enrichment of water bodies leading to dense growth of plant life and depletion of dissolved oxygen is known as:",
+      "options": [
+        "Eutrophication",
+        "Bioaccumulation",
+        "Biomagnification",
+        "Salinization"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Drinking Water Quality - Nitrate Concentration",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Excess concentration of nitrate ions in drinking water above 50 ppm causes which medical condition in infants?",
+      "options": [
+        "Methemoglobinemia (Blue Baby Syndrome)",
+        "Fluorosis",
+        "Kidney damage",
+        "Skeletal deformity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Pesticides - Biomagnification",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Organochlorines like DDT are non-biodegradable and persistent organic pollutants that accumulate in food chains via:",
+      "options": [
+        "Biomagnification",
+        "Biodegradation",
+        "Eutrophication",
+        "Erosion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Green Chemistry - Practical Applications",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In green dry cleaning of clothes, toxic tetrachloroethene (Cl₂C=CCl₂) has been replaced by:",
+      "options": [
+        "Liquefied carbon dioxide with a suitable detergent",
+        "Benzene and toluene mixture",
+        "Concentrated hydrogen peroxide",
+        "Aqueous ammonia solution"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Carbon Monoxide Toxicity",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Carbon monoxide is highly toxic because it binds to hemoglobin to form carboxyhemoglobin, which is approximately how many times more stable than oxyhemoglobin?",
+      "options": [
+        "300 times",
+        "50 times",
+        "1000 times",
+        "10 times"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Industrial Waste - Recycling",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Fly ash produced by thermal power plants is utilized in which major industry?",
+      "options": [
+        "Cement and construction industry",
+        "Pharmaceutical manufacturing",
+        "Textile dyeing",
+        "Petroleum refining"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Photochemical Smog - Control Methods",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Plants such as Pinus, Junipreus, Quercus, and Pyrus can metabolize nitrogen oxides and help control photochemical smog. Which catalytic device in automobiles reduces NO and hydrocarbon emissions?",
+      "options": [
+        "Catalytic converter",
+        "Electrostatic precipitator",
+        "Scrubber",
+        "Baghouse filter"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Polar Stratospheric Clouds (PSCs)",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Polar Stratospheric Clouds (PSCs) formed over Antarctica during winter provide a surface for the hydrolysis of chlorine nitrate to form:",
+      "options": [
+        "Hypochlorous acid (HOCl) and Nitric acid (HNO₃)",
+        "Hydrochloric acid (HCl) and Perchloric acid (HClO₄)",
+        "Chlorine dioxide (ClO₂) and Nitrous acid (HNO₂)",
+        "Chloric acid (HClO₃) and Ammonia (NH₃)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Particulate Pollutants - Particle Size Classification",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Particulate matter of size less than 5 microns penetrates deep into lungs. Smog particles typically have a size range of:",
+      "options": [
+        "10 to 1000 nm",
+        "1 to 10 mm",
+        "50 to 100 µm",
+        "0.1 to 1 cm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Drinking Water Quality Standards - Heavy Metals",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to international standards for drinking water, the prescribed upper limit for lead (Pb) concentration is:",
+      "options": [
+        "50 ppb (0.05 ppm)",
+        "5 ppm",
+        "10 ppm",
+        "0.5 ppm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Green Chemistry - Bleaching Paper",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In modern eco-friendly paper bleaching processes, chlorine gas (Cl₂) has been replaced by which reagent in the presence of a suitable catalyst?",
+      "options": [
+        "Hydrogen peroxide (H₂O₂)",
+        "Sodium hypochlorite (NaOCl)",
+        "Ozone (O₃)",
+        "Sulphur dioxide (SO₂)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Ozone Hole Mechanism - Spring Reaction",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During spring in Antarctica, sunlight returns and breaks down HOCl and Cl₂ formed on Polar Stratospheric Clouds (PSCs) into chlorine radicals. These radicals initiate ozone destruction via a catalytic chain reaction where one Cl• radical can destroy up to how many ozone molecules?",
+      "options": [
+        "100,000 ozone molecules",
+        "100 ozone molecules",
+        "1,000 ozone molecules",
+        "10 ozone molecules"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Environmental Chemistry",
+    "chapter_number": 17,
+    "topic": "Dissolved Oxygen Saturation & Temperature Dependence",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In cold water, dissolved oxygen (DO) can reach a concentration up to 10 ppm, whereas in warm water or polluted water bodies, DO drops significantly. Dissolved oxygen concentration below what threshold inhibits fish growth and causes aquatic death?",
+      "options": [
+        "6 ppm",
+        "12 ppm",
+        "15 ppm",
+        "20 ppm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

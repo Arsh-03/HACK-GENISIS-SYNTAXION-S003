@@ -1,0 +1,596 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Kossel-Lewis Approach to Chemical Bonding",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to the octet rule, atoms tend to gain, lose, or share electrons to achieve how many valence electrons?",
+      "options": [
+        "2",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Ionic or Electrovalent Bond",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which condition favors the formation of an ionic bond between two atoms?",
+      "options": [
+        "High ionization enthalpy of metal and low electron gain enthalpy of non-metal",
+        "Low ionization enthalpy of metal and high negative electron gain enthalpy of non-metal",
+        "High electronegativity of both atoms",
+        "Low lattice enthalpy of the resulting crystal"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Bond Parameters",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "As the bond order between two atoms increases, the bond length and bond enthalpy respectively:",
+      "options": [
+        "Increases, Increases",
+        "Decreases, Decreases",
+        "Decreases, Increases",
+        "Increases, Decreases"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Dipole Moment",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following non-polar molecules has a net dipole moment equal to zero?",
+      "options": [
+        "H₂O",
+        "NH₃",
+        "CCl₄",
+        "SO₂"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "VSEPR Theory",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to VSEPR theory, what is the geometric shape of a methane (CH₄) molecule?",
+      "options": [
+        "Square Planar",
+        "Tetrahedral",
+        "Trigonal Pyramidal",
+        "Linear"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Valence Bond Theory",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A covalent bond formed by the sidewise or lateral overlapping of atomic orbitals is known as a:",
+      "options": [
+        "Sigma (σ) bond",
+        "Pi (π) bond",
+        "Coordinate bond",
+        "Hydrogen bond"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Hybridisation",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the hybridisation of the central carbon atom in a molecule of ethyne (C₂H₂)?",
+      "options": [
+        "sp",
+        "sp²",
+        "sp³",
+        "sp³d"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Resonance Structures",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the resonance hybrid of the ozone (O₃) molecule, what is the formal bond order between the central oxygen atom and an outer oxygen atom?",
+      "options": [
+        "1.0",
+        "1.5",
+        "2.0",
+        "2.5"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Dipole Moment Comparison",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Why does NH₃ possess a significantly higher dipole moment than NF₃ despite Fluorine being more electronegative than Hydrogen?",
+      "options": [
+        "NF₃ has a trigonal planar structure whereas NH₃ is pyramidal",
+        "Orbital dipole of the lone pair reinforces bond dipoles in NH₃ but opposes them in NF₃",
+        "N-F bond distance is longer than N-H bond distance",
+        "NF₃ undergoes sp² hybridisation while NH₃ undergoes sp³"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Formal Charge Calculation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the formal charge on the central oxygen atom in the ozone (O₃) molecule?",
+      "options": [
+        "0",
+        "+1",
+        "-1",
+        "+2"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "VSEPR Shapes & Lone Pairs",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How many lone pairs of electrons are present on the central Xenon atom in XeF₄?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Molecular Orbital Theory (MOT)",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following diatomic species is paramagnetic according to Molecular Orbital Theory?",
+      "options": [
+        "N₂",
+        "O₂",
+        "C₂",
+        "F₂"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Bond Order & Stability",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the bond order of the dioxygen cation species O₂⁺?",
+      "options": [
+        "1.5",
+        "2.0",
+        "2.5",
+        "3.0"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Hydrogen Bonding Types",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Intramolecular hydrogen bonding is predominantly present in which of the following compounds?",
+      "options": [
+        "p-Nitrophenol",
+        "o-Nitrophenol",
+        "Water",
+        "Ethanol"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Fajan's Rules",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Fajan's rules, covalent character in an ionic compound increases with:",
+      "options": [
+        "Large cation size and small anion size",
+        "Small cation size and large anion size",
+        "Small cation size and small anion size",
+        "Large cation size and large anion size"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Hybridisation & Molecular Geometry",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What are the hybridisation state and shape of the SF₄ molecule respectively?",
+      "options": [
+        "sp³d, See-saw",
+        "sp³d, Square Planar",
+        "sp³d², Trigonal Bipyramidal",
+        "sp³d, Tetrahedral"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Sigma and Pi Bonds Counting",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How many sigma (σ) and pi (π) bonds are present in a molecule of tetracyanoethylene, C₂(CN)₄?",
+      "options": [
+        "9 σ and 9 π",
+        "9 σ and 7 π",
+        "5 σ and 9 π",
+        "11 σ and 7 π"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Exceptions to Octet Rule",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following compounds is an expanded octet molecule?",
+      "options": [
+        "BF₃",
+        "BeCl₂",
+        "PCl₅",
+        "LiCl"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Lattice Enthalpy Factors",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which alkali metal fluoride possesses the highest lattice enthalpy?",
+      "options": [
+        "LiF",
+        "NaF",
+        "KF",
+        "CsF"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Molecular Orbital Configuration",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In C₂ molecule, the double bond consists of:",
+      "options": [
+        "One sigma and one pi bond",
+        "Two pi bonds due to four electrons in two pi MOs",
+        "Two sigma bonds",
+        "One sigma and two pi bonds"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Hydrogen Bond Strength",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following liquid systems exhibits the strongest hydrogen bonding?",
+      "options": [
+        "H₂O",
+        "HF",
+        "NH₃",
+        "CH₃OH"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Axial vs Equatorial Bonds in Hybridisation",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a PCl₅ molecule (trigonal bipyramidal geometry), why are axial P-Cl bonds longer than equatorial P-Cl bonds?",
+      "options": [
+        "Axial bonds experience stronger repulsions from equatorial bond pairs at 90° angles",
+        "Equatorial bonds involve d-orbitals while axial bonds do not",
+        "Axial chlorine atoms have higher electronegativity",
+        "Equatorial bonds experience greater steric hindrance"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Molecular Species Stability (MOT)",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following sequences correctly arranges the species O₂, O₂⁻, O₂²⁻, and O₂⁺ in order of increasing bond stability?",
+      "options": [
+        "O₂²⁻ < O₂⁻ < O₂ < O₂⁺",
+        "O₂⁺ < O₂ < O₂⁻ < O₂²⁻",
+        "O₂⁻ < O₂²⁻ < O₂ < O₂⁺",
+        "O₂²⁻ < O₂ < O₂⁻ < O₂⁺"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Bent's Rule & Hybridisation",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Bent's Rule, more electronegative substituents preferentially direct themselves towards hybrid orbitals having:",
+      "options": [
+        "Greater s-character",
+        "Less s-character (more p-character)",
+        "Equal s and p character",
+        "Pure d-character"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Dipole Moment Mechanics",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If the dipole moment of a chlorobenzene derivative C₆H₄Cl₂ is 1.73 D (equal to monochromatic chlorobenzene), what is the spatial orientation of the two chlorine atoms?",
+      "options": [
+        "ortho- position (60° angle)",
+        "meta- position (120° angle)",
+        "para- position (180° angle)",
+        "geminal position"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Advanced MO Mixing (s-p mixing)",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In homonuclear diatomic molecules of period 2 up to Nitrogen (Z ≤ 7), s-p orbital mixing causes the energy level of the σ2p_z orbital to:",
+      "options": [
+        "Lower below the π2p_x and π2p_y orbitals",
+        "Rise above the π2p_x and π2p_y orbitals",
+        "Become degenerate with antibonding σ*2s orbital",
+        "Remain completely unaffected"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Chemistry",
+    "chapter_name": "Chemical Bonding and Molecular Structure",
+    "chapter_number": 4,
+    "topic": "Berry Pseudorotation & Non-rigid Molecules",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In molecules with trigonal bipyramidal geometry such as PF₅, axial and equatorial fluorine atoms exchange positions rapidly in solution through a mechanism known as Berry Pseudorotation. The transition state formed during this process exhibits which geometry?",
+      "options": [
+        "Octahedral",
+        "Square Pyramidal",
+        "Pentagonal Planar",
+        "Tetrahedral"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Classification and IUPAC Nomenclature",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the IUPAC name of glycerol?",
+      "options": [
+        "Propane-1,2,3-triol",
+        "Propane-1,2-diol",
+        "Ethanol-1,2-diol",
+        "Propan-2-ol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Preparation of Alcohols - Hydroboration-Oxidation",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hydroboration-oxidation of propene yields which major alcohol?",
+      "options": [
+        "Propan-1-ol",
+        "Propan-2-ol",
+        "Propane-1,2-diol",
+        "Ethanol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Distinction Test - Lucas Test",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lucas reagent consists of a mixture of which two chemicals?",
+      "options": [
+        "Anhydrous ZnCl2 and concentrated HCl",
+        "Anhydrous AlCl3 and concentrated HCl",
+        "Concentrated H2SO4 and ZnCl2",
+        "Dilute HCl and ZnCl2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Preparation of Ethers - Williamson Synthesis",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Williamson synthesis involves the reaction of an alkyl halide with which reagent to form an ether?",
+      "options": [
+        "Sodium alkoxide",
+        "Sodium hydroxide",
+        "Sodium acetate",
+        "Sodium carbonate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Physical Properties - Boiling Points",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Alcohols have higher boiling points than isomeric ethers primarily due to:",
+      "options": [
+        "Intermolecular hydrogen bonding",
+        "Intramolecular hydrogen bonding",
+        "Higher molecular mass",
+        "Stronger metallic bonding"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Preparation of Phenol - From Cumene",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Commercially, phenol is prepared from cumene (isopropylbenzene). What is the major byproduct obtained in this reaction?",
+      "options": [
+        "Propanone (Acetone)",
+        "Propanal",
+        "Ethanol",
+        "Acetaldehyde"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Named Reactions - Kolbe's Reaction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Kolbe's reaction, sodium phenoxide reacts with CO2 followed by acidification to yield:",
+      "options": [
+        "2-Hydroxybenzoic acid (Salicylic acid)",
+        "2-Hydroxybenzaldehyde (Salicylaldehyde)",
+        "Benzoic acid",
+        "Phthalic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Named Reactions - Reimer-Tiemann Reaction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Treatment of phenol with chloroform in the presence of aqueous sodium hydroxide converts it into salicylaldehyde via the:",
+      "options": [
+        "Reimer-Tiemann reaction",
+        "Kolbe's reaction",
+        "Fries rearrangement",
+        "Cannizzaro reaction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Acidity of Phenols",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following compounds is the most acidic?",
+      "options": [
+        "4-Nitrophenol",
+        "Phenol",
+        "4-Methylphenol (p-Cresol)",
+        "4-Methoxyphenol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Oxidation of Alcohols",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which reagent is used for the selective oxidation of primary alcohols to aldehydes without further oxidation to carboxylic acids?",
+      "options": [
+        "Pyridinium chlorochromate (PCC)",
+        "Acidified KMnO4",
+        "Acidified K2Cr2O7",
+        "Conc. HNO3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Dehydration of Alcohols",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Heating ethanol with concentrated H2SO4 at 443 K yields:",
+      "options": [
+        "Ethene",
+        "Ethoxyethane",
+        "Diethyl ether",
+        "Ethanal"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Electrophilic Substitution - Bromination of Phenol",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When phenol is treated with bromine water, it forms a white precipitate of:",
+      "options": [
+        "2,4,6-Tribromophenol",
+        "4-Bromophenol",
+        "2-Bromophenol",
+        "2,4-Dibromophenol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Cleavage of C-O Bond in Ethers",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Reaction of anisole (methoxybenzene) with HI gives:",
+      "options": [
+        "Phenol and Methyl iodide",
+        "Iodobenzene and Methanol",
+        "Phenol and Methanol",
+        "Iodobenzene and Methyl iodide"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Catalytic Dehydrogenation of Alcohols",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Passing vapours of a tertiary alcohol over heated copper at 573 K results in:",
+      "options": [
+        "Dehydration to form an alkene",
+        "Dehydrogenation to form a ketone",
+        "Dehydrogenation to form an aldehyde",
+        "No reaction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Tests for Phenols",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Phenol reacts with neutral ferric chloride solution to give a characteristic coloration of which color?",
+      "options": [
+        "Violet",
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Reimer-Tiemann Reaction Intermediate",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the reactive electrophile generated during the Reimer-Tiemann reaction of phenol?",
+      "options": [
+        ":CCl2 (Dichlorocarbene)",
+        ":CHCl (Chlorocarbene)",
+        "CCl3+ (Trichloromethyl cation)",
+        "CHO+ (Formyl cation)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Mechanism of Acid-Catalyzed Hydration of Alkenes",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the rate-determining step in the acid-catalyzed hydration of an alkene to form an alcohol?",
+      "options": [
+        "Electrophilic attack of hydronium ion to form a carbocation",
+        "Nucleophilic attack of water on the carbocation",
+        "Deprotonation to form the alcohol",
+        "Protonation of the alcohol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Ether Cleavage Mechanism with HI",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When tert-butyl methyl ether is cleaved with 1 equivalent of HI, the main products formed are:",
+      "options": [
+        "tert-Butyl iodide and Methanol",
+        "tert-Butyl alcohol and Methyl iodide",
+        "tert-Butyl alcohol and Methanol",
+        "Isobutene and Methyl iodide"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Effect of Nitration Conditions on Phenol",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Treatment of phenol with concentrated HNO3 in the presence of concentrated H2SO4 yields:",
+      "options": [
+        "2,4,6-Trinitrophenol (Picric acid)",
+        "2-Nitrophenol",
+        "4-Nitrophenol",
+        "A mixture of o- and p-nitrophenol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Pinacol-Pinacolone Rearrangement",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Treatment of 2,3-dimethylbutane-2,3-diol (pinacol) with hot dilute H2SO4 yields pinacolone via which intermediate?",
+      "options": [
+        "Carbocation intermediate with a 1,2-methyl shift",
+        "Carbanion intermediate with ring contraction",
+        "Free radical intermediate",
+        "Symmetrical epoxide"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Fermentation & Commercial Alcohols",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Rectified spirit contains 95.6% ethanol and forms a constant boiling mixture known as an azeotrope. Which method is used to obtain absolute alcohol (100% ethanol) from rectified spirit?",
+      "options": [
+        "Azeotropic distillation using benzene",
+        "Simple fractional distillation",
+        "Vacuum distillation",
+        "Steam distillation"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Alcohols, Phenols and Ethers",
+    "chapter_number": 11,
+    "topic": "Fries Rearrangement Mechanism",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Heating phenyl acetate with anhydrous AlCl3 converts it into a mixture of o- and p-hydroxyacetophenones. This reaction is known as the:",
+      "options": [
+        "Fries rearrangement",
+        "Claisen rearrangement",
+        "Baker-Venkataraman rearrangement",
+        "Houben-Hoesch reaction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

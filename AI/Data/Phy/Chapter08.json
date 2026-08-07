@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a thermodynamic process, 200 J of heat is given to a system and 50 J of work is done by the system. The change in internal energy of the system is:",
+      "options": [
+        "150 J",
+        "250 J",
+        "-150 J",
+        "50 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An ideal gas undergoes an isothermal expansion from volume V₁ to V₂. The work done by the gas in this process is:",
+      "options": [
+        "n R T ln(V₂ / V₁)",
+        "n R (T₂ - T₁)",
+        "n C_v (T₂ - T₁)",
+        "P (V₂ - V₁)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During an adiabatic process, the pressure of a gas is found to be proportional to the cube of its absolute temperature. The ratio γ = C_p / C_v for the gas is:",
+      "options": [
+        "3 / 2",
+        "4 / 3",
+        "5 / 3",
+        "7 / 5"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A Carnot engine working between 27°C and 127°C has a work output of 800 J per cycle. The amount of heat energy supplied to the engine from the source per cycle is:",
+      "options": [
+        "3200 J",
+        "2400 J",
+        "1600 J",
+        "4000 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The efficiency of a Carnot engine operating between temperatures T₁ and T₂ (T₁ > T₂) is 1/6. When the temperature of the sink is reduced by 62 K, its efficiency becomes 1/3. The temperature T₁ of the source is:",
+      "options": [
+        "372 K",
+        "310 K",
+        "400 K",
+        "273 K"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "First law of thermodynamics is a special case of:",
+      "options": [
+        "Law of conservation of energy",
+        "Law of conservation of mass",
+        "Law of conservation of momentum",
+        "Charles's law"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an isochoric process, which of the following thermodynamic variables remains constant?",
+      "options": [
+        "Volume",
+        "Pressure",
+        "Temperature",
+        "Entropy"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The coefficient of performance (β) of a refrigerator operating between reservoir temperatures T₁ (source) and T₂ (sink, where T₂ < T₁) is given by:",
+      "options": [
+        "T₂ / (T₁ - T₂)",
+        "T₁ / (T₁ - T₂)",
+        "(T₁ - T₂) / T₂",
+        "(T₁ - T₂) / T₁"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "One mole of an ideal gas expands adiabatically from temperature T₁ to T₂. The work done by the gas in terms of gas constant R and ratio of specific heat capacities γ is:",
+      "options": [
+        "R (T₁ - T₂) / (γ - 1)",
+        "R (T₂ - T₁) / (γ - 1)",
+        "R (T₁ - T₂) / (1 - γ)",
+        "R T₁ T₂ / (γ - 1)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A cyclic process ABCA is shown on a P-V diagram where A(1, 1), B(4, 1), and C(1, 3) are in SI units (P in N/m² and V in m³). The work done by the gas during one complete cycle ABCA is:",
+      "options": [
+        "3 J",
+        "6 J",
+        "1.5 J",
+        "12 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of slope of an adiabatic P-V curve to the slope of an isothermal P-V curve at any given point is equal to:",
+      "options": [
+        "γ",
+        "1 / γ",
+        "γ - 1",
+        "γ + 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A monoatomic ideal gas undergoes a polytropic process PV² = constant. The molar heat capacity of the gas during this process is (R = universal gas constant):",
+      "options": [
+        "R / 2",
+        "3R / 2",
+        "5R / 2",
+        "R"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An ideal gas is compressed adiabatically to 1/8th of its initial volume. If its initial temperature is T Kelvin and γ = 5/3, the final temperature of the gas will be:",
+      "options": [
+        "4 T",
+        "2 T",
+        "8 T",
+        "16 T"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Zeroth law of thermodynamics forms the basis for the definition of which physical quantity?",
+      "options": [
+        "Temperature",
+        "Internal energy",
+        "Heat",
+        "Work"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a reversible process, the total change in entropy of the universe is:",
+      "options": [
+        "Zero",
+        "Positive",
+        "Negative",
+        "Infinite"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A refrigerator absorbing heat from a cold reservoir at 250 K rejects heat to a hot reservoir at 300 K. The coefficient of performance of the refrigerator is:",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following is NOT a state function?",
+      "options": [
+        "Work done",
+        "Internal energy",
+        "Pressure",
+        "Temperature"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a monoatomic ideal gas, the molar heat capacity at constant volume C_v is equal to:",
+      "options": [
+        "(3/2) R",
+        "(5/2) R",
+        "(1/2) R",
+        "3 R"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If a system absorbs 500 cal of heat and at the same time does 420 J of work, the change in internal energy is (1 cal = 4.2 J):",
+      "options": [
+        "1680 J",
+        "2100 J",
+        "420 J",
+        "2520 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An ideal gas undergoes a cyclic process consisting of two isochoric and two isobaric processes. If the maximum and minimum pressures are 3P₀ and P₀, and maximum and minimum volumes are 2V₀ and V₀, the work done in one complete cycle is:",
+      "options": [
+        "2 P₀ V₀",
+        "P₀ V₀",
+        "4 P₀ V₀",
+        "6 P₀ V₀"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an adiabatic expansion of an ideal gas, the product of pressure and volume PV satisfies PV^γ = constant. The work done during adiabatic expansion depends solely on:",
+      "options": [
+        "Initial and final temperatures",
+        "Path of the process",
+        "Heat transferred",
+        "Mass of the container"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A Carnot engine has efficiency η = 50% when its sink temperature is at 27°C. To increase its efficiency to 60%, by how many degrees should the temperature of the source be increased?",
+      "options": [
+        "150 K",
+        "100 K",
+        "75 K",
+        "50 K"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Internal energy of an ideal gas depends only on its:",
+      "options": [
+        "Temperature",
+        "Volume",
+        "Pressure",
+        "Density"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two rigid insulated vessels A and B of equal volume contain an ideal gas at pressures P₁ and P₂ and temperatures T₁ and T₂ respectively. When the valve connecting them is opened, the equilibrium temperature of the mixture is:",
+      "options": [
+        "T₁ T₂ (P₁ + P₂) / (P₁ T₂ + P₂ T₁)",
+        "(T₁ + T₂) / 2",
+        "√(T₁ T₂)",
+        "(P₁ T₁ + P₂ T₂) / (P₁ + P₂)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A sample of gas expands from volume V₁ to V₂ along two paths: (1) Isothermal (2) Adiabatic. If W₁ and W₂ represent work done along path 1 and path 2 respectively, then:",
+      "options": [
+        "W₁ > W₂",
+        "W₂ > W₁",
+        "W₁ = W₂",
+        "W₁ = 0"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The heat capacity of a body is defined as the amount of heat required to raise its temperature by:",
+      "options": [
+        "1 K (or 1°C) for the whole mass of the body",
+        "1 K for 1 unit mass of the body",
+        "100 K for the whole body",
+        "1 K for 1 mole of the body"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a free expansion of an ideal gas into vacuum inside an insulated vessel, which of the following statements is TRUE?",
+      "options": [
+        "Q = 0, W = 0, ΔU = 0",
+        "Q = 0, W > 0, ΔU < 0",
+        "Q > 0, W = 0, ΔU > 0",
+        "Q < 0, W < 0, ΔU = 0"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 8,
+    "topic": "Thermodynamics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The efficiency of a Carnot engine is η. If the absolute temperature of the source and sink are both doubled, the efficiency of the engine becomes:",
+      "options": [
+        "η",
+        "2η",
+        "η / 2",
+        "η / 4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,487 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Analgesics - Non-narcotic",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following is a non-narcotic analgesic used to reduce pain and fever?",
+      "options": [
+        "Aspirin",
+        "Morphine",
+        "Codeine",
+        "Heroin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Antiseptics and Disinfectants - Dettol",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Dettol is a commonly used antiseptic mixture consisting of alpha-terpineol and:",
+      "options": [
+        "Chloroxylenol",
+        "Bithionol",
+        "Chloramphenicol",
+        "Iodoform"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Artificial Sweetening Agents - Saccharin",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which artificial sweetening agent is excreted unchanged in urine and provides zero calories?",
+      "options": [
+        "Ortho-sulfabenzimide (Saccharin)",
+        "Aspartame",
+        "Sucralose",
+        "Alitame"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Soaps and Detergents - Anionic Detergents",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sodium lauryl sulphate belongs to which class of synthetic detergents?",
+      "options": [
+        "Anionic detergent",
+        "Cationic detergent",
+        "Non-ionic detergent",
+        "Zwitterionic detergent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Antacids",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which drug acts as an antacid by preventing the interaction of histamine with gastric receptors?",
+      "options": [
+        "Cimetidine",
+        "Aspirin",
+        "Penicillin",
+        "Equanil"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Tranquilizers",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Tranquilizers affect the message transfer mechanism from nerve to receptor. Which of the following is a derivative of barbituric acid used as a tranquilizer?",
+      "options": [
+        "Veronal",
+        "Prontosil",
+        "Seldane",
+        "Ranitidine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Antibiotics - Broad Spectrum",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which antibiotic is a broad-spectrum antibiotic capable of inhibiting both Gram-positive and Gram-negative bacteria?",
+      "options": [
+        "Chloramphenicol",
+        "Penicillin G",
+        "Streptomycin",
+        "Erythromycin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Antiseptics in Soap",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which compound is added to soaps to impart antiseptic properties and reduce bacterial odor on skin?",
+      "options": [
+        "Bithionol",
+        "Furacine",
+        "Soframycine",
+        "Salvarsan"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Artificial Sweetening Agents - Aspartame",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Aspartame use is limited to cold foods and soft drinks because:",
+      "options": [
+        "It is unstable at cooking temperatures",
+        "It undergoes esterification at high temperatures",
+        "It becomes toxic on heating",
+        "It turns bitter when warmed"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Cationic Detergents",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Cetyltrimethylammonium bromide is an example of a cationic detergent widely used in:",
+      "options": [
+        "Hair conditioners",
+        "Dishwashing liquids",
+        "Laundry powders",
+        "Household soaps"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Food Preservatives",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which chemical compound is commonly used as a food preservative to prevent microbial growth?",
+      "options": [
+        "Sodium benzoate",
+        "Sodium acetate",
+        "Sodium salicylate",
+        "Sodium metabisulfite"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Antihistamines",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Synthetic drugs like Brompheniramine (Dimetapp) and Terfenadine (Seldane) act as:",
+      "options": [
+        "Antihistamines",
+        "Analgesics",
+        "Antiseptics",
+        "Tranquilizers"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "correct_option_index": 0,
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Antifertility Drugs",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which synthetic progesterone derivative is commonly used as an oral antifertility drug?",
+      "options": [
+        "Norethindrone",
+        "Meprobamate",
+        "Chlordiazepoxide",
+        "Valium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Antiseptics vs Disinfectants",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Phenol acts as an antiseptic at low concentration (0.2%), but at a higher concentration (1.0%) it acts as a:",
+      "options": [
+        "Disinfectant",
+        "Analgesic",
+        "Tranquilizer",
+        "Antihistamine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Non-ionic Detergents",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Non-ionic detergents, used in liquid dishwashers, are formed by the reaction of stearic acid with:",
+      "options": [
+        "Polyethylene glycol",
+        "Glycerol",
+        "Sodium hydroxide",
+        "Ethanolamine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Enzyme Inhibitors - Competitive vs Non-competitive",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Drugs that bind to a site other than the active site of an enzyme, changing its shape and blocking substrate binding, bind to the:",
+      "options": [
+        "Allosteric site",
+        "Catalytic site",
+        "Substrate site",
+        "Covalent site"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Bactericidal vs Bacteriostatic Antibiotics",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which pair contains one bactericidal antibiotic and one bacteriostatic antibiotic respectively?",
+      "options": [
+        "Penicillin and Erythromycin",
+        "Penicillin and Ofloxacin",
+        "Chloramphenicol and Tetracycline",
+        "Erythromycin and Chloramphenicol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Historical Antibiotics - Salvarsan to Prontosil",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Paul Ehrlich developed Salvarsan for syphilis containing -As=As- linkages. Later, Prontosil was discovered which converts in the human body to the active compound:",
+      "options": [
+        "Sulfanilamide",
+        "Sulfadiazine",
+        "Sulfapyridine",
+        "Penicillin"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Artificial Sweetening Agents - Sucralose",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sucralose is an artificial sweetener stable at cooking temperature. Chemically, it is a:",
+      "options": [
+        "Trichloro derivative of sucrose",
+        "Trichloro derivative of glucose",
+        "Sulfonated derivative of fructose",
+        "Dipeptide derivative of aspartic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Saponification Reaction",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Soaps are prepared by heating glyceryl esters of fatty acids with aqueous sodium hydroxide. The byproduct formed alongside soap is:",
+      "options": [
+        "Glycerol",
+        "Glycol",
+        "Ethanol",
+        "Propanol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Mechanism of Aspirin Action",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Aspirin (acetylsalicylic acid) inhibits the synthesis of prostaglandins by irreversibly acetylating an essential cyclooxygenase enzyme site. Prostaglandins are responsible for:",
+      "options": [
+        "Stimulating inflammation and pain perception",
+        "Lowering body temperature",
+        "Inhibiting blood platelet aggregation",
+        "Reducing gastric acid secretion"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Chemistry in Everyday Life",
+    "chapter_number": 16,
+    "topic": "Antioxidants in Food - BHT Mechanism",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Butylated Hydroxytoluene (BHT) prevents oxidative rancidity in fats and oils by acting as a:",
+      "options": [
+        "Free radical scavenger",
+        "Reducing agent for carboxylic groups",
+        "Chelating agent for metal ions",
+        "Hydrolytic enzyme inhibitor"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

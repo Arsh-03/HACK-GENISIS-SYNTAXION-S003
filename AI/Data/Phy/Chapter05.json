@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two particles of masses 1 kg and 3 kg have position vectors (2î + 5ĵ + 13k̂) m and (-6î + 3ĵ - 2k̂) m respectively. The position vector of their center of mass is:",
+      "options": [
+        "(-4î + 3.5ĵ + 1.75k̂) m",
+        "(-2î + 3.5ĵ + 2.5k̂) m",
+        "(-4î + 4ĵ + 1.75k̂) m",
+        "(4î - 3.5ĵ - 1.75k̂) m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A force F = (2î + 3ĵ - 4k̂) N acts at the point r = (2î - 2ĵ + k̂) m. The magnitude of torque acting about the origin is:",
+      "options": [
+        "√197 N·m",
+        "√185 N·m",
+        "√150 N·m",
+        "12 N·m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The moment of inertia of a uniform thin rod of mass M and length L about an axis passing through its center and perpendicular to its length is:",
+      "options": [
+        "(1/12) M L²",
+        "(1/3) M L²",
+        "(1/2) M L²",
+        "(1/6) M L²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of the radii of gyration of a circular disc to that of a circular ring, each of same mass and radius, about their respective central axes perpendicular to their planes is:",
+      "options": [
+        "1 : √2",
+        "√2 : 1",
+        "1 : 2",
+        "2 : 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A solid sphere of mass M and radius R rolls down an inclined plane of inclination θ without slipping. The linear acceleration of the sphere down the incline is:",
+      "options": [
+        "(5/7) g sin θ",
+        "(2/3) g sin θ",
+        "(3/5) g sin θ",
+        "(1/2) g sin θ"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wheel of moment of inertia 2 kg·m² rotating about its central axis at an angular velocity of 60 rad/s comes to rest in 10 s under a constant retarding torque. The value of retarding torque is:",
+      "options": [
+        "12 N·m",
+        "6 N·m",
+        "24 N·m",
+        "18 N·m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ballet dancer stretches her arms out to slow down her spin. In doing so, her rotational kinetic energy decreases because her moment of inertia increases. The quantity that remains constant throughout is:",
+      "options": [
+        "Angular momentum",
+        "Angular speed",
+        "Rotational Kinetic Energy",
+        "Torque"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A solid cylinder of mass 2 kg and radius 0.2 m is rotating about its central axis at 3 fps/rpm. Its angular momentum is:",
+      "options": [
+        "0.04 kg·m²/s",
+        "0.08 kg·m²/s",
+        "0.16 kg·m²/s",
+        "0.02 kg·m²/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Three thin uniform rods each of mass M and length L are placed along the sides of an equilateral triangle. The moment of inertia of this system about an axis passing through the center of mass and perpendicular to the plane of the triangle is:",
+      "options": [
+        "(1/2) M L²",
+        "(1/3) M L²",
+        "(1/4) M L²",
+        "(2/3) M L²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If the radius of the Earth contracts to half of its present value without any change in its mass, the duration of a day will become:",
+      "options": [
+        "6 hours",
+        "12 hours",
+        "3 hours",
+        "48 hours"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A disc of moment of inertia I₁ is rotating about its central axis with angular velocity ω₁. Another disc of moment of inertia I₂ at rest is dropped coaxially onto the first disc. The common angular velocity of the system is:",
+      "options": [
+        "(I₁ ω₁) / (I₁ + I₂)",
+        "(I₂ ω₁) / (I₁ + I₂)",
+        "(I₁ + I₂) ω₁ / I₁",
+        "ω₁ / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of rotational kinetic energy to the total kinetic energy of a rolling solid sphere is:",
+      "options": [
+        "2 / 7",
+        "5 / 7",
+        "1 / 2",
+        "2 / 5"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A light string is wound several times around a solid cylinder of mass M and radius R mounted horizontally on a frictionless axle. A mass m is attached to the free end. The acceleration of mass m when released is:",
+      "options": [
+        "2 m g / (2m + M)",
+        "m g / (m + M)",
+        "2 m g / (m + 2M)",
+        "m g / (2m + M)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The moment of inertia of a circular disc of mass M and radius R about an axis tangential to its rim and parallel to its diameter is:",
+      "options": [
+        "(5/4) M R²",
+        "(3/2) M R²",
+        "(1/2) M R²",
+        "(3/4) M R²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle performs uniform circular motion in a horizontal plane with constant angular momentum L. If the radius of the circle is halved while keeping angular momentum constant, its kinetic energy becomes:",
+      "options": [
+        "4 times",
+        "2 times",
+        "Half",
+        "One-fourth"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "From a uniform circular disc of radius R and mass M, a small circular disc of radius R/2 is cut out such that its rim passes through the center of the main disc. The center of mass of the remaining portion lies at a distance from the center equal to:",
+      "options": [
+        "R / 6",
+        "R / 3",
+        "R / 4",
+        "R / 8"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The angular momentum of a particle about a fixed origin is given by L = r × p. The rate of change of angular momentum dL/dt is equal to:",
+      "options": [
+        "Torque (τ)",
+        "Force (F)",
+        "Work (W)",
+        "Linear momentum (p)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An fly wheel rotates at an angular speed of 20 rad/s. If its kinetic energy of rotation is 400 J, its moment of inertia is:",
+      "options": [
+        "2 kg·m²",
+        "4 kg·m²",
+        "1 kg·m²",
+        "0.5 kg·m²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A hollow sphere and a solid sphere of equal mass and radius are allowed to roll down an inclined plane without slipping. Which body will reach the bottom first?",
+      "options": [
+        "Solid sphere",
+        "Hollow sphere",
+        "Both will reach together",
+        "Depends on inclination angle"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A uniform meter scale of mass 200 g is pivoted at its 50 cm mark. A mass of 100 g is hung at 20 cm mark. Where should a mass of 150 g be hung to keep the scale balanced horizontally?",
+      "options": [
+        "70 cm mark",
+        "80 cm mark",
+        "60 cm mark",
+        "90 cm mark"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle of mass m is moving with a constant velocity v along a line parallel to x-axis at a distance y = d from it. The angular momentum of the particle about the origin:",
+      "options": [
+        "Remains constant equal to m v d",
+        "Increases with time",
+        "Decreases with time",
+        "Is zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A solid cylinder rolls without slipping down an inclined plane of height h. Its velocity on reaching the bottom of the incline is:",
+      "options": [
+        "√(4gh / 3)",
+        "√(2gh)",
+        "√(gh)",
+        "√(3gh / 4)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Perpendicular axis theorem is applicable only for:",
+      "options": [
+        "Two-dimensional planar bodies",
+        "Three-dimensional solid bodies",
+        "One-dimensional linear bodies",
+        "Spherical bodies only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ring of mass m and radius r is rotating about its central axis with angular speed ω. Two point masses, each of mass m, are gently attached to diametrically opposite points of the ring. The new angular speed of the ring is:",
+      "options": [
+        "ω / 3",
+        "ω / 2",
+        "ω / 4",
+        "2ω / 3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A uniform rod of length L and mass M is held vertical with one end hinged to the floor. If it is allowed to fall under gravity, the angular speed of the rod when it hits the floor is:",
+      "options": [
+        "√(3g / L)",
+        "√(g / L)",
+        "√(2g / L)",
+        "√(6g / L)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wheel starting from rest accelerates uniformly at 2 rad/s² for 10 s. It then rotates at constant angular velocity for next 10 s. Total angle rotated by the wheel is:",
+      "options": [
+        "300 rad",
+        "200 rad",
+        "100 rad",
+        "400 rad"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A thin hollow sphere of mass m and radius r is rolling purely on a horizontal plane with velocity v. The kinetic energy of the sphere is:",
+      "options": [
+        "(5/6) m v²",
+        "(1/2) m v²",
+        "(2/3) m v²",
+        "(7/10) m v²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Rotational Motion",
+    "chapter_number": 5,
+    "topic": "Rotational Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle of mass m is projected at an angle of 45° with horizontal with velocity v. The angular momentum of the particle about the point of projection when it is at the highest point is:",
+      "options": [
+        "m v³ / (4√2 g)",
+        "m v³ / (2g)",
+        "m v³ / (4g)",
+        "m v³ / (2√2 g)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

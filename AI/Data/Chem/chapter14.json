@@ -1,0 +1,486 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Classification of Carbohydrates",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following carbohydrates is classified as a monosaccharide?",
+      "options": [
+        "Glucose",
+        "Sucrose",
+        "Maltose",
+        "Starch"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Structure of D-Glucose",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Glucose is an aldohexose. How many chiral carbon atoms are present in an open-chain D-glucose molecule?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Reactions of Glucose - HI Reduction",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Prolonged heating of D-glucose with hydroiodic acid (HI) and red phosphorus yields:",
+      "options": [
+        "n-Hexane",
+        "Gluconic acid",
+        "Saccharic acid",
+        "Hexan-1-ol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Reducing and Non-Reducing Sugars",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following disaccharides is a non-reducing sugar?",
+      "options": [
+        "Sucrose",
+        "Maltose",
+        "Lactose",
+        "Cellobiose"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Proteins - Amino Acids Classification",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following is an essential amino acid that cannot be synthesized in the human body?",
+      "options": [
+        "Valine",
+        "Glycine",
+        "Alanine",
+        "Glutamic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Reactions of Glucose - Oxidation with Bromine Water",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oxidation of D-glucose with mild oxidizing agent bromine water yields:",
+      "options": [
+        "Gluconic acid",
+        "Saccharic acid",
+        "Sorbitol",
+        "Glucaric acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Reactions of Glucose - Oxidation with Nitric Acid",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oxidation of D-glucose with strong oxidizing agent concentrated HNO₃ yields:",
+      "options": [
+        "Saccharic acid (Glucaric acid)",
+        "Gluconic acid",
+        "Tartaric acid",
+        "Oxalic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Cyclic Structure of Monosaccharides - Anomers",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "α-D-glucose and β-D-glucose differ from each other only in the configuration around C-1. Such stereoisomers are called:",
+      "options": [
+        "Anomers",
+        "Enantiomers",
+        "Epimers",
+        "Geometrical isomers"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Disaccharides - Glycosidic Linkage in Sucrose",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hydrolysis of sucrose gives a mixture of α-D-glucose and β-D-fructose held together by which glycosidic linkage?",
+      "options": [
+        "C-1 of α-D-glucose and C-2 of β-D-fructose",
+        "C-1 of α-D-glucose and C-4 of β-D-glucose",
+        "C-1 of β-D-galactose and C-4 of β-D-glucose",
+        "C-1 of α-D-glucose and C-6 of β-D-fructose"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Inversion of Sugar",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sucrose is dextrorotatory (+66.5°), but upon hydrolysis the resulting mixture of D-glucose and D-fructose is levorotatory (-39.7°). This phenomenon is known as:",
+      "options": [
+        "Inversion of sugar",
+        "Mutarotation",
+        "Racemization",
+        "Epimerization"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Polysaccharides - Amylose vs Amylopectin",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Amylopectin component of starch is insoluble in water and constitutes 80-85% of starch. Its chain branching occurs through which linkage?",
+      "options": [
+        "C1-C6 glycosidic linkage",
+        "C1-C4 glycosidic linkage",
+        "C2-C4 glycosidic linkage",
+        "C1-C2 glycosidic linkage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Proteins - Isoelectric Point and Zwitterion",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In aqueous solution, α-amino acids exist as dipolar internal salts known as Zwitterions because:",
+      "options": [
+        "The carboxyl group loses a proton and amino group accepts a proton",
+        "The amino group loses a proton and carboxyl group accepts a proton",
+        "The side chain undergoes intramolecular esterification",
+        "Peptide bond undergoes reversible hydrolysis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Proteins - Secondary Structure",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The secondary structure of proteins, such as α-helix and β-pleated sheet, is stabilized by which type of interaction?",
+      "options": [
+        "Hydrogen bonds between -NH and -CO groups",
+        "Covalent disulfide cross-links",
+        "Ionic salt bridges",
+        "Hydrophobic interactions only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Vitamins - Deficiency Diseases",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Scurvy is caused by the deficiency of which water-soluble vitamin?",
+      "options": [
+        "Vitamin C (Ascorbic acid)",
+        "Vitamin B1 (Thiamine)",
+        "Vitamin B12 (Cobalamin)",
+        "Vitamin D (Calciferol)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Nucleic Acids - Chemical Composition",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which nitrogenous base is present in RNA but absent in DNA?",
+      "options": [
+        "Uracil",
+        "Thymine",
+        "Guanine",
+        "Cytosine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Optically Inactive Amino Acid",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following naturally occurring α-amino acids is optically inactive due to the absence of a chiral carbon?",
+      "options": [
+        "Glycine",
+        "Alanine",
+        "Proline",
+        "Serine"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Denaturation of Proteins",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During denaturation of proteins caused by heat or chemical changes, which levels of protein structure remain intact?",
+      "options": [
+        "Primary structure only",
+        "Secondary and tertiary structures",
+        "Quaternary structure only",
+        "Secondary structure only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Nucleotides and Nucleosides",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A nucleotide differs from a nucleoside in that a nucleotide contains:",
+      "options": [
+        "A phosphoric acid ester group at C-5' of pentose sugar",
+        "A nitrogenous base attached to C-1' of pentose sugar",
+        "An extra hydroxyl group at C-2' of ribose",
+        "A glycosidic linkage instead of phosphodiester linkage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Mutarotation Mechanism",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The gradual change in specific rotation of a freshly prepared solution of α-D-glucose (+112°) or β-D-glucose (+19°) until an equilibrium value of +52.7° is reached is called:",
+      "options": [
+        "Mutarotation",
+        "Optical inversion",
+        "Racemization",
+        "Anomerization"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Glycosidic Linkage in Maltose",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Maltose is composed of two α-D-glucose units joined by which type of glycosidic linkage?",
+      "options": [
+        "α-1,4-glycosidic linkage",
+        "β-1,4-glycosidic linkage",
+        "α-1,6-glycosidic linkage",
+        "β-1,2-glycosidic linkage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Osazone Formation Mechanism",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "D-Glucose, D-Mannose, and D-Fructose yield the exact same osazone when treated with excess phenylhydrazine because they differ in stereochemistry only at:",
+      "options": [
+        "C-1 and C-2 carbons",
+        "C-3 carbon only",
+        "C-4 carbon only",
+        "C-5 carbon only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Biomolecules",
+    "chapter_number": 14,
+    "topic": "Phosphodiester Linkage in DNA/RNA Backbone",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a polynucleotide chain of DNA or RNA, successive nucleotides are joined together by phosphodiester linkages between:",
+      "options": [
+        "5' carbon of one pentose sugar and 3' carbon of the adjacent pentose sugar",
+        "1' carbon of sugar and nitrogenous base",
+        "2' carbon of one pentose sugar and 5' carbon of another",
+        "3' carbon of sugar and purine nitrogen"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

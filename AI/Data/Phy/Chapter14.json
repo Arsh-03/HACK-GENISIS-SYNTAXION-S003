@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lenz's law of electromagnetic induction is a consequence of the law of conservation of:",
+      "options": [
+        "Energy",
+        "Charge",
+        "Linear momentum",
+        "Mass"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A coil of resistance 10 Ω and 100 turns has a magnetic flux of 0.005 Wb passing through it. If the flux decreases to zero in 0.1 s, the average induced emf and current in the coil are respectively:",
+      "options": [
+        "5 V, 0.5 A",
+        "0.5 V, 0.05 A",
+        "50 V, 5 A",
+        "1 V, 0.1 A"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The self-inductance L of a solenoid of length l, cross-sectional area A, and total number of turns N is given by:",
+      "options": [
+        "μ₀ N² A / l",
+        "μ₀ N A / l",
+        "μ₀ N² A l",
+        "μ₀ N A l"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a series LCR circuit connected to an AC source of angular frequency ω, the circuit is in resonance when:",
+      "options": [
+        "ω = 1 / √(L C)",
+        "ω = √(L C)",
+        "ω = L / C",
+        "ω = C / L"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An AC voltage V = 220 √2 sin(100π t) is applied across a pure resistor of 110 Ω. The rms current in the circuit is:",
+      "options": [
+        "2 A",
+        "2√2 A",
+        "1.41 A",
+        "4 A"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A step-down transformer transforms 2200 V to 220 V. The primary coil has 5000 turns. If the transformer is 100% efficient, the number of turns in the secondary coil is:",
+      "options": [
+        "500",
+        "50",
+        "1000",
+        "250"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The power factor of a purely inductive or purely capacitive AC circuit is:",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "infinity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Eddy currents are produced when:",
+      "options": [
+        "A conductor is placed in a varying magnetic field",
+        "A conductor is placed in a steady electric field",
+        "A steady current is passed through a conductor",
+        "A conductor is kept at rest in a constant magnetic field"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A metal rod of length 1 m rotates with an angular speed of 100 rad/s about an axis passing through one end perpendicular to its length in a uniform magnetic field of 0.2 T. The induced emf across the ends of the rod is:",
+      "options": [
+        "10 V",
+        "20 V",
+        "5 V",
+        "2 V"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy stored in an inductor of self-inductance L carrying current I is given by:",
+      "options": [
+        "(1/2) L I²",
+        "L I²",
+        "(1/2) L² I",
+        "L / I²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a series LCR circuit, R = 10 Ω, X_L = 20 Ω, and X_C = 10 Ω. The phase angle φ between applied voltage and current is:",
+      "options": [
+        "45° (Voltage leads current)",
+        "45° (Current leads voltage)",
+        "30° (Voltage leads current)",
+        "60° (Current leads voltage)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two coils of self-inductances L₁ and L₂ are placed close to each other. The maximum possible value of mutual inductance M between them is:",
+      "options": [
+        "√(L₁ L₂)",
+        "L₁ L₂",
+        "(L₁ + L₂) / 2",
+        "√(L₁ / L₂)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Quality factor (Q-factor) of a series resonant LCR circuit is given by:",
+      "options": [
+        "(1 / R) √(L / C)",
+        "R √(L / C)",
+        "(1 / L) √(R / C)",
+        "C √(L / R)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The peak value of an AC current is I₀. Its root mean square (rms) value is:",
+      "options": [
+        "I₀ / √2",
+        "√2 I₀",
+        "2 I₀ / π",
+        "I₀ / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an AC circuit containing an ideal inductor of inductance L, the current lags behind the applied voltage by a phase angle of:",
+      "options": [
+        "π / 2 rad",
+        "π rad",
+        "0 rad",
+        "π / 4 rad"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A rectangular loop of area A and resistance R is pulled out of a uniform magnetic field B with a constant velocity v. The work done per second to pull the loop is:",
+      "options": [
+        "B² L² v² / R",
+        "B L v / R",
+        "B² L v / R²",
+        "B L² v² / R"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Average power dissipated in a pure capacitor connected across an AC supply is:",
+      "options": [
+        "Zero",
+        "(1/2) C V²",
+        "V_rms I_rms",
+        "(1/2) V_rms I_rms"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The frequency of AC supply in India is 50 Hz. The time interval in which the direction of current reverses is:",
+      "options": [
+        "1 / 100 s",
+        "1 / 50 s",
+        "1 / 200 s",
+        "1 / 25 s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a transformer, the core is laminated to minimize energy loss due to:",
+      "options": [
+        "Eddy currents",
+        "Hysteresis",
+        "Flux leakage",
+        "Copper resistance"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A wheel with 10 metallic spokes each 0.5 m long is rotated at 120 rev/min in a plane normal to the horizontal component of Earth's magnetic field B_H = 0.4 Gauss. The induced emf between axle and rim of wheel is (1 Gauss = 10⁻⁴ T):",
+      "options": [
+        "6.28 × 10⁻⁵ V",
+        "3.14 × 10⁻⁵ V",
+        "1.25 × 10⁻⁴ V",
+        "6.28 × 10⁻⁴ V"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An AC voltage source V = V₀ sin(ωt) is applied across an LCR series circuit. At resonance, the impedance of the circuit is:",
+      "options": [
+        "Equal to R",
+        "Equal to zero",
+        "Equal to X_L - X_C",
+        "Infinite"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The capacitive reactance X_C of a capacitor of capacitance C in an AC circuit of frequency f varies as:",
+      "options": [
+        "1 / (2π f C)",
+        "2π f C",
+        "2π f / C",
+        "2π C / f"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Unit of self-inductance and mutual inductance in SI system is Henry (H), which is equivalent to:",
+      "options": [
+        "Weber / Ampere",
+        "Volt · second",
+        "Joule / Ampere",
+        "Weber / Second"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an LC circuit containing L = 20 mH and C = 50 μF, the natural frequency of oscillation of the circuit is:",
+      "options": [
+        "159 Hz",
+        "100 Hz",
+        "318 Hz",
+        "50 Hz"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A choke coil is used in fluorescent tube lights to reduce current without significant power loss. A choke coil should have:",
+      "options": [
+        "High inductance and low resistance",
+        "Low inductance and high resistance",
+        "High inductance and high resistance",
+        "Low inductance and low resistance"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The magnetic flux φ through a closed circuit of resistance 2 Ω varies with time t as φ = 6t² - 5t + 1 Wb. The magnitude of induced current at t = 0.25 s is:",
+      "options": [
+        "1 A",
+        "2 A",
+        "0.5 A",
+        "4 A"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An AC generator consists of a coil of N turns, area A, rotating at angular speed ω in a uniform magnetic field B. The maximum emf induced in the coil is:",
+      "options": [
+        "N A B ω",
+        "N A B / ω",
+        "N A B ω²",
+        "A B ω / N"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Induction and Alternating Currents",
+    "chapter_number": 14,
+    "topic": "Electromagnetic Induction and Alternating Currents",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an AC circuit, the instantaneous voltage and current are given by V = 100 sin(100t) V and I = 100 sin(100t + π/3) mA. The average power dissipated in the circuit is:",
+      "options": [
+        "2.5 W",
+        "5 W",
+        "10 W",
+        "1.25 W"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

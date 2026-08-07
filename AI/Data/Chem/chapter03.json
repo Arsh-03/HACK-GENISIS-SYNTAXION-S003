@@ -1,0 +1,596 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Modern Periodic Law and Table",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Modern periodic law states that the physical and chemical properties of elements are a periodic function of their:",
+      "options": [
+        "Atomic mass",
+        "Atomic number",
+        "Mass number",
+        "Atomic volume"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "IUPAC Nomenclature of Elements",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the IUPAC official name for the element with atomic number 104?",
+      "options": [
+        "Rutherfordium",
+        "Dubnium",
+        "Seaborgium",
+        "Bohrium"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "s, p, d, f Blocks in Periodic Table",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which block of the periodic table contains metals, non-metals, and metalloids?",
+      "options": [
+        "s-block",
+        "p-block",
+        "d-block",
+        "f-block"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Periodic Trends in Physical Properties",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Moving from left to right across a period in the periodic table, the atomic radius generally:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "First increases then decreases"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Ionization Enthalpy",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which element in the modern periodic table has the highest first ionization enthalpy?",
+      "options": [
+        "Fluorine",
+        "Helium",
+        "Cesium",
+        "Hydrogen"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Electronegativity",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "On Pauling scale, which element is assigned the highest electronegativity value of 4.0?",
+      "options": [
+        "Oxygen",
+        "Chlorine",
+        "Fluorine",
+        "Nitrogen"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Periodic Trends in Chemical Reactivity",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oxides of elements formed on the extreme left of the periodic table are generally:",
+      "options": [
+        "Basic",
+        "Acidic",
+        "Amphoteric",
+        "Neutral"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Ionic Radii & Isoelectronic Species",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following represents the correct order of increasing ionic radii for the given isoelectronic species?",
+      "options": [
+        "Al³⁺ < Mg²⁺ < Na⁺ < F⁻",
+        "F⁻ < Na⁺ < Mg²⁺ < Al³⁺",
+        "Na⁺ < Mg²⁺ < Al³⁺ < F⁻",
+        "Al³⁺ < F⁻ < Na⁺ < Mg²⁺"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Ionization Enthalpy Anomalies",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The first ionization enthalpy of Nitrogen is higher than that of Oxygen primarily because:",
+      "options": [
+        "Nitrogen has a smaller atomic size than oxygen",
+        "Nitrogen has a stable, half-filled 2p subshell configuration",
+        "Nitrogen is more electronegative than oxygen",
+        "Oxygen experiences higher nuclear charge shielding"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Electron Gain Enthalpy",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which element has the most negative (highest magnitude) electron gain enthalpy among the halogens?",
+      "options": [
+        "Fluorine",
+        "Chlorine",
+        "Bromine",
+        "Iodine"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Ionization Enthalpy Anomalies",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Comparing Beryllium (Be) and Boron (B), Beryllium has a higher first ionization enthalpy because:",
+      "options": [
+        "Be has greater atomic mass than B",
+        "2s electron removed from Be experiences greater penetration than 2p electron of B",
+        "Boron has higher effective nuclear charge than beryllium",
+        "Beryllium has a completely vacant 2p subshell"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Electronic Configuration & Position",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An element with atomic number Z = 37 belongs to which period and group of the modern periodic table?",
+      "options": [
+        "Period 4, Group 1",
+        "Period 5, Group 1",
+        "Period 5, Group 2",
+        "Period 4, Group 17"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Nature of Oxides",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following oxides is amphoteric in nature?",
+      "options": [
+        "Na₂O",
+        "Cl₂O₇",
+        "Al₂O₃",
+        "CO"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Valency and Chemical Reactivity",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the oxidation state and valency of Aluminium in [Al(H₂O)₆]³⁺ respectively?",
+      "options": [
+        "+3 and 6",
+        "+3 and 3",
+        "+6 and 3",
+        "+3 and 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Diagonal Relationship",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Lithium shows a diagonal relationship in chemical behavior with which element of the third period?",
+      "options": [
+        "Sodium",
+        "Magnesium",
+        "Aluminium",
+        "Beryllium"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Screening Effect & Effective Nuclear Charge",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the correct order of screening effect (shielding power) of orbitals for electrons in the same principal shell?",
+      "options": [
+        "s > p > d > f",
+        "f > d > p > s",
+        "s > d > p > f",
+        "p > s > d > f"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Electron Gain Enthalpy Anomalies",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oxygen has a less negative electron gain enthalpy than Sulfur primarily because of:",
+      "options": [
+        "Higher electronegativity of oxygen",
+        "Strong inter-electronic repulsions in small 2p subshell of oxygen",
+        "Lower ionization energy of sulfur",
+        "Presence of vacant d-orbitals in oxygen"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "IUPAC Nomenclature of Elements",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to IUPAC systematic naming conventions, what is the temporary symbol for the element with atomic number 119?",
+      "options": [
+        "Uue",
+        "Uun",
+        "Uuo",
+        "Uub"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Metallic and Non-metallic Character",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following trends in metallic character is observed across a period from left to right?",
+      "options": [
+        "Increases continuously",
+        "Decreases continuously",
+        "First decreases then increases",
+        "Remains unchanged"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Periodic Trends in Chemical Properties",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following neutral oxides exhibits neutral character toward litmus paper?",
+      "options": [
+        "CO₂",
+        "NO",
+        "SO₂",
+        "N₂O₅"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Electronegativity Scales",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to the Mulliken scale, electronegativity of an element is defined as the average of its:",
+      "options": [
+        "Ionization enthalpy and Electron gain enthalpy",
+        "Atomic radius and Ionic radius",
+        "Valency and Effective nuclear charge",
+        "Electron affinity and Hydration enthalpy"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Successive Ionization Enthalpies",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The first four successive ionization enthalpies of an element X are 738, 1450, 7730, and 10540 kJ mol⁻¹ respectively. Element X most likely belongs to:",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 13",
+        "Group 14"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Electronegativity & Bond Polarity",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The electronegativities of elements X, Y, and Z are 1.2, 3.0, and 2.1 respectively. Which bond among the following will possess the highest percentage of ionic character?",
+      "options": [
+        "X-Y",
+        "Y-Z",
+        "X-Z",
+        "X-X"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Lanthanoid Contraction",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The atomic radii of Zirconium (Zr, 4d series) and Hafnium (Hf, 5d series) are almost identical (~160 pm) primarily due to:",
+      "options": [
+        "Diagonal relationship",
+        "Lanthanoid contraction",
+        "Actinoid contraction",
+        "Inert pair effect"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Slater's Rules & Effective Nuclear Charge",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Using Slater's rules, what is the effective nuclear charge (Z_eff) experienced by a 4s valence electron in a Potassium atom (Z = 19)?",
+      "options": [
+        "2.20",
+        "1.00",
+        "3.00",
+        "1.30"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Thermochemical Cycle & Electron Gain Enthalpy",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The first electron gain enthalpy of oxygen is -141 kJ mol⁻¹, whereas its second electron gain enthalpy is +780 kJ mol⁻¹. The formation of O²⁻(g) from O(g) is overall endothermic (+639 kJ mol⁻¹) mainly because:",
+      "options": [
+        "Oxygen has very low ionization energy",
+        "Electrostatic repulsion between the negatively charged O⁻ ion and incoming electron outweighs electron attraction",
+        "The size of O²⁻ is smaller than O⁻",
+        "O²⁻ achieves a noble gas electronic configuration"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Chemistry",
+    "chapter_name": "Classification of Elements and Periodicity in Properties",
+    "chapter_number": 3,
+    "topic": "Advanced Periodic Trends & Born-Haber Dynamics",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Given the ionization energy values: IE₁ (Na) = 496 kJ mol⁻¹ and IE₁ (Mg) = 738 kJ mol⁻¹; IE₂ (Na) = 4562 kJ mol⁻¹ and IE₂ (Mg) = 1450 kJ mol⁻¹. Which of the following statements correctly explains why Mg forms Mg²⁺ salts while Na forms Na⁺ salts?",
+      "options": [
+        "Lattice energy gained by forming Mg²⁺ salts compensates for its second ionization energy, whereas for Na²⁺ it cannot overcome IE₂",
+        "Mg²⁺ has a smaller ionic radius than Na⁺",
+        "Sodium has higher hydration enthalpy than Magnesium",
+        "IE₁ + IE₂ for Na is lower than IE₁ + IE₂ for Mg"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

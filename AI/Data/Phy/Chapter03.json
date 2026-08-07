@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A block of mass m is placed on a smooth inclined plane of inclination θ. The force exerted by the plane on the block is:",
+      "options": [
+        "mg cos θ",
+        "mg sin θ",
+        "mg",
+        "mg tan θ"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A rigid ball of mass m strikes a rigid wall at an angle of 60° with the normal and gets reflected without any loss of speed v. The magnitude of impulse imparted to the ball by the wall is:",
+      "options": [
+        "mv",
+        "2mv",
+        "mv / 2",
+        "mv √3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A mass of 1 kg is suspended by a thread. It is (i) lifted up with an acceleration 4.9 m/s², (ii) lowered with an acceleration 4.9 m/s². The ratio of tensions in the thread in the two cases is (take g = 9.8 m/s²):",
+      "options": [
+        "3 : 1",
+        "1 : 3",
+        "1 : 2",
+        "2 : 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two blocks of masses 2 kg and 1 kg are in contact on a frictionless table. A horizontal force of 3 N is applied to the 2 kg block. The force of contact between the two blocks is:",
+      "options": [
+        "1 N",
+        "2 N",
+        "3 N",
+        "0.5 N"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body of mass 600 g is acted upon by a force F = -k x (where k = 100 N/m). If the body is displaced by 10 cm from its equilibrium position and released, the maximum speed attained by the body is:",
+      "options": [
+        "1.29 m/s",
+        "2.58 m/s",
+        "0.65 m/s",
+        "4.00 m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A block of mass m is resting on a rough horizontal surface with coefficient of friction μ. The minimum horizontal force required to move the block is:",
+      "options": [
+        "μ mg",
+        "mg / μ",
+        "μ mg / √(1 + μ²)",
+        "μ mg √(1 + μ²)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A block A of mass m₁ rests on a horizontal table. A light string connected to it passes over a frictionless pulley at the edge of table and carries a body B of mass m₂. If coefficient of kinetic friction between block A and table is μk, the acceleration of the system when released is:",
+      "options": [
+        "(m₂ - μk m₁) g / (m₁ + m₂)",
+        "(m₂ + μk m₁) g / (m₁ + m₂)",
+        "(m₁ - μk m₂) g / (m₁ + m₂)",
+        "μk m₁ g / (m₁ + m₂)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A car of mass 1000 kg negotiates a banked curve of radius 20 m at a banking angle of 45°. If there is no friction between tyres and road, the optimum speed of the car is (g = 10 m/s²):",
+      "options": [
+        "14.14 m/s",
+        "10 m/s",
+        "20 m/s",
+        "7.07 m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A shell of mass 200 g is fired by a gun of mass 100 kg. If the muzzle speed of the shell is 80 m/s, the recoil speed of the gun is:",
+      "options": [
+        "0.16 m/s",
+        "1.6 m/s",
+        "0.016 m/s",
+        "16 m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An explosion breaks a rock into three pieces. Two pieces of masses 1 kg and 2 kg fly off at right angles to each other with velocities 12 m/s and 8 m/s respectively. If the third piece flies off with a speed of 20 m/s, its mass is:",
+      "options": [
+        "1 kg",
+        "2 kg",
+        "0.5 kg",
+        "1.5 kg"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A monkey of mass 20 kg is holding a vertical rope. The rope will not break when a mass of 25 kg is suspended from it but will break if the mass exceeds 25 kg. What is the maximum acceleration with which the monkey can climb up along the rope? (g = 10 m/s²)",
+      "options": [
+        "2.5 m/s²",
+        "5 m/s²",
+        "10 m/s²",
+        "1.25 m/s²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A block of mass m is held against a vertical rough wall by applying a horizontal force F. If coefficient of friction between block and wall is μ, the minimum force F needed to prevent the block from falling is:",
+      "options": [
+        "mg / μ",
+        "μ mg",
+        "mg",
+        "mg (1 + μ)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A string breaks if its tension exceeds 100 N. A stone of mass 0.5 kg tied to a string 0.5 m long is rotated in a horizontal circle. The maximum angular velocity with which the stone can be rotated is:",
+      "options": [
+        "20 rad/s",
+        "10 rad/s",
+        "40 rad/s",
+        "200 rad/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A block of mass 10 kg is placed on a rough horizontal surface having coefficient of friction μ = 0.5. A horizontal force of 40 N is applied on the block. The acceleration of the block is (g = 10 m/s²):",
+      "options": [
+        "0 m/s²",
+        "1 m/s²",
+        "2 m/s²",
+        "4 m/s²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Three blocks of masses m₁, m₂, and m₃ are connected by light strings passing over frictionless pulleys and resting on a smooth surface. A force F pulls m₃ horizontally. The ratio of tension T₁ (between m₁ and m₂) to T₂ (between m₂ and m₃) is:",
+      "options": [
+        "m₁ : (m₁ + m₂)",
+        "m₁ : m₂",
+        "(m₁ + m₂) : m₃",
+        "m₂ : (m₁ + m₃)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body of mass 5 kg is suspended by a spring balance inside a lift. If the lift falls freely under gravity, the reading shown by the spring balance is:",
+      "options": [
+        "0 N",
+        "49 N",
+        "98 N",
+        "24.5 N"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A force F = (6 î - 8 ĵ + 10 k̂) N produces an acceleration of 1 m/s² in a body. The mass of the body is:",
+      "options": [
+        "10√2 kg",
+        "10 kg",
+        "20 kg",
+        "8 kg"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The coefficient of static friction between block A of mass 2 kg and block B of mass 3 kg is 0.2. Block B rests on a smooth horizontal floor. The maximum horizontal force that can be applied to block B so that both blocks move together is (g = 10 m/s²):",
+      "options": [
+        "10 N",
+        "4 N",
+        "6 N",
+        "15 N"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A vehicle of mass m is moving on a rough horizontal road of friction coefficient μ along a circular path of radius r. The maximum safe speed of the vehicle without skidding is:",
+      "options": [
+        "√(μ g r)",
+        "μ g r",
+        "√(g r / μ)",
+        "√(μ g / r)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ball of mass 0.15 kg is dropped from a height 10 m, strikes the ground and rebounds to a height 2.5 m. If the time of contact between ball and ground is 0.01 s, the average force exerted on the ball by the ground is (g = 10 m/s²):",
+      "options": [
+        "315 N",
+        "105 N",
+        "210 N",
+        "420 N"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A lift of mass 1000 kg is moving upwards with an acceleration of 1 m/s². The tension in the supporting cable is (g = 9.8 m/s²):",
+      "options": [
+        "10800 N",
+        "9800 N",
+        "8800 N",
+        "11800 N"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An Atwood machine consists of two masses m₁ = 5 kg and m₂ = 3 kg attached to a string passing over a frictionless pulley. The acceleration of the center of mass of the system is:",
+      "options": [
+        "g / 16",
+        "g / 4",
+        "g / 8",
+        "g / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Action and reaction forces according to Newton's third law of motion:",
+      "options": [
+        "Act on two different bodies",
+        "Act on the same body",
+        "Are in the same direction",
+        "Cancel each other completely on a single object"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A block of mass m slides down an inclined plane of slope angle θ with constant velocity. The coefficient of kinetic friction between block and plane is:",
+      "options": [
+        "tan θ",
+        "sin θ",
+        "cos θ",
+        "cot θ"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle of mass m is moving in a horizontal circle of radius r under a centripetal force given by F = -k / r², where k is a constant. The total mechanical energy of the particle is:",
+      "options": [
+        "-k / (2r)",
+        "-k / r",
+        "k / (2r)",
+        "-2k / r"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A conveyor belt is moving at a constant speed of 2 m/s. Sand is dropped on it at the rate of 5 kg/s. The extra force required to keep the belt moving at the same speed is:",
+      "options": [
+        "10 N",
+        "5 N",
+        "20 N",
+        "2.5 N"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A bullet of mass 10 g moving horizontal with velocity 400 m/s strikes a wooden block of mass 2 kg suspended by a light thread. The bullet gets embedded in the block. The velocity acquired by the block-bullet system is:",
+      "options": [
+        "1.99 m/s",
+        "2.00 m/s",
+        "4.00 m/s",
+        "0.99 m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Laws of Motion",
+    "chapter_number": 3,
+    "topic": "Laws of Motion",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body of mass 2 kg initially at rest is acted upon by a time-varying force F = 6 t² N. The velocity of the body at t = 3 s is:",
+      "options": [
+        "27 m/s",
+        "18 m/s",
+        "54 m/s",
+        "36 m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  }
+]

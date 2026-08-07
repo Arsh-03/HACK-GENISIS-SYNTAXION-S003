@@ -1,0 +1,596 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Laws of Chemical Combination",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which law states that a chemical compound always contains exactly the same proportion of elements by mass?",
+      "options": [
+        "Law of Multiple Proportions",
+        "Law of Definite Proportions",
+        "Law of Conservation of Mass",
+        "Gay-Lussac's Law of Gaseous Volumes"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Matter and Units",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the SI base unit for measuring the amount of substance?",
+      "options": [
+        "Gram",
+        "Kilogram",
+        "Mole",
+        "Candela"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Mole Concept",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The total number of atoms present in 4.25 g of NH₃ is approximately equal to:",
+      "options": [
+        "1.5 × 10²³",
+        "3.0 × 10²³",
+        "6.022 × 10²³",
+        "1.2 × 10²⁴"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Mole Concept",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The mass of a single molecule of water (H₂O) in grams is approximately:",
+      "options": [
+        "18 g",
+        "2.99 × 10⁻²³ g",
+        "6.022 × 10⁻²³ g",
+        "1.66 × 10⁻²⁴ g"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Percentage Composition",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The mass percentage of carbon in methane (CH₄) is:",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "80%"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Stoichiometry",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the volume occupied by 4.4 g of CO₂ gas at STP?",
+      "options": [
+        "22.4 L",
+        "2.24 L",
+        "4.48 L",
+        "0.224 L"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Concentration Terms",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following concentration units is temperature-independent?",
+      "options": [
+        "Molarity",
+        "Normality",
+        "Molality",
+        "Mass by volume percentage"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Mole Concept",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The total number of oxygen atoms present in 0.2 mol of Na₂CO₃·10H₂O is:",
+      "options": [
+        "1.56 × 10²³",
+        "1.56 × 10²⁴",
+        "1.56 × 10²²",
+        "6.022 × 10²³"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Stoichiometry & Limiting Reagent",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How many moles of lead (II) chloride (PbCl₂) will be formed from a reaction between 6.5 g of PbO and 3.2 g of HCl?",
+      "options": [
+        "0.044 mol",
+        "0.029 mol",
+        "0.011 mol",
+        "0.058 mol"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Mole Concept",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following gaseous samples contains the maximum number of molecules?",
+      "options": [
+        "7 g N₂",
+        "2 g H₂",
+        "16 g NO₂",
+        "16 g O₂"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Empirical and Molecular Formula",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An organic compound contains 40.0% carbon, 6.67% hydrogen, and 53.33% oxygen by mass. Its empirical formula is:",
+      "options": [
+        "CH₂O",
+        "C₂H₄O",
+        "CHO₂",
+        "CH₄O"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Concentration Terms",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the molarity of a solution containing 5 g of NaOH dissolved in enough water to make 450 mL of solution?",
+      "options": [
+        "0.278 M",
+        "0.225 M",
+        "0.111 M",
+        "0.555 M"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Concentration Terms",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If 500 mL of a 5 M solution is diluted with water to a final volume of 1500 mL, what is the molarity of the resulting solution?",
+      "options": [
+        "1.5 M",
+        "1.67 M",
+        "2.5 M",
+        "0.60 M"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Concentration Terms",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The mole fraction of the solute in a 1.00 molal aqueous solution is:",
+      "options": [
+        "0.1770",
+        "0.0177",
+        "0.0344",
+        "0.0200"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Stoichiometry & Limiting Reagent",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When 22.4 L of H₂(g) is mixed with 11.2 L of Cl₂(g) at STP, the amount of HCl(g) formed is equal to:",
+      "options": [
+        "1.0 mol",
+        "2.0 mol",
+        "0.5 mol",
+        "1.5 mol"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Empirical and Molecular Formula",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A gaseous hydrocarbon contains 92.3% carbon and 7.7% hydrogen by mass. If its molecular mass is 78 g mol⁻¹, its molecular formula is:",
+      "options": [
+        "C₂H₂",
+        "C₆H₆",
+        "C₄H₄",
+        "C₃H₆"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Mole Concept",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The total number of d-electrons present in 0.1 mol of Fe²⁺ ions (Atomic number of Fe = 26) is:",
+      "options": [
+        "3.61 × 10²³",
+        "6.02 × 10²²",
+        "3.61 × 10²²",
+        "1.20 × 10²³"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Stoichiometry",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What mass of 95% pure CaCO₃ is required to neutralize 50 mL of 0.5 M HCl solution completely?",
+      "options": [
+        "1.25 g",
+        "1.32 g",
+        "2.50 g",
+        "0.66 g"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Laws of Chemical Combination",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Carbon and oxygen react to form CO and CO₂. The ratio of masses of oxygen combining with a fixed mass of carbon is 1:2. This observation illustrates the:",
+      "options": [
+        "Law of Definite Proportions",
+        "Law of Multiple Proportions",
+        "Law of Reciprocal Proportions",
+        "Law of Conservation of Mass"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Concentration Terms",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A solution is prepared by dissolving 2 g of a substance A in 18 g of water. The mass percentage of solute A in the solution is:",
+      "options": [
+        "10%",
+        "11.1%",
+        "20%",
+        "8%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Mole Concept",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following statements represents Avogadro's Law?",
+      "options": [
+        "At constant pressure, volume of gas is directly proportional to temperature",
+        "At constant volume, pressure is directly proportional to temperature",
+        "Equal volumes of all gases under same temperature and pressure contain equal number of molecules",
+        "Total pressure of a gas mixture is sum of partial pressures"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Stoichiometry & Residue Analysis",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "1.0 g of a mixture of CaCO₃ and MgCO₃ on complete thermal decomposition yields 0.5 g of oxide residue. What is the mass percentage of CaCO₃ in the mixture?",
+      "options": [
+        "28.4%",
+        "71.6%",
+        "50.0%",
+        "40.0%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Concentration Terms & Density",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The density of a 3.0 M solution of NaCl is 1.25 g mL⁻¹. The molality of this solution is: (Molar mass of NaCl = 58.5 g mol⁻¹)",
+      "options": [
+        "2.79 m",
+        "3.00 m",
+        "2.14 m",
+        "1.79 m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Stoichiometry & Eudiometry",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "10 mL of a gaseous hydrocarbon requires 45 mL of oxygen gas for complete combustion and produces 30 mL of carbon dioxide gas. The molecular formula of the hydrocarbon is:",
+      "options": [
+        "C₃H₆",
+        "C₃H₈",
+        "C₄H₁₀",
+        "C₃H₄"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Atomic Mass & Isotopic Abundance",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Boron exists as two natural isotopes, ¹⁰B (mass = 10.01 amu) and ¹¹B (mass = 11.01 amu). If the average atomic mass of boron is 10.81 amu, what is the relative abundance of ¹⁰B?",
+      "options": [
+        "20%",
+        "80%",
+        "25%",
+        "75%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Stoichiometry & Gas Laws",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The density of a gaseous oxide at 0 °C and 1 atm pressure is 1.56 g L⁻¹. The molar mass of the gas is approximately:",
+      "options": [
+        "34.9 g mol⁻¹",
+        "44.0 g mol⁻¹",
+        "28.0 g mol⁻¹",
+        "16.0 g mol⁻¹"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Chemistry",
+    "chapter_name": "Some Basic Concepts of Chemistry",
+    "chapter_number": 1,
+    "topic": "Concentration Terms",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How many grams of concentrated nitric acid solution (containing 63% HNO₃ by mass) are required to prepare 250 mL of a 2.0 M HNO₃ solution?",
+      "options": [
+        "50.0 g",
+        "31.5 g",
+        "63.0 g",
+        "78.0 g"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A car covers the first half of the distance between two places at a speed of 40 km/h and the second half at 60 km/h. The average speed of the car is:",
+      "options": [
+        "48 km/h",
+        "50 km/h",
+        "45 km/h",
+        "52 km/h"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The displacement x of a particle varies with time t as x = a t² - b t³. The acceleration of the particle will be zero at time t equal to:",
+      "options": [
+        "a / (3b)",
+        "a / (2b)",
+        "a / b",
+        "2a / (3b)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ball is thrown vertically upwards with a velocity of 20 m/s from the top of a tower. It hits the ground after 5 s. Taking g = 10 m/s², the height of the tower is:",
+      "options": [
+        "25 m",
+        "50 m",
+        "75 m",
+        "100 m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle starts moving from rest with constant acceleration. The ratio of displacements covered by it in the 1st, 2nd, and 3rd seconds of its motion is:",
+      "options": [
+        "1 : 3 : 5",
+        "1 : 2 : 3",
+        "1 : 4 : 9",
+        "1 : 1 : 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The position x of a particle with respect to time t along x-axis is given by x = 9 t² - t³, where x is in meters and t in seconds. What will be the position of this particle when it achieves maximum speed along the +x direction?",
+      "options": [
+        "54 m",
+        "81 m",
+        "24 m",
+        "32 m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If vectors A = cos(ωt) î + sin(ωt) ĵ and B = cos(ωt/2) î + sin(ωt/2) ĵ are functions of time, then the value of t at which they are orthogonal to each other is:",
+      "options": [
+        "t = π / ω",
+        "t = 0",
+        "t = π / (2ω)",
+        "t = 2π / ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The angle between two vectors A = 3 î + 4 ĵ + 5 k̂ and B = 3 î + 4 ĵ - 5 k̂ is:",
+      "options": [
+        "90°",
+        "0°",
+        "60°",
+        "45°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If |A + B| = |A - B|, then the angle between vectors A and B is:",
+      "options": [
+        "90°",
+        "45°",
+        "60°",
+        "180°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The horizontal range of a projectile is 4√3 times its maximum height. The angle of projection with the horizontal is:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A projectile is thrown with an initial velocity v = u î + v₀ ĵ. If the range of the projectile is double the maximum height attained, then:",
+      "options": [
+        "v₀ = 2u",
+        "v₀ = u",
+        "u = 2v₀",
+        "v₀ = 4u"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A missile is fired for maximum range with an initial velocity of 20 m/s. Taking g = 10 m/s², the maximum range of the missile is:",
+      "options": [
+        "40 m",
+        "20 m",
+        "10 m",
+        "80 m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two projectiles of same mass and with same velocity are projected at angles 60° and 30° with the horizontal respectively. The ratio of their horizontal ranges is:",
+      "options": [
+        "1 : 1",
+        "1 : 3",
+        "3 : 1",
+        "1 : √3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle moves in a circle of radius 5 cm with constant speed and time period 0.2π s. The acceleration of the particle is:",
+      "options": [
+        "5 m/s²",
+        "25 m/s²",
+        "15 m/s²",
+        "0.5 m/s²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The x and y coordinates of the particle at any time are x = 5t - 2t² and y = 10t respectively, where x and y are in meters and t in seconds. The acceleration of the particle at t = 2 s is:",
+      "options": [
+        "-4 m/s²",
+        "5 m/s²",
+        "-8 m/s²",
+        "0"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ship A is moving Westwards with a speed of 10 km/h and a ship B 100 km South of A, is moving Northwards with a speed of 10 km/h. The time after which the distance between them becomes shortest is:",
+      "options": [
+        "5 h",
+        "10 h",
+        "5√2 h",
+        "0 h"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A person sitting in the ground floor of a building notices through the window, of height 1.5 m, a ball dropped from the roof of the building crosses the window in 0.1 s. What is the velocity of the ball when it is at the top edge of the window? (g = 10 m/s²)",
+      "options": [
+        "14.5 m/s",
+        "15.5 m/s",
+        "20 m/s",
+        "10 m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If a unit vector is represented by 0.5 î + 0.8 ĵ + c k̂, then the value of c is:",
+      "options": [
+        "√0.11",
+        "√0.01",
+        "√0.39",
+        "1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle moves along a parabolic path y = 9x² in such a way that the x-component of velocity remains constant and has a value 1/3 m/s. The acceleration of the particle is:",
+      "options": [
+        "2 ĵ m/s²",
+        "3 ĵ m/s²",
+        "18 ĵ m/s²",
+        "2/3 ĵ m/s²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The speed of a swimmer in still water is 20 m/s. The speed of river water is 10 m/s and is flowing due east. If he is standing on the south bank and wishes to cross the river along the shortest path, the angle at which he should make his strokes w.r.t. north is:",
+      "options": [
+        "30° west",
+        "45° west",
+        "60° west",
+        "30° east"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two bodies are thrown with the same initial velocity at angles α and (90° - α) with the horizontal. The ratio of the maximum heights attained by them is:",
+      "options": [
+        "tan²α : 1",
+        "1 : tan²α",
+        "sin α : cos α",
+        "1 : 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle starting from rest moves in a straight line with acceleration a = (2t - 2) m/s², where t is in seconds. The velocity of the particle when its acceleration becomes zero is:",
+      "options": [
+        "-1 m/s",
+        "0 m/s",
+        "2 m/s",
+        "-2 m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A stone is dropped from a height 20 m above the ground. The speed with which it hits the ground is (g = 10 m/s²):",
+      "options": [
+        "20 m/s",
+        "10 m/s",
+        "40 m/s",
+        "20√2 m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If a particle moves in a circle of radius r with constant angular velocity ω, the linear velocity is v. The centripetal acceleration is:",
+      "options": [
+        "v² / r",
+        "v r",
+        "v² r",
+        "v / r²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The angular displacement turned by a body in circular motion in time t is θ = 2t + 3t². The angular acceleration at t = 2 s is:",
+      "options": [
+        "6 rad/s²",
+        "12 rad/s²",
+        "14 rad/s²",
+        "2 rad/s²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A vector A points vertically upwards and B points towards North. The direction of vector product A × B is towards:",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "Vertically Downwards"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle has an initial velocity of 3 î + 4 ĵ and an acceleration of 0.4 î + 0.3 ĵ. Its speed after 10 s is:",
+      "options": [
+        "7√2 units",
+        "7 units",
+        "8.5 units",
+        "10 units"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The velocity-time graph of an object moving along a straight line is a straight line passing through the origin making an angle of 45° with the time axis. The acceleration of the object is:",
+      "options": [
+        "1 m/s²",
+        "0.5 m/s²",
+        "√3 m/s²",
+        "0 m/s²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Kinematics",
+    "chapter_number": 2,
+    "topic": "Kinematics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body is projected with speed u at an angle θ with the horizontal. The radius of curvature of its trajectory at the highest point is:",
+      "options": [
+        "u² cos²θ / g",
+        "u² sin²θ / g",
+        "u² / g",
+        "u² / (g cos θ)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-07-28T00:00:00.000Z"
+  }
+]

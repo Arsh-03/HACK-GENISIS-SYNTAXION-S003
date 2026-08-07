@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The displacement current I_d between the plates of a parallel plate capacitor during charging is given by:",
+      "options": [
+        "ε₀ (dΦ_E / dt)",
+        "μ₀ (dΦ_E / dt)",
+        "ε₀ (dΦ_B / dt)",
+        "(1 / ε₀) (dΦ_E / dt)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "options": [
+        "Gamma rays",
+        "X-rays",
+        "Ultraviolet rays",
+        "Microwaves"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The speed c of electromagnetic waves in vacuum is related to electric permittivity ε₀ and magnetic permeability μ₀ as:",
+      "options": [
+        "c = 1 / √(μ₀ ε₀)",
+        "c = √(μ₀ ε₀)",
+        "c = μ₀ ε₀",
+        "c = 1 / (μ₀ ε₀)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a plane electromagnetic wave, the electric field oscillates sinusoidally with an amplitude of 48 V/m. The amplitude of the oscillating magnetic field is (c = 3 × 10⁸ m/s):",
+      "options": [
+        "1.6 × 10⁻⁷ T",
+        "1.6 × 10⁻⁸ T",
+        "1.6 × 10⁻⁹ T",
+        "4.8 × 10⁻⁷ T"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electromagnetic wave propagating along the +z axis has an electric field E = E₀ sin(kz - ωt) î. The magnetic field vector B is given by:",
+      "options": [
+        "B = (E₀ / c) sin(kz - ωt) ĵ",
+        "B = (E₀ / c) sin(kz - ωt) (-ĵ)",
+        "B = E₀ c sin(kz - ωt) ĵ",
+        "B = (E₀ / c) cos(kz - ωt) k̂"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of energy density carried by the electric field (u_E) to that carried by the magnetic field (u_B) in a plane electromagnetic wave in vacuum is:",
+      "options": [
+        "1 : 1",
+        "1 : 2",
+        "2 : 1",
+        "1 : c"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Electromagnetic waves are transverse in nature. This is experimentally verified by the phenomenon of:",
+      "options": [
+        "Polarization",
+        "Interference",
+        "Diffraction",
+        "Refraction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following electromagnetic radiations is used for water purification and killing germs?",
+      "options": [
+        "Ultraviolet rays",
+        "Infrared rays",
+        "Microwaves",
+        "Radio waves"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Poynting vector S, which represents the rate of flow of energy per unit area in an electromagnetic wave, is given by:",
+      "options": [
+        "S = (1 / μ₀) (E × B)",
+        "S = μ₀ (E × B)",
+        "S = (1 / ε₀) (E × B)",
+        "S = ε₀ (E · B)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A parallel plate capacitor of capacitance C is being charged by a constant current I. The displacement current between the plates is equal to:",
+      "options": [
+        "I",
+        "I / 2",
+        "zero",
+        "2 I"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The radiation pressure exerted by an electromagnetic wave of intensity I incident normally on a perfectly reflecting surface is (c = speed of light):",
+      "options": [
+        "2 I / c",
+        "I / c",
+        "I / (2c)",
+        "4 I / c"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Greenhouse effect is primarily caused by which component of the electromagnetic spectrum?",
+      "options": [
+        "Infrared rays",
+        "Ultraviolet rays",
+        "Visible light",
+        "X-rays"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If the electric field amplitude of an EM wave is E₀, the total average energy density u of the wave in vacuum is:",
+      "options": [
+        "(1 / 2) ε₀ E₀²",
+        "ε₀ E₀²",
+        "(1 / 4) ε₀ E₀²",
+        "2 ε₀ E₀²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following electromagnetic waves is produced by nuclear reactions and radioactive decay?",
+      "options": [
+        "Gamma rays",
+        "X-rays",
+        "Ultraviolet rays",
+        "Infrared rays"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The source of electromagnetic waves is:",
+      "options": [
+        "An accelerated charge",
+        "A charge moving with constant velocity",
+        "A stationary charge",
+        "A magnetic dipole at rest"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A laser beam of power 12 mW and cross-sectional area 2 mm² propagates in vacuum. The peak electric field amplitude E₀ of the beam is (c = 3 × 10⁸ m/s, ε₀ = 8.85 × 10⁻¹² C²/N·m²):",
+      "options": [
+        "2128 V/m",
+        "1500 V/m",
+        "3000 V/m",
+        "1064 V/m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Electromagnetic waves of frequency 30 MHz to 300 MHz belong to which region of the electromagnetic spectrum?",
+      "options": [
+        "VHF Radio waves",
+        "Microwaves",
+        "Infrared rays",
+        "Ultraviolet rays"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an electromagnetic wave, the phase difference between the oscillating electric field vector E and magnetic field vector B is:",
+      "options": [
+        "0 rad",
+        "π / 2 rad",
+        "π rad",
+        "π / 4 rad"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following Maxwell's equations expresses the absence of magnetic monopoles in nature?",
+      "options": [
+        "∮ B · dA = 0",
+        "∮ E · dA = Q / ε₀",
+        "∮ E · dl = -dΦ_B / dt",
+        "∮ B · dl = μ₀ I_c + μ₀ ε₀ dΦ_E / dt"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An EM wave travels in a medium of dielectric constant K = 4 and relative permeability μ_r = 1. The speed of light in this medium is:",
+      "options": [
+        "1.5 × 10⁸ m/s",
+        "3.0 × 10⁸ m/s",
+        "0.75 × 10⁸ m/s",
+        "2.25 × 10⁸ m/s"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An EM wave carries total energy U to a completely absorbing surface during time t. The linear momentum p delivered to the surface is (c = speed of light):",
+      "options": [
+        "U / c",
+        "2 U / c",
+        "U c",
+        "U / c²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Microwaves are produced by special vacuum tubes called:",
+      "options": [
+        "Klystrons or Magnetrons",
+        "Cathode ray tubes",
+        "X-ray tubes",
+        "Photodiodes"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Wavelength range of visible light is approximately:",
+      "options": [
+        "400 nm to 700 nm",
+        "1 nm to 100 nm",
+        "700 nm to 1 mm",
+        "0.1 nm to 1 nm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A plane EM wave of frequency 25 MHz travels in free space along x-direction. At a particular point in space and time, E = 6.3 ĵ V/m. What is B at this point?",
+      "options": [
+        "2.1 × 10⁻⁸ k̂ T",
+        "2.1 × 10⁻⁸ (-k̂) T",
+        "1.89 × 10⁹ k̂ T",
+        "6.3 × 10⁻⁸ k̂ T"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dimensions of 1 / (μ₀ ε₀) are identical to the dimensions of:",
+      "options": [
+        "[L² T⁻²] (Square of speed)",
+        "[L T⁻¹] (Speed)",
+        "[M L T⁻²] (Force)",
+        "[T⁻¹] (Frequency)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following electromagnetic waves is used in RADAR systems for aircraft navigation?",
+      "options": [
+        "Microwaves",
+        "X-rays",
+        "Infrared rays",
+        "Gamma rays"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The intensity I of a plane EM wave is defined as energy crossing per unit area per unit time. It is related to electric field amplitude E₀ as:",
+      "options": [
+        "I = (1 / 2) c ε₀ E₀²",
+        "I = c ε₀ E₀²",
+        "I = (1 / 2) ε₀ E₀²",
+        "I = (1 / 2) c μ₀ E₀²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Electromagnetic Waves",
+    "chapter_number": 15,
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Ozone layer in the Earth's upper atmosphere absorbs which harmful radiation coming from the Sun?",
+      "options": [
+        "Ultraviolet rays",
+        "Infrared rays",
+        "X-rays",
+        "Microwaves"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

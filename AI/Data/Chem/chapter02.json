@@ -1,0 +1,596 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Subatomic Particles",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which subatomic particle was discovered using cathode ray tube experiments?",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron",
+        "Positron"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Atomic Number and Mass Number",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Species having the same mass number but different atomic numbers are known as:",
+      "options": [
+        "Isotopes",
+        "Isobars",
+        "Isotones",
+        "Isoelectronic species"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Atomic Models",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Rutherford's alpha-particle scattering experiment led directly to the discovery of the:",
+      "options": [
+        "Electron",
+        "Proton",
+        "Atomic nucleus",
+        "Neutron"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Electromagnetic Radiation",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Planck's quantum theory, the energy of a photon is directly proportional to its:",
+      "options": [
+        "Wavelength",
+        "Frequency",
+        "Velocity",
+        "Amplitude"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Bohr's Model of Hydrogen Atom",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Bohr's postulate, the angular momentum of an electron moving in a stable orbit is an integral multiple of:",
+      "options": [
+        "h / π",
+        "h / (2π)",
+        "2π / h",
+        "h² / (2π)"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Quantum Numbers",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The maximum number of electrons that can be accommodated in a subshell with azimuthal quantum number l = 2 is:",
+      "options": [
+        "2",
+        "6",
+        "10",
+        "14"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Electronic Configuration Rules",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which rule states that no two electrons in an atom can have the same set of four quantum numbers?",
+      "options": [
+        "Aufbau Principle",
+        "Hund's Rule of Maximum Multiplicity",
+        "Pauli Exclusion Principle",
+        "Heisenberg Uncertainty Principle"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Atomic Number and Mass Number",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An ion with mass number 56 contains 3 units of positive charge and 30.4% more neutrons than electrons. The atomic symbol of the ion is:",
+      "options": [
+        "⁵⁶Fe³⁺",
+        "⁵⁶Mn³⁺",
+        "⁵⁶Co³⁺",
+        "⁵⁶Cr³⁺"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Photoelectric Effect",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When electromagnetic radiation of wavelength 300 nm falls on the surface of sodium, electrons are emitted. If the threshold frequency for sodium is 5.2 × 10¹⁴ s⁻¹, the kinetic energy of the emitted photoelectrons is approximately:",
+      "options": [
+        "3.18 × 10⁻¹⁹ J",
+        "6.63 × 10⁻¹⁹ J",
+        "1.50 × 10⁻¹⁹ J",
+        "4.82 × 10⁻¹⁹ J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Hydrogen Spectrum",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which spectral series of the hydrogen atomic spectrum lies in the visible region of electromagnetic radiation?",
+      "options": [
+        "Lyman series",
+        "Balmer series",
+        "Paschen series",
+        "Brackett series"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Bohr's Model of Hydrogen Atom",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The radius of the first orbit of H-atom is 0.529 Å. What is the radius of the third orbit of the Li²⁺ ion?",
+      "options": [
+        "1.587 Å",
+        "0.529 Å",
+        "4.761 Å",
+        "0.176 Å"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Dual Behavior of Matter",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the de Broglie wavelength associated with an electron traveling at a velocity of 2.05 × 10⁶ m s⁻¹? (Mass of electron = 9.1 × 10⁻³¹ kg)",
+      "options": [
+        "3.55 × 10⁻¹⁰ m",
+        "3.55 × 10⁻⁹ m",
+        "1.25 × 10⁻¹⁰ m",
+        "5.40 × 10⁻¹⁰ m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Heisenberg Uncertainty Principle",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If the uncertainty in the position of a moving electron is zero, the uncertainty in its momentum will be:",
+      "options": [
+        "Zero",
+        "Equal to h / (4π)",
+        "Infinite",
+        "Equal to h / (2π)"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Quantum Numbers",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following sets of quantum numbers (n, l, m_l, m_s) is NOT permissible?",
+      "options": [
+        "3, 2, -2, +1/2",
+        "4, 0, 0, -1/2",
+        "3, 3, 1, +1/2",
+        "2, 1, -1, +1/2"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Electronic Configuration Rules",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ground state electronic configuration of Chromium (Z = 24) is [Ar] 3d⁵ 4s¹ instead of [Ar] 3d⁴ 4s² primarily because:",
+      "options": [
+        "Half-filled subshells provide extra stability due to symmetry and exchange energy",
+        "The 4s orbital has higher energy than the 3d orbital",
+        "Cr is a noble gas element",
+        "Pauli exclusion principle forbids 4s² configuration"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Nodes and Orbital Shapes",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The total number of nodes (radial + angular) present in a 4d orbital is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Hydrogen Spectrum",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the maximum number of emission lines obtained when the excited electron of a H-atom in n = 5 drops to the ground state?",
+      "options": [
+        "10",
+        "15",
+        "6",
+        "8"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Bohr's Model of Hydrogen Atom",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy of an electron in the ground state of H-atom is -13.6 eV. What is the energy of the electron in the second excited state of He⁺ ion?",
+      "options": [
+        "-13.6 eV",
+        "-27.2 eV",
+        "-24.18 eV",
+        "-6.04 eV"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Subatomic Particles & Isoelectronic Species",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following pairs represents isoelectronic species?",
+      "options": [
+        "Na⁺ and Mg²⁺",
+        "Al³⁺ and O⁻",
+        "Ca²⁺ and Ar⁺",
+        "K⁺ and Cl"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Quantum Numbers",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How many electrons in an atom can have the quantum numbers n = 4 and m_s = -1/2?",
+      "options": [
+        "32",
+        "16",
+        "8",
+        "4"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Nodes and Orbital Shapes",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The number of radial nodes for a 3p orbital is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Hydrogen Spectrum & Rydberg Equation",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The shortest wavelength transition in the Lyman series of atomic hydrogen is λ. What is the longest wavelength transition in the Paschen series of the He⁺ ion?",
+      "options": [
+        "144 / (7 λ)",
+        "7 λ / 144",
+        "144 λ / 7",
+        "36 λ / 5"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Dual Behavior & Bohr Orbit",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The de Broglie wavelength of an electron revolving in the nth Bohr orbit of a hydrogen atom is equal to 1.5 times the circumference of the 2nd Bohr orbit. The value of n is:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Heisenberg Uncertainty Principle",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A golf ball has a mass of 40 g and a speed of 45 m s⁻¹. If the speed is measured within an accuracy of 2%, what is the minimum uncertainty in its position?",
+      "options": [
+        "1.46 × 10⁻³³ m",
+        "2.92 × 10⁻³³ m",
+        "1.46 × 10⁻³¹ m",
+        "5.84 × 10⁻³4 m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Quantum Numbers & Magnetic Moment",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The spin-only magnetic moment of a divalent transition metal ion M²⁺ in aqueous solution is found to be 3.87 BM. The atomic number of the element M is:",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "27"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Photoelectric Effect & Quantum Yield",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Light of wavelength 2000 Å falls on a aluminum surface with a work function of 4.2 eV. If 1 in every 10⁴ incident photons produces a photoelectron, what is the photocurrent produced per cm² area when the light intensity is 6.4 mW cm⁻²?",
+      "options": [
+        "0.103 µA",
+        "1.03 µA",
+        "0.010 µA",
+        "10.3 µA"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Chemistry",
+    "chapter_name": "Structure of Atom",
+    "chapter_number": 2,
+    "topic": "Quantum Mechanical Model & Wavefunction",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a hydrogen-like atom, the radial wavefunction Ψ(r) has a node at r = 2a₀/Z and approaches zero as r → ∞. Which orbital does this wavefunction correspond to?",
+      "options": [
+        "1s",
+        "2s",
+        "2p",
+        "3s"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

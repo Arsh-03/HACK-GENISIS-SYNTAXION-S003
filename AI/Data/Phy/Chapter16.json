@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A convex lens of focal length 20 cm is placed in contact with a concave lens of focal length 40 cm. The power of the combination is:",
+      "options": [
+        "+2.5 D",
+        "+5.0 D",
+        "-2.5 D",
+        "+7.5 D"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Young's double slit experiment, if the distance between the slits is halved and the distance between the slits and the screen is doubled, the fringe width becomes:",
+      "options": [
+        "4 times",
+        "2 times",
+        "Halved",
+        "Unchanged"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An astronomical telescope has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. The magnifying power of the telescope for relaxed eye adjustment is:",
+      "options": [
+        "20",
+        "500",
+        "105",
+        "95"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ray of light is incident at an angle i on a glass prism of refracting angle A = 60°. If the ray undergoes minimum deviation of 30°, the refractive index of the material of the prism is:",
+      "options": [
+        "√2",
+        "1.5",
+        "√3",
+        "1.33"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Critical angle for light going from a medium A to medium B is θ. The speed of light in medium A is v. The speed of light in medium B is:",
+      "options": [
+        "v / sin θ",
+        "v sin θ",
+        "v / cos θ",
+        "v cos θ"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a single slit diffraction experiment, the width of the slit is doubled. The width of the central diffraction maximum will:",
+      "options": [
+        "Become half",
+        "Become double",
+        "Become four times",
+        "Remain unchanged"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ray of light strikes a transparent glass plate at polarizing angle i_p. The angle between the reflected ray and the refracted ray is:",
+      "options": [
+        "90°",
+        "45°",
+        "180°",
+        "0°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Huygens' principle, each point on a wavefront acts as a fresh source of secondary disturbance called:",
+      "options": [
+        "Secondary wavelets",
+        "Primary waves",
+        "Coherent waves",
+        "Diffracted rays"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An equiconvex lens of focal length f and refractive index 1.5 is cut into two identical plano-convex lenses along a plane perpendicular to its principal axis. The focal length of each half is:",
+      "options": [
+        "2 f",
+        "f",
+        "f / 2",
+        "4 f"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two polaroids P₁ and P₂ are placed with their pass axes perpendicular to each other. An unpolarized light of intensity I₀ is incident on P₁. A third polaroid P₃ is placed between P₁ and P₂ at an angle of 45° to P₁. The intensity of light transmitted through P₂ is:",
+      "options": [
+        "I₀ / 8",
+        "I₀ / 4",
+        "I₀ / 2",
+        "Zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A concave mirror of focal length 15 cm forms an image 2 times the size of the object. For a real image, the distance of the object from the mirror is:",
+      "options": [
+        "22.5 cm",
+        "10 cm",
+        "30 cm",
+        "7.5 cm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Young's double slit experiment, two slits are illuminated by light of wavelength 600 nm. The 5th bright fringe is formed at a distance y from central maximum. If wavelength of light is changed to 400 nm, the bright fringe formed at the same distance y is the:",
+      "options": [
+        "7.5th (i.e. 8th dark fringe)",
+        "8th bright fringe",
+        "6th bright fringe",
+        "10th bright fringe"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A biconvex lens has radii of curvature 20 cm and 30 cm. If the focal length of the lens is 20 cm, the refractive index of the lens material is:",
+      "options": [
+        "1.6",
+        "1.5",
+        "1.4",
+        "1.75"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Limit of resolution of a telescope depends upon:",
+      "options": [
+        "Diameter of the objective lens",
+        "Focal length of objective",
+        "Focal length of eyepiece",
+        "Length of the telescope tube"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Total internal reflection takes place when light travels from:",
+      "options": [
+        "Denser medium to rarer medium with angle of incidence > critical angle",
+        "Rarer medium to denser medium with angle of incidence > critical angle",
+        "Denser medium to rarer medium with angle of incidence < critical angle",
+        "Any medium to vacuum at an angle of 45°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A compound microscope consists of an objective of focal length 1 cm and an eyepiece of focal length 5 cm. An object is placed 1.1 cm from the objective. If the final image is formed at infinity, the magnifying power of the microscope is:",
+      "options": [
+        "50",
+        "100",
+        "25",
+        "10"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of maximum to minimum intensity in an interference pattern formed by two coherent sources of intensity ratio 9 : 1 is:",
+      "options": [
+        "4 : 1",
+        "9 : 1",
+        "16 : 1",
+        "2 : 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a person with myopia (nearsightedness), the defect is corrected using a:",
+      "options": [
+        "Concave lens",
+        "Convex lens",
+        "Cylindrical lens",
+        "Bifocal lens"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Rayleigh's criterion for resolution states that two point sources are just resolved when the principal central maximum of diffraction pattern of one falls on the:",
+      "options": [
+        "First minimum of diffraction pattern of the other",
+        "First secondary maximum of the other",
+        "Central maximum of the other",
+        "Second minimum of the other"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A air bubble inside a glass slab (μ = 1.5) appears to be at a depth of 6 cm when viewed from one side and at 4 cm when viewed from the opposite side. The actual thickness of the glass slab is:",
+      "options": [
+        "15 cm",
+        "10 cm",
+        "12 cm",
+        "20 cm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A convex lens of glass (μ = 1.5) has focal length f in air. When immersed in water (μ = 4/3), its focal length becomes:",
+      "options": [
+        "4 f",
+        "2 f",
+        "f / 2",
+        "3 f"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The resolving power of a microscope increases when:",
+      "options": [
+        "Wavelength of illuminating light decreases and numerical aperture increases",
+        "Wavelength of illuminating light increases and numerical aperture increases",
+        "Wavelength decreases and numerical aperture decreases",
+        "Wavelength increases and numerical aperture decreases"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Law of Malus states that when completely plane polarized light of intensity I₀ falls on an analyzer, the intensity I of transmitted light varies with angle θ between pass axes as:",
+      "options": [
+        "I = I₀ cos²θ",
+        "I = I₀ cos θ",
+        "I = I₀ sin²θ",
+        "I = I₀ / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ray of light is incident at 60° on one face of a glass prism of angle 30°. The ray emerging from the second face makes an angle of 30° with the incident ray. The angle of emergence is:",
+      "options": [
+        "0°",
+        "30°",
+        "45°",
+        "60°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The optical path length corresponding to a path length d in a medium of refractive index μ is:",
+      "options": [
+        "μ d",
+        "d / μ",
+        "μ² d",
+        "d / μ²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sky appears blue due to Rayleigh scattering. Rayleigh scattering intensity I is proportional to wavelength λ as:",
+      "options": [
+        "1 / λ⁴",
+        "1 / λ²",
+        "1 / λ",
+        "λ⁴"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a Young's double slit experiment using monochromatic light, the path difference at a point on the screen where intensity is 50% of maximum intensity is:",
+      "options": [
+        "λ / 4",
+        "λ / 2",
+        "λ / 8",
+        "λ / 3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Optics",
+    "chapter_number": 16,
+    "topic": "Optics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A concave mirror is silvered on its front surface and placed at the bottom of a beaker filled with water up to height 20 cm. An object is placed at a height of 15 cm above the water surface. The distance of the final image from the mirror is (μ_water = 4/3, R_mirror = 40 cm):",
+      "options": [
+        "60 cm",
+        "40 cm",
+        "30 cm",
+        "20 cm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

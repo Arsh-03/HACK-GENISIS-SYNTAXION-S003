@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body of mass 3 kg is under a constant force which causes a displacement s in meters given by the relation s = (1/3)t², where t is in seconds. Work done by the force in 2 seconds is:",
+      "options": [
+        "8/3 J",
+        "19/5 J",
+        "3/8 J",
+        "5/19 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A force F = (5 î + 3 ĵ + 2 k̂) N is applied over a particle which displaces it from its origin to the point r = (2 î - 1 ĵ) m. The work done on the particle is:",
+      "options": [
+        "7 J",
+        "13 J",
+        "10 J",
+        "11 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If kinetic energy of a body is increased by 300%, then its momentum will increase by:",
+      "options": [
+        "100%",
+        "200%",
+        "300%",
+        "50%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A block of mass 10 kg, moving in x-direction with a constant speed of 10 m/s, is subjected to a retarding force F = 0.1x J/m during its travel from x = 20 m to 30 m. Its final kinetic energy will be:",
+      "options": [
+        "475 J",
+        "450 J",
+        "275 J",
+        "500 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle of mass m is moving in a vertical circle of radius r. The minimum speed required at the lowest point so that the particle just completes the vertical loop is:",
+      "options": [
+        "√(5gr)",
+        "√(g r)",
+        "√(3gr)",
+        "√(2gr)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A potential energy function for a two-dimensional force is given by U = 3x²y - y³. The force vector acting on the particle is:",
+      "options": [
+        "-6xy î + (3y² - 3x²) ĵ",
+        "6xy î + (3x² - 3y²) ĵ",
+        "-3xy î + (y² - x²) ĵ",
+        "3xy î + (x² - y²) ĵ"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An engine pumps water continuously through a hose with a velocity v. If m is the mass per unit length of the water jet, what is the rate at which kinetic energy is imparted to water?",
+      "options": [
+        "(1/2) m v³",
+        "m v³",
+        "(1/2) m v²",
+        "m v²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle of mass m₁ moving with velocity v collides head-on elastically with another particle of mass m₂ at rest. The fraction of initial kinetic energy transferred to the second particle is:",
+      "options": [
+        "4 m₁ m₂ / (m₁ + m₂)²",
+        "(m₁ - m₂)² / (m₁ + m₂)²",
+        "2 m₁ m₂ / (m₁ + m₂)²",
+        "m₁ m₂ / (m₁ + m₂)²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A spring of spring constant k is compressed by x. It is then released to push a mass m. The maximum speed acquired by the mass is:",
+      "options": [
+        "x √(k / m)",
+        "x √(m / k)",
+        "k x / m",
+        "m x / k"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A ball is dropped from a height h on a horizontal floor. If the coefficient of restitution is e, the total distance covered by the ball before coming to complete rest is:",
+      "options": [
+        "h (1 + e²) / (1 - e²)",
+        "h (1 - e²) / (1 + e²)",
+        "h e² / (1 - e²)",
+        "h (1 + e) / (1 - e)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle moves along a line under the action of a force where power delivered by the force is constant. The displacement x of the particle varies with time t as:",
+      "options": [
+        "t^(3/2)",
+        "t^(1/2)",
+        "t^(2)",
+        "t^(1/3)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body of mass 2 kg falls from a height of 20 m. What is the loss in potential energy when it reaches a height of 5 m above the ground? (g = 10 m/s²)",
+      "options": [
+        "300 J",
+        "100 J",
+        "400 J",
+        "200 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two identical blocks A and B, each of mass m, are connected by a spring of force constant k. Block A is pushed down through a distance x and released. The minimum value of x for which block B leaves the floor is:",
+      "options": [
+        "3 mg / k",
+        "mg / k",
+        "2 mg / k",
+        "4 mg / k"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electric motor exerts a constant torque of 10 N·m on a flywheel. The angular speed of the flywheel increases by 100 rad/s in 5 s. The average power delivered by the motor in this interval is:",
+      "options": [
+        "500 W",
+        "1000 W",
+        "250 W",
+        "2000 W"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A mass m moving with speed v collides inelastically with another identical stationary mass m. If they stick together after collision, the loss in kinetic energy of the system is:",
+      "options": [
+        "(1/4) m v²",
+        "(1/2) m v²",
+        "(1/8) m v²",
+        "(3/4) m v²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The potential energy of a system is given by U(x) = a / x² - b / x, where a and b are positive constants. The equilibrium distance x₀ of the particle is:",
+      "options": [
+        "2a / b",
+        "a / b",
+        "b / (2a)",
+        "a / (2b)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body of mass 1 kg is thrown vertically upwards with a velocity of 20 m/s. It reaches the maximum height in 1.8 s. The work done by air resistance during its upward journey is (g = 10 m/s²):",
+      "options": [
+        "-38 J",
+        "-20 J",
+        "-40 J",
+        "-18 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body of mass m is accelerated uniformly from rest to speed v in time t₁. The instantaneous power delivered to the body as a function of time t is:",
+      "options": [
+        "m v² t / t₁²",
+        "m v² t / t₁",
+        "(1/2) m v² t / t₁²",
+        "m v t / t₁"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A uniform chain of length L and mass M is lying on a smooth table such that 1/n-th of its length hangs vertically down over the edge. The work done to pull the hanging part back onto the table is:",
+      "options": [
+        "M g L / (2 n²)",
+        "M g L / n²",
+        "M g L / (2 n)",
+        "M g L / n"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle of mass m is projected with velocity u at an angle θ with the horizontal. The power delivered by gravity at the highest point of its trajectory is:",
+      "options": [
+        "0",
+        "m g u cos θ",
+        "m g u sin θ",
+        "m g u"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A sphere of mass m moving with speed v collides elastically with an identical stationary sphere. If the angle between their velocities after collision is θ, then θ is equal to:",
+      "options": [
+        "90°",
+        "45°",
+        "60°",
+        "180°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A mass m attaches to a spring of spring constant k. The spring is stretched by a distance x. The work done by the restoring force of the spring during this extension is:",
+      "options": [
+        "-(1/2) k x²",
+        "(1/2) k x²",
+        "-k x²",
+        "k x²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A force F acting on an object varies with distance x as shown by F = c x. The work done by this force in moving the object from x = 0 to x = L is:",
+      "options": [
+        "(1/2) c L²",
+        "c L²",
+        "c L",
+        "(1/2) c L"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A bullet of mass 10 g leaves a rifle with velocity 1000 m/s. The length of the barrel is 1 m. The average force exerted on the bullet by the expanding gases is:",
+      "options": [
+        "5000 N",
+        "1000 N",
+        "2500 N",
+        "500 N"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A bucket full of water of total mass 10 kg is pulled up from a well 20 m deep using a uniform rope of mass 2 kg. The total work done is (g = 10 m/s²):",
+      "options": [
+        "2200 J",
+        "2000 J",
+        "2400 J",
+        "1200 J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A particle moves in a circle of radius r under the action of a conservative force. If its potential energy is U = -k / (2r²), the total mechanical energy of the particle is:",
+      "options": [
+        "0",
+        "-k / (2r²)",
+        "k / r²",
+        "-k / r²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A body of mass m resting on a frictionless horizontal plane is pulled by a constant force F making an angle θ with the horizontal. The speed of the body after traveling a distance s is:",
+      "options": [
+        "√[(2 F s cos θ) / m]",
+        "√[(2 F s sin θ) / m]",
+        "√[(2 F s) / m]",
+        "√[(F s cos θ) / m]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Work, Energy, and Power",
+    "chapter_number": 4,
+    "topic": "Work, Energy, and Power",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two bodies of masses m₁ and m₂ have equal kinetic energies. The ratio of their linear momenta p₁ : p₂ is:",
+      "options": [
+        "√m₁ : √m₂",
+        "m₁ : m₂",
+        "m₂ : m₁",
+        "√m₂ : √m₁"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

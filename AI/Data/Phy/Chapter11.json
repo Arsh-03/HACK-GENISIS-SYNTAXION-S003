@@ -1,0 +1,620 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two point charges +q and -q are placed at a distance r apart in air. The magnitude of electrostatic force between them is F. If the same charges are placed at the same distance in a medium of dielectric constant K = 4, the new force between them is:",
+      "options": [
+        "F / 4",
+        "4 F",
+        "F / 2",
+        "2 F"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electric dipole of moment p is placed in a uniform electric field E. The torque acting on the dipole is:",
+      "options": [
+        "p × E",
+        "p · E",
+        "p E",
+        "zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "correct_option_index": 0,
+    "media_url": null,
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A parallel plate capacitor with air between plates has a capacitance C. If a dielectric slab of dielectric constant K is completely filled between the plates, the capacitance becomes:",
+      "options": [
+        "K C",
+        "C / K",
+        "C + K",
+        "C - K"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two conducting concentric spherical shells of radii R₁ and R₂ (R₂ > R₁) carry charges Q₁ and Q₂ respectively. The electric potential at a distance r from the common center (where R₁ < r < R₂) is:",
+      "options": [
+        "(1 / 4πε₀) [ Q₁ / r + Q₂ / R₂ ]",
+        "(1 / 4πε₀) [ Q₁ / R₁ + Q₂ / R₂ ]",
+        "(1 / 4πε₀) [ (Q₁ + Q₂) / r ]",
+        "(1 / 4πε₀) [ Q₁ / r + Q₂ / r ]"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A charge Q is enclosed by a Gaussian spherical surface of radius R. If the radius is doubled, the outward electric flux will:",
+      "options": [
+        "Remain the same",
+        "Be doubled",
+        "Be quadrupled",
+        "Be halved"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electron enters a uniform electric field E with an initial velocity v₀ parallel to the field lines. The distance traveled by the electron before coming to rest temporarily is (m = mass, e = charge of electron):",
+      "options": [
+        "m v₀² / (2 e E)",
+        "m v₀² / (e E)",
+        "2 m v₀² / (e E)",
+        "e E / (2 m v₀²)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The work done in bringing a unit positive charge from infinity to a point in an electric field against electrostatic force is defined as:",
+      "options": [
+        "Electric potential at that point",
+        "Electric field intensity",
+        "Electrostatic potential energy",
+        "Capacitance"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electric dipole consists of charges +q and -q separated by distance 2a. The electric field on its equatorial line at a large distance r (r >> a) varies as:",
+      "options": [
+        "1 / r³",
+        "1 / r²",
+        "1 / r",
+        "r²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Three capacitors of capacitances 2 μF, 3 μF, and 6 μF are connected in series across a 12 V battery. The charge on the 2 μF capacitor is:",
+      "options": [
+        "12 μC",
+        "24 μC",
+        "6 μC",
+        "36 μC"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A parallel plate capacitor is charged to potential V and disconnected from the battery. The distance between the plates is now doubled. The energy stored in the capacitor will become:",
+      "options": [
+        "2 times",
+        "Half",
+        "4 times",
+        "Unchanged"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The electrostatic potential V at any point (x, y, z) in space is given by V = 4x² volts. The electric field at the point (1, 0, 2) m is:",
+      "options": [
+        "-8 î V/m",
+        "8 î V/m",
+        "-4 î V/m",
+        "-16 î V/m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two point charges 4Q and Q are separated by distance L. The position from charge Q on the line joining them where the net electric field is zero is:",
+      "options": [
+        "L / 3",
+        "L / 2",
+        "L / 4",
+        "2L / 3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A charged hollow metallic sphere of radius R has charge Q. The electric field inside the sphere at a distance r (r < R) from the center is:",
+      "options": [
+        "Zero",
+        "Q / (4πε₀ R²)",
+        "Q / (4πε₀ r²)",
+        "Q r / (4πε₀ R³)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Equipotential surfaces around an isolated point charge are:",
+      "options": [
+        "Concentric spheres",
+        "Parallel planes",
+        "Coaxial cylinders",
+        "Ellipsoids"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy stored in a charged capacitor of capacitance C and potential difference V is given by:",
+      "options": [
+        "(1/2) C V²",
+        "C V²",
+        "(1/2) C² V",
+        "C² / V"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A capacitor of capacitance C₁ = 2 μF is charged to V = 100 V and then connected in parallel to an uncharged capacitor C₂ = 3 μF. The common potential across the combination is:",
+      "options": [
+        "40 V",
+        "50 V",
+        "60 V",
+        "20 V"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The electric flux through any closed surface enclosing a dipole is:",
+      "options": [
+        "Zero",
+        "q / ε₀",
+        "2q / ε₀",
+        "q / (2ε₀)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The electric potential inside a uniformly charged solid non-conducting sphere of radius R varies with distance r from the center (r ≤ R) as:",
+      "options": [
+        "V ∝ (3 R² - r²)",
+        "V ∝ 1 / r",
+        "V ∝ r²",
+        "V = constant"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sixty-four identical water droplets, each of capacity C and charged to potential V, coalesce to form a single big drop. The capacitance of the big drop is:",
+      "options": [
+        "4 C",
+        "16 C",
+        "64 C",
+        "2 C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electric dipole of moment p is rotated by 180° in a uniform electric field E starting from stable equilibrium position (aligned with field). The work done during this rotation is:",
+      "options": [
+        "2 p E",
+        "p E",
+        "-2 p E",
+        "zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy density u in a region where electric field is E in vacuum is given by:",
+      "options": [
+        "(1/2) ε₀ E²",
+        "ε₀ E²",
+        "(1/2) ε₀² E",
+        "E² / (2 ε₀)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A thin infinitely long straight wire has uniform linear charge density λ. The electric field at a perpendicular distance r from the wire is:",
+      "options": [
+        "λ / (2πε₀ r)",
+        "λ / (4πε₀ r²)",
+        "λ / (2πε₀ r²)",
+        "2λ / (πε₀ r)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The force per unit area on a conductor carrying surface charge density σ in vacuum is:",
+      "options": [
+        "σ² / (2ε₀)",
+        "σ / (2ε₀)",
+        "σ² / ε₀",
+        "2σ² / ε₀"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A parallel plate air capacitor has capacitance C. Half of the space between the plates is filled with a dielectric of dielectric constant K = 3 as a slab parallel to the plates. The new capacitance will be:",
+      "options": [
+        "1.5 C",
+        "3 C",
+        "2 C",
+        "1.25 C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two charges +q and -q are located at points A(0, 0, -a) and B(0, 0, a) respectively. The electrostatic potential at any point P(x, y, 0) on the xy-plane is:",
+      "options": [
+        "Zero",
+        "q / (4πε₀ a)",
+        "2q / (4πε₀ a)",
+        "-q / (4πε₀ a)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A point charge q is placed at the center of a cube of side length L. The electric flux through one face of the cube is:",
+      "options": [
+        "q / (6ε₀)",
+        "q / ε₀",
+        "q / (24ε₀)",
+        "q / (8ε₀)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Two spherical conductors of radii R₁ and R₂ are charged to same potential. The ratio of their surface charge densities σ₁ / σ₂ is:",
+      "options": [
+        "R₂ / R₁",
+        "R₁ / R₂",
+        "R₂² / R₁²",
+        "R₁² / R₂²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Electrostatics",
+    "chapter_number": 11,
+    "topic": "Electrostatics",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A soap bubble is given a negative charge q. Its radius will:",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain same",
+        "Fluctuate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

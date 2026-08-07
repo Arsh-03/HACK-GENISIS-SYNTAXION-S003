@@ -1,0 +1,508 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Classical Concept of Oxidation and Reduction",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In terms of electron transfer, oxidation is defined as:",
+      "options": [
+        "Gain of electrons",
+        "Loss of electrons",
+        "Gain of protons",
+        "Loss of protons"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Oxidation Number Rules",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the oxidation number of oxygen in peroxides like H₂O₂?",
+      "options": [
+        "-2",
+        "-1",
+        "+1",
+        "0"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Oxidizing and Reducing Agents",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A substance that undergoes reduction in a chemical reaction acts as a:",
+      "options": [
+        "Reducing agent",
+        "Oxidizing agent",
+        "Catalyst",
+        "Dehydrating agent"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Oxidation State Calculation",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The oxidation state of Manganese (Mn) in Potassium Permanganate (KMnO₄) is:",
+      "options": [
+        "+2",
+        "+4",
+        "+6",
+        "+7"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Types of Redox Reactions - Combination",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following reaction types involves an element in a higher oxidation state and lower oxidation state reacting to form an intermediate state?",
+      "options": [
+        "Disproportionation",
+        "Comproportionation",
+        "Decomposition",
+        "Displacement"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Types of Redox Reactions - Disproportionation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which reaction represents a disproportionation redox reaction?",
+      "options": [
+        "2KClO₃ → 2KCl + 3O₂",
+        "2H₂O₂ → 2H₂O + O₂",
+        "Zn + Cu²⁺ → Zn²⁺ + Cu",
+        "CH₄ + 2O₂ → CO₂ + 2H₂O"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Oxidation Number Calculation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the oxidation state of Chromium (Cr) in Potassium Dichromate (K₂Cr₂O₇)?",
+      "options": [
+        "+3",
+        "+6",
+        "+5",
+        "+7"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Fractional Oxidation States",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The average oxidation state of Sulfur in Sodium Thiosulfate (Na₂S₂O₃) is:",
+      "options": [
+        "+2",
+        "+2.5",
+        "+4",
+        "+6"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Electrochemical Series & Reactivity",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Among the following metals, which one has the highest reducing power in aqueous solution?",
+      "options": [
+        "Li",
+        "Na",
+        "K",
+        "Zn"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Balancing Redox Reactions by Ion-Electron Method",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the balanced ionic equation for the reduction of MnO₄⁻ to Mn²⁺ in acidic medium, how many electrons (e⁻) are gained per MnO₄⁻ ion?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Redox Reactions as Basis for Titrations",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In redox titrations involving KMnO₄, KMnO₄ acts as a self-indicator. What is its color in acidic medium when reduced to Mn²⁺?",
+      "options": [
+        "Dark Purple",
+        "Deep Green",
+        "Colorless / Very Pale Pink",
+        "Brown"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Standard Electrode Potential",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The standard electrode potential (E°) of Standard Hydrogen Electrode (SHE) is defined as:",
+      "options": [
+        "1.00 V",
+        "0.00 V",
+        "-1.00 V",
+        "0.059 V"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Oxidation Number of Fluorine Compounds",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the oxidation state of Oxygen in Oxygen Difluoride (OF₂)?",
+      "options": [
+        "-2",
+        "-1",
+        "+2",
+        "+1"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Redox Stoichiometry in Acidic Medium",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "How many moles of Fe²⁺ are oxidized by 1 mole of Cr₂O₇²⁻ in acidic solution?",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Displacement Redox Reactions",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which halogen can displace bromide ions (Br⁻) from an aqueous solution of NaBr?",
+      "options": [
+        "I₂",
+        "Cl₂",
+        "At₂",
+        "None of these"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Oxidation State in Unusual Structures",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Chromium peroxide (CrO₅) contains two peroxide bonds (-O-O-). What is the actual oxidation state of Chromium in CrO₅?",
+      "options": [
+        "+10",
+        "+6",
+        "+5",
+        "+4"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Structural Oxidation State Analysis",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Marshall's acid (H₂S₂O₈, peroxydisulfuric acid), what are the oxidation states of the two sulfur atoms?",
+      "options": [
+        "+6 and +6",
+        "+7 and +5",
+        "+8 and +4",
+        "+6 and +4"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Complex Redox Stoichiometry",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Consider the unbalanced reaction: a MnO₄⁻ + b C₂O₄²⁻ + c H⁺ → d Mn²⁺ + e CO₂ + f H₂O. The correct stochiometric coefficients (a, b, c) are:",
+      "options": [
+        "2, 5, 16",
+        "5, 2, 16",
+        "2, 5, 8",
+        "1, 5, 8"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Redox Reactions in Basic Medium",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When KMnO₄ reacts with KI in neutral or faintly alkaline medium, MnO₄⁻ is reduced to:",
+      "options": [
+        "Mn²⁺",
+        "MnO₂",
+        "Mn³⁺",
+        "K₂MnO₄"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Equivalent Weight in Redox",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the equivalent weight of KMnO₄ (Molar Mass = M) when it acts as an oxidizing agent in acidic medium?",
+      "options": [
+        "M / 5",
+        "M / 3",
+        "M / 1",
+        "M / 6"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Oxidation States in Mixed Oxides",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Red lead (Pb₃O₄) is a mixed oxide of PbO and PbO₂. The individual oxidation states of lead atoms in Pb₃O₄ are:",
+      "options": [
+        "Two atoms in +2 state and one atom in +4 state",
+        "One atom in +2 state and two atoms in +4 state",
+        "All three atoms in +8/3 state",
+        "Two atoms in +3 state and one atom in +2 state"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "n-factor in Disproportionation",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the disproportionation reaction of phosphorous in alkaline medium: P₄ + 3OH⁻ + 3H₂O → PH₃ + 3H₂PO₂⁻, what is the n-factor (equivalent weight factor) of P₄?",
+      "options": [
+        "3",
+        "12 / 5",
+        "3 / 4",
+        "5 / 3"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Chemistry",
+    "chapter_name": "Redox Reactions",
+    "chapter_number": 7,
+    "topic": "Advanced Redox Concept - Carbon Monoxide Oxidation",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the reaction Fe₀.₉₅O + O₂ → Fe₂O₃, what percentage of total Iron in Fe₀.₉₅O is originally present as Fe³⁺?",
+      "options": [
+        "10.5%",
+        "11.5%",
+        "15.0%",
+        "89.5%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "IUPAC Nomenclature and Structure of Carbonyl Group",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the hybridization state of the carbonyl carbon atom in aldehydes and ketones?",
+      "options": [
+        "sp²",
+        "sp³",
+        "sp",
+        "sp³d"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Preparation of Aldehydes - Rosenmund Reduction",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which catalyst mixture is used in the Rosenmund reduction to reduce acyl chlorides to aldehydes?",
+      "options": [
+        "Pd/BaSO₄ poisoned with sulfur or quinoline",
+        "LiAlH₄ in dry ether",
+        "NaBH₄ in ethanol",
+        "Zn-Hg in concentrated HCl"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Preparation of Aldehydes - Stephen Reaction",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nitrales on reduction with SnCl₂ in the presence of HCl followed by hydrolysis yield aldehydes. What is this reaction called?",
+      "options": [
+        "Stephen reaction",
+        "Etard reaction",
+        "Gattermann-Koch reaction",
+        "Clemmensen reduction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Preparation of Benzaldehyde - Etard Reaction",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which reagent oxidizes toluene to benzaldehyde in the Etard reaction?",
+      "options": [
+        "Chromyl chloride (CrO₂Cl₂)",
+        "Alkaline KMnO₄",
+        "Acidified K₂Cr₂O₇",
+        "Nitric acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Distinction Tests - Tollen's Test",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Tollen's reagent used for distinguishing aldehydes from ketones is chemically:",
+      "options": [
+        "Ammoniacal silver nitrate solution",
+        "Alkaline copper sulfate solution",
+        "Neutral ferric chloride solution",
+        "Potassium permanganate solution"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Nucleophilic Addition Reactions - Addition of HCN",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Addition of HCN to aldehydes or ketones in the presence of a base yields which class of compounds?",
+      "options": [
+        "Cyanohydrins",
+        "Oximes",
+        "Hydrazones",
+        "Semicarbazones"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Named Reactions - Aldol Condensation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which essential structural feature must an aldehyde or ketone possess to undergo self-Aldol condensation in dilute alkali?",
+      "options": [
+        "At least one α-hydrogen atom",
+        "No α-hydrogen atoms",
+        "A chiral carbon atom",
+        "An aromatic ring"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Named Reactions - Cannizzaro Reaction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Formaldehyde on treatment with 50% concentrated NaOH undergoes disproportionation to give:",
+      "options": [
+        "Methanol and Sodium formate",
+        "Methanal and Formic acid",
+        "Ethanol and Sodium acetate",
+        "Methanoic acid and Sodium hydroxide"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Reduction Reactions - Clemmensen Reduction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Clemmensen reduction converts a carbonyl group (>C=O) into a methylene group (>CH₂) using which reagent?",
+      "options": [
+        "Zn-Hg / concentrated HCl",
+        "NH₂NH₂ / KOH in ethylene glycol",
+        "LiAlH₄ in ether",
+        "Red P / HI"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Reduction Reactions - Wolff-Kishner Reduction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the Wolff-Kishner reduction, a carbonyl compound is treated with hydrazine followed by heating with KOH in high boiling solvent:",
+      "options": [
+        "Ethylene glycol",
+        "Ethanol",
+        "Dry acetone",
+        "Diethyl ether"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Haloform Reaction - Iodoform Test",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which group must be present in an aldehyde or ketone to give a positive yellow precipitate in the iodoform test?",
+      "options": [
+        "CH₃-C=O group",
+        "CH₃-CH₂-C=O group",
+        "C₆H₅-C=O group",
+        "H-C=O group"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Acidity of Carboxylic Acids",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following substituted acetic acids is the strongest acid?",
+      "options": [
+        "Trichloroacetic acid",
+        "Dichloroacetic acid",
+        "Monochloroacetic acid",
+        "Acetic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Named Reactions - Hell-Volhard-Zelinsky (HVZ) Reaction",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Carboxylic acids having an α-hydrogen atom react with Cl₂ or Br₂ in the presence of red phosphorus to form α-halocarboxylic acids. This reaction is known as:",
+      "options": [
+        "Hell-Volhard-Zelinsky reaction",
+        "Koch reaction",
+        "Hunsdiecker reaction",
+        "Reformatsky reaction"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Decarboxylation of Carboxylic Acids",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Sodium salts of carboxylic acids when heated with soda-lime (NaOH and CaO in 3:1 ratio) produce alkanes with one carbon atom less. This process is called:",
+      "options": [
+        "Decarboxylation",
+        "Decarboxymethylation",
+        "Kolbe's electrolysis",
+        "Oxidative cleavage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Preparation of Ketones - From Nitriles",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Treatment of nitriles with Grignard reagent followed by acid hydrolysis yields:",
+      "options": [
+        "Ketones",
+        "Aldehydes",
+        "Carboxylic acids",
+        "Primary amines"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Reactivity in Nucleophilic Addition",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the correct decreasing order of reactivity towards nucleophilic addition reactions?",
+      "options": [
+        "HCHO > CH₃CHO > CH₃COCH₃ > C₆H₅COCH₃",
+        "CH₃COCH₃ > CH₃CHO > HCHO > C₆H₅COCH₃",
+        "C₆H₅COCH₃ > CH₃COCH₃ > CH₃CHO > HCHO",
+        "CH₃CHO > HCHO > CH₃COCH₃ > C₆H₅COCH₃"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Crossed Cannizzaro Reaction",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When a mixture of benzaldehyde and formaldehyde is treated with concentrated NaOH, the reaction primarily yields:",
+      "options": [
+        "Benzyl alcohol and Sodium formate",
+        "Sodium benzoate and Methanol",
+        "Benzyl alcohol and Methanol",
+        "Sodium benzoate and Sodium formate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Addition of Ammonia Derivatives",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Although semicarbazide contains two -NH₂ groups, only one -NH₂ group acts as a nucleophile in reaction with carbonyl compounds because the other two nitrogens are:",
+      "options": [
+        "Involved in resonance with the neighboring carbonyl group",
+        "Sterically hindered",
+        "Protonated under reaction conditions",
+        "Electronegative enough to reject nucleophilic attack"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Relative Acidity of Benzoic Acid Derivatives",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following benzoic acid derivatives is the most acidic due to the ortho effect?",
+      "options": [
+        "2-Nitrobenzoic acid",
+        "4-Nitrobenzoic acid",
+        "3-Nitrobenzoic acid",
+        "Benzoic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Popoff's Rule in Oxidation of Unsymmetrical Ketones",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During vigorous oxidation of unsymmetrical ketones with conc. HNO₃, Popoff's rule states that the C-CO cleavage occurs such that the keto group predominantly stays with:",
+      "options": [
+        "The smaller alkyl group",
+        "The larger alkyl group",
+        "The aromatic group only",
+        "Either alkyl group in equal probability"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Benzoin Condensation Mechanism",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the conversion of benzaldehyde to benzoin using aqueous ethanolic KCN, the cyanide ion acts as an effective catalyst because it is both a strong nucleophile and a good:",
+      "options": [
+        "Leaving group",
+        "Electrophile",
+        "Oxidizing agent",
+        "Reducing agent"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Aldehydes, Ketones and Carboxylic Acids",
+    "chapter_number": 12,
+    "topic": "Baeyer-Villiger Oxidation Mechanism",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Oxidation of acetophenone with peroxyacids (Baeyer-Villiger oxidation) yields phenyl acetate. The reaction mechanism involves migration of which group to the electron-deficient oxygen?",
+      "options": [
+        "Phenyl group due to higher migratory aptitude than methyl",
+        "Methyl group due to lower steric hindrance",
+        "Both groups migrate simultaneously to form an anhydride",
+        "Carbonyl oxygen atom"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

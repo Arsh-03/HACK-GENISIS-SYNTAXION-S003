@@ -1,0 +1,596 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Dynamic Nature of Equilibrium",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "At chemical equilibrium, which of the following statements is correct regarding the rates of forward and reverse reactions?",
+      "options": [
+        "Rate of forward reaction is greater than reverse reaction",
+        "Rate of forward reaction equals rate of reverse reaction",
+        "Both forward and reverse reactions completely stop",
+        "Rate of reverse reaction becomes zero"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Law of Mass Action and Equilibrium Constant",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a general reversible reaction aA + bB ⇌ cC + dD, the expression for the equilibrium constant (K_c) is:",
+      "options": [
+        "K_c = ([C]^c [D]^d) / ([A]^a [B]^b)",
+        "K_c = ([A]^a [B]^b) / ([C]^c [D]^d)",
+        "K_c = ([C] + [D]) / ([A] + [B])",
+        "K_c = ([A] [B]) / ([C] [D])"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Homogeneous and Heterogeneous Equilibria",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the heterogeneous equilibrium reaction CaCO₃(s) ⇌ CaO(s) + CO₂(g), the equilibrium constant K_p is equal to:",
+      "options": [
+        "p_CO₂",
+        "(p_CaO × p_CO₂) / p_CaCO₃",
+        "p_CaCO₃ / p_CaO",
+        "1 / p_CO₂"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Arrhenius and Brönsted-Lowry Acids/Bases",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to the Brönsted-Lowry concept, an acid is defined as a:",
+      "options": [
+        "Proton acceptor",
+        "Proton donor",
+        "Electron pair donor",
+        "Electron pair acceptor"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "pH Scale Definition",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The pH of a neutral aqueous solution at 25 °C (298 K) is equal to:",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Lewis Acid-Base Concept",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following species acts as a Lewis acid?",
+      "options": [
+        "NH₃",
+        "BF₃",
+        "H₂O",
+        "OH⁻"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Conjugate Acid-Base Pairs",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the conjugate base of HSO₄⁻ ion?",
+      "options": [
+        "H₂SO₄",
+        "SO₄²⁻",
+        "H₃O⁺",
+        "SO₃²⁻"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Relationship between K_p and K_c",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The relationship between K_p and K_c for a gaseous reaction is given by K_p = K_c (RT)^(Δn_g). What is Δn_g for N₂(g) + 3H₂(g) ⇌ 2NH₃(g)?",
+      "options": [
+        "-2",
+        "+2",
+        "-1",
+        "0"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Le Chatelier's Principle - Pressure Effect",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For the system N₂(g) + 3H₂(g) ⇌ 2NH₃(g), an increase in total pressure at constant temperature shifts the equilibrium:",
+      "options": [
+        "To the left (backward direction)",
+        "To the right (forward direction)",
+        "Does not alter position",
+        "Causes reaction to stop"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Le Chatelier's Principle - Temperature Effect",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For an endothermic reaction (ΔH > 0), increasing the temperature causes the numerical value of equilibrium constant K to:",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain constant",
+        "Become zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Ionic Product of Water",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "At 25 °C, the ionic product of water (K_w) is 1.0 × 10⁻¹⁴ M². If temperature increases to 50 °C, K_w will:",
+      "options": [
+        "Decrease below 1.0 × 10⁻¹⁴",
+        "Increase above 1.0 × 10⁻¹⁴",
+        "Remain exactly 1.0 × 10⁻¹⁴",
+        "Drop to zero"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Buffer Solutions",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following mixture pairs constitutes an acidic buffer solution?",
+      "options": [
+        "CH₃COOH and CH₃COONa",
+        "NH₄OH and NH₄Cl",
+        "HCl and NaCl",
+        "NaOH and CH₃COONa"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Solubility Product Constant",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a sparingly soluble salt AB₂ with molar solubility S mol L⁻¹, the relation between solubility product K_sp and S is:",
+      "options": [
+        "K_sp = S²",
+        "K_sp = 4S³",
+        "K_sp = 27S⁴",
+        "K_sp = 2S²"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Common Ion Effect",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Addition of sodium acetate (CH₃COONa) to an aqueous solution of acetic acid (CH₃COOH) causes the degree of dissociation of acetic acid to:",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain unchanged",
+        "Double"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Salt Hydrolysis",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An aqueous solution of ammonium chloride (NH₄Cl) is acidic because of the hydrolysis of which ion?",
+      "options": [
+        "NH₄⁺ cation",
+        "Cl⁻ anion",
+        "Both NH₄⁺ and Cl⁻",
+        "Neither ion undergoes hydrolysis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Reaction Quotient (Q_c)",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If the reaction quotient (Q_c) is greater than the equilibrium constant (K_c) for a reaction, the reaction will proceed in:",
+      "options": [
+        "Forward direction to form products",
+        "Reverse direction to form reactants",
+        "Equilibrium is already reached",
+        "Neither direction as reaction stops"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Ostwald's Dilution Law",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Ostwald's Dilution Law, the degree of dissociation (α) of a weak electrolyte in a dilute solution of concentration C is given by:",
+      "options": [
+        "α = √(K_a / C)",
+        "α = K_a × C",
+        "α = √(C / K_a)",
+        "α = K_a / C²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Inert Gas Addition at Constant Volume",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Addition of an inert gas at constant volume to a gaseous system at equilibrium:",
+      "options": [
+        "Shifts equilibrium towards fewer gas moles",
+        "Shifts equilibrium towards more gas moles",
+        "Has no effect on equilibrium position",
+        "Increases equilibrium constant K_p"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Equilibrium Constant Manipulation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If equilibrium constant for N₂(g) + 3H₂(g) ⇌ 2NH₃(g) is K₁, what is the equilibrium constant K₂ for ½ N₂(g) + 3/2 H₂(g) ⇌ NH₃(g)?",
+      "options": [
+        "K₂ = K₁ / 2",
+        "K₂ = √(K₁)",
+        "K₂ = (K₁)²",
+        "K₂ = 1 / K₁"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Henderson-Hasselbalch Equation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The Henderson-Hasselbalch equation used to calculate pH of an acidic buffer is:",
+      "options": [
+        "pH = pK_a + log([Salt] / [Acid])",
+        "pH = pK_a - log([Salt] / [Acid])",
+        "pH = pK_b + log([Base] / [Salt])",
+        "pH = pK_a × log([Acid] / [Salt])"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Precipitation Condition",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Precipitation of a sparingly soluble salt occurs from a solution when its ionic product (Q_sp):",
+      "options": [
+        "Q_sp < K_sp",
+        "Q_sp = K_sp",
+        "Q_sp > K_sp",
+        "Q_sp = 0"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "pH Calculation for Extremely Dilute Strong Acids",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the pH of a 1.0 × 10⁻⁸ M aqueous HCl solution at 25 °C taking water auto-ionization into account?",
+      "options": [
+        "8.00",
+        "6.96",
+        "7.00",
+        "6.00"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Hydrolysis Constant and pH of Weak Acid-Weak Base Salt",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The pH of an aqueous solution of a salt formed from a weak acid (pK_a) and a weak base (pK_b) is given by:",
+      "options": [
+        "pH = ½ [pK_w + pK_a - pK_b]",
+        "pH = ½ [pK_w + pK_a + pK_b]",
+        "pH = ½ [pK_w - pK_a + pK_b]",
+        "pH = pK_w - pK_a + log C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Simultaneous Equilibrium & Common Ion",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Solid AgCl (K_sp1 = 1.8 × 10⁻¹⁰) and AgBr (K_sp2 = 5.0 × 10⁻¹³) are added simultaneously to pure water. What is the ratio of [Cl⁻] to [Br⁻] in the saturated solution at equilibrium?",
+      "options": [
+        "360",
+        "180",
+        "1 / 360",
+        "3.6 × 10⁻²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "van 't Hoff Isochore Equation",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The temperature dependence of equilibrium constant K is quantitatively described by the integrated van 't Hoff equation: ln(K₂/K₁) = ?",
+      "options": [
+        "(ΔH° / R) × (1/T₁ - 1/T₂)",
+        "-(ΔH° / R) × (1/T₁ - 1/T₂)",
+        "(ΔS° / R) × (T₂ - T₁)",
+        "-(ΔG° / RT)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Polyprotic Acid Dissociation Equilibria",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a diprotic acid H₂A with stepwise ionization constants K_a1 and K_a2 in aqueous solution where K_a1 >> K_a2, the concentration of divalent anion [A²⁻] in an unbuffered solution of H₂A is approximately equal to:",
+      "options": [
+        "K_a2",
+        "K_a1",
+        "√(K_a1 × C)",
+        "K_a1 + K_a2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Chemistry",
+    "chapter_name": "Equilibrium",
+    "chapter_number": 6,
+    "topic": "Complexometric Solubility Equilibria",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "AgCl dissolves in excess aqueous NH₃ due to formation of complex ion [Ag(NH₃)₂]⁺ (formation constant K_f = 1.7 × 10⁷). The overall equilibrium constant K for AgCl(s) + 2NH₃(aq) ⇌ [Ag(NH₃)₂]⁺(aq) + Cl⁻(aq) (given K_sp(AgCl) = 1.8 × 10⁻¹⁰) is:",
+      "options": [
+        "3.06 × 10⁻³",
+        "1.06 × 10⁻¹⁷",
+        "9.44 × 10¹⁶",
+        "3.06 × 10³"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

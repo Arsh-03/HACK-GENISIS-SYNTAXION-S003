@@ -1,0 +1,508 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Tetravalence of Carbon and Shapes of Organic Compounds",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the hybridization and shape of the carbon atom in methane (CH₄)?",
+      "options": [
+        "sp, Linear",
+        "sp², Trigonal planar",
+        "sp³, Tetrahedral",
+        "sp³d, Trigonal bipyramidal"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Classification of Organic Compounds",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following organic compounds is classified as an aromatic compound?",
+      "options": [
+        "Cyclohexane",
+        "Benzene",
+        "Cyclopentane",
+        "Hexane"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "IUPAC Nomenclature - Alkanes",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the IUPAC name of (CH₃)₂CH-CH₂-CH₃?",
+      "options": [
+        "2-Methylbutane",
+        "3-Methylbutane",
+        "Isopentane",
+        "Pentane"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Fundamental Concepts - Fission of Covalent Bond",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Homolytic cleavage of a covalent bond results in the formation of:",
+      "options": [
+        "Carbocations",
+        "Carbanions",
+        "Free radicals",
+        "Electrophiles"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Nucleophiles and Electrophiles",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following species acts as a nucleophile?",
+      "options": [
+        "NO₂⁺",
+        "BF₃",
+        "NH₃",
+        "AlCl₃"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Structural Isomerism",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Pentane and 2,2-dimethylpropane exhibit which type of isomerism?",
+      "options": [
+        "Position isomerism",
+        "Chain isomerism",
+        "Functional group isomerism",
+        "Metamerism"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Inductive Effect",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following groups exhibits a +I (positive inductive) effect?",
+      "options": [
+        "-NO₂",
+        "-COOH",
+        "-CH₃",
+        "-CN"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Carbocation Stability",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the correct order of stability for alkyl carbocations?",
+      "options": [
+        "3° > 2° > 1° > ⁺CH₃",
+        "⁺CH₃ > 1° > 2° > 3°",
+        "2° > 3° > 1° > ⁺CH₃",
+        "3° > 1° > 2° > ⁺CH₃"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "IUPAC Nomenclature - Functional Groups",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to IUPAC rules, what is the correct name for CH₃-CH(OH)-CH₂-COOH?",
+      "options": [
+        "3-Hydroxybutanoic acid",
+        "2-Hydroxybutanoic acid",
+        "3-Hydroxybutyric acid",
+        "4-Hydroxybutanoic acid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Purification Techniques - Crystallization & Distillation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Glycerol is purified from spent lye in the soap industry using which distillation technique?",
+      "options": [
+        "Simple distillation",
+        "Fractional distillation",
+        "Steam distillation",
+        "Distillation under reduced pressure"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Qualitative Analysis - Lassaigne's Test",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Lassaigne's test for nitrogen, the Prussian blue coloration obtained is due to the formation of:",
+      "options": [
+        "Fe₄[Fe(CN)₆]₃",
+        "Fe₃[Fe(CN)₆]₂",
+        "Na₄[Fe(CN)₆]",
+        "Fe(SCN)₃"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Quantitative Analysis - Dumas Method",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the Dumas method for estimation of nitrogen, nitrogen present in the organic compound is converted to:",
+      "options": [
+        "Ammonia gas (NH₃)",
+        "Nitrogen gas (N₂)",
+        "Nitric oxide (NO)",
+        "Ammonium sulfate"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Quantitative Analysis - Kjeldahl Method",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Kjeldahl's method for estimation of nitrogen is NOT applicable to which of the following compounds?",
+      "options": [
+        "Aniline",
+        "Nitrobenzene",
+        "Urea",
+        "Acetamide"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Hyperconjugation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hyperconjugation involves the delocalization of electrons from which type of bond?",
+      "options": [
+        "σ-electrons of C-H bond with adjacent empty p-orbital",
+        "π-electrons with adjacent π-electrons",
+        "Lone pair electrons with σ-bond",
+        "σ-electrons of C-C bond with non-bonding orbital"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Electromeric Effect",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following features correctly describes the electromeric effect?",
+      "options": [
+        "It is a permanent effect",
+        "It operates through sigma bonds",
+        "It is a temporary effect operating in the presence of an attacking reagent",
+        "It involves free radical intermediate formation"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Resonance and Mesomeric Effect",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following functional groups exerts a +R (positive resonance) effect when attached to a benzene ring?",
+      "options": [
+        "-CHO",
+        "-COOH",
+        "-OH",
+        "-NO₂"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Quantitative Analysis - Carius Method",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In the Carius method for quantitative estimation of halogens, 0.15 g of an organic compound gave 0.12 g of AgBr. What reagent is used to digest the organic compound?",
+      "options": [
+        "Concentrated H₂SO₄",
+        "Fuming HNO₃ in presence of AgNO₃",
+        "Sodium peroxide",
+        "Chromic acid"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Chromatography",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Thin Layer Chromatography (TLC), the retardation factor (R_f) value is calculated as:",
+      "options": [
+        "Distance moved by solvent / Distance moved by substance",
+        "Distance moved by substance / Distance moved by solvent front",
+        "Total length of TLC plate / Distance moved by spot",
+        "Distance of origin from bottom / Distance moved by solvent"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Carbanion Stability",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the correct order of stability among the following carbanions?",
+      "options": [
+        "HC≡C⁻ > CH₂=CH⁻ > CH₃-CH₂⁻",
+        "CH₃-CH₂⁻ > CH₂=CH⁻ > HC≡C⁻",
+        "CH₂=CH⁻ > HC≡C⁻ > CH₃-CH₂⁻",
+        "CH₃-CH₂⁻ > HC≡C⁻ > CH₂=CH⁻"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Hyperconjugation vs Stability",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following alkenes has the maximum number of hyperconjugative structures and highest stability?",
+      "options": [
+        "Ethene",
+        "Propene",
+        "2-Methylbut-2-ene",
+        "2,3-Dimethylbut-2-ene"
+      ],
+      "correct_option_index": 3,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Quantitative Estimation Calculations",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "During estimation of nitrogen present in an organic compound by Kjeldahl's method, ammonia evolved from 0.5 g of the compound neutralized 10 mL of 1 M H₂SO₄. What is the percentage of nitrogen in the compound?",
+      "options": [
+        "28%",
+        "56%",
+        "14%",
+        "42%"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Acidity of Substituted Carboxylic Acids",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following substituted acetic acid derivatives is the strongest acid?",
+      "options": [
+        "F-CH₂-COOH",
+        "Cl-CH₂-COOH",
+        "Br-CH₂-COOH",
+        "I-CH₂-COOH"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Chemistry",
+    "chapter_name": "Organic Chemistry: Some Basic Principles and Techniques",
+    "chapter_number": 8,
+    "topic": "Aromaticity & Huckel Rule",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following cyclic species is anti-aromatic according to Huckel's rule?",
+      "options": [
+        "Cyclopropenyl cation",
+        "Cyclopentadienyl anion",
+        "Cyclobutadiene",
+        "Tropylium cation"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

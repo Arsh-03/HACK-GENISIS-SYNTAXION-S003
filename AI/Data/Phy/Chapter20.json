@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a Vernier Calipers, 10 divisions of the vernier scale coincide with 9 divisions of the main scale. If 1 main scale division is 1 mm, the least count of the vernier calipers is:",
+      "options": [
+        "0.1 mm",
+        "0.01 mm",
+        "0.2 mm",
+        "0.05 mm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The pitch of a screw gauge is 0.5 mm and there are 50 divisions on its circular scale. The least count of the screw gauge is:",
+      "options": [
+        "0.01 mm",
+        "0.001 mm",
+        "0.1 mm",
+        "0.05 mm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a meter bridge experiment, a end error occurs mainly due to:",
+      "options": [
+        "Non-uniformity of bridge wire and resistance of thick copper strips at ends",
+        "Temperature variation during the experiment",
+        "High voltage applied across the bridge",
+        "Parallax error while reading the scale"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A screw gauge gives the following reading when used to measure the diameter of a wire: Main scale reading = 0 mm, Circular scale reading = 52 divisions. Given that 1 mm on main scale corresponds to 100 divisions on circular scale. The diameter of wire is:",
+      "options": [
+        "0.052 cm",
+        "0.52 cm",
+        "0.0052 cm",
+        "0.026 cm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a simple pendulum experiment to determine 'g', the measured length is L = (100 ± 0.1) cm and time for 100 oscillations is T = (200 ± 1) s. The maximum percentage error in the value of 'g' is:",
+      "options": [
+        "1.1%",
+        "0.5%",
+        "2.1%",
+        "1.5%"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a Searles apparatus experiment to determine Young's Modulus of a wire, two identical wires are used primarily to:",
+      "options": [
+        "Eliminate the effect of thermal expansion and sagging of support",
+        "Increase the load carrying capacity",
+        "Double the elongation produced",
+        "Decrease friction at the pulleys"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a resonance tube experiment to determine the speed of sound in air, the first resonant length is 18 cm and second resonant length is 54 cm. The end correction for the tube is:",
+      "options": [
+        "0.0 cm",
+        "1.0 cm",
+        "0.5 cm",
+        "2.0 cm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "To verify Ohm's law experimentally, a voltmeter and an ammeter are connected across a resistor. The ideal connection configuration is:",
+      "options": [
+        "Voltmeter in parallel and Ammeter in series with resistor",
+        "Voltmeter in series and Ammeter in parallel with resistor",
+        "Both Voltmeter and Ammeter in series with resistor",
+        "Both Voltmeter and Ammeter in parallel with resistor"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a travelling microscope, the vernier scale has 50 divisions which coincide with 49 main scale divisions. If 1 main scale division is 0.5 mm, the least count of the microscope is:",
+      "options": [
+        "0.01 mm",
+        "0.001 mm",
+        "0.05 mm",
+        "0.005 mm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a spectrometer experiment, the angle of minimum deviation for a prism of angle 60° is measured to be 30°. The refractive index of the prism material is:",
+      "options": [
+        "√2",
+        "1.5",
+        "√3",
+        "1.2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a half-deflection method to determine galvanometer resistance G, when a resistance R = 1000 Ω is connected in series, deflection is θ = 30 divisions. When a shunt S = 100 Ω is connected across the galvanometer, deflection reduces to θ/2 = 15 divisions. Neglecting battery resistance, G is approximately:",
+      "options": [
+        "100 Ω",
+        "1000 Ω",
+        "110 Ω",
+        "90 Ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In capillary rise method to measure surface tension of water, the height of water column is h = 5.0 cm and internal radius of capillary tube is r = 0.3 mm. If contact angle is 0° and g = 9.8 m/s², the surface tension of water is (density ρ = 1000 kg/m³):",
+      "options": [
+        "0.0735 N/m",
+        "0.147 N/m",
+        "0.0368 N/m",
+        "0.735 N/m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an experiment to determine specific heat capacity of a liquid using a calorimeter, heat loss to surroundings is minimized by using:",
+      "options": [
+        "A polished double-walled copper vessel with air insulation between walls",
+        "A highly conducting iron vessel",
+        "An open glass beaker",
+        "A thick wooden box without lid"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a convex lens u-v experiment, a straight line graph with slope -1 is obtained when plotted between:",
+      "options": [
+        "1/v versus 1/u",
+        "v versus u",
+        "u² versus v²",
+        "1/v versus u"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Zero error of a screw gauge is positive if the zero mark of the circular scale:",
+      "options": [
+        "Lies below the reference line when studs are in contact",
+        "Lies above the reference line when studs are in contact",
+        "Coincides with the reference line when studs are in contact",
+        "Rotates by 180°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a meter bridge experiment, balance point is obtained at l = 40 cm. If the known resistance R in left gap is 10 Ω, the unknown resistance X in right gap is:",
+      "options": [
+        "15 Ω",
+        "6.67 Ω",
+        "20 Ω",
+        "10 Ω"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a terminal velocity experiment using a spherical glass bead falling through glycerin, the bead attains constant terminal velocity when:",
+      "options": [
+        "Viscous drag force plus buoyant force equals weight of the bead",
+        "Viscous force alone equals weight of the bead",
+        "Buoyant force alone equals weight of the bead",
+        "Net force acting on the bead is maximum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a forward-biased p-n junction diode experiment, the knee voltage (cut-in voltage) for a Silicon diode is approximately:",
+      "options": [
+        "0.7 V",
+        "0.3 V",
+        "1.1 V",
+        "2.0 V"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a Zener diode I-V characteristics experiment, the breakdown voltage is determined from the graph in:",
+      "options": [
+        "Reverse bias region where current increases sharply at almost constant voltage",
+        "Forward bias region where current increases linearly",
+        "Unbiased state at origin",
+        "Forward bias region near cut-in voltage"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a focal length determination experiment for a concave mirror using u-v method, the minimum distance between a real object and its real image is:",
+      "options": [
+        "4 f",
+        "2 f",
+        "f",
+        "zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a sonometer experiment, if the length of vibrating wire is doubled and tension is quadrupled, the fundamental frequency of vibration will:",
+      "options": [
+        "Remain unchanged",
+        "Be doubled",
+        "Be halved",
+        "Become 4 times"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a vernier calipers, 20 vernier scale divisions equal 19 main scale divisions. If 1 main scale division is 0.5 mm, the least count is:",
+      "options": [
+        "0.025 mm",
+        "0.05 mm",
+        "0.01 mm",
+        "0.1 mm"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "To determine refractive index of a glass slab using a travelling microscope, lycopodium powder is sprinkled on top surface of slab to:",
+      "options": [
+        "Provide a clear surface mark for focusing the microscope",
+        "Increase light reflection from top surface",
+        "Reduce parallax error",
+        "Avoid scratching the glass slab"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a meter bridge experiment, high accuracy is achieved when the balance point lies near:",
+      "options": [
+        "50 cm mark (middle of the wire)",
+        "10 cm mark (left end)",
+        "90 cm mark (right end)",
+        "0 cm mark"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an experiment using a simple pendulum to plot L-T² graph, the slope of the graph is given by:",
+      "options": [
+        "g / (4π²)",
+        "4π² / g",
+        "g / (2π)",
+        "2π / g"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a resonance tube experiment, if frequency of tuning fork is f = 512 Hz and first resonant length is l₁ = 16 cm (excluding end correction e), the speed of sound v is given by:",
+      "options": [
+        "4 f (l₁ + e)",
+        "2 f l₁",
+        "f l₁",
+        "4 f l₁"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an experiment to measure focal length of a convex lens using two-pin method, parallax between object pin image and pointer pin is removed when:",
+      "options": [
+        "Both image and pointer pin move together without relative shift when eye is shifted side to side",
+        "Image and pointer pin coincide at the principal focus",
+        "Both pins appear blurred",
+        "Image is inverted and magnified"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Experimental Skills",
+    "chapter_number": 20,
+    "topic": "Experimental Skills",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an experiment to determine resistance per unit length of a wire using Ohm's law, a graph between V (y-axis) and I (x-axis) gives a straight line. The resistance of the wire is equal to:",
+      "options": [
+        "Slope of V-I graph",
+        "Reciprocal of slope of V-I graph",
+        "Area under V-I graph",
+        "Intercept on V-axis"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to Bohr's model of the hydrogen atom, the radius of the nth orbit is proportional to:",
+      "options": [
+        "n²",
+        "n",
+        "1 / n",
+        "1 / n²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy of an electron in the ground state of hydrogen atom is -13.6 eV. Its kinetic energy in the first excited state (n = 2) is:",
+      "options": [
+        "3.4 eV",
+        "-3.4 eV",
+        "6.8 eV",
+        "13.6 eV"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of minimum to maximum wavelength in the Lyman series of hydrogen spectrum is:",
+      "options": [
+        "3 : 4",
+        "1 : 4",
+        "4 : 3",
+        "3 : 1"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Nuclear radius R is related to mass number A by the formula R = R₀ A^(1/3). The ratio of nuclear densities of two nuclei with mass numbers 64 and 125 is:",
+      "options": [
+        "1 : 1",
+        "4 : 5",
+        "64 : 125",
+        "16 : 25"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The binding energy per nucleon is maximum for the nucleus:",
+      "options": [
+        "⁵⁶Fe",
+        "⁴He",
+        "²³⁵U",
+        "¹²C"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a nuclear fusion reaction, two deuterons (²H) fuse to form a helium nucleus (⁴He). The binding energies per nucleon for ²H and ⁴He are 1.1 MeV and 7.0 MeV respectively. The energy released in this reaction is:",
+      "options": [
+        "23.6 MeV",
+        "28.0 MeV",
+        "4.4 MeV",
+        "11.8 MeV"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which series of the hydrogen spectrum lies in the visible region?",
+      "options": [
+        "Balmer series",
+        "Lyman series",
+        "Paschen series",
+        "Brackett series"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy equivalent of 1 atomic mass unit (1 u) is approximately equal to:",
+      "options": [
+        "931.5 MeV",
+        "93.15 MeV",
+        "1.6 × 10⁻¹⁹ J",
+        "0.511 MeV"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An electron in a hydrogen atom makes a transition from n = 3 to n = 1. The angular momentum of the electron changes by:",
+      "options": [
+        "h / π",
+        "2h / π",
+        "h / (2π)",
+        "3h / (2π)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ionisation potential of a singly ionised helium atom (He⁺) is:",
+      "options": [
+        "54.4 V",
+        "13.6 V",
+        "27.2 V",
+        "108.8 V"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of time periods of electron revolution in the 1st orbit to the 2nd orbit of a hydrogen atom is:",
+      "options": [
+        "1 : 8",
+        "1 : 4",
+        "1 : 2",
+        "1 : 16"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Mass defect Δm for a nucleus (AZ_X) with nuclear mass M_N, proton mass m_p and neutron mass m_n is given by:",
+      "options": [
+        "Z m_p + (A - Z) m_n - M_N",
+        "A m_p + Z m_n - M_N",
+        "Z m_p + A m_n - M_N",
+        "M_N - Z m_p - (A - Z) m_n"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In Rutherford's α-particle scattering experiment, the distance of closest approach for a 5 MeV α-particle colliding head-on with a gold nucleus (Z = 79) is of the order of:",
+      "options": [
+        "10⁻¹⁴ m",
+        "10⁻¹⁰ m",
+        "10⁻⁸ m",
+        "10⁻¹² m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following fundamental forces has the shortest range?",
+      "options": [
+        "Strong nuclear force",
+        "Gravitational force",
+        "Electromagnetic force",
+        "Weak nuclear force"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Bohr's quantization condition for angular momentum L of an electron in an orbit is:",
+      "options": [
+        "L = n h / (2π)",
+        "L = n h / π",
+        "L = 2 n h / π",
+        "L = n² h / (2π)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of velocity of an electron in the ground state of hydrogen atom to the speed of light in vacuum is approximately (where α is fine structure constant):",
+      "options": [
+        "1 / 137",
+        "1 / 100",
+        "1 / 237",
+        "1 / 50"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The wave number R of the first line of the Lyman series in terms of Rydberg constant R_H is:",
+      "options": [
+        "3 R_H / 4",
+        "R_H / 4",
+        "4 R_H / 3",
+        "R_H / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If two light nuclei undergo fusion, the mass of the resulting nucleus is:",
+      "options": [
+        "Less than the sum of masses of combining nuclei",
+        "More than the sum of masses of combining nuclei",
+        "Equal to the sum of masses of combining nuclei",
+        "Zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of kinetic energy to total energy of an electron in a Bohr orbit of hydrogen atom is:",
+      "options": [
+        "-1",
+        "1",
+        "1 / 2",
+        "-1 / 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The wavelength of the first line of the Balmer series in hydrogen atom is λ. The wavelength of the first line of the Balmer series for Li²⁺ ion is:",
+      "options": [
+        "λ / 9",
+        "λ / 3",
+        "9 λ",
+        "3 λ"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A hydrogen atom in its ground state absorbs a photon of energy 12.1 eV. The highest orbital angular momentum quantum number l of the electron in its excited state is:",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When a heavy nucleus at rest undergoes fission into two fragments, the ratio of kinetic energies of the two fragments is equal to:",
+      "options": [
+        "Inverse ratio of their mass numbers",
+        "Direct ratio of their mass numbers",
+        "Inverse ratio of squares of mass numbers",
+        "Direct ratio of squares of mass numbers"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy required to excite a hydrogen atom from ground state (n = 1) to first excited state (n = 2) is:",
+      "options": [
+        "10.2 eV",
+        "13.6 eV",
+        "3.4 eV",
+        "1.51 eV"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The ratio of area of the 1st orbit to the area of the 2nd orbit of hydrogen atom is:",
+      "options": [
+        "1 : 16",
+        "1 : 4",
+        "1 : 8",
+        "1 : 2"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a hydrogen-like atom, the magnetic field produced at the center due to electron revolving in the nth orbit varies with n as:",
+      "options": [
+        "1 / n⁵",
+        "1 / n³",
+        "1 / n²",
+        "1 / n⁴"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy released per fission of ²³⁵U is approximately 200 MeV. The total energy released when 1 kg of ²³⁵U undergoes complete fission is approximately:",
+      "options": [
+        "8.2 × 10¹³ J",
+        "5.1 × 10¹³ J",
+        "2.0 × 10¹³ J",
+        "1.2 × 10¹⁴ J"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "De Broglie hypothesis explains which postulate of Bohr's atomic model?",
+      "options": [
+        "Quantization of angular momentum",
+        "Quantization of energy",
+        "Stationary orbits with continuous radiation",
+        "Conservation of linear momentum"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Atoms and Nuclei",
+    "chapter_number": 18,
+    "topic": "Atoms and Nuclei",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If an electron drops from n = 4 to n = 2 in a hydrogen atom, the series to which the emitted spectral line belongs is:",
+      "options": [
+        "Balmer series",
+        "Lyman series",
+        "Paschen series",
+        "Pfund series"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

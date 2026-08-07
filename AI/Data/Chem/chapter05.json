@@ -1,0 +1,596 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "System and Surroundings",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A system that can exchange both energy and matter with its surroundings is called a/an:",
+      "options": [
+        "Isolated system",
+        "Closed system",
+        "Open system",
+        "Adiabatic system"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "State Functions vs Path Functions",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following thermodynamic quantities is a path function?",
+      "options": [
+        "Internal Energy (U)",
+        "Enthalpy (H)",
+        "Work (w)",
+        "Gibbs Free Energy (G)"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "First Law of Thermodynamics",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The mathematical expression for the First Law of Thermodynamics is:",
+      "options": [
+        "ΔU = q + w",
+        "ΔH = ΔU - pΔV",
+        "ΔG = ΔH + TΔS",
+        "q = C ΔT"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Extensive and Intensive Properties",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following is an intensive property?",
+      "options": [
+        "Volume",
+        "Mass",
+        "Density",
+        "Enthalpy"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Enthalpy and Exothermic/Endothermic Reactions",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For an exothermic reaction occurring at constant pressure, the change in enthalpy (ΔH) is always:",
+      "options": [
+        "Positive (ΔH > 0)",
+        "Negative (ΔH < 0)",
+        "Zero (ΔH = 0)",
+        "Equal to work done (ΔH = w)"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Second Law of Thermodynamics",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "According to the Second Law of Thermodynamics, the total entropy of an isolated system during a spontaneous process:",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Gibbs Energy and Spontaneity",
+    "difficulty": 0,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A chemical process is spontaneous at constant temperature and pressure when:",
+      "options": [
+        "ΔG > 0",
+        "ΔG < 0",
+        "ΔG = 0",
+        "ΔH = 0"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Heat Capacity Relationship",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The relationship between molar heat capacity at constant pressure (C_p) and constant volume (C_v) for an ideal gas is:",
+      "options": [
+        "C_p - C_v = R",
+        "C_v - C_p = R",
+        "C_p / C_v = R",
+        "C_p + C_v = R"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Isothermal Reversible Expansion",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the work done during an isothermal reversible expansion of n moles of an ideal gas from volume V₁ to V₂?",
+      "options": [
+        "w = -nRT ln(V₂/V₁)",
+        "w = -p_ext(V₂ - V₁)",
+        "w = 0",
+        "w = nRΔT"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Free Expansion of Ideal Gas",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For the free expansion of an ideal gas under adiabatic conditions, which set of parameters is correct?",
+      "options": [
+        "q = 0, w = 0, ΔT = 0",
+        "q ≠ 0, w = 0, ΔT = 0",
+        "q = 0, w ≠ 0, ΔT ≠ 0",
+        "q ≠ 0, w ≠ 0, ΔT = 0"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Hess's Law of Constant Heat Summation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Hess's Law states that the overall enthalpy change for a chemical reaction is independent of:",
+      "options": [
+        "Initial state of reactants",
+        "Final state of products",
+        "Path or number of steps taken",
+        "Temperature of the system"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Enthalpy vs Internal Energy Change",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For the reaction N₂(g) + 3H₂(g) → 2NH₃(g), what is the relationship between ΔH and ΔU?",
+      "options": [
+        "ΔH = ΔU",
+        "ΔH = ΔU - 2RT",
+        "ΔH = ΔU + 2RT",
+        "ΔH = ΔU + RT"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Standard Enthalpy of Formation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "By convention, the standard enthalpy of formation (Δ_f H°) is taken as zero for which of the following substances at 298 K?",
+      "options": [
+        "CO₂(g)",
+        "H₂O(l)",
+        "O₂(g)",
+        "O₃(g)"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Entropy Changes in Phase Transitions",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "What is the entropy change of vaporization (Δ_vap S) for a liquid with boiling point T_b and enthalpy of vaporization Δ_vap H?",
+      "options": [
+        "Δ_vap S = Δ_vap H / T_b",
+        "Δ_vap S = Δ_vap H × T_b",
+        "Δ_vap S = T_b / Δ_vap H",
+        "Δ_vap S = Δ_vap H - T_b"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Third Law of Thermodynamics",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The Third Law of Thermodynamics states that the entropy of a perfectly crystalline substance approaches zero as temperature approaches:",
+      "options": [
+        "0 °C",
+        "0 K",
+        "273 K",
+        "100 K"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Standard Gibbs Energy and Equilibrium Constant",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The relationship between standard Gibbs energy change (ΔG°) and equilibrium constant (K) is given by:",
+      "options": [
+        "ΔG° = -RT ln K",
+        "ΔG° = RT ln K",
+        "ΔG° = -RT log K",
+        "ΔG° = -nFE°"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Bomb Calorimetry",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a bomb calorimeter experiment, heat measured at constant volume corresponds to:",
+      "options": [
+        "Enthalpy change (ΔH)",
+        "Internal energy change (ΔU)",
+        "Gibbs energy change (ΔG)",
+        "Work done (w)"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Spontaneity and Temperature Dependency",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For an endothermic reaction (ΔH > 0) with an increase in entropy (ΔS > 0), the reaction will become spontaneous:",
+      "options": [
+        "At low temperatures only",
+        "At high temperatures only",
+        "At all temperatures",
+        "Never at any temperature"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Lattice Enthalpy and Born-Haber Cycle",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a Born-Haber cycle for NaCl(s), which step directly involves lattice enthalpy?",
+      "options": [
+        "Na(s) → Na(g)",
+        "Na⁺(g) + Cl⁻(g) → NaCl(s)",
+        "½ Cl₂(g) → Cl(g)",
+        "Cl(g) + e⁻ → Cl⁻(g)"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Bond Enthalpy Calculation",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Enthalpy change of a gas-phase reaction (Δ_r H) can be estimated using bond enthalpies (BE) as:",
+      "options": [
+        "Δ_r H = ∑ BE(products) - ∑ BE(reactants)",
+        "Δ_r H = ∑ BE(reactants) - ∑ BE(products)",
+        "Δ_r H = ∑ BE(reactants) + ∑ BE(products)",
+        "Δ_r H = ∑ BE(products) / ∑ BE(reactants)"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Adiabatic Process Work Done",
+    "difficulty": 1,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a reversible adiabatic process involving an ideal gas, work done is given by:",
+      "options": [
+        "w = (nR / (γ - 1)) × (T₂ - T₁)",
+        "w = -nRT ln(V₂/V₁)",
+        "w = -p_ext ΔV",
+        "w = nR(T₂ - T₁)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Work Comparison (Reversible vs Irreversible)",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An ideal gas expands from volume V₁ to V₂ at temperature T. Magnitude of work done by the gas is greater in:",
+      "options": [
+        "Irreversible expansion against constant external pressure",
+        "Reversible expansion",
+        "Free expansion",
+        "Both reversible and irreversible expansions yield equal work magnitude"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Thermochemical Calculations",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "If Δ_f H°(CO, g) = -110.5 kJ mol⁻¹ and Δ_f H°(CO₂, g) = -393.5 kJ mol⁻¹, what is the standard enthalpy of combustion of CO(g)?",
+      "options": [
+        "-283.0 kJ mol⁻¹",
+        "-504.0 kJ mol⁻¹",
+        "+283.0 kJ mol⁻¹",
+        "+504.0 kJ mol⁻¹"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Entropy of Mixing Ideal Gases",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When 1 mole of gas A and 1 mole of gas B are mixed at constant temperature and pressure without reacting, the entropy of mixing (Δ_mix S) per mole of mixture is:",
+      "options": [
+        "-R ln(0.5)",
+        "R ln(0.5)",
+        "0",
+        "-2R ln(0.5)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Joule-Thomson Effect",
+    "difficulty": 2,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The Joule-Thomson coefficient (μ_JT = (∂T/∂p)_H) for an ideal gas undergoing isoenthalpic expansion is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Infinite"
+      ],
+      "correct_option_index": 2,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Kirchhoff's Equation",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Kirchhoff's equation describing the variation of enthalpy change of a reaction with temperature is:",
+      "options": [
+        "ΔH₂ - ΔH₁ = ΔC_p (T₂ - T₁)",
+        "ΔH₂ - ΔH₁ = ΔC_v (T₂ - T₁)",
+        "ΔH₂ / T₂ = ΔH₁ / T₁",
+        "d(ΔH)/dT = ΔC_v"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Chemistry",
+    "chapter_name": "Thermodynamics",
+    "chapter_number": 5,
+    "topic": "Coupled Reactions & Non-PV Work",
+    "difficulty": 3,
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "At constant temperature and pressure, the maximum non-expansion (useful) work obtainable from a thermodynamic process is equal to:",
+      "options": [
+        "-ΔH",
+        "-ΔG",
+        "-ΔU",
+        "TΔS"
+      ],
+      "correct_option_index": 1,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "sequence_id": 1,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an unbiased p-n junction diode, the barrier potential develops across the depletion layer due to the accumulation of:",
+      "options": [
+        "Immobile positive ions on n-side and immobile negative ions on p-side",
+        "Free electrons on p-side and holes on n-side",
+        "Immobile positive ions on p-side and immobile negative ions on n-side",
+        "Holes on p-side and free electrons on n-side"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 2,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which logic gate represents the truth table output Y = 1 when both inputs A = 0 and B = 0, and Y = 0 otherwise?",
+      "options": [
+        "NOR gate",
+        "NAND gate",
+        "AND gate",
+        "OR gate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 3,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A Zener diode is designed to operate primarily in which region?",
+      "options": [
+        "Reverse breakdown region",
+        "Forward bias region",
+        "Unbiased region",
+        "Cut-off region"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 4,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When an intrinsic semiconductor is doped with trivalent impurities (like Boron or Indium), the majority charge carriers are:",
+      "options": [
+        "Holes",
+        "Free electrons",
+        "Positive ions",
+        "Negative ions"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 5,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A full-wave rectifier uses two p-n junction diodes. If the input AC frequency is 50 Hz, the fundamental frequency of the ripple in the output voltage is:",
+      "options": [
+        "100 Hz",
+        "50 Hz",
+        "25 Hz",
+        "200 Hz"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 6,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a Zener diode voltage regulator with breakdown voltage V_Z = 10 V, supply voltage V_in = 15 V, and series resistor R = 100 Ω, the current through the series resistor is:",
+      "options": [
+        "50 mA",
+        "100 mA",
+        "150 mA",
+        "25 mA"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 7,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Light Emitting Diodes (LEDs) are biased in:",
+      "options": [
+        "Forward bias",
+        "Reverse bias",
+        "Unbiased state",
+        "Breakdown region"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 8,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The Boolean expression for the output Y of a NAND gate with inputs A and B is:",
+      "options": [
+        "Y = A · B (bar over A·B)",
+        "Y = A + B (bar over A+B)",
+        "Y = A · B",
+        "Y = A + B"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 9,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a p-n junction photodiode, light is detected when photons of energy hν are incident on the depletion region such that:",
+      "options": [
+        "hν ≥ E_g (where E_g is band gap energy)",
+        "hν < E_g",
+        "hν = E_g / 2",
+        "hν = zero"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 10,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The energy band gap E_g for Germanium and Silicon at room temperature are respectively about:",
+      "options": [
+        "0.7 eV and 1.1 eV",
+        "1.1 eV and 0.7 eV",
+        "3.0 eV and 0.2 eV",
+        "0.2 eV and 3.0 eV"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 11,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which logic gate is known as a universal logic gate because any digital circuit can be constructed using only this type of gate?",
+      "options": [
+        "NAND gate",
+        "AND gate",
+        "OR gate",
+        "NOT gate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 12,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A solar cell operates on the principle of converting solar radiation into electrical energy. It works under:",
+      "options": [
+        "Unbiased condition",
+        "Forward biased condition",
+        "Reverse biased condition",
+        "Breakdown condition"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 13,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "For a pure semiconductor, the relation between intrinsic carrier concentration n_i, electron density n_e, and hole density n_h is given by:",
+      "options": [
+        "n_e · n_h = n_i²",
+        "n_e + n_h = n_i",
+        "n_e · n_h = n_i",
+        "n_e / n_h = n_i²"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 14,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "At absolute zero temperature (0 K), a pure semiconductor behaves as a perfect:",
+      "options": [
+        "Insulator",
+        "Conductor",
+        "Superconductor",
+        "Semiconductor with high conductivity"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 15,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "When a p-n junction diode is reverse biased, the width of its depletion layer:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains unchanged",
+        "First decreases then increases"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 16,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a half-wave rectifier, if the peak AC input voltage is V_m, the maximum DC output voltage across the load resistor in the absence of a filter capacitor is:",
+      "options": [
+        "V_m / π",
+        "2 V_m / π",
+        "V_m / √2",
+        "V_m"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 17,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The combination of two NOT gates connected in series gives the output equivalent to a:",
+      "options": [
+        "Buffer (Identity gate)",
+        "OR gate",
+        "AND gate",
+        "NAND gate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 18,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In an n-type semiconductor, majority carriers are free electrons which are produced primarily due to:",
+      "options": [
+        "Pentavalent impurity atoms",
+        "Trivalent impurity atoms",
+        "Thermal generation of electron-hole pairs",
+        "Recombination"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 19,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "A p-n junction diode acts as a closed switch when it is:",
+      "options": [
+        "Forward biased",
+        "Reverse biased",
+        "Unbiased",
+        "Grounded"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 20,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The output of an OR gate is connected to the input of a NOT gate. The resulting logic gate is a:",
+      "options": [
+        "NOR gate",
+        "NAND gate",
+        "AND gate",
+        "XOR gate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 21,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An LED made of GaAsP emits red light. Its energy band gap E_g is approximately:",
+      "options": [
+        "1.9 eV",
+        "0.7 eV",
+        "0.2 eV",
+        "3.4 eV"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 22,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a forward-biased p-n junction, current is mainly due to:",
+      "options": [
+        "Diffusion of majority charge carriers across the junction",
+        "Drift of minority charge carriers across the junction",
+        "Thermionic emission",
+        "Field emission"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 23,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Medium",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "Which of the following materials has a negative temperature coefficient of resistance?",
+      "options": [
+        "Silicon (Semiconductor)",
+        "Copper (Conductor)",
+        "Silver (Conductor)",
+        "Constantan (Alloy)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 24,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "In a p-n junction, reverse saturation current is primarily due to the flow of:",
+      "options": [
+        "Minority charge carriers",
+        "Majority charge carriers",
+        "Holes only",
+        "Free electrons only"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 25,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "De Morgan's First Theorem states that the complement of a product of variables is equal to the sum of their individual complements, represented as:",
+      "options": [
+        "Overline(A · B) = Overline(A) + Overline(B)",
+        "Overline(A + B) = Overline(A) · Overline(B)",
+        "Overline(A · B) = Overline(A) · Overline(B)",
+        "Overline(A + B) = Overline(A) + Overline(B)"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 26,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Hard",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The dynamic resistance r_d of a p-n junction diode in forward bias is defined as:",
+      "options": [
+        "ΔV / ΔI",
+        "V / I",
+        "ΔI / ΔV",
+        "I / V"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 27,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "An AND gate can be created by connecting:",
+      "options": [
+        "A NAND gate followed by a NOT gate",
+        "A NOR gate followed by a NOT gate",
+        "Two OR gates in series",
+        "An OR gate followed by a NOT gate"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "sequence_id": 28,
+    "subject": "Physics",
+    "chapter_name": "Electronic Devices",
+    "chapter_number": 19,
+    "topic": "Electronic Devices",
+    "difficulty": "Advanced",
+    "status": "APPROVED",
+    "is_encrypted": false,
+    "plaintext_content": {
+      "question_text": "The Fermi energy level in an n-type semiconductor at 0 K lies:",
+      "options": [
+        "Just below the conduction band",
+        "Just above the valence band",
+        "Exactly in the middle of the energy band gap",
+        "Inside the valence band"
+      ],
+      "correct_option_index": 0,
+      "media_url": null
+    },
+    "created_at": "2026-08-05T00:00:00.000Z"
+  }
+]
