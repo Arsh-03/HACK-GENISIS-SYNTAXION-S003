@@ -149,6 +149,16 @@ export function useProctoringStream() {
     }
   };
 
+  const simulateProctorEvent = (candidateId, violationType) => {
+    if (socketRef.current) {
+      socketRef.current.emit('SIMULATE_PROCTOR_EVENT', {
+        candidateId,
+        violationType,
+        timestamp: new Date().toISOString()
+      });
+    }
+  };
+
   const populateAllCandidates = async () => {
     try {
       const candidatesData = await fetchCandidates();
@@ -210,7 +220,8 @@ export function useProctoringStream() {
     issueWarning,
     updateIncidentStatus,
     reassignCandidateSeat,
-    populateAllCandidates
+    populateAllCandidates,
+    simulateProctorEvent
   };
 }
 

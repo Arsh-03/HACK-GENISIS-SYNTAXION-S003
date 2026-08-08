@@ -1,0 +1,1 @@
+import { io } from 'socket.io-client'; const socket = io('http://localhost:5001'); socket.on('connect', () => console.log('Connected!')); socket.on('warning-issued', (data) => { console.log('WARNING RECEIVED:', data); process.exit(0); }); setTimeout(() => { console.log('Timeout'); process.exit(1); }, 10000);

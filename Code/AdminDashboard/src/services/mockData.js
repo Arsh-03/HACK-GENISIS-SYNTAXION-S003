@@ -348,8 +348,8 @@ export const mockProctoringOverviewKPIs = [
 ];
 
 export const mockExamHallSeats = [
-  { deskNumber: "Desk 01", seatId: "S-101", terminalId: "TRM-01-01", candidateName: "Aarav Sharma", candidateId: "CBT-2026-0891", status: "CRITICAL" },
-  { deskNumber: "Desk 02", seatId: "S-102", terminalId: "TRM-01-02", candidateName: "Sophia Chen", candidateId: "CBT-2026-0412", status: "WARNING" },
+  { deskNumber: "Desk 01", seatId: "S-101", terminalId: "TRM-01-01", candidateName: "Aarav Sharma", candidateId: "CBT-2026-0891", status: "NORMAL" },
+  { deskNumber: "Desk 02", seatId: "S-102", terminalId: "TRM-01-02", candidateName: "Sophia Chen", candidateId: "CBT-2026-0412", status: "NORMAL" },
   { deskNumber: "Desk 03", seatId: "S-103", terminalId: "TRM-01-03", candidateName: "Marcus Vance", candidateId: "CBT-2026-1029", status: "NORMAL" },
   { deskNumber: "Desk 04", seatId: "S-104", terminalId: "TRM-01-04", candidateName: "Elena Rostova", candidateId: "CBT-2026-0773", status: "WARNING" },
   { deskNumber: "Desk 05", seatId: "S-105", terminalId: "TRM-01-05", candidateName: "Devon Taylor", candidateId: "CBT-2026-1184", status: "NORMAL" },

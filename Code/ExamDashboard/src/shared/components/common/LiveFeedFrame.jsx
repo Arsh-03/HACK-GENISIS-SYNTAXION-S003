@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Badge } from '../ui/Badge';
 import { Camera, Mic, Monitor, Wifi, Clock, Radio } from 'lucide-react';
 
@@ -15,6 +15,12 @@ export function LiveFeedFrame({
   const feedUrl = streamUrl || frameUrl || candidate?.liveFeedUrl || (allowSnapshotFallback ? candidate?.snapshotUrl || candidate?.photoUrl : '');
   const status = candidate?.status || 'LIVE';
   const statusVariant = status === 'CRITICAL' ? 'danger' : status === 'WARNING' ? 'warning' : 'success';
+
+  const localVideoRef = useRef(null);
+
+  useEffect(() => {
+    // No more local webcam hack here - Invigilator will receive network frames via feedUrl.
+  }, [videoRef]);
 
   return (
     <div className={`relative aspect-video rounded-xl overflow-hidden bg-slate-950 shadow-sm ${className}`}>

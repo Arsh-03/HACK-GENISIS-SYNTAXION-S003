@@ -32,6 +32,16 @@ export const MOCK_USERS = [
     isFirstLogin: false,
   },
   {
+    id: 'user-005',
+    name: 'Sophia Chen',
+    email: 'sophia.chen@university.edu',
+    username: 'sophiac',
+    password: 'password123',
+    role: 'Candidate',
+    avatar: 'SC',
+    isFirstLogin: false,
+  },
+  {
     id: 'user-004',
     name: 'David Miller',
     email: 'temp@nexiscbt.com',

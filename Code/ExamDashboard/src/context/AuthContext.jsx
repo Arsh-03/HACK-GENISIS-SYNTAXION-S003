@@ -45,10 +45,11 @@ export function AuthProvider({ children }) {
       }
     } else if (role === 'Invigilator' || role === 'INVIGILATOR') {
       try {
-        const sessions = await fetchSessions();
-        const hasActive = sessions.some(s => s.status === 'active' || s.status === 'RUNNING');
-        setSessionStatus({ hasActiveSession: hasActive });
-        return hasActive;
+        const examsRes = await fetch('http://localhost:5001/api/exams').then(r => r.json());
+        const exams = Array.isArray(examsRes) ? examsRes : [];
+        const hasDemoOrActive = exams.some(e => e.status === 'PUBLISHED' || e.status === 'ACTIVE' || e.status === 'UPCOMING');
+        setSessionStatus({ hasActiveSession: hasDemoOrActive });
+        return hasDemoOrActive;
       } catch (e) {
         console.error('Failed to check session status:', e);
         return false;

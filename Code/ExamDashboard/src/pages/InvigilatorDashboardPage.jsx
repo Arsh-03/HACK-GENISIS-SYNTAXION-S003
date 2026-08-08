@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useProctoringStream } from '../hooks/useProctoringStream';
 import { ProctoringCard } from '../shared/components/common/ProctoringCard';
 import { Card } from '../shared/components/ui/Card';
@@ -84,7 +84,8 @@ export function InvigilatorDashboardPage() {
     issueWarning,
     updateIncidentStatus,
     reassignCandidateSeat,
-    populateAllCandidates
+    populateAllCandidates,
+    simulateProctorEvent
   } = useProctoringStream();
   const liveFeedRegistry = useLiveFeedRegistry();
 
@@ -267,7 +268,7 @@ export function InvigilatorDashboardPage() {
       </section>
 
       {/* DEMO SIMULATION CONTROL */}
-      <DemoSimulationControl socket={null} activeStudentId={selectedCandidate?.candidateId} />
+      <DemoSimulationControl simulateProctorEvent={simulateProctorEvent} activeStudentId={selectedCandidate?.candidateId} allCandidates={allCandidates} />
 
       {/* ==================================================== */}
       {/* 3. CONTROL ROOM VIEW SWITCHER TABS */}
@@ -363,9 +364,19 @@ export function InvigilatorDashboardPage() {
                 <div
                   key={seat.seatId}
                   onClick={() => {
-                    if (matchedCandidate) {
-                      setSelectedCandidate(matchedCandidate);
-                    }
+                    const candToSelect = matchedCandidate || {
+                      name: seat.candidateName,
+                      candidateId: seat.candidateId,
+                      terminalId: seat.terminalId,
+                      seat: seat.deskNumber,
+                      status: seat.status,
+                      cameraActive: true,
+                      micActive: true,
+                      screenShareActive: true,
+                      internetStatus: 'CONNECTED',
+                      heartbeatStatus: 'LIVE'
+                    };
+                    setSelectedCandidate(candToSelect);
                   }}
                   className={`p-3 rounded-xl border transition-all cursor-pointer relative ${
                     isCritical ? 'bg-red-50 border-red-300 hover:bg-red-100 ring-1 ring-red-400' :
@@ -409,9 +420,9 @@ export function InvigilatorDashboardPage() {
           headerAction={<Bell className="w-5 h-5 text-amber-500" />}
         >
           <div className="space-y-4">
-            {alerts.map((alt) => (
+            {alerts.map((alt, index) => (
               <div
-                key={alt.id}
+                key={alt.id || index}
                 className={`p-4 rounded-xl border flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all ${
                   alt.severity === 'CRITICAL'
                     ? 'bg-red-50/80 border-red-200 text-red-950'
@@ -450,7 +461,10 @@ export function InvigilatorDashboardPage() {
                     size="sm"
                     icon={Send}
                     onClick={() => {
-                      const matched = allCandidates.find(c => c.name === alt.student);
+                      const matched = allCandidates.find(c => c.name === alt.student) || {
+                        name: alt.student,
+                        candidateId: alt.candidateId || (alt.student?.includes('Sophia') ? 'CBT-2026-0412' : 'CBT-2026-0891')
+                      };
                       if (matched) handleOpenMessaging(matched, 'WARNING');
                     }}
                   >
@@ -461,7 +475,10 @@ export function InvigilatorDashboardPage() {
                     size="sm"
                     icon={Eye}
                     onClick={() => {
-                      const matched = allCandidates.find(c => c.name === alt.student);
+                      const matched = allCandidates.find(c => c.name === alt.student) || {
+                        name: alt.student,
+                        candidateId: alt.candidateId || (alt.student?.includes('Sophia') ? 'CBT-2026-0412' : 'CBT-2026-0891')
+                      };
                       if (matched) setSelectedCandidate(matched);
                     }}
                   >

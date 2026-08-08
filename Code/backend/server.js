@@ -836,7 +836,31 @@ app.post('/api/exam/:examId/start', async (req, res) => {
 app.get('/api/exam/:examId/questions', async (req, res) => {
   try {
     const { examId } = req.params;
-    console.log(`[Questions] Fetching questions for examId: ${examId}`);
+    const { candidateId } = req.query;
+    console.log(`[Questions] Fetching questions for examId: ${examId}, candidateId: ${candidateId || 'none'}`);
+
+    // Simple deterministic PRNG based on string seed
+    const seededRandom = (seedStr) => {
+      let hash = 0;
+      for (let i = 0; i < seedStr.length; i++) {
+        hash = Math.imul(31, hash) + seedStr.charCodeAt(i) | 0;
+      }
+      return () => {
+        hash = Math.imul(1597334677, hash) + 1 | 0;
+        return ((hash >>> 0) / 4294967296);
+      };
+    };
+
+    // Fisher-Yates shuffle with seed
+    const shuffleArray = (array, seed) => {
+      const rng = seededRandom(seed);
+      const newArr = [...array];
+      for (let i = newArr.length - 1; i > 0; i--) {
+        const j = Math.floor(rng() * (i + 1));
+        [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
+      }
+      return newArr;
+    };
 
     const cacheKey = `exam:${examId}:master`;
     let rawQuestions = [];
@@ -867,31 +891,46 @@ app.get('/api/exam/:examId/questions', async (req, res) => {
     }
 
     if (rawQuestions.length > 0) {
-      const formatted = rawQuestions.map((q, idx) => ({
-        id: q.id || `Q-${idx + 1}`,
-        text: q.question_text || q.prompt || q.text || '',
-        prompt: q.question_text || q.prompt || q.text || '',
-        subject: q.subject || 'General',
-        topic: q.topic || 'General',
-        difficulty: q.difficulty || 'Medium',
-        options: Array.isArray(q.options)
-          ? q.options.map((opt, oIdx) => ({
-              id: String.fromCharCode(65 + oIdx),
-              text: typeof opt === 'string' ? opt : (opt.text || opt.label || String(opt))
-            }))
-          : [],
-        correctAnswerText: q.correct_option_index !== undefined
-          ? String.fromCharCode(65 + q.correct_option_index)
-          : '',
-        explanation: q.explanation || '',
-        chapter: q.topic || 'General',
-        marks: 2,
-        type: 'Multiple Choice',
-        source: 'AI Generated',
-        version: 'v1.0',
-        lastUpdated: new Date().toISOString().split('T')[0],
-        codeSnippet: q.codeSnippet || null
-      }));
+      let finalQuestions = candidateId ? shuffleArray(rawQuestions, candidateId) : rawQuestions;
+      
+      const formatted = finalQuestions.map((q, idx) => {
+        let options = Array.isArray(q.options) ? q.options : [];
+        let originalCorrectIndex = q.correct_option_index !== undefined ? q.correct_option_index : 0;
+        
+        // Tag original options so we can track the correct one after shuffle
+        let taggedOptions = options.map((opt, oIdx) => ({
+          text: typeof opt === 'string' ? opt : (opt.text || opt.label || String(opt)),
+          isCorrect: oIdx === originalCorrectIndex
+        }));
+
+        if (candidateId) {
+          taggedOptions = shuffleArray(taggedOptions, candidateId + (q.id || idx));
+        }
+
+        const newCorrectIndex = taggedOptions.findIndex(o => o.isCorrect);
+
+        return {
+          id: q.id || `Q-${idx + 1}`,
+          text: q.question_text || q.prompt || q.text || '',
+          prompt: q.question_text || q.prompt || q.text || '',
+          subject: q.subject || 'General',
+          topic: q.topic || 'General',
+          difficulty: q.difficulty || 'Medium',
+          options: taggedOptions.map((opt, oIdx) => ({
+            id: String.fromCharCode(65 + oIdx),
+            text: opt.text
+          })),
+          correctAnswerText: newCorrectIndex !== -1 ? String.fromCharCode(65 + newCorrectIndex) : '',
+          explanation: q.explanation || '',
+          chapter: q.topic || 'General',
+          marks: 2,
+          type: 'Multiple Choice',
+          source: 'AI Generated',
+          version: 'v1.0',
+          lastUpdated: new Date().toISOString().split('T')[0],
+          codeSnippet: q.codeSnippet || null
+        };
+      });
       return res.json(formatted);
     }
 
@@ -947,7 +986,11 @@ app.get('/api/generation-history', async (req, res) => {
 
 io.on('connection', async (socket) => {
   console.log(`Socket connected: ${socket.id}`);
-  socket.emit('state-update', await getFullState());
+  try {
+    socket.emit('state-update', await getFullState());
+  } catch (e) {
+    console.error("[CONNECTION] getFullState failed:", e);
+  }
 
   socket.on('update-session-status', async ({ status }) => {
     sessionStatus = status;
@@ -956,17 +999,23 @@ io.on('connection', async (socket) => {
   });
 
   socket.on('issue-warning', async ({ candidateName, message }) => {
-    const timeStr = new Date().toLocaleTimeString();
-    await Log.create({
-      time: timeStr,
-      candidate: candidateName,
-      type: 'WARNING',
-      text: `Official warning issued to ${candidateName}: ${message}`
-    });
-    
-    const newLog = { id: `log-${Date.now()}`, time: timeStr, candidate: candidateName, type: 'WARNING', text: `Official warning issued to ${candidateName}: ${message}` };
-    io.emit('warning-issued', { candidateName, message, log: newLog });
-    await broadcastState();
+    try {
+      console.log("[SOCKET] Received issue-warning", candidateName, message);
+      const timeStr = new Date().toLocaleTimeString();
+      await Log.create({
+        time: timeStr,
+        candidate: candidateName,
+        type: 'WARNING',
+        text: `Official warning issued to ${candidateName}: ${message}`
+      });
+      
+      const newLog = { id: `log-${Date.now()}`, time: timeStr, candidate: candidateName, type: 'WARNING', text: `Official warning issued to ${candidateName}: ${message}` };
+      console.log("[SOCKET] Emitting warning-issued");
+      io.emit('warning-issued', { candidateName, message, log: newLog });
+      await broadcastState();
+    } catch (err) {
+      console.error("[issue-warning ERROR]", err);
+    }
   });
 
   socket.on('terminate-session', async ({ candidateId }) => {
@@ -1010,6 +1059,10 @@ io.on('connection', async (socket) => {
       });
       
       io.emit('state-update', await getFullState());
+      io.emit('warning-issued', { 
+        candidateName, 
+        message: `AI Proctor Alert: ${newAlert.category} detected. ${newAlert.recommendedAction}.` 
+      });
     } catch (e) { console.error(e); }
   });
 
@@ -1018,6 +1071,11 @@ io.on('connection', async (socket) => {
       await Seat.updateOne({ candidateId }, { deskNumber: newSeat });
       await broadcastState();
     } catch (e) { console.error(e); }
+  });
+
+  socket.on('candidate-frame', (payload) => {
+    // Relay compressed camera frames from candidate to invigilators
+    socket.broadcast.emit('feed-update', payload);
   });
 
   socket.on('disconnect', () => {

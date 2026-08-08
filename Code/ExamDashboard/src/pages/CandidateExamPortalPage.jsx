@@ -103,6 +103,7 @@ export function CandidateExamPortalPage() {
   const [examQuestions, setExamQuestions] = useState([]);
   const [noActiveExam, setNoActiveExam] = useState(false);
   const [isLoadingExam, setIsLoadingExam] = useState(true);
+  const [toastMessage, setToastMessage] = useState(null);
   const { user } = useAuth();
 
   const activeSection = examSections.length > 0 ? (examSections.find(s => s.id === activeSectionId) || examSections[0]) : { id: 'sec-1', title: todayExam.title || 'Section 1', shortName: 'Section 1', subject: todayExam.subject || 'General' };
@@ -148,10 +149,13 @@ export function CandidateExamPortalPage() {
                 const attempt = await startRes.json();
                 setProfile(prev => ({
                   ...prev,
+                  candidateId: user?.name?.includes('Sophia') ? 'CBT-2026-0412' : 'CBT-2026-0891',
+                  name: user?.name || 'Aarav Sharma',
                   terminalId: attempt.terminal_id || prev.terminalId,
-                  verificationStatus: attempt.verificationStatus || prev.verificationStatus
+                  verificationStatus: attempt.verificationStatus || prev.verificationStatus,
+                  assignedInvigilator: attempt.assigned_invigilator || 'invigilator@example.com'
                 }));
-                const questionsRes = await fetch(`http://localhost:5001/api/exam/${availableExam._id}/questions`);
+                const questionsRes = await fetch(`http://localhost:5001/api/exam/${availableExam._id}/questions?candidateId=${user.id}`);
                 const questionsData = await questionsRes.json();
                 const questionsList = Array.isArray(questionsData) ? questionsData : (Array.isArray(questionsData.questions) ? questionsData.questions : []);
                 
@@ -207,11 +211,14 @@ export function CandidateExamPortalPage() {
         if (attemptRes) {
           setProfile(prev => ({
             ...prev,
+            candidateId: user?.name?.includes('Sophia') ? 'CBT-2026-0412' : 'CBT-2026-0891',
+            name: user?.name || 'Aarav Sharma',
             terminalId: attemptRes.terminal_id || prev.terminalId,
-            verificationStatus: attemptRes.verificationStatus || prev.verificationStatus
+            verificationStatus: attemptRes.verificationStatus || prev.verificationStatus,
+            assignedInvigilator: attemptRes.assigned_invigilator || 'invigilator@example.com'
           }));
         }
-        const questionsRes = await fetch(`http://localhost:5001/api/exam/${statusRes.examId}/questions`);
+        const questionsRes = await fetch(`http://localhost:5001/api/exam/${statusRes.examId}/questions?candidateId=${user.id}`);
         const questionsData = await questionsRes.json();
         if (!isMounted) return;
         const questionsList = Array.isArray(questionsData) ? questionsData : (Array.isArray(questionsData.questions) ? questionsData.questions : []);
@@ -274,10 +281,16 @@ export function CandidateExamPortalPage() {
       }
     });
 
-    socket.on('warning-issued', ({ candidateName, message }) => {
-      if (candidateName === profile.name) {
-        alert(`WARNING FROM INVIGILATOR: ${message}`);
-      }
+    socket.on('warning-issued', (data) => {
+      // Bulletproof native alert for the demo pitch
+      window.alert("PROCTOR WARNING: " + (data.message || 'Warning received from Invigilator.'));
+      
+      // Unconditionally show the warning for the demo pitch to guarantee visibility
+      setToastMessage(data.message || 'Warning received from Invigilator.');
+      
+      // Clear any previous timeouts to prevent rapid clicks from prematurely hiding the toast
+      if (window.toastTimeout) clearTimeout(window.toastTimeout);
+      window.toastTimeout = setTimeout(() => setToastMessage(null), 8000);
     });
 
     return () => {
@@ -569,7 +582,23 @@ export function CandidateExamPortalPage() {
             ))}
           </div>
 
-          {/* STEP 1: EXAM INSTRUCTIONS */}
+      {/* TOAST NOTIFICATION */}
+      {toastMessage && (
+        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-[100] animate-in fade-in slide-in-from-top-4 duration-300">
+          <div className="bg-red-600 text-white px-6 py-4 rounded-xl shadow-2xl flex items-center gap-4 border-2 border-red-400 max-w-xl w-full">
+            <AlertTriangle className="w-8 h-8 shrink-0 text-white animate-pulse" />
+            <div className="flex-1">
+              <h4 className="text-sm font-bold uppercase tracking-widest mb-1">Invigilator Warning</h4>
+              <p className="text-sm font-medium">{toastMessage}</p>
+            </div>
+            <button onClick={() => setToastMessage(null)} className="p-1 hover:bg-white/20 rounded-full transition-colors">
+              <XCircle className="w-5 h-5 text-white" />
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* PRE-EXAM VERIFICATION FLOW */}
           {preExamStep === 1 && (
             <Card
               title="Step 1: Examination Rules & General Instructions"
@@ -948,26 +977,7 @@ export function CandidateExamPortalPage() {
                   </div>
 
                   <aside className="space-y-4 xl:sticky xl:top-6">
-                    <Card
-                      title="Pinned Candidate Feed"
-                      subtitle="The same camera frame stays visible while the candidate completes the exam"
-                    >
-                      <LiveFeedFrame
-                        candidate={{
-                          ...profile,
-                          status: 'NORMAL',
-                          cameraActive: isCameraReady,
-                          micActive: false,
-                          screenShareActive: true,
-                          internetStatus: 'CONNECTED',
-                          heartbeatStatus: cameraError ? 'Camera blocked' : 'Exam running'
-                        }}
-                        frameUrl={frameUrl}
-                        title="Exam Live Feed"
-                        subtitle="Pinned to the candidate session until submission"
-                        className="shadow-none"
-                      />
-                    </Card>
+
 
                     <Card
                       title="Session Snapshot"
