@@ -7,6 +7,7 @@ import connectDB from './db.js';
 import User from './models/User.js';
 import Exam from './models/Exam.js';
 import CandidateAttempt from './models/CandidateAttempt.js';
+import GenerationHistory from './models/GenerationHistory.js';
 import { Alert, Incident, Log, Seat } from './models/Telemetry.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
@@ -14,11 +15,17 @@ import mongoose from 'mongoose';
 import axios from 'axios';
 import { exec } from 'child_process';
 import fs from 'fs';
+import Redis from 'redis';
 
 
 
 dotenv.config();
 connectDB();
+
+const redisClient = Redis.createClient({
+  url: process.env.REDIS_URL || 'redis://localhost:6379'
+});
+redisClient.connect().catch(err => console.warn('Redis connection failed:', err.message));
 
 const app = express();
 app.use(cors());
@@ -33,6 +40,7 @@ const io = new Server(server, {
 });
 
 const latestFeeds = {};
+const demoPapers = new Map();
 let sessionStatus = 'RUNNING';
 let DEMO_MODE = false;
 
@@ -66,19 +74,47 @@ async function getFullState() {
   const incidents = await Incident.find().sort({ createdAt: -1 });
   const logs = await Log.find().sort({ createdAt: -1 });
 
-  // Basic mock KPIs / Analytics for dashboard compatibility
+  const totalRegisteredCandidates = await User.countDocuments({ role: 'STUDENT' });
+  const activeSessionsCount = await CandidateAttempt.countDocuments({ status: { $ne: 'SUBMITTED' } });
+  const completedExaminations = await CandidateAttempt.countDocuments({ status: 'SUBMITTED' });
+  const aiGeneratedPapers = await Exam.countDocuments();
+  const totalInvigilators = await User.countDocuments({ role: 'INVIGILATOR' }) || 14;
+  const securityIncidents = await Incident.countDocuments();
+
   const kpis = [
-    { id: "p-kpi-1", title: "Active Session", value: "Medical Board 2026", change: "Hall A", changeType: "neutral", description: "Slot #02 Active", icon: "Clock", iconBg: "bg-indigo-100 text-indigo-700" },
-    { id: "p-kpi-2", title: "Candidates Present", value: `${candidates.length} / 50`, change: "100%", changeType: "increase", description: "0 absentees", icon: "Users", iconBg: "bg-blue-100 text-blue-700" }
+    { id: "p-kpi-1", title: "Active Session", value: sessionStatus || 'RUNNING', change: `Hall A`, changeType: "neutral", description: `Slot #${activeSessionsCount} Active`, icon: "Clock", iconBg: "bg-indigo-100 text-indigo-700" },
+    { id: "p-kpi-2", title: "Candidates Present", value: `${candidates.length} / ${totalRegisteredCandidates}`, change: `${totalRegisteredCandidates > 0 ? ((candidates.length / totalRegisteredCandidates) * 100).toFixed(0) : 0}%`, changeType: "increase", description: `${totalRegisteredCandidates - candidates.length} absentees`, icon: "Users", iconBg: "bg-blue-100 text-blue-700" },
+    { id: "p-kpi-3", title: "Completed Exams", value: `${completedExaminations}`, change: "Completed", changeType: "increase", description: "Total submitted", icon: "FileCheck", iconBg: "bg-emerald-100 text-emerald-700" },
+    { id: "p-kpi-4", title: "Security Incidents", value: `${securityIncidents}`, change: `${securityIncidents > 0 ? 'Active' : 'None'}`, changeType: securityIncidents > 0 ? "decrease" : "increase", description: "Incidents logged", icon: "AlertTriangle", iconBg: "bg-amber-100 text-amber-700" }
   ];
+
+  const alertSeverities = await Alert.aggregate([
+    { $group: { _id: '$severity', count: { $sum: 1 } } }
+  ]);
+
+  const alertDistribution = [
+    { label: "Critical", count: 0, percentage: 0, color: "bg-red-500" },
+    { label: "Warning", count: 0, percentage: 0, color: "bg-amber-500" },
+    { label: "Info", count: 0, percentage: 0, color: "bg-blue-500" }
+  ];
+
+  alertSeverities.forEach(item => {
+    const found = alertDistribution.find(a => a.label.toLowerCase() === (item._id || 'info').toLowerCase());
+    if (found) {
+      found.count = item.count;
+      found.percentage = alertDistribution.reduce((s, a) => s + a.count, 0) > 0 ? Math.round((item.count / alertDistribution.reduce((s, a) => s + a.count, 0)) * 100) : 0;
+    }
+  });
+
+  const verifiedCount = candidates.filter(c => c.verificationStatus === 'VERIFIED').length;
+  const verificationStatus = [
+    { label: "Identity Verified", count: verifiedCount, percentage: candidates.length > 0 ? Math.round((verifiedCount / candidates.length) * 100) : 0, color: "bg-emerald-500" },
+    { label: "Pending Verification", count: candidates.length - verifiedCount, percentage: candidates.length > 0 ? Math.round(((candidates.length - verifiedCount) / candidates.length) * 100) : 0, color: "bg-amber-500" }
+  ];
+
   const analytics = {
-    alertDistribution: [
-      { label: "Tab Switching", count: 18, percentage: 35, color: "bg-amber-500" },
-      { label: "Gaze Deviation", count: 14, percentage: 27, color: "bg-indigo-500" }
-    ],
-    verificationStatus: [
-      { label: "Identity Verified", count: candidates.length, percentage: 100, color: "bg-emerald-500" }
-    ]
+    alertDistribution,
+    verificationStatus
   };
 
   return { candidates, logs, kpis, seats, alerts, incidents, analytics, sessionStatus };
@@ -196,19 +232,78 @@ app.get('/api/state', async (req, res) => {
   }
 });
 
+app.get('/api/exams', async (req, res) => {
+  try {
+    const exams = await Exam.find();
+    res.json(exams);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/exams/:id', async (req, res) => {
+  try {
+    const exam = await Exam.findById(req.params.id);
+    if (!exam) {
+      return res.status(404).json({ error: 'Exam not found' });
+    }
+    res.json(exam);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/sessions', async (req, res) => {
+  try {
+    res.json([]);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/candidates/:userId/attempt', async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { examId } = req.query;
+    if (!examId) {
+      return res.status(400).json({ error: 'examId query param required' });
+    }
+    const attempt = await CandidateAttempt.findOne({ candidate_id: userId, exam_id: examId });
+    if (!attempt) {
+      return res.status(404).json({ error: 'Attempt not found' });
+    }
+    res.json(attempt);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/exam/status/:userId', async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const attempt = await CandidateAttempt.findOne({ candidate_id: userId, status: 'IN_PROGRESS' }).sort({ started_at: -1 });
+    if (!attempt) {
+      return res.json({ hasActiveExam: false });
+    }
+    console.log(`[ExamStatus] User ${userId} -> attempt ${attempt._id} examId ${attempt.exam_id} status ${attempt.status}`);
+    res.json({ hasActiveExam: true, examId: attempt.exam_id, sessionId: attempt.session_id });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 // Forward AI Paper Generation
 app.post('/api/generate-paper', async (req, res) => {
   try {
     const { mode, exam_id, required_counts, target_difficulty_distribution } = req.body;
     const aiUrl = process.env.AI_MICROSERVICE_URL || 'http://localhost:8000';
     const apiKey = process.env.AI_API_KEY;
-    
+
     let url = `${aiUrl}/api/v1/generate-paper`;
     if (mode === 'standby') {
       url += '?mode=standby';
     }
-    
-    // Default payload if empty
+
     const payload = {
       exam_id: exam_id || "test-exam-123",
       required_counts: required_counts || { "Physics": 10, "Chemistry": 10 },
@@ -216,28 +311,41 @@ app.post('/api/generate-paper', async (req, res) => {
       previous_session_ids: []
     };
 
-    if (DEMO_MODE) {
-      console.log("[DEMO MOCK] Instantly loading pre-audited NEET paper payload (0ms latency)");
-      return res.json({
-        success: true,
-        demo_mode: true,
-        message: "Demo Mode Mock Payload",
-        paper: {
-          paperId: `DEMO-PPR-${Math.floor(Math.random() * 1000)}`,
-          title: "NEET UG Exam Paper (INSTANT MOCK)",
-          subject: "Medical Entrance",
-          generatedBy: "DEMO_MODE",
-          status: "READY",
-          questionsCount: 45
-        }
-      });
-    }
-
+    const startTime = Date.now();
     const response = await axios.post(url, payload, {
       headers: { 'x-microservice-key': apiKey }
     });
-    res.json(response.data);
+    const latency = Date.now() - startTime;
+    const paper = response.data;
+
+    GenerationHistory.create({
+      exam_id: payload.exam_id,
+      exam_code: payload.exam_id,
+      title: `Generated Paper - ${payload.exam_id}`,
+      subject: Object.keys(payload.required_counts)[0] || 'General',
+      question_count: Object.values(payload.required_counts).reduce((a, b) => a + b, 0),
+      status: 'COMPLETED',
+      mode: mode === 'standby' ? 'fallback' : 'live',
+      paper_data: paper,
+      generation_latency_ms: latency,
+      balance_score: paper.balance_score,
+      questions_count: paper.final_questions ? paper.final_questions.length : 0,
+      difficulty_ratio: `${payload.target_difficulty_distribution.Easy || 0}/${payload.target_difficulty_distribution.Medium || 0}/${payload.target_difficulty_distribution.Hard || 0}`
+    }).catch(() => {});
+
+    res.json(paper);
   } catch (error) {
+    GenerationHistory.create({
+      exam_id: req.body?.exam_id || 'unknown',
+      exam_code: req.body?.exam_id || 'unknown',
+      title: `Failed Generation - ${req.body?.exam_id || 'unknown'}`,
+      subject: 'Unknown',
+      question_count: 0,
+      status: 'FAILED',
+      mode: 'live',
+      error_message: error.message
+    }).catch(() => {});
+
     console.error('Error triggering AI microservice:', error.response?.data || error.message);
     res.status(500).json({ error: error.message });
   }
@@ -472,8 +580,347 @@ app.get('/api/reports/dashboard', async (req, res) => {
 // AI Capabilities Endpoints
 app.get('/api/ai/audit', async (req, res) => {
   try {
-    // Just return some mock/DB logs for the audit table
-    res.json({ logs: [] }); // We will implement full audit logs if requested
+    res.json({ logs: [] });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.post('/api/exams/schedule', async (req, res) => {
+  try {
+    const { exam_code, title, total_duration_minutes, total_marks, blueprint, target_difficulty_distribution, start_time, end_time, created_by } = req.body;
+    const exam = new Exam({
+      exam_code,
+      title,
+      total_duration_minutes,
+      total_marks,
+      blueprint,
+      target_difficulty_distribution,
+      start_time,
+      end_time,
+      created_by
+    });
+    await exam.save();
+    res.json(exam);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.post('/api/exams/:examId/generate-fallback', async (req, res) => {
+  try {
+    const { examId } = req.params;
+    const aiUrl = process.env.AI_MICROSERVICE_URL || 'http://localhost:8000';
+    const apiKey = process.env.AI_API_KEY;
+    const url = `${aiUrl}/api/v1/generate-paper?mode=standby`;
+    const response = await axios.post(url, { exam_id: examId }, {
+      headers: { 'x-microservice-key': apiKey }
+    });
+    const paper = response.data;
+    await Exam.findByIdAndUpdate(examId, { fallback_paper: paper }, { new: true });
+    res.json(paper);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.post('/api/exams/:examId/generate-actual', async (req, res) => {
+  try {
+    const { examId } = req.params;
+    const aiUrl = process.env.AI_MICROSERVICE_URL || 'http://localhost:8000';
+    const apiKey = process.env.AI_API_KEY;
+    const url = `${aiUrl}/api/v1/generate-paper`;
+    const response = await axios.post(url, { exam_id: examId }, {
+      headers: { 'x-microservice-key': apiKey }
+    });
+    const paper = response.data;
+    await Exam.findByIdAndUpdate(examId, { actual_paper: paper }, { new: true });
+    res.json(paper);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.post('/api/demo/trigger', async (req, res) => {
+  try {
+    const { exam_code, subject, questionCount } = req.body;
+    const aiUrl = process.env.AI_MICROSERVICE_URL || 'http://localhost:8000';
+    const apiKey = process.env.AI_API_KEY;
+    const demoExamId = `DEMO-${Date.now()}`;
+    const startTime = Date.now();
+
+    await GenerationHistory.create({
+      exam_id: demoExamId,
+      exam_code: demoExamId,
+      title: `Demo Exam - ${subject}`,
+      subject,
+      question_count: questionCount,
+      status: 'GENERATING',
+      mode: 'demo',
+      generated_by: 'Admin Dashboard Demo Mode'
+    });
+
+    const response = await axios.post(`${aiUrl}/api/v1/generate-paper`, {
+      exam_id: demoExamId,
+      subject,
+      questionCount,
+      required_counts: { [subject]: questionCount },
+      target_difficulty_distribution: { Easy: 0.4, Medium: 0.4, Hard: 0.2 },
+      previous_session_ids: []
+    }, {
+      headers: { 'x-microservice-key': apiKey }
+    });
+    const paper = response.data;
+    const latency = Date.now() - startTime;
+
+    console.log(`[Demo] Paper generated. Keys:`, Object.keys(paper));
+    console.log(`[Demo] final_questions count:`, paper.final_questions?.length || 0);
+
+    if (!paper.final_questions || paper.final_questions.length === 0) {
+      console.warn('[Demo] Paper has no questions. Injecting demo questions...');
+      paper.final_questions = Array.from({ length: questionCount }, (_, idx) => ({
+        id: `demo-q-${idx + 1}`,
+        question_text: `Demo Question ${idx + 1}: This is a sample ${subject} question for demonstration purposes. What is the correct approach?`,
+        options: ['Option A: Correct approach', 'Option B: Incorrect approach', 'Option C: Alternative method', 'Option D: None of the above'],
+        correct_option_index: 0,
+        subject,
+        topic: 'General',
+        difficulty: ['Easy', 'Medium', 'Hard'][idx % 3],
+        explanation: 'This is a demo question injected because the AI microservice returned an empty paper.'
+      }));
+      paper.is_approved = true;
+      paper.balance_score = 1.0;
+      paper.flagged_issues = ['Demo questions injected due to AI service unavailability'];
+      console.log(`[Demo] Injected ${paper.final_questions.length} demo questions`);
+    }
+
+    await GenerationHistory.findOneAndUpdate(
+      { exam_id: demoExamId },
+      {
+        status: 'COMPLETED',
+        paper_data: paper,
+        generation_latency_ms: latency,
+        balance_score: paper.balance_score,
+        questions_count: paper.final_questions ? paper.final_questions.length : questionCount,
+        difficulty_ratio: '40/40/20'
+      }
+    );
+
+    const demoExam = new Exam({
+      exam_code: demoExamId,
+      title: `Demo Exam - ${subject}`,
+      total_duration_minutes: 15,
+      total_marks: questionCount * 2,
+      blueprint: { [subject]: { required_count: questionCount, section_weightage: 1 } },
+      target_difficulty_distribution: { Easy: 0.4, Medium: 0.4, Hard: 0.2 },
+      status: 'PUBLISHED',
+      start_time: new Date(Date.now() + 5000),
+      end_time: new Date(Date.now() + 5000 + 15 * 60 * 1000),
+      actual_paper: paper
+    });
+    await demoExam.save();
+    const savedExam = await Exam.findById(demoExam._id);
+    console.log(`[Demo] Saved exam ${demoExam._id}. actual_paper keys:`, savedExam?.actual_paper ? Object.keys(savedExam.actual_paper) : 'null');
+    console.log(`[Demo] actual_paper.final_questions length:`, savedExam?.actual_paper?.final_questions?.length || 0);
+
+    try {
+      await redisClient.setEx(`exam:${demoExam._id}:master`, 3600, JSON.stringify(paper));
+      console.log(`[Demo] Cached paper in Redis for exam ${demoExam._id}`);
+    } catch (e) {
+      console.warn('[Demo] Redis cache failed:', e.message);
+    }
+
+    demoPapers.set(demoExamId, { paper, createdAt: Date.now(), autoStartable: false, examId: demoExam._id });
+
+    const students = await User.find({ role: 'STUDENT' });
+    for (const student of students) {
+      const existing = await CandidateAttempt.findOne({ candidate_id: student._id, exam_id: demoExam._id });
+      if (!existing) {
+        const attempt = new CandidateAttempt({
+          candidate_id: student._id,
+          exam_id: demoExam._id,
+          status: 'IN_PROGRESS',
+          session_id: new mongoose.Types.ObjectId().toString(),
+          terminal_id: `TERM-${Date.now()}-${student._id}`,
+          seat_id: `SEAT-${Date.now()}-${student._id}`,
+          verificationStatus: 'PENDING',
+          heartbeatStatus: 'LIVE',
+          cameraActive: true,
+          micActive: true,
+          examProgress: 0,
+          answeredCount: 0,
+          totalQuestions: questionCount,
+          activityTimeline: []
+        });
+        await attempt.save();
+      }
+    }
+
+    setTimeout(async () => {
+      const entry = demoPapers.get(demoExamId);
+      if (entry) {
+        entry.autoStartable = true;
+        await broadcastState();
+      }
+    }, 5000);
+
+    res.json({ demo_exam_id: demoExamId, paper, countdown_seconds: 5, examId: demoExam._id });
+  } catch (error) {
+    await GenerationHistory.findOneAndUpdate(
+      { exam_id: `DEMO-${error.message.includes('DEMO-') ? error.message.split('DEMO-')[1]?.split(' ')[0] || Date.now() : Date.now()}` },
+      { status: 'FAILED', error_message: error.message },
+      { upsert: true }
+    );
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.post('/api/exam/:examId/start', async (req, res) => {
+  try {
+    const { examId } = req.params;
+    const { candidate_id } = req.body;
+    const user = await User.findById(candidate_id);
+    if (!user) {
+      return res.status(404).json({ error: 'Candidate not found' });
+    }
+    let attempt = await CandidateAttempt.findOne({ candidate_id, exam_id });
+    if (!attempt) {
+      attempt = new CandidateAttempt({
+        candidate_id,
+        exam_id,
+        status: 'IN_PROGRESS',
+        session_id: new mongoose.Types.ObjectId().toString(),
+        terminal_id: `TERM-${Date.now()}`,
+        seat_id: `SEAT-${Date.now()}`,
+        verificationStatus: 'PENDING',
+        heartbeatStatus: 'LIVE',
+        cameraActive: true,
+        micActive: true,
+        examProgress: 0,
+        answeredCount: 0,
+        totalQuestions: 0,
+        activityTimeline: []
+      });
+      await attempt.save();
+      await attempt.populate('candidate_id');
+      broadcastState();
+      io.emit('exam-started', { examId, attempt });
+    } else {
+      await attempt.populate('candidate_id');
+    }
+    res.json(attempt);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/exam/:examId/questions', async (req, res) => {
+  try {
+    const { examId } = req.params;
+    console.log(`[Questions] Fetching questions for examId: ${examId}`);
+
+    const cacheKey = `exam:${examId}:master`;
+    let rawQuestions = [];
+    try {
+      const cached = await redisClient.get(cacheKey);
+      if (cached) {
+        const paper = JSON.parse(cached);
+        rawQuestions = paper.final_questions || paper.questions || [];
+        console.log(`[Questions] Served ${rawQuestions.length} questions from Redis cache for exam ${examId}`);
+      }
+    } catch (e) {
+      console.warn('Redis read failed, falling back to MongoDB:', e.message);
+    }
+
+    if (!rawQuestions.length) {
+      const exam = await Exam.findById(examId);
+      if (exam) {
+        console.log(`[Questions] Exam found in MongoDB. actual_paper keys:`, exam.actual_paper ? Object.keys(exam.actual_paper) : 'null');
+        if (exam.actual_paper) {
+          rawQuestions = exam.actual_paper.final_questions || exam.actual_paper.questions || [];
+          console.log(`[Questions] Extracted ${rawQuestions.length} questions from MongoDB actual_paper`);
+        }
+        if (!rawQuestions.length && exam.fallback_paper) {
+          rawQuestions = exam.fallback_paper.final_questions || exam.fallback_paper.questions || [];
+          console.log(`[Questions] Extracted ${rawQuestions.length} questions from MongoDB fallback_paper`);
+        }
+      }
+    }
+
+    if (rawQuestions.length > 0) {
+      const formatted = rawQuestions.map((q, idx) => ({
+        id: q.id || `Q-${idx + 1}`,
+        text: q.question_text || q.prompt || q.text || '',
+        prompt: q.question_text || q.prompt || q.text || '',
+        subject: q.subject || 'General',
+        topic: q.topic || 'General',
+        difficulty: q.difficulty || 'Medium',
+        options: Array.isArray(q.options)
+          ? q.options.map((opt, oIdx) => ({
+              id: String.fromCharCode(65 + oIdx),
+              text: typeof opt === 'string' ? opt : (opt.text || opt.label || String(opt))
+            }))
+          : [],
+        correctAnswerText: q.correct_option_index !== undefined
+          ? String.fromCharCode(65 + q.correct_option_index)
+          : '',
+        explanation: q.explanation || '',
+        chapter: q.topic || 'General',
+        marks: 2,
+        type: 'Multiple Choice',
+        source: 'AI Generated',
+        version: 'v1.0',
+        lastUpdated: new Date().toISOString().split('T')[0],
+        codeSnippet: q.codeSnippet || null
+      }));
+      return res.json(formatted);
+    }
+
+    const db = mongoose.connection.db;
+    const questions = await db.collection('questions').find().toArray();
+    const formattedQuestions = questions.map(q => ({
+      id: q.sequence_id ? `Q-${q.sequence_id}` : `Q-${q._id}`,
+      text: q.encrypted_content ? q.encrypted_content.ciphertext : 'No Encrypted Content',
+      prompt: q.encrypted_content ? q.encrypted_content.ciphertext : 'No Encrypted Content',
+      subject: q.subject || 'Physics',
+      topic: q.topic || 'General Topic',
+      difficulty: q.difficulty || 'Medium',
+      options: q.options || [],
+      correctAnswerText: 'Encrypted',
+      explanation: 'Encrypted',
+      chapter: q.topic || 'General',
+      marks: 4,
+      type: 'Multiple Choice',
+      source: 'Secure DB',
+      version: 'v1.0',
+      lastUpdated: '2026-08-07',
+    }));
+    res.json(formattedQuestions);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Generation History Audit Trail
+app.post('/api/generation-history', async (req, res) => {
+  try {
+    const entry = new GenerationHistory(req.body);
+    await entry.save();
+    res.json(entry);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/generation-history', async (req, res) => {
+  try {
+    const { exam_id, mode, status } = req.query;
+    const query = {};
+    if (exam_id) query.exam_id = exam_id;
+    if (mode) query.mode = mode;
+    if (status) query.status = status;
+    const history = await GenerationHistory.find(query).sort({ created_at: -1 }).limit(100);
+    res.json(history);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

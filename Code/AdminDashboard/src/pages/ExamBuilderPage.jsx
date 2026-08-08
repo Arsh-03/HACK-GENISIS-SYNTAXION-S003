@@ -34,7 +34,8 @@ import {
   Clock,
   Layers,
   Award,
-  ShieldCheck
+  ShieldCheck,
+  CalendarClock
 } from 'lucide-react';
 
 export function ExamBuilderPage() {
@@ -60,6 +61,16 @@ export function ExamBuilderPage() {
 
   const [examToEdit, setExamToEdit] = useState(null);
   const [isWizardModalOpen, setIsWizardModalOpen] = useState(false);
+  const [isScheduleModalOpen, setIsScheduleModalOpen] = useState(false);
+
+  // Schedule Exam Form State
+  const [scheduleForm, setScheduleForm] = useState({
+    examCode: '',
+    title: '',
+    duration: '',
+    startTime: '',
+    endTime: ''
+  });
 
   // Filtered Exams
   const filteredExams = useMemo(() => {
@@ -114,6 +125,29 @@ export function ExamBuilderPage() {
   const handleOpenCreateWizard = () => {
     setExamToEdit(null);
     setIsWizardModalOpen(true);
+  };
+
+  const handleScheduleExam = async () => {
+    if (!scheduleForm.examCode || !scheduleForm.title || !scheduleForm.startTime || !scheduleForm.endTime) {
+      alert('Please fill in all required fields');
+      return;
+    }
+    try {
+      const res = await fetch('http://localhost:5001/api/exams/schedule', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(scheduleForm)
+      });
+      if (res.ok) {
+        alert('Exam scheduled successfully!');
+        setIsScheduleModalOpen(false);
+        setScheduleForm({ examCode: '', title: '', duration: '', startTime: '', endTime: '' });
+      } else {
+        alert('Failed to schedule exam');
+      }
+    } catch (err) {
+      alert('Error scheduling exam: ' + err.message);
+    }
   };
 
   const handleDuplicateExam = (exam) => {
@@ -189,6 +223,15 @@ export function ExamBuilderPage() {
             onClick={handleOpenCreateWizard}
           >
             Create Exam Wizard
+          </Button>
+
+          <Button
+            variant="secondary"
+            size="sm"
+            icon={CalendarClock}
+            onClick={() => setIsScheduleModalOpen(true)}
+          >
+            Schedule Exam
           </Button>
         </div>
       </div>
@@ -476,6 +519,64 @@ export function ExamBuilderPage() {
         examToEdit={examToEdit}
         onSaveExam={handleSaveExam}
       />
+
+      {/* Schedule Exam Modal */}
+      <Modal
+        isOpen={isScheduleModalOpen}
+        onClose={() => setIsScheduleModalOpen(false)}
+        title="Schedule Exam"
+        icon={CalendarClock}
+        iconBg="bg-primary/10 text-primary"
+        maxWidth="max-w-lg"
+        footer={
+          <>
+            <Button variant="outline" onClick={() => setIsScheduleModalOpen(false)}>Cancel</Button>
+            <Button variant="primary" icon={CalendarClock} onClick={handleScheduleExam}>Schedule</Button>
+          </>
+        }
+      >
+        <div className="space-y-4 text-xs">
+          <Input
+            label="Exam Code"
+            placeholder="e.g. NEET_UG_2026"
+            value={scheduleForm.examCode}
+            onChange={(e) => setScheduleForm(prev => ({ ...prev, examCode: e.target.value }))}
+          />
+          <Input
+            label="Title"
+            placeholder="Exam title"
+            value={scheduleForm.title}
+            onChange={(e) => setScheduleForm(prev => ({ ...prev, title: e.target.value }))}
+          />
+          <Input
+            label="Duration (minutes)"
+            type="number"
+            placeholder="180"
+            value={scheduleForm.duration}
+            onChange={(e) => setScheduleForm(prev => ({ ...prev, duration: e.target.value }))}
+          />
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs font-semibold text-on-surface-variant mb-1">Start Time</label>
+              <input
+                type="datetime-local"
+                className="w-full px-3 py-2 text-xs rounded-md border border-outline-variant bg-surface text-on-surface focus:outline-none focus:ring-1 focus:ring-primary"
+                value={scheduleForm.startTime}
+                onChange={(e) => setScheduleForm(prev => ({ ...prev, startTime: e.target.value }))}
+              />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-on-surface-variant mb-1">End Time</label>
+              <input
+                type="datetime-local"
+                className="w-full px-3 py-2 text-xs rounded-md border border-outline-variant bg-surface text-on-surface focus:outline-none focus:ring-1 focus:ring-primary"
+                value={scheduleForm.endTime}
+                onChange={(e) => setScheduleForm(prev => ({ ...prev, endTime: e.target.value }))}
+              />
+            </div>
+          </div>
+        </div>
+      </Modal>
     </div>
   );
 }

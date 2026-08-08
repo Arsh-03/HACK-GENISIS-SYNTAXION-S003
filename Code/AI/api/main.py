@@ -7,9 +7,10 @@ import os
 # Load environment variables before other imports
 load_dotenv()
 
-from models import GeneratePaperRequest, ExamAuditReport
-from agent import exam_auditor_app
-from db import questions_collection, used_questions_registry, redis_client
+from .models import GeneratePaperRequest, ExamAuditReport
+from .agent import exam_auditor_app
+from .db import questions_collection, used_questions_registry, redis_client
+from .crypto_utils import decrypt_question_payload
 
 app = FastAPI(title="AI CBT Orchestration API", version="1.0.0")
 
@@ -81,7 +82,7 @@ def _save_master_report(exam_id: str, final_report: ExamAuditReport):
     )
 
 
-from crypto_utils import decrypt_question_payload
+from .crypto_utils import decrypt_question_payload
 
 def _run_generation(request: GeneratePaperRequest) -> ExamAuditReport:
     # Step 1: Query MongoDB (Excluding previous sessions)
@@ -106,25 +107,35 @@ def _run_generation(request: GeneratePaperRequest) -> ExamAuditReport:
         
         cursor = questions_collection.aggregate(pipeline)
         for doc in cursor:
-            # Decrypt payload
             try:
-                encrypted_content = doc["encrypted_content"]
-                pt_content = decrypt_question_payload(
-                    encrypted_content["ciphertext"], 
-                    encrypted_content["iv"]
-                )
-                candidate_pool.append({
-                    "id": str(doc["sequence_id"]),
-                    "subject": doc["subject"],
-                    "topic": doc["topic"],
-                    "difficulty": str(doc["difficulty"]), # Langchain prompt may expect str or int
-                    "question_text": pt_content["question_text"],
-                    "options": pt_content["options"],
-                    "correct_option_index": pt_content["correct_option_index"],
-                    "media_url": pt_content.get("media_url", "")
-                })
+                if doc.get("encrypted_content"):
+                    pt_content = decrypt_question_payload(
+                        encrypted_content["ciphertext"], 
+                        encrypted_content["iv"]
+                    )
+                    candidate_pool.append({
+                        "id": str(doc["sequence_id"]),
+                        "subject": doc["subject"],
+                        "topic": doc["topic"],
+                        "difficulty": str(doc["difficulty"]),
+                        "question_text": pt_content["question_text"],
+                        "options": pt_content["options"],
+                        "correct_option_index": pt_content["correct_option_index"],
+                        "media_url": pt_content.get("media_url", "")
+                    })
+                elif doc.get("question_text"):
+                    candidate_pool.append({
+                        "id": str(doc.get("sequence_id", doc["_id"])),
+                        "subject": doc["subject"],
+                        "topic": doc["topic"],
+                        "difficulty": str(doc.get("difficulty", "Medium")),
+                        "question_text": doc["question_text"],
+                        "options": doc.get("options", []),
+                        "correct_option_index": doc.get("correct_option_index", 0),
+                        "media_url": doc.get("media_url", "")
+                    })
             except Exception as e:
-                print(f"Failed to decrypt question {doc.get('sequence_id')}: {e}")
+                print(f"Failed to process question {doc.get('sequence_id')}: {e}")
                 continue
 
     initial_state = {

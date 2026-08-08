@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useAIPipeline } from '../hooks/useAIPipeline';
 import { Card } from '../shared/components/ui/Card';
@@ -85,11 +85,18 @@ export function AIPaperPipelinePage() {
     isLogsOpen,
     setIsLogsOpen,
     selectedPaper,
-    setSelectedPaper
+    setSelectedPaper,
+    triggerDemoMode: hookTriggerDemoMode
   } = useAIPipeline();
 
   const location = useLocation();
   const currentPath = location.pathname;
+  const [formSubject, setFormSubject] = useState(config.subject);
+  const [formQuestionCount, setFormQuestionCount] = useState(config.questionCount);
+  const [demoCountdown, setDemoCountdown] = useState(0);
+  const [demoLive, setDemoLive] = useState(false);
+  const [demoStatus, setDemoStatus] = useState('idle'); // idle | generating | generated | failed
+  const [demoError, setDemoError] = useState('');
 
   // Determine active view module based on URL
   const isGenerationView = currentPath.includes('/generation') || currentPath.endsWith('/ai-pipeline');
@@ -140,6 +147,41 @@ export function AIPaperPipelinePage() {
   const activeStage = config.stages.find(s => s.id === activeStageId) || config.stages[6];
 
   const hasPaper = history && history.length > 0;
+
+  const triggerDemoMode = async () => {
+    setDemoStatus('generating');
+    setDemoError('');
+    setDemoCountdown(0);
+    setDemoLive(false);
+    try {
+      const data = await hookTriggerDemoMode({
+        subject: formSubject,
+        questionCount: formQuestionCount
+      });
+      setDemoStatus('generated');
+      setDemoCountdown(data.countdown_seconds || 5);
+    } catch (err) {
+      setDemoStatus('failed');
+      setDemoError(err.message || 'Failed to trigger demo mode');
+    }
+  };
+
+  useEffect(() => {
+    if (demoCountdown <= 0) return;
+    setDemoLive(false);
+    const timer = setInterval(() => {
+      setDemoCountdown(prev => {
+        if (prev <= 1) {
+          clearInterval(timer);
+          setDemoLive(true);
+          setDemoStatus('live');
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [demoCountdown]);
 
   return (
     <div className="space-y-8 pb-12">
@@ -194,6 +236,25 @@ export function AIPaperPipelinePage() {
             >
               Generate Test Preview (Python)
             </Button>
+            <Button
+              variant="secondary"
+              size="md"
+              icon={Play}
+              onClick={triggerDemoMode}
+              disabled={demoStatus === 'generating' || demoCountdown > 0}
+              className="bg-amber-400 hover:bg-amber-500 text-slate-900 font-bold shadow-md border border-amber-300"
+            >
+              Demo Mode (5s)
+            </Button>
+            {demoStatus === 'generating' && (
+              <span className="text-xs font-mono font-bold text-amber-300 animate-pulse">Generating paper via AI...</span>
+            )}
+            {demoStatus === 'generated' && (
+              <span className="text-xs font-mono font-bold text-emerald-300">Paper generated successfully</span>
+            )}
+            {demoStatus === 'failed' && (
+              <span className="text-xs font-mono font-bold text-red-300">{demoError}</span>
+            )}
           </div>
         </div>
       </div>
@@ -808,6 +869,42 @@ export function AIPaperPipelinePage() {
       {/* INTERACTIVE MODALS & DRAWERS */}
       {/* ==================================================== */}
 
+      {demoCountdown > 0 && !demoLive && (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-slate-900/90 backdrop-blur-sm">
+          <div className="text-center space-y-4">
+            <div className="text-7xl font-black font-mono text-amber-400 animate-pulse">{demoCountdown}</div>
+            <div className="text-xl font-bold text-white">Starting Demo Exam...</div>
+            <div className="text-sm text-slate-300">Exam goes live automatically when countdown reaches zero</div>
+          </div>
+        </div>
+      )}
+
+      {demoLive && (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-emerald-900/90 backdrop-blur-sm">
+          <div className="text-center space-y-4">
+            <CheckCircle2 className="w-20 h-20 text-emerald-400 mx-auto animate-pulse" />
+            <div className="text-3xl font-black text-emerald-300">Exam is now LIVE</div>
+            <div className="text-sm text-emerald-100">The exam has started. Students can now log in.</div>
+            <div className="flex gap-3 justify-center pt-2">
+              <Button
+                variant="primary"
+                onClick={() => window.open('/exam/login', '_blank')}
+                className="bg-white text-emerald-900 hover:bg-emerald-50"
+              >
+                Open Exam Login
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => setDemoLive(false)}
+                className="border-white text-white hover:bg-white/10"
+              >
+                Stay on Dashboard
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* MODAL 1: GENERATE NEW PAPER */}
       <Modal
         isOpen={isGenerateModalOpen}
@@ -827,7 +924,7 @@ export function AIPaperPipelinePage() {
               disabled={isGenerating}
               onClick={() => {
                 setIsGenerateModalOpen(false);
-                triggerGeneration();
+                triggerGeneration('live', { subject: formSubject, questionCount: formQuestionCount });
               }}
             >
               {isGenerating ? "Synthesizing..." : "Start AI Generation"}
@@ -838,14 +935,14 @@ export function AIPaperPipelinePage() {
         <div className="space-y-4 text-xs">
           <Input
             label="Subject & Target Assessment Domain"
-            value={config.subject}
-            readOnly
+            value={formSubject}
+            onChange={(e) => setFormSubject(e.target.value)}
           />
 
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-xs font-semibold text-on-surface-variant mb-1">Target Question Count</label>
-              <Input value={config.questionCount} readOnly />
+              <Input value={formQuestionCount} onChange={(e) => setFormQuestionCount(Number(e.target.value))} />
             </div>
             <div>
               <label className="block text-xs font-semibold text-on-surface-variant mb-1">Primary LLM Provider</label>

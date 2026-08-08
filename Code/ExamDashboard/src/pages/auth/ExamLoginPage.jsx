@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Card } from '../../shared/components/ui/Card';
 import { Input } from '../../shared/components/ui/Input';
 import { Button } from '../../shared/components/ui/Button';
 import { mockAuthService } from '../../services/mockAuth';
 import { useAuth } from '../../context/AuthContext';
-import { Eye, EyeOff, AlertCircle, ArrowRight, BookOpen, CheckCircle2, ArrowLeft, UserCheck, User } from 'lucide-react';
+import { Eye, EyeOff, AlertCircle, ArrowRight, BookOpen, CheckCircle2, ArrowLeft, UserCheck, User, Sparkles } from 'lucide-react';
 
 export function ExamLoginPage() {
   const [identifier, setIdentifier] = useState('aarav.sharma@university.edu');
@@ -15,9 +15,20 @@ export function ExamLoginPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
+  const [demoActive, setDemoActive] = useState(false);
 
-  const { setUser, setPendingTempUser } = useAuth();
+  const { setUser, setPendingTempUser, setSelectedRole, checkPermissions } = useAuth();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    fetch('http://localhost:5001/api/exams')
+      .then(r => r.json())
+      .then(exams => {
+        const hasDemo = Array.isArray(exams) && exams.some(e => e.status === 'PUBLISHED' || e.status === 'ACTIVE');
+        setDemoActive(hasDemo);
+      })
+      .catch(() => {});
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,7 +38,7 @@ export function ExamLoginPage() {
 
     try {
       const userData = await mockAuthService.login(identifier, password);
-      
+
       if (userData.isFirstLogin) {
         setPendingTempUser(userData);
         setSuccessMsg('First login detected. Redirecting to password setup...');
@@ -36,10 +47,19 @@ export function ExamLoginPage() {
         }, 800);
       } else {
         setUser(userData);
-        
+
+        const canProceed = await checkPermissions(userData.id, userData.role);
+
+        if (!canProceed) {
+          const roleLabel = userData.role === 'Invigilator' ? 'Invigilator' : 'Candidate';
+          setError(`No active examination or session is currently available for ${roleLabel}. Please contact administration.`);
+          setLoading(false);
+          return;
+        }
+
         const targetRoute = userData.role === 'Invigilator' ? '/exam/invigilator' : '/exam/candidate';
         setSuccessMsg(`Welcome, ${userData.name}! Redirecting to Examination Portal...`);
-        
+
         setTimeout(() => {
           navigate(targetRoute);
         }, 800);
@@ -76,6 +96,13 @@ export function ExamLoginPage() {
           Sign in for Candidate CBT Assessment or Invigilator Monitoring
         </p>
       </div>
+
+      {demoActive && (
+        <div className="mb-5 p-3 rounded-lg bg-amber-500/10 border border-amber-400/40 flex items-center gap-2 text-xs font-semibold text-amber-700">
+          <Sparkles className="w-4 h-4" />
+          <span>A demo exam is currently active. You may log in now.</span>
+        </div>
+      )}
 
       {/* Quick Demo Credentials Tabs */}
       <div className="mb-5 p-2 rounded-lg bg-surface-bright border border-outline-variant/80 flex items-center justify-between text-xs gap-2">

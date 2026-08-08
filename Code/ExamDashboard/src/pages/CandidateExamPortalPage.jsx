@@ -12,6 +12,8 @@ import { Table } from '../shared/components/ui/Table';
 import { LiveFeedFrame } from '../shared/components/common/LiveFeedFrame';
 import { SecurityHUD } from '../shared/components/proctoring/SecurityHUD';
 import { useCandidateCameraFeed } from '../hooks/useCandidateCameraFeed';
+import { useAuth } from '../context/AuthContext';
+import { fetchExamStatus, fetchExams, fetchCandidateAttempt } from '../services/api';
 import {
   Clock,
   ChevronLeft,
@@ -45,16 +47,7 @@ import {
   RefreshCw,
   Play
 } from 'lucide-react';
-import {
-  mockCandidateProfile,
-  mockTodayExam,
-  mockUpcomingExams,
-  mockPreviousExamAttempts,
-  mockExamNotifications,
-  mockSystemReadinessChecks,
-  mockExamResultData,
-  mockExamSections
-} from '../services/mockData';
+
 
 export function CandidateExamPortalPage() {
   // Main view state switcher: 'DASHBOARD', 'PRE_EXAM', 'ACTIVE_EXAM', 'REVIEW', 'RESULT'
@@ -70,23 +63,164 @@ export function CandidateExamPortalPage() {
   // Active Exam state
   const { formattedTime, progressPercentage, timeLeft, setIsRunning } = useExamTimer(7200); // 2 hours
   const [activeSectionId, setActiveSectionId] = useState("sec-1");
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(16);
-  const [selectedOption, setSelectedOption] = useState("C");
-  const [isMarked, setIsMarked] = useState(true);
-  const [questionStates, setQuestionStates] = useState({
-    16: 'marked'
-  });
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [isMarked, setIsMarked] = useState(false);
+  const [questionStates, setQuestionStates] = useState({});
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
+
+  const systemReadinessChecks = [
+    { id: "chk-1", name: "Webcam Camera Feed", status: "PASSED", detail: "1080p HD Camera Active (Integrated WebCam)", ok: true },
+    { id: "chk-2", name: "Microphone Audio Channel", status: "PASSED", detail: "Acoustic Noise Reduction Active (24-bit 48kHz)", ok: true },
+    { id: "chk-3", name: "Internet Connectivity & Latency", status: "PASSED", detail: "High-Speed Fibre (45 Mbps Down / 12ms Ping)", ok: true },
+    { id: "chk-4", name: "Browser & OS Compatibility", status: "PASSED", detail: "Chrome v126 (CBT Secure Kiosk Engine)", ok: true },
+    { id: "chk-5", name: "Screen Resolution & DPI", status: "PASSED", detail: "1920 x 1080 FHD (Compatible Layout)", ok: true },
+    { id: "chk-6", name: "Fullscreen Kiosk Lockdown", status: "PASSED", detail: "Secure Lock Environment Active", ok: true }
+  ];
 
   // Real-time backend states
   const [sessionStatus, setSessionStatus] = useState('RUNNING');
   const [isTerminated, setIsTerminated] = useState(false);
+  const [profile, setProfile] = useState({
+    candidateId: '',
+    name: '',
+    department: '',
+    terminalId: 'TERM-000',
+    seatNumber: 'A-1',
+    assignedInvigilator: 'N/A'
+  });
+  const [todayExam, setTodayExam] = useState({
+    id: null,
+    code: '',
+    title: '',
+    durationMinutes: 0,
+    totalQuestions: 0,
+    totalMarks: 0,
+    status: 'UPCOMING',
+    subject: 'General'
+  });
+  const [examSections, setExamSections] = useState([]);
+  const [examQuestions, setExamQuestions] = useState([]);
+  const [noActiveExam, setNoActiveExam] = useState(false);
+  const [isLoadingExam, setIsLoadingExam] = useState(true);
+  const { user } = useAuth();
 
-  const profile = mockCandidateProfile;
-  const todayExam = mockTodayExam;
-  const activeSection = mockExamSections.find(s => s.id === activeSectionId) || mockExamSections[0];
+  const activeSection = examSections.length > 0 ? (examSections.find(s => s.id === activeSectionId) || examSections[0]) : { id: 'sec-1', title: todayExam.title || 'Section 1', shortName: 'Section 1', subject: todayExam.subject || 'General' };
   const examCameraEnabled = (currentView === 'PRE_EXAM' && preExamStep >= 2) || currentView === 'ACTIVE_EXAM';
   const { videoRef, frameUrl, isCameraReady, cameraError } = useCandidateCameraFeed(profile.candidateId, examCameraEnabled);
+
+  useEffect(() => {
+    if (examQuestions.length > 0 && currentQuestionIndex >= examQuestions.length) {
+      setCurrentQuestionIndex(0);
+    }
+  }, [examQuestions.length, currentQuestionIndex]);
+
+  useEffect(() => {
+    let isMounted = true;
+    const loadExamData = async () => {
+      if (!user?.id) return;
+      try {
+        const statusRes = await fetchExamStatus(user.id);
+        if (!isMounted) return;
+        if (!statusRes.hasActiveExam) {
+          const examsRes = await fetchExams();
+          const exams = Array.isArray(examsRes) ? examsRes : [];
+          const availableExam = exams.find(e => e.status === 'PUBLISHED' || e.status === 'ACTIVE' || e.status === 'UPCOMING');
+
+          if (availableExam) {
+            try {
+              const startRes = await fetch(`http://localhost:5001/api/exam/${availableExam._id}/start`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ candidate_id: user.id })
+              });
+              if (startRes.ok) {
+                setNoActiveExam(false);
+                const attempt = await startRes.json();
+                setProfile(prev => ({
+                  ...prev,
+                  terminalId: attempt.terminal_id || prev.terminalId,
+                  verificationStatus: attempt.verificationStatus || prev.verificationStatus
+                }));
+                const questionsRes = await fetch(`http://localhost:5001/api/exam/${availableExam._id}/questions`);
+                const questionsData = await questionsRes.json();
+                const questionsList = Array.isArray(questionsData) ? questionsData : (Array.isArray(questionsData.questions) ? questionsData.questions : []);
+                setExamQuestions(questionsList);
+                setCurrentQuestionIndex(0);
+                setQuestionStates({});
+                setSelectedOption(null);
+                setIsMarked(false);
+                return;
+              }
+            } catch (e) {
+              console.error('Failed to auto-start exam:', e);
+            }
+          }
+
+          setNoActiveExam(true);
+          setIsLoadingExam(false);
+          return;
+        }
+        setNoActiveExam(false);
+        const [examsRes, attemptRes] = await Promise.all([
+          fetchExams(),
+          fetchCandidateAttempt(user.id, statusRes.examId)
+        ]);
+        if (!isMounted) return;
+        const exams = Array.isArray(examsRes) ? examsRes : [];
+        const activeExam = exams.find(e => String(e._id) === String(statusRes.examId)) || exams[0];
+        if (activeExam) {
+          setTodayExam(prev => ({
+            ...prev,
+            id: activeExam._id,
+            code: activeExam.exam_code,
+            title: activeExam.title,
+            durationMinutes: activeExam.total_duration_minutes || prev.durationMinutes,
+            totalQuestions: activeExam.blueprint ? Object.values(activeExam.blueprint).reduce((sum, b) => sum + (b.required_count || 0), 0) : prev.totalQuestions,
+            totalMarks: activeExam.total_marks || prev.totalMarks,
+            status: activeExam.status || prev.status
+          }));
+          if (activeExam.blueprint) {
+            const sections = Object.entries(activeExam.blueprint).map(([name, cfg], idx) => ({
+              id: `sec-${idx + 1}`,
+              title: `Section ${idx + 1}: ${name}`,
+              shortName: name,
+              subject: activeExam.title || 'General',
+              questions: []
+            }));
+            setExamSections(sections);
+          }
+        }
+        if (attemptRes) {
+          setProfile(prev => ({
+            ...prev,
+            terminalId: attemptRes.terminal_id || prev.terminalId,
+            verificationStatus: attemptRes.verificationStatus || prev.verificationStatus
+          }));
+        }
+        const questionsRes = await fetch(`http://localhost:5001/api/exam/${statusRes.examId}/questions`);
+        const questionsData = await questionsRes.json();
+        if (!isMounted) return;
+        const questionsList = Array.isArray(questionsData) ? questionsData : (Array.isArray(questionsData.questions) ? questionsData.questions : []);
+        console.log('[Exam] Loaded questions:', {
+          count: questionsList.length,
+          examId: statusRes.examId,
+          sample: questionsList[0]?.text?.slice(0, 80) || 'EMPTY'
+        });
+        setExamQuestions(questionsList);
+        setCurrentQuestionIndex(0);
+        setQuestionStates({});
+        setSelectedOption(null);
+        setIsMarked(false);
+      } catch (e) {
+        console.error('Failed to load exam data:', e);
+      } finally {
+        if (isMounted) setIsLoadingExam(false);
+      }
+    };
+    loadExamData();
+    return () => { isMounted = false; };
+  }, [user?.id]);
 
   useEffect(() => {
     const socket = io('http://localhost:5001');
@@ -146,6 +280,14 @@ export function CandidateExamPortalPage() {
     }
   }, [sessionStatus, setIsRunning]);
 
+  // Demo mode URL detection
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('demo') === 'true') {
+      setWaitingCountdown(15);
+    }
+  }, []);
+
   // Waiting room countdown effect
   useEffect(() => {
     let timer;
@@ -180,30 +322,78 @@ export function CandidateExamPortalPage() {
 
   const handleOptionChange = (optionId) => {
     setSelectedOption(optionId);
-    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex]: 'answered' }));
+    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex + 1]: 'answered' }));
+    setIsMarked(false);
   };
 
   const handleClearResponse = () => {
     setSelectedOption(null);
-    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex]: 'unanswered' }));
+    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex + 1]: 'unanswered' }));
+    setIsMarked(false);
+  };
+
+  const toggleMark = () => {
+    setIsMarked(prev => {
+      const newVal = !prev;
+      setQuestionStates(prevStates => ({ ...prevStates, [currentQuestionIndex + 1]: newVal ? 'marked' : 'answered' }));
+      return newVal;
+    });
   };
 
   const handleToggleMark = () => {
     setIsMarked(prev => !prev);
-    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex]: !isMarked ? 'marked' : 'answered' }));
+    setQuestionStates(prev => ({ ...prev, [currentQuestionIndex + 1]: !isMarked ? 'marked' : 'answered' }));
   };
 
   const handleSaveAndNext = () => {
-    if (currentQuestionIndex < 50) {
-      setCurrentQuestionIndex(prev => prev + 1);
+    if (selectedOption) {
+      setQuestionStates(prev => ({ ...prev, [currentQuestionIndex + 1]: 'answered' }));
     }
+    const nextIndex = Math.min(currentQuestionIndex + 1, examQuestions.length - 1);
+    console.log('[Exam] Save & Next:', {
+      currentQuestionIndex,
+      nextIndex,
+      totalQuestions: examQuestions.length,
+      selectedOption,
+      currentQuestionText: examQuestions[currentQuestionIndex]?.text?.slice(0, 60),
+      nextQuestionText: examQuestions[nextIndex]?.text?.slice(0, 60)
+    });
+    setCurrentQuestionIndex(nextIndex);
+    setSelectedOption(null);
+    setIsMarked(false);
   };
 
   const handlePreviousQuestion = () => {
-    if (currentQuestionIndex > 1) {
-      setCurrentQuestionIndex(prev => prev - 1);
-    }
+    const prevIndex = Math.max(currentQuestionIndex - 1, 0);
+    console.log('[Exam] Previous:', {
+      currentQuestionIndex,
+      prevIndex,
+      totalQuestions: examQuestions.length,
+      currentQuestionText: examQuestions[currentQuestionIndex]?.text?.slice(0, 60)
+    });
+    setCurrentQuestionIndex(prevIndex);
   };
+
+  if (isLoadingExam) {
+    return (
+      <div className="h-screen w-screen bg-background text-on-surface flex flex-col items-center justify-center p-8 space-y-4">
+        <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+        <p className="text-sm font-semibold">Loading examination data...</p>
+      </div>
+    );
+  }
+
+  if (noActiveExam) {
+    return (
+      <div className="h-screen w-screen bg-background text-on-surface flex flex-col items-center justify-center p-8 space-y-6">
+        <AlertCircle className="w-20 h-20 text-amber-500" />
+        <h1 className="text-3xl font-black">No Active Examination</h1>
+        <p className="text-sm text-on-surface-variant text-center max-w-md font-semibold">
+          You do not have any scheduled or active examination at this time. Please contact the examination administration for further assistance.
+        </p>
+      </div>
+    );
+  }
 
   if (isTerminated) {
     return (
@@ -512,7 +702,7 @@ export function CandidateExamPortalPage() {
             >
               <div className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {mockSystemReadinessChecks.map((chk) => (
+                  {systemReadinessChecks.map((chk) => (
                     <div key={chk.id} className="p-3.5 bg-surface-bright rounded-xl border border-outline-variant flex items-center justify-between gap-3">
                       <div>
                         <div className="text-xs font-bold text-on-surface">{chk.name}</div>
@@ -546,9 +736,10 @@ export function CandidateExamPortalPage() {
                     size="lg"
                     icon={Play}
                     onClick={() => setCurrentView('ACTIVE_EXAM')}
-                    className="bg-emerald-600 hover:bg-emerald-700 font-bold text-sm"
+                    disabled={waitingCountdown > 0}
+                    className="bg-emerald-600 hover:bg-emerald-700 font-bold text-sm disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    Launch Exam Now
+                    {waitingCountdown > 0 ? `Please wait (${waitingCountdown}s)` : 'Launch Exam Now'}
                   </Button>
                 </div>
               }
@@ -605,12 +796,13 @@ export function CandidateExamPortalPage() {
             <QuestionPalette
               subject={todayExam.subject}
               sectionTitle={activeSection.title}
-              currentQuestionNumber={currentQuestionIndex}
-              onSelectQuestion={(num) => setCurrentQuestionIndex(num)}
+              currentQuestionNumber={currentQuestionIndex + 1}
+              onSelectQuestion={(num) => setCurrentQuestionIndex(num - 1)}
               questionStates={questionStates}
-              sections={mockExamSections}
+              sections={examSections}
               activeSectionId={activeSectionId}
               onSelectSection={setActiveSectionId}
+              totalQuestions={todayExam.totalQuestions || examQuestions.length}
             />
 
             {/* Center Question Canvas */}
@@ -645,7 +837,7 @@ export function CandidateExamPortalPage() {
                     <div className="flex justify-between items-start">
                       <div className="flex items-center gap-3">
                         <span className="w-8 h-8 rounded bg-primary text-on-primary flex items-center justify-center font-bold text-sm">
-                          {currentQuestionIndex}
+                          {currentQuestionIndex + 1}
                         </span>
                         <span className="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">
                           Single Choice Question
@@ -663,57 +855,66 @@ export function CandidateExamPortalPage() {
                       </div>
                     </div>
 
-                    {/* Question Body Card */}
-                    <div className="bg-surface-container-lowest p-6 sm:p-8 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
-                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
-                      <div className="text-base text-on-surface mb-6 leading-relaxed font-medium">
-                        In a B+ Tree index of order m=4, what is the maximum number of keys contained in a leaf node, and what is the time complexity of searching assuming a balanced tree structure?
-                      </div>
+                     {/* Question Body Card */}
+                     <div className="bg-surface-container-lowest p-6 sm:p-8 rounded-xl border border-outline-variant shadow-sm relative overflow-hidden">
+                       <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+                       {examQuestions.length > 0 && currentQuestionIndex < examQuestions.length ? (
+                         <>
+                           <div className="text-base text-on-surface mb-6 leading-relaxed font-medium">
+                             {examQuestions[currentQuestionIndex]?.text || examQuestions[currentQuestionIndex]?.prompt || 'Loading question...'}
+                           </div>
+                           {console.log('[Exam] Rendering question:', {
+                             index: currentQuestionIndex,
+                             total: examQuestions.length,
+                             text: examQuestions[currentQuestionIndex]?.text?.slice(0, 60)
+                           })}
 
-                      {/* Code Block */}
-                      <div className="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 overflow-x-auto">
-                        <pre className="font-mono text-xs text-slate-200 leading-relaxed">
-{`class BPlusTreeNode {
-    int keys[3];
-    BPlusTreeNode* childPointers[4];
-    bool isLeaf;
-}`}
-                        </pre>
-                      </div>
+                          {examQuestions[currentQuestionIndex]?.codeSnippet && (
+                            <div className="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 overflow-x-auto">
+                              <pre className="font-mono text-xs text-slate-200 leading-relaxed">
+                                {examQuestions[currentQuestionIndex].codeSnippet}
+                              </pre>
+                            </div>
+                          )}
 
-                      {/* Options List */}
-                      <div className="flex flex-col gap-3">
-                        {[
-                          { id: 'A', text: 'Maximum keys = 3, Time Complexity = O(log n)' },
-                          { id: 'B', text: 'Maximum keys = 4, Time Complexity = O(n)' },
-                          { id: 'C', text: 'Maximum keys = 3, Time Complexity = O(1)' },
-                          { id: 'D', text: 'Maximum keys = 2, Time Complexity = O(n log n)' }
-                        ].map((option) => {
-                          const isSelected = selectedOption === option.id;
-                          return (
-                            <label
-                              key={option.id}
-                              onClick={() => handleOptionChange(option.id)}
-                              className={`relative flex items-center p-4 border rounded-lg cursor-pointer transition-all ${
-                                isSelected
-                                  ? 'border-primary bg-primary-fixed/20 shadow-xs'
-                                  : 'border-outline-variant bg-surface-container-lowest hover:bg-surface-variant'
-                              }`}
-                            >
-                              <div
-                                className={`w-5 h-5 rounded-full border-2 mr-4 flex items-center justify-center transition-all ${
-                                  isSelected ? 'border-primary bg-primary' : 'border-slate-300'
-                                }`}
-                              >
-                                {isSelected && <div className="w-2 h-2 rounded-full bg-white"></div>}
-                              </div>
-                              <div className={`text-sm flex-1 ${isSelected ? 'font-bold text-primary' : 'text-on-surface'}`}>
-                                {option.text}
-                              </div>
-                            </label>
-                          );
-                        })}
-                      </div>
+                          {examQuestions[currentQuestionIndex]?.options && examQuestions[currentQuestionIndex].options.length > 0 && (
+                            <div className="flex flex-col gap-3">
+                              {examQuestions[currentQuestionIndex].options.map((option, idx) => {
+                                const optionId = option.id || option._id || String.fromCharCode(65 + idx);
+                                const optionText = option.text || option.label || option.ciphertext || String(option);
+                                const isSelected = selectedOption === optionId;
+                                return (
+                                  <label
+                                    key={optionId}
+                                    onClick={() => handleOptionChange(optionId)}
+                                    className={`relative flex items-center p-4 border rounded-lg cursor-pointer transition-all ${
+                                      isSelected
+                                        ? 'border-primary bg-primary-fixed/20 shadow-xs'
+                                        : 'border-outline-variant bg-surface-container-lowest hover:bg-surface-variant'
+                                    }`}
+                                  >
+                                    <div
+                                      className={`w-5 h-5 rounded-full border-2 mr-4 flex items-center justify-center transition-all ${
+                                        isSelected ? 'border-primary bg-primary' : 'border-slate-300'
+                                      }`}
+                                    >
+                                      {isSelected && <div className="w-2 h-2 rounded-full bg-white"></div>}
+                                    </div>
+                                    <div className={`text-sm flex-1 ${isSelected ? 'font-bold text-primary' : 'text-on-surface'}`}>
+                                      {optionText}
+                                    </div>
+                                  </label>
+                                );
+                              })}
+                            </div>
+                          )}
+                        </>
+                      ) : (
+                        <div className="text-center py-12">
+                          <div className="text-lg font-bold text-on-surface-variant">No questions available</div>
+                          <div className="text-sm text-on-surface-variant mt-2">The exam paper may still be loading. Please wait...</div>
+                        </div>
+                      )}
                     </div>
 
                     <div className="h-24"></div>

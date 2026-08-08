@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { io } from 'socket.io-client';
+import { fetchDashboardState, fetchCandidates } from '../services/api';
 
 const BACKEND_URL = 'http://localhost:5001';
 
@@ -67,10 +68,9 @@ export function useProctoringStream() {
       setCandidates(prev => prev.filter(c => c.id !== candidateId && c.candidateId !== candidateId));
     });
 
-    // Initial fetch of state just in case
-    fetch(`${BACKEND_URL}/api/state`)
-      .then(res => res.json())
-      .then(data => {
+    // Initial fetch of state from backend API
+    fetchDashboardState()
+      .then(async (data) => {
         if (data.candidates) setCandidates(data.candidates);
         if (data.logs) setLogs(data.logs);
         if (data.kpis) setKpis(data.kpis);
@@ -78,6 +78,36 @@ export function useProctoringStream() {
         if (data.alerts) setAlerts(data.alerts);
         if (data.incidents) setIncidents(data.incidents);
         if (data.analytics) setAnalytics(data.analytics);
+
+        if (!data.candidates || data.candidates.length === 0) {
+          try {
+            const candidatesData = await fetchCandidates();
+            const students = candidatesData.students || candidatesData || [];
+            const placeholderCandidates = students.map((s, idx) => ({
+              id: s.id || `cand-${idx}`,
+              name: s.name,
+              candidateId: s.candidateId,
+              terminalId: s.session || `TERM-${String(idx + 1).padStart(2, '0')}`,
+              seat: `Lab - Station ${idx + 1}`,
+              status: 'OFFLINE',
+              violationType: null,
+              riskScore: 0,
+              cameraActive: false,
+              micActive: false,
+              screenShareActive: false,
+              internetStatus: 'DISCONNECTED',
+              heartbeatStatus: 'Awaiting feed',
+              verificationStatus: s.verificationStatus || 'Pending',
+              examProgress: 0,
+              answeredCount: 0,
+              totalQuestions: 0,
+              activityTimeline: []
+            }));
+            setCandidates(placeholderCandidates);
+          } catch (e) {
+            console.error('Failed to fetch all candidates:', e);
+          }
+        }
       })
       .catch(() => undefined);
 
@@ -119,6 +149,36 @@ export function useProctoringStream() {
     }
   };
 
+  const populateAllCandidates = async () => {
+    try {
+      const candidatesData = await fetchCandidates();
+      const students = candidatesData.students || candidatesData || [];
+      const placeholderCandidates = students.map((s, idx) => ({
+        id: s.id || `cand-${idx}`,
+        name: s.name,
+        candidateId: s.candidateId,
+        terminalId: s.session || `TERM-${String(idx + 1).padStart(2, '0')}`,
+        seat: `Lab - Station ${idx + 1}`,
+        status: 'OFFLINE',
+        violationType: null,
+        riskScore: 0,
+        cameraActive: false,
+        micActive: false,
+        screenShareActive: false,
+        internetStatus: 'DISCONNECTED',
+        heartbeatStatus: 'Awaiting feed',
+        verificationStatus: s.verificationStatus || 'Pending',
+        examProgress: 0,
+        answeredCount: 0,
+        totalQuestions: 0,
+        activityTimeline: []
+      }));
+      setCandidates(placeholderCandidates);
+    } catch (e) {
+      console.error('Failed to fetch all candidates:', e);
+    }
+  };
+
   return {
     candidates: filteredCandidates,
     allCandidates: candidates,
@@ -149,7 +209,8 @@ export function useProctoringStream() {
     terminateSession,
     issueWarning,
     updateIncidentStatus,
-    reassignCandidateSeat
+    reassignCandidateSeat,
+    populateAllCandidates
   };
 }
 

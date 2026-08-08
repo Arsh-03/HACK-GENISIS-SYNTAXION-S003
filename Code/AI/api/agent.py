@@ -5,9 +5,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import SystemMessage, HumanMessage
 import json
 
-from models import ExamAuditReport
-from prompts import SYSTEM_PROMPT, REFINEMENT_PROMPT
-from fallback import deterministic_fisher_yates_fallback
+from .models import ExamAuditReport
+from .prompts import SYSTEM_PROMPT, REFINEMENT_PROMPT
+from .fallback import deterministic_fisher_yates_fallback
 
 class ExamState(TypedDict):
     exam_id: str

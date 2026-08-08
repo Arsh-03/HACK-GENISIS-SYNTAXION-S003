@@ -4,18 +4,18 @@ import { Video, Mic } from 'lucide-react';
 export function QuestionPalette({
   subject = "Computer Science 101",
   sectionTitle = "Section 1: Core Concepts",
-  currentQuestionNumber = 16,
+  currentQuestionNumber = 1,
   onSelectQuestion,
   questionStates = {},
   sections = [],
   activeSectionId = null,
   onSelectSection = null,
-  totalQuestions = 50,
-  answeredCount = 44,
-  markedCount = 3,
-  unansweredCount = 2,
-  notVisitedCount = 1
+  totalQuestions = 0
 }) {
+  const answeredCount = Object.values(questionStates).filter(s => s === 'answered').length;
+  const markedCount = Object.values(questionStates).filter(s => s === 'marked').length;
+  const unansweredCount = Object.values(questionStates).filter(s => s === 'unanswered').length;
+  const notVisitedCount = Math.max(0, totalQuestions - answeredCount - markedCount - unansweredCount);
   return (
     <aside className="w-80 bg-surface-container-lowest border-r border-outline-variant flex flex-col h-full shrink-0 shadow-sm z-10 hidden lg:flex select-none">
       {/* Header Info */}
@@ -86,11 +86,7 @@ export function QuestionPalette({
             {Array.from({ length: totalQuestions }, (_, index) => {
               const num = index + 1;
               const isCurrent = num === currentQuestionNumber;
-              const state = questionStates[num] || (
-                num <= 40 ? 'answered' :
-                num <= 43 ? 'marked' :
-                num <= 48 ? 'unanswered' : 'not-visited'
-              );
+               const state = questionStates[num] || 'not-visited';
 
               let paletteClass = "palette-not-visited";
               if (state === 'answered') paletteClass = "palette-answered";

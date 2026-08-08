@@ -12,9 +12,11 @@ const examSchema = new mongoose.Schema({
   },
   blueprint: { type: mongoose.Schema.Types.Mixed },
   target_difficulty_distribution: { type: mongoose.Schema.Types.Mixed },
-  status: { type: String, enum: ['UPCOMING', 'RUNNING', 'COMPLETED', 'PAUSED'], default: 'UPCOMING' },
+  status: { type: String, enum: ['UPCOMING', 'PUBLISHED', 'ACTIVE', 'RUNNING', 'PAUSED', 'COMPLETED'], default: 'UPCOMING' },
   start_time: { type: Date },
-  end_time: { type: Date }
+  end_time: { type: Date },
+  actual_paper: { type: mongoose.Schema.Types.Mixed },
+  fallback_paper: { type: mongoose.Schema.Types.Mixed }
 }, {
   collection: 'exams'
 });

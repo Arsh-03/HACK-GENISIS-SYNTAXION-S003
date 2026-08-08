@@ -83,9 +83,16 @@ export function InvigilatorDashboardPage() {
     terminateSession,
     issueWarning,
     updateIncidentStatus,
-    reassignCandidateSeat
+    reassignCandidateSeat,
+    populateAllCandidates
   } = useProctoringStream();
   const liveFeedRegistry = useLiveFeedRegistry();
+
+  useEffect(() => {
+    if (allCandidates.length === 0) {
+      populateAllCandidates();
+    }
+  }, [allCandidates.length, populateAllCandidates]);
 
   const [customMsgText, setCustomMsgText] = useState('');
   const [reassignSeatValue, setReassignSeatValue] = useState('');

@@ -73,6 +73,44 @@ const seedData = async () => {
       });
     }
 
+    const db = mongoose.connection.db;
+    const questionsCollection = db.collection('questions');
+    const questionCount = await questionsCollection.countDocuments();
+    if (questionCount === 0) {
+      console.log('Seeding initial questions...');
+      const subjects = ['Physics', 'Chemistry', 'Biology_Botany', 'Biology_Zoology'];
+      const topics = {
+        Physics: ['Mechanics', 'Thermodynamics', 'Optics', 'Electromagnetism'],
+        Chemistry: ['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry'],
+        Biology_Botany: ['Cell Biology', 'Genetics', 'Ecology', 'Plant Physiology'],
+        Biology_Zoology: ['Human Physiology', 'Zoology', 'Evolution', 'Biotechnology']
+      };
+      const difficulties = ['Easy', 'Medium', 'Hard'];
+      const questions = [];
+      for (let i = 1; i <= 200; i++) {
+        const subject = subjects[i % 4];
+        const topic = topics[subject][i % 4];
+        const difficulty = difficulties[i % 3];
+        questions.push({
+          sequence_id: i,
+          subject,
+          topic,
+          difficulty,
+          question_text: `Sample ${subject} question ${i}: This is a ${difficulty.toLowerCase()} level question about ${topic}. Select the correct answer.`,
+          options: [
+            `Option A for question ${i}`,
+            `Option B for question ${i}`,
+            `Option C for question ${i}`,
+            `Option D for question ${i}`
+          ],
+          correct_option_index: i % 4,
+          media_url: ''
+        });
+      }
+      await questionsCollection.insertMany(questions);
+      console.log(`Seeded ${questions.length} questions.`);
+    }
+
     const attemptCount = await CandidateAttempt.countDocuments();
     if (attemptCount === 0) {
       console.log('Seeding initial candidate attempts & telemetry...');
