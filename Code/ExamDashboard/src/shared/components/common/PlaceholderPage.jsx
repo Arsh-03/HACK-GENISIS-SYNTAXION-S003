@@ -117,7 +117,7 @@ export function PlaceholderPage({
               <div>
                 <div className="font-bold text-sm text-amber-900">Module Under Construction</div>
                 <div className="text-xs text-amber-800">
-                  This section is being actively developed according to the Nexis CBT Platform roadmap.
+                  This section is being actively developed according to the N.E.S.T Platform roadmap.
                 </div>
               </div>
             </div>

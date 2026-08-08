@@ -151,7 +151,7 @@ export function SidebarNav() {
       <div className="px-6 pb-4 border-b border-outline-variant shrink-0">
         <NavLink to="/admin/dashboard" className="text-xl font-black text-primary flex items-center gap-2">
           <Activity className="w-7 h-7 text-primary" />
-          <span className="tracking-tight text-on-surface">CBT Platform</span>
+          <span className="tracking-tight text-on-surface">N.E.S.T Platform</span>
         </NavLink>
         <div className="text-on-surface-variant text-[11px] mt-0.5 font-medium">Administrator Operations Suite</div>
       </div>

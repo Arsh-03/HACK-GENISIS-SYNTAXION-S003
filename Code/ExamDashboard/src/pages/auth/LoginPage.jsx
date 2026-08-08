@@ -70,7 +70,7 @@ export function LoginPage() {
         </div>
         <h2 className="text-2xl font-bold text-on-surface">Enterprise Sign In</h2>
         <p className="text-xs text-on-surface-variant mt-1">
-          Access your Nexis CBT Platform workspace & secure portal
+          Access your N.E.S.T Platform workspace & secure portal
         </p>
       </div>
 

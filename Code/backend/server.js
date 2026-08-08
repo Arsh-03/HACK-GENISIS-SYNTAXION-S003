@@ -25,6 +25,7 @@ connectDB();
 const redisClient = Redis.createClient({
   url: process.env.REDIS_URL || 'redis://localhost:6379'
 });
+redisClient.on('error', (err) => console.error('Redis Client Error:', err.message));
 redisClient.connect().catch(err => console.warn('Redis connection failed:', err.message));
 
 const app = express();

@@ -4,7 +4,7 @@ import { Button } from '../ui/Button';
 import { useAuth } from '../../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
-export function TopHeader({ title = "Nexis Enterprise CBT Platform", isCollapsed }) {
+export function TopHeader({ title = "N.E.S.T Enterprise Platform", isCollapsed }) {
   const { user, selectedRole, logout } = useAuth();
   const navigate = useNavigate();
 

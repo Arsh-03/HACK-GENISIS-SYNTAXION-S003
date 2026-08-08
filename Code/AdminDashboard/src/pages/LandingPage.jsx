@@ -31,7 +31,7 @@ export function LandingPage() {
           </div>
           <div>
             <div className="font-extrabold text-base tracking-tight text-on-surface flex items-center gap-1.5">
-              Nexis CBT <span className="text-xs font-semibold px-2 py-0.5 rounded bg-primary/10 text-primary uppercase font-mono">Platform</span>
+              N.E.S.T <span className="text-xs font-semibold px-2 py-0.5 rounded bg-primary/10 text-primary uppercase font-mono">Platform</span>
             </div>
             <div className="text-[10px] text-on-surface-variant font-medium">Enterprise Assessment Suite</div>
           </div>

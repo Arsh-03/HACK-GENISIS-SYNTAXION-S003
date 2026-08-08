@@ -492,7 +492,7 @@ export function CandidateExamPortalPage() {
           </div>
           <div>
             <div className="font-bold text-sm text-white tracking-tight flex items-center gap-2">
-              <span>Nexis CBT Enterprise Exam Portal</span>
+              <span>N.E.S.T Enterprise Exam Portal</span>
               <Badge variant="mono" size="sm">v2.4 SECURE KIOSK</Badge>
             </div>
             <div className="text-[11px] text-slate-400">Candidate: {profile.name} ({profile.candidateId})</div>

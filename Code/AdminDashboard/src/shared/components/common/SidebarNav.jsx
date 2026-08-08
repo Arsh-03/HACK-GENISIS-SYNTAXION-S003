@@ -150,7 +150,7 @@ export function SidebarNav({ isCollapsed, setIsCollapsed }) {
         {!isCollapsed ? (
           <NavLink to="/admin/dashboard" className="text-xl font-black text-primary flex items-center gap-2">
             <Activity className="w-7 h-7 text-primary" />
-            <span className="tracking-tight text-on-surface">CBT Platform</span>
+            <span className="tracking-tight text-on-surface">N.E.S.T Platform</span>
           </NavLink>
         ) : (
           <Activity className="w-7 h-7 text-primary animate-pulse" />
