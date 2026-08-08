@@ -76,7 +76,8 @@ export function useAIPipeline() {
             aiConfidence: item.balance_score ? (item.balance_score * 100).toFixed(1) + '%' : '-',
             validationResult: item.status === 'COMPLETED' ? 'PASSED' : 'FAILED',
             questionsCount: item.questions_count || item.question_count,
-            difficultyRatio: item.difficulty_ratio || '-'
+            difficultyRatio: item.difficulty_ratio || '-',
+            paper_data: item.paper_data
           }));
           setHistory(mapped);
         }
@@ -144,7 +145,8 @@ export function useAIPipeline() {
           aiConfidence: data.balance_score ? (data.balance_score * 100).toFixed(1) + '%' : "99.4%",
           validationResult: "PASSED",
           questionsCount: formConfig?.questionCount || config.questionCount,
-          difficultyRatio: `${config.difficultyDistribution.easy}/${config.difficultyDistribution.medium}/${config.difficultyDistribution.hard}`
+          difficultyRatio: `${config.difficultyDistribution.easy}/${config.difficultyDistribution.medium}/${config.difficultyDistribution.hard}`,
+          paper_data: data
         };
 
         setHistory(prev => [newPaper, ...prev]);
@@ -205,7 +207,8 @@ export function useAIPipeline() {
           questionsCount: formConfig?.questionCount || config.questionCount,
           difficultyRatio: `${config.difficultyDistribution.easy}/${config.difficultyDistribution.medium}/${config.difficultyDistribution.hard}`,
           demoExamId: data.demo_exam_id,
-          examId: data.examId
+          examId: data.examId,
+          paper_data: data.paper
         };
 
         setHistory(prev => [newPaper, ...prev]);
@@ -252,10 +255,11 @@ export function useAIPipeline() {
 
   // Filtered history list
   const filteredHistory = history.filter(item => {
-    const matchesSearch = item.paperId.toLowerCase().includes(historySearch.toLowerCase()) ||
-                          item.title.toLowerCase().includes(historySearch.toLowerCase()) ||
-                          item.subject.toLowerCase().includes(historySearch.toLowerCase()) ||
-                          item.generatedBy.toLowerCase().includes(historySearch.toLowerCase());
+    const search = (historySearch || '').toLowerCase();
+    const matchesSearch = (item.paperId || '').toLowerCase().includes(search) ||
+                          (item.title || '').toLowerCase().includes(search) ||
+                          (item.subject || '').toLowerCase().includes(search) ||
+                          (item.generatedBy || '').toLowerCase().includes(search);
     const matchesStatus = historyStatusFilter === 'ALL' || item.status === historyStatusFilter;
     return matchesSearch && matchesStatus;
   });

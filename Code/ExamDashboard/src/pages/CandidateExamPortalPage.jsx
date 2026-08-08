@@ -116,6 +116,15 @@ export function CandidateExamPortalPage() {
   }, [examQuestions.length, currentQuestionIndex]);
 
   useEffect(() => {
+    if (activeSection && examQuestions.length > 0) {
+      const firstIndex = examQuestions.findIndex(q => (q.subject || 'General') === activeSection.subject);
+      if (firstIndex !== -1 && examQuestions[currentQuestionIndex]?.subject !== activeSection.subject) {
+        setCurrentQuestionIndex(firstIndex);
+      }
+    }
+  }, [activeSectionId]);
+
+  useEffect(() => {
     let isMounted = true;
     const loadExamData = async () => {
       if (!user?.id) return;
@@ -145,7 +154,21 @@ export function CandidateExamPortalPage() {
                 const questionsRes = await fetch(`http://localhost:5001/api/exam/${availableExam._id}/questions`);
                 const questionsData = await questionsRes.json();
                 const questionsList = Array.isArray(questionsData) ? questionsData : (Array.isArray(questionsData.questions) ? questionsData.questions : []);
+                
+                questionsList.sort((a, b) => (a.subject || '').localeCompare(b.subject || ''));
                 setExamQuestions(questionsList);
+                
+                const uniqueSubjects = [...new Set(questionsList.map(q => q.subject || 'General'))];
+                const dynamicSections = uniqueSubjects.map((subj, idx) => ({
+                  id: `sec-${idx + 1}`,
+                  title: `Section ${idx + 1}: ${subj}`,
+                  shortName: subj,
+                  subject: subj,
+                  questions: []
+                }));
+                setExamSections(dynamicSections);
+                if (dynamicSections.length > 0) setActiveSectionId(dynamicSections[0].id);
+
                 setCurrentQuestionIndex(0);
                 setQuestionStates({});
                 setSelectedOption(null);
@@ -180,16 +203,6 @@ export function CandidateExamPortalPage() {
             totalMarks: activeExam.total_marks || prev.totalMarks,
             status: activeExam.status || prev.status
           }));
-          if (activeExam.blueprint) {
-            const sections = Object.entries(activeExam.blueprint).map(([name, cfg], idx) => ({
-              id: `sec-${idx + 1}`,
-              title: `Section ${idx + 1}: ${name}`,
-              shortName: name,
-              subject: activeExam.title || 'General',
-              questions: []
-            }));
-            setExamSections(sections);
-          }
         }
         if (attemptRes) {
           setProfile(prev => ({
@@ -207,7 +220,21 @@ export function CandidateExamPortalPage() {
           examId: statusRes.examId,
           sample: questionsList[0]?.text?.slice(0, 80) || 'EMPTY'
         });
+        
+        questionsList.sort((a, b) => (a.subject || '').localeCompare(b.subject || ''));
         setExamQuestions(questionsList);
+
+        const uniqueSubjects = [...new Set(questionsList.map(q => q.subject || 'General'))];
+        const dynamicSections = uniqueSubjects.map((subj, idx) => ({
+          id: `sec-${idx + 1}`,
+          title: `Section ${idx + 1}: ${subj}`,
+          shortName: subj,
+          subject: subj,
+          questions: []
+        }));
+        setExamSections(dynamicSections);
+        if (dynamicSections.length > 0) setActiveSectionId(dynamicSections[0].id);
+
         setCurrentQuestionIndex(0);
         setQuestionStates({});
         setSelectedOption(null);

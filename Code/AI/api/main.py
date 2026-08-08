@@ -109,6 +109,7 @@ def _run_generation(request: GeneratePaperRequest) -> ExamAuditReport:
         for doc in cursor:
             try:
                 if doc.get("encrypted_content"):
+                    encrypted_content = doc["encrypted_content"]
                     pt_content = decrypt_question_payload(
                         encrypted_content["ciphertext"], 
                         encrypted_content["iv"]

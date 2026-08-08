@@ -7,7 +7,7 @@ MONGO_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
 try:
     import certifi
     mongo_client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000, tlsCAFile=certifi.where())
-    db = mongo_client.get_default_database("neetcbt")
+    db = mongo_client.get_database("neetcbt")
     questions_collection = db["questions"]
     used_questions_registry = db["used_questions"]
 except Exception as e:

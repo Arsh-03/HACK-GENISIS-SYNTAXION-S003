@@ -660,11 +660,30 @@ app.post('/api/demo/trigger', async (req, res) => {
       generated_by: 'Admin Dashboard Demo Mode'
     });
 
+    let required_counts = { [subject]: questionCount };
+    let blueprint = { [subject]: { required_count: questionCount, section_weightage: 1 } };
+    
+    if (subject === 'NEET UG (Full Mock)') {
+      const perSubject = Math.floor(questionCount / 4);
+      required_counts = {
+        Physics: perSubject,
+        Chemistry: perSubject,
+        Botany: perSubject,
+        Zoology: perSubject
+      };
+      blueprint = {
+        Physics: { required_count: perSubject, section_weightage: 0.25 },
+        Chemistry: { required_count: perSubject, section_weightage: 0.25 },
+        Botany: { required_count: perSubject, section_weightage: 0.25 },
+        Zoology: { required_count: perSubject, section_weightage: 0.25 }
+      };
+    }
+
     const response = await axios.post(`${aiUrl}/api/v1/generate-paper`, {
       exam_id: demoExamId,
       subject,
       questionCount,
-      required_counts: { [subject]: questionCount },
+      required_counts,
       target_difficulty_distribution: { Easy: 0.4, Medium: 0.4, Hard: 0.2 },
       previous_session_ids: []
     }, {
@@ -711,7 +730,7 @@ app.post('/api/demo/trigger', async (req, res) => {
       title: `Demo Exam - ${subject}`,
       total_duration_minutes: 15,
       total_marks: questionCount * 2,
-      blueprint: { [subject]: { required_count: questionCount, section_weightage: 1 } },
+      blueprint,
       target_difficulty_distribution: { Easy: 0.4, Medium: 0.4, Hard: 0.2 },
       status: 'PUBLISHED',
       start_time: new Date(Date.now() + 5000),

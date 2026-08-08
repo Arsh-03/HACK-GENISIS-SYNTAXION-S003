@@ -426,8 +426,8 @@ export const mockViolationLogs = [
 
 
 export const mockAIPipelineConfig = {
-  subject: "Advanced Database Systems & Distributed Architectures",
-  questionCount: 50,
+  subject: "NEET UG (Full Mock)",
+  questionCount: 40,
   difficultyDistribution: {
     easy: 20,
     medium: 50,

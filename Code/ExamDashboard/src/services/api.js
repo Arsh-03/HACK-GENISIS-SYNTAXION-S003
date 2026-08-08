@@ -152,14 +152,14 @@ export async function fetchExamStatus(userId) {
 }
 
 export async function triggerJit(examId) {
-  const data = await request(`/api/v1/exam/trigger-jit/${encodeURIComponent(examId)}`, {
+  const data = await request(`/v1/exam/trigger-jit/${encodeURIComponent(examId)}`, {
     method: 'POST',
   });
   return data;
 }
 
 export async function toggleDemoMode() {
-  const data = await request('/api/v1/demo/toggle', {
+  const data = await request('/v1/demo/toggle', {
     method: 'POST',
   });
   return data;
